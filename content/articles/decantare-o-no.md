@@ -1,0 +1,54 @@
+---
+date: 2026-10-06
+number: 9
+title: Decantare o no: quando il decanter aiuta e quando fa danni
+description: Separare i sedimenti o dare ossigeno? Quando decantare un vino giovane, quando proteggere un vecchio rosso fragile, e cosa fare con bianchi e bollicine.
+category: Servizio
+cover: Decantare
+slug: decantare-o-no
+---
+Il decanter è l'oggetto più teatrale della tavola, e proprio per questo il più frainteso. Lo si vede comparire accanto a bottiglie che non ne hanno alcun bisogno, e mancare quando servirebbe davvero. Il gesto in sé dice poco: versare un vino in una caraffa può salvarlo, migliorarlo, oppure togliergli in mezz'ora quello che il tempo gli aveva dato in vent'anni. Tutto dipende da cosa si sta cercando di ottenere, e la prima cosa da capire è che le ragioni per decantare sono due, diverse e spesso in contraddizione tra loro.
+
+## Due gesti con lo stesso nome
+
+Il primo significato, quello storico, è meccanico. Con gli anni in bottiglia i pigmenti e i tannini di un rosso si legano tra loro e precipitano, formando un deposito sul fondo o lungo la parete. Indicativamente un rosso strutturato comincia a mostrare sedimento dopo cinque-dieci anni, e nei Porto Vintage il deposito è quasi una garanzia. Decantare, in questo caso, vuol dire travasare il vino limpido lasciando indietro la parte torbida, che nel bicchiere darebbe opacità e una sensazione amara e polverosa in bocca.
+
+Il secondo significato è chimico, o almeno così lo si racconta: dare ossigeno. Qui il decanter diventa uno strumento per "aprire" un vino chiuso, ammorbidirne le asperità, liberarne i profumi. Ed è su questo secondo uso che le opinioni si dividono davvero.
+
+Conviene tenerli separati anche nel linguaggio. Chi in Italia parla di *ossigenazione* o *aerazione* per il secondo caso e riserva *decantazione* al primo non sta facendo il pedante: sta descrivendo due operazioni che chiedono tempi, gesti e perfino recipienti diversi.
+
+## L'ossigeno non è un acceleratore di invecchiamento
+
+L'idea diffusa è che qualche ora di caraffa faccia a un vino giovane quello che farebbero anni di cantina: tannini più morbidi, struttura più rotonda. È un'immagine seducente, ma la chimica non la sostiene granché. L'evoluzione dei tannini in bottiglia è un processo lento, che richiede anni e quantità minime di ossigeno dosate nel tempo; un paio d'ore all'aria aperta non bastano a riprodurlo. Più di un confronto alla cieca condotto da operatori del settore ha restituito risultati poco coerenti con la teoria, con vini giovani che a volte risultavano più freschi e precisi appena aperti che dopo una lunga sosta in caraffa.
+
+Già Émile Peynaud, l'enologo bordolese che ha formato generazioni di tecnici, era scettico sull'ossigenazione come pratica di routine: per lui il decanter serviva a togliere il deposito, da fare poco prima del servizio, e l'ossigeno disciolto era più un rischio che un vantaggio.
+
+Questo non significa che l'aria non faccia nulla. Fa cose più modeste ma reali. Disperde i composti volatili che possono velare il naso di un vino giovane: le note di riduzione, quei sentori di zolfo, fiammifero spento, uovo o gomma che compaiono soprattutto in vini rimasti a lungo al riparo dall'ossigeno, per esempio sotto tappo a vite. Il punto è che l'effetto agisce sui profumi più che sulla struttura: un tannino verde resta verde.
+
+## Giovani e tannici, vecchi e fragili
+
+Da qui una regola pratica, che ha più buon senso che dogma.
+
+Un rosso giovane, concentrato, chiuso al naso (un Barolo o un Taurasi di pochi anni, un Bordeaux di annata importante) può trarre vantaggio da un'ossigenazione di un'ora o due, a volte di più se appena aperto è muto o ridotto. Qui il rischio è basso: il vino ha riserve di struttura e di freschezza che l'aria non consuma in fretta. Il recipiente ideale è largo alla base, per offrire superficie.
+
+Un rosso vecchio è un'altra creatura. Superati i quindici-vent'anni, molti vini hanno un equilibrio fragile, profumi terziari delicati che si esprimono per un tempo limitato una volta esposti all'aria. Per questi la decantazione serve solo a separare il deposito, e va fatta il più tardi possibile: le indicazioni più prudenti parlano di una mezz'ora prima del servizio, non di più. La tecnica conta. La bottiglia va tenuta in piedi almeno un giorno perché il sedimento scivoli sul fondo; poi la si versa lentamente, con una fonte di luce sotto il collo, fermandosi appena il deposito arriva alla spalla. Meglio un recipiente stretto, che limiti il contatto con l'aria. E se la bottiglia non ha deposito, molti sommelier preferiscono semplicemente aprirla e servirla, lasciando che il vino si evolva nel bicchiere sotto gli occhi di chi beve.
+
+C'è un'eccezione che vale la pena citare: alcuni rossi vecchi di stile ossidativo, già abituati all'aria per come sono stati fatti, reggono e a volte migliorano con un'ossigenazione lunga. Ma riconoscerli richiede esperienza con quel vino specifico, e l'errore costa caro: non si recupera un vecchio rosso svanito.
+
+## Il caso dei bianchi
+
+Il bianco in caraffa sembra un vezzo, e spesso lo è. Ma non sempre. I bianchi raramente fanno deposito (al massimo qualche cristallo di tartrato, innocuo), quindi la ragione è quasi sempre aromatica. Un bianco di struttura giovane, uno Chardonnay importante, un Riesling tedesco con qualche nota sulfurea, un Fiano o un Verdicchio di peso possono presentarsi chiusi o ridotti appena stappati, e un quarto d'ora di caraffa li sblocca. C'è anche un vantaggio collaterale: un bianco servito troppo freddo, dopo qualche minuto in un decanter, risale di temperatura e mostra profumi che il gelo teneva nascosti.
+
+Per i bianchi già espressivi per natura, aromatici e immediati, non serve: hanno tutto in vetrina e l'aria non aggiunge nulla. E i bianchi vecchi meritano la stessa cautela dei rossi vecchi: alcuni, soprattutto tra i grandi Chardonnay maturi, possono ossidarsi rapidamente una volta travasati.
+
+## E le bollicine?
+
+Qui si entra nel territorio delle opinioni accese. Decantare uno Champagne o un Metodo Classico sembra un controsenso, e in effetti la critica principale è ovvia: l'aria fa perdere effervescenza, e la bollicina non è un accessorio ma una parte del vino. Alcune maison si dichiarano apertamente contrarie.
+
+Eppure c'è chi lo fa con convinzione, compresi alcuni produttori, soprattutto per vini di grande struttura, millesimati o lunghi affinamenti sui lieviti, in cui la carbonica giovane e vivace sembra coprire la complessità. Il travaso, fatto con delicatezza e a temperatura bassa, attenua la spuma e lascia emergere il vino. È una pratica di nicchia, recente più che tradizionale, e ancora discussa. L'alternativa più prudente è quella che molti sommelier suggeriscono: un calice ampio, al posto della flûte, e un po' di pazienza. L'evoluzione avviene comunque, ma più lentamente e sotto controllo.
+
+## La caraffa come scelta, non come rito
+
+Il decanter andrebbe usato come si usa un attrezzo, non come un ornamento. Davanti a una bottiglia vale una domanda sola: cosa voglio togliere, il deposito o la chiusura? Se è il deposito, si decanta poco prima e si protegge il vino dall'aria. Se è la chiusura, si dà aria con giudizio, sapendo che si agisce sui profumi e non sulla struttura. Se non è nessuna delle due, la caraffa resta sulla credenza.
+
+La posizione che ci sentiamo di difendere è questa: nel dubbio, aprire la bottiglia e versare nel bicchiere. Un vino che si apre lentamente davanti a chi lo beve racconta molto di più di uno già "pronto" da ore, e lascia a chi assaggia la parte più interessante, cioè capire da solo come cambia. Il decanter, quando serve, serve davvero. Il resto delle volte è scenografia, e il vino non ne ha bisogno.

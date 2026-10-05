@@ -1,0 +1,50 @@
+---
+date: 2026-10-06
+number: 5
+title: Vini orange: il bianco che si comporta da rosso (e divide le tavole)
+description: Cosa sono i vini orange, perché non sono sinonimo di naturale, dalle anfore georgiane a Oslavia, e come abbinarli a tavola senza paura.
+category: Tecnica
+cover: Orange
+slug: vini-orange
+---
+Versate un vino orange a una tavola di appassionati e succede sempre la stessa cosa: metà dei bicchieri si alza con curiosità, l'altra metà resta ferma, sospettosa. Il colore ambrato, la torbidità a volte, quella stretta tannica che nessuno si aspetta da un bianco. Pochi vini hanno la stessa capacità di spaccare una stanza in due. Ed è proprio per questo che vale la pena capirli, prima di giudicarli.
+
+## Un bianco fatto come un rosso
+
+La definizione è più semplice della sua fama. Un vino orange, o macerato, è un vino ottenuto da uve a bacca bianca lasciando il mosto a contatto con le bucce durante la fermentazione, esattamente come si fa per i rossi. Nella vinificazione in bianco classica le bucce vengono separate subito dopo la pressatura: si cerca un vino limpido, fresco, aromatico. Qui invece le bucce restano, a volte per giorni, più spesso per settimane o mesi.
+
+Da quel contatto il vino eredita tre cose. Il colore, che va dal dorato carico all'ambra fino al ramato. I tannini, che in un bianco sono quasi assenti e qui danno una trama asciutta, quasi masticabile. E una costellazione aromatica diversa: meno frutta fresca, più frutta secca, scorza d'agrume, erbe, tè, spezie dolci. Non esiste una durata canonica. L'Organizzazione Internazionale della Vigna e del Vino, nel definire la categoria dei bianchi macerati, ha fissato una soglia minima di un mese di contatto con le bucce; ma nel linguaggio comune la parola "orange" copre anche macerazioni molto più brevi, e qui sta una delle prime fonti di confusione.
+
+Il nome stesso è recente. Lo si fa risalire a un importatore britannico, David A. Harvey, che lo avrebbe proposto nel 2004 per dare un'etichetta comprensibile a vini che non stavano bene né tra i bianchi né tra i rossi.
+
+## Le radici: la Georgia e le sue anfore
+
+Se si cerca un luogo d'origine, quasi tutti indicano la Georgia, dove la vinificazione in anfore di terracotta interrate, i qvevri, è documentata da millenni. Il metodo, nella sua forma più tradizionale, prevede di versare nel recipiente il mosto insieme a bucce, vinaccioli e talvolta raspi, sigillarlo e lasciarlo sottoterra per mesi. Nel 2013 l'UNESCO ha iscritto il "metodo tradizionale georgiano di vinificazione in qvevri" nella Lista rappresentativa del patrimonio culturale immateriale dell'umanità, riconoscendo non soltanto una tecnica enologica ma un sapere che passa per famiglie e comunità, dalla costruzione del vaso alla vendemmia condivisa.
+
+Anche in Georgia, del resto, non esiste un solo modo. Nella tradizione della Kakhezia la permanenza sulle bucce può protrarsi per mesi; in quella imeretina è più breve, nell'ordine di qualche settimana. Il macerato, insomma, è una famiglia con molti dialetti.
+
+## Oslavia, il Collio e il Carso: il ritorno europeo
+
+Il motivo per cui un lettore italiano dovrebbe interessarsi ai vini orange più di chiunque altro si trova sul confine tra Friuli e Slovenia. Tra il Collio goriziano, la Brda slovena e il Carso triestino, la macerazione dei bianchi era una pratica contadina radicata, poi messa da parte negli anni in cui il gusto internazionale chiedeva bianchi puliti, tecnici, fermentati a temperatura controllata.
+
+A riportarla al centro sono stati soprattutto due vignaioli di Oslavia, frazione di Gorizia che oggi molti considerano la capitale della Ribolla Gialla. Stanko Radikon tornò a macerare la sua Ribolla nel 1995, recuperando i metodi del nonno: all'inizio una settimana sulle bucce, poi periodi via via più lunghi. Joško Gravner, dopo anni da protagonista della modernizzazione friulana, cambiò radicalmente rotta: le prime Ribolle macerate arrivarono alla fine degli anni Novanta, nel 2000 visitò la Georgia e dal 2001 cominciò a vinificare in anfore georgiane interrate, fino a convertire a questo metodo tutta la produzione nella prima metà degli anni Duemila. Più tardi avrebbe estirpato i vitigni internazionali per tenere solo varietà autoctone come la Ribolla e il Pignolo.
+
+Il Carso ha percorso una strada parallela, con vitigni come Vitovska e Malvasia che sulla pietra calcarea e sotto la bora sviluppano bianchi macerati di grande tensione salina. Insieme, queste colline hanno dato all'Europa un modello: non la Georgia trapiantata, ma una tradizione locale ritrovata e portata a un livello di ambizione che ha influenzato produttori ben oltre i confini regionali.
+
+## Orange non vuol dire naturale
+
+Qui conviene essere precisi, perché l'equivoco è ostinato. "Orange" descrive una tecnica: la macerazione dei bianchi sulle bucce. "Naturale" descrive una filosofia, peraltro senza una definizione legale univoca: lieviti indigeni, interventi minimi in cantina, poca o nessuna solforosa aggiunta, spesso niente filtrazione.
+
+Le due cose si sovrappongono spesso, ed è comprensibile. Molti dei pionieri della macerazione erano anche fautori dell'intervento minimo, e la struttura tannica data dalle bucce protegge il vino dall'ossidazione, rendendo più praticabile la riduzione dei solfiti. Radikon, per esempio, arrivò a smettere del tutto di aggiungere anidride solforosa ai suoi bianchi. Ma la sovrapposizione non è un'identità. Si può fare un vino macerato in una cantina moderna, con lieviti selezionati e filtrazione; e si può fare un bianco "naturale" senza un'ora di contatto con le bucce. Chi rifiuta gli orange perché "sanno di difetto" spesso sta rifiutando altro: un'ossidazione eccessiva o una deriva volatile che con la macerazione in sé non hanno nulla a che fare.
+
+## A tavola: pensate da rosso, servite da bianco
+
+Il vero talento dei macerati emerge con il cibo, ed è lì che conviene metterli alla prova. La regola pratica è semplice: ragionate come per un rosso leggero o medio, perché il tannino c'è e cerca grasso, proteine, sapidità. Serviteli però a una temperatura intermedia, né da frigorifero né da cantina: troppo freddi diventano duri e chiusi, troppo caldi perdono slancio. Un bicchiere ampio aiuta, e qualche minuto di aria anche.
+
+Gli abbinamenti più convincenti seguono questa logica. I salumi e i formaggi stagionati, dal prosciutto di San Daniele ai formaggi di malga, trovano nel tannino un contrappunto naturale. Le carni bianche arrosto, il maiale, il coniglio, le frattaglie reggono bene anche i macerati più lunghi. Funzionano sorprendentemente con le cucine speziate e fermentate: piatti mediorientali, caucasici, coreani, dove un bianco classico sparirebbe e un rosso farebbe a pugni con il piccante. E poi le verdure difficili, carciofi, asparagi, funghi, cavoli, che mettono in crisi quasi ogni altro vino. Da maneggiare con più cautela il pesce crudo e delicato: meglio puntare su pesci grassi, cotture alla griglia, zuppe di mare robuste.
+
+## Perché dividono, e perché è un bene
+
+I vini orange dividono perché chiedono di sospendere un'aspettativa. Chi assaggia un bianco si prepara alla freschezza e al frutto; si trova invece davanti a un vino che parla di consistenza prima che di profumo, di struttura prima che di piacevolezza immediata. La moda recente ha prodotto anche bottiglie che confondono carattere e difetto.
+
+Ma ridurli a una tendenza sarebbe un errore. Sono, a tutti gli effetti, una delle poche vere novità stilistiche del vino contemporaneo, e paradossalmente sono anche la più antica. Il punto, credo, non è decidere se piacciano o no, ma smettere di trattarli come una categoria unica. Una Ribolla di Oslavia, una Vitovska del Carso e un Rkatsiteli georgiano condividono una tecnica, non un gusto. Giudicarli in blocco equivale a dire che non piace il vino rosso. Meglio assaggiarli uno per uno, a tavola, con pazienza: è l'unico modo onesto di stare da una parte o dall'altra del tavolo.
