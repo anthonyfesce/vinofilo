@@ -14,9 +14,12 @@ SITE = "https://vinofilo.com"
 NAME = "Vinofilo"
 TAGLINE = "Storie, territori e tecnica del vino"
 MESI = ["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"]
-CATS = {  # categoria: colore etichetta
-    "Vitigni": "#5E1A26", "Territori": "#2E3A2B", "Tecnica": "#3A2C45",
-    "Servizio": "#1E2A35", "Guide": "#6A5130",
+CATS = {  # categoria: (sfondo, testo, lettera di fondo)
+    "Vitigni": ("#7E1C2B", "#FBF3E4", "rgba(255,255,255,.10)"),
+    "Territori": ("#2F5D50", "#F4EDE1", "rgba(255,255,255,.10)"),
+    "Tecnica": ("#E9B44C", "#1B1416", "rgba(0,0,0,.08)"),
+    "Servizio": ("#E07254", "#1B1416", "rgba(0,0,0,.08)"),
+    "Guide": ("#1F2E47", "#F4EDE1", "rgba(255,255,255,.09)"),
 }
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500'
@@ -54,13 +57,13 @@ def load():
 def itdate(d): return f"{d.day} {MESI[d.month-1]} {d.year}"
 
 def label(a, big=False):
-    num = f"N° {a['number']:02d}" if a["number"] else ""
     name = a.get("cover") or a["title"].split(":")[0]
     word = re.split(r"['’]", name.split()[-1])[-1]
-    initial = esc(word[0].upper())
-    return (f'<div class="label{" big" if big else ""}" style="--c:{CATS[a["category"]]}" aria-hidden="true">'
-            f'<span class="bg">{initial}</span><span class="k">{esc(a["category"])}</span><span class="orn"></span>'
-            f'<span class="t">{esc(name)}</span><span class="orn"></span><span class="n">Vinofilo · {num}</span></div>')
+    bg, fg, bl = CATS[a["category"]]
+    stamp = f'<span class="stamp">N°<b>{a["number"]:02d}</b></span>' if a["number"] else ""
+    return (f'<div class="label{" big" if big else ""}" style="--c:{bg};--fg:{fg};--bgl:{bl}" aria-hidden="true">'
+            f'<span class="bg">{esc(word[0].upper())}</span><span class="k">{esc(a["category"])}</span>{stamp}'
+            f'<span class="t">{esc(name)}</span></div>')
 
 def page(title, desc, path, content, active="", og_type="website", extra_head=""):
     nav = "".join(f'<a href="/categoria/{slugify(c)}/"{" class=on" if c == active else ""}>{c}</a>' for c in CATS)
@@ -84,22 +87,22 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 {extra_head}
 </head>
 <body>
+<div class="strip"><div class="wrap"><span>Rivista di vino</span><em>bere meglio, capire di più</em><span>Italia</span></div></div>
 <header class="masthead"><div class="wrap">
-<div class="top"><span>Rivista di vino</span><span>Italia</span></div>
-<a href="/" class="wordmark">VINOFILO</a>
+<a href="/" class="wordmark">Vino<i>filo</i></a>
 <p class="tagline">{TAGLINE}</p>
 <nav class="nav">{nav}</nav>
 </div></header>
 <main>
 {content}
 </main>
-<footer><div class="wrap"><a href="/" class="wordmark">VINOFILO</a><p>{TAGLINE} · © {dt.date.today().year}</p></div></footer>
+<footer><div class="wrap"><a href="/" class="wordmark">Vino<i>filo</i></a><p>{TAGLINE} · © {dt.date.today().year}</p></div></footer>
 </body>
 </html>
 """
 
 def card(a):
-    return (f'<a class="card" href="{a["url"]}">{label(a)}<div class="meta">{esc(a["category"])} · {itdate(a["d"])}</div>'
+    return (f'<a class="card" href="{a["url"]}">{label(a)}<div class="kick">{esc(a["category"])} <span>· {itdate(a["d"])}</span></div>'
             f'<h3>{esc(a["title"])}</h3><p>{esc(a["description"])}</p></a>')
 
 def write(rel, text):
@@ -120,6 +123,7 @@ def build():
     for a in arts:
         md.reset()
         body = md.convert(a["body"])
+        body = re.sub(r"(\w)‘(\d)", r"\1’\2", body)  # l’80%, non l‘80%
         mins = max(1, round(a["words"] / 220))
         rel = [x for x in arts if x is not a and x["category"] == a["category"]][:3]
         rel += [x for x in arts if x is not a and x not in rel][:3 - len(rel)]
@@ -128,32 +132,36 @@ def build():
               f'"datePublished":"{a["d"].isoformat()}","inLanguage":"it","mainEntityOfPage":"{SITE}{a["url"]}",'
               f'"publisher":{{"@type":"Organization","name":"{NAME}"}}}}</script>')
         content = f"""<article>
-<header class="art-head"><div class="meta"><a href="/categoria/{slugify(a['category'])}/">{esc(a['category'])}</a></div>
+<header class="art-head"><div class="kick"><a href="/categoria/{slugify(a['category'])}/">{esc(a['category'])}</a></div>
 <h1>{esc(a['title'])}</h1><p class="standfirst">{esc(a['description'])}</p>
 <div class="byline">{itdate(a['d'])} · {mins} minuti di lettura</div></header>
 <div class="art-cover">{label(a, big=True)}</div>
 <div class="body">{body}<p class="fin">❦</p></div>
 </article>
-<section class="wrap related"><div class="sect">Da leggere ancora</div><div class="grid">{''.join(card(x) for x in rel)}</div></section>"""
+<section class="wrap related"><div class="sect"><h2>Da leggere ancora</h2><span>Vinofilo</span></div><div class="grid">{''.join(card(x) for x in rel)}</div></section>"""
         write(a["url"].strip("/") + "/index.html",
               page(a["title"], a["description"], a["url"], content, a["category"], "article", ld))
 
     # Home
     lead, rest = arts[0], arts[1:]
+    duo, grid = rest[:2], rest[2:]
+    q = grid[0] if grid else lead
     home = f"""<div class="wrap">
 <section class="lead"><a href="{lead['url']}">{label(lead, big=True)}</a>
-<div><div class="meta">{esc(lead['category'])} · {itdate(lead['d'])}</div>
+<div><div class="kick">{esc(lead['category'])} <span>· {itdate(lead['d'])}</span></div>
 <a href="{lead['url']}"><h2>{esc(lead['title'])}</h2></a><p>{esc(lead['description'])}</p>
 <a class="more" href="{lead['url']}">Leggi l'articolo</a></div></section>
-<div class="sect">Ultimi articoli</div>
-<div class="grid">{''.join(card(a) for a in rest)}</div></div>"""
+<div class="sect"><h2>Ultimi articoli</h2><span>{len(arts)} storie</span></div>
+<div class="duo">{''.join(card(a) for a in duo)}</div></div>
+<section class="quote"><div class="wrap"><p>“{esc(q['description'])}”</p><a href="{q['url']}">{esc(q['title'])} →</a></div></section>
+<div class="wrap"><div class="grid">{''.join(card(a) for a in grid)}</div></div>"""
     write("index.html", page(NAME, f"{NAME}: {TAGLINE.lower()}. Vitigni, territori, tecnica e servizio raccontati con un punto di vista.", "/", home))
 
     # Categorie
     for c in CATS:
         items = [a for a in arts if a["category"] == c]
         inner = "".join(card(a) for a in items) or "<p>Articoli in arrivo.</p>"
-        content = f'<div class="wrap"><div class="cat-head"><div class="sect" style="margin:0">Categoria</div><h1>{c}</h1></div><div class="grid" style="margin-top:44px">{inner}</div></div>'
+        content = f'<div class="wrap"><div class="cat-head"><div class="kick">Categoria</div><h1>{c}</h1></div><div class="grid" style="margin-top:44px">{inner}</div></div>'
         write(f"categoria/{slugify(c)}/index.html", page(c, f"Articoli su {c.lower()} del vino — {NAME}.", f"/categoria/{slugify(c)}/", content, c))
 
     # 404, sitemap, robots
