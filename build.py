@@ -56,6 +56,13 @@ def load():
 
 def itdate(d): return f"{d.day} {MESI[d.month-1]} {d.year}"
 
+NUMERI = [  # (slug, numero, didascalia): cifre già verificate negli articoli
+    ("nebbiolo-vitigno-piu-difficile", "1268", "L'anno della prima menzione documentata di un vino chiamato «nibiol», vicino a Torino"),
+    ("etna-vulcano-del-vino", "142", "Le contrade dell'Etna che si possono citare in etichetta, dopo la nuova mappa del 2022"),
+    ("metodo-classico-charmat", "60", "I mesi minimi sui lieviti per un Franciacorta Riserva"),
+    ("vini-orange", "2013", "L'anno in cui l'UNESCO ha riconosciuto la vinificazione georgiana in qvevri"),
+]
+
 def img(a, cls="", ar=None):
     """Illustrazione dell'articolo (assets/img/<slug>.jpg|.webp|.png) o segnaposto colorato."""
     bg, fg, _ = CATS[a["category"]]
@@ -174,11 +181,25 @@ def build():
     home += "</div>"
     home += f'<section class="quote"><div class="wrap"><p>“{esc(qtext)}”</p><a href="{q["url"]}">{esc(q["title"])} →</a></div></section>'
     home += '<div class="wrap">'
+    # Seconda apertura, specchiata: la lettura più lunga fra quelle sotto la prima apertura
+    pool = [a for a in arts if a not in [lead] + side]
+    if len(pool) >= 4:
+        lead2 = max(pool, key=lambda a: a["words"])
+        side2 = [a for a in pool if a is not lead2][-3:]
+        side2_html = "".join(f'<a href="{a["url"]}">{img(a) if i == 0 else ""}<div class="kick">{esc(a["category"])}</div>'
+                             f'<h3>{esc(a["title"])}</h3><div class="meta">{itdate(a["d"])}</div></a>' for i, a in enumerate(side2))
+        home += sect("Lettura lunga", "Il pezzo da leggere con calma, e altri tre per continuare") + f"""<section class="hero rev">
+<div class="side-list">{side2_html}</div>
+<a class="hero-main" href="{lead2['url']}">{img(lead2, ar="3/2")}
+<div class="kick" style="margin-top:18px">{esc(lead2['category'])} <span>· {round(lead2['words'] / 220)} minuti di lettura</span></div>
+<h2>{esc(lead2['title'])}</h2><p>{esc(lead2['description'])}</p></a></section>"""
+    nums = [n for n in NUMERI if any(a["slug"] == n[0] for a in arts)][:4]
+    if nums:
+        by = {a["slug"]: a for a in arts}
+        home += sect("I numeri", "Quattro cifre prese dagli articoli") + '<div class="nums">' + "".join(
+            f'<a href="{by[sl]["url"]}"><b>{esc(n)}</b><p>{esc(t)}</p><span>Leggi ›</span></a>' for sl, n, t in nums) + "</div>"
     if row:
         home += sect("Ultimi articoli", "Appena usciti dalla cantina") + f'<div class="row4">{"".join(card(a, False) for a in row)}</div>'
-    if longr:
-        home += sect("Lettura lunga") + (f'<a class="long" href="{longr["url"]}">{img(longr, ar="3/2")}<div><div class="kick">{esc(longr["category"])}</div>'
-                                          f'<h3>{esc(longr["title"])}</h3><p>{esc(longr["description"])}</p></div></a>')
     counts = {c: sum(1 for a in arts if a["category"] == c) for c in CATS}
     tiles = "".join(f'<a href="/categoria/{slugify(c)}/" style="--c:{v[0]};--fg:{v[1]}"><b>{c}</b><span>{v[2]} · {counts[c]} articoli</span></a>' for c, v in CATS.items())
     home += sect("Esplora per tema") + f'<div class="cats">{tiles}</div></div>'

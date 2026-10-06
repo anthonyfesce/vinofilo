@@ -61,6 +61,17 @@ img{display:block;max-width:100%}
 .side-list a:hover h3{color:var(--accent)}
 .side-list .ph{--ar:16/9;margin-bottom:12px}
 
+.hero.rev{grid-template-columns:1fr 2fr;padding-top:0}
+
+/* I numeri */
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.nums a{display:block;text-align:center;padding:8px 26px 4px;border-left:1px solid var(--rule)}
+.nums a:first-child{border-left:0}
+.nums b{display:block;font-family:var(--logo);font-weight:500;font-size:clamp(56px,6vw,84px);line-height:1;color:var(--ink)}
+.nums p{font-family:var(--text);font-style:italic;font-size:16px;line-height:1.45;color:var(--ink-2);margin:14px 0 12px}
+.nums span{font-family:var(--head);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.nums a:hover b{color:var(--accent)}
+
 /* Sei cerchi (Noble Rot) */
 .circles{display:grid;grid-template-columns:repeat(3,1fr);gap:0;max-width:1296px;margin-left:auto;margin-right:auto}
 .circles a{text-align:center;display:block;padding:0 16px 48px}
@@ -128,7 +139,10 @@ footer .wordmark{font-size:28px;margin-left:0;letter-spacing:.32em}
 footer p{font-family:var(--head);font-size:12px;color:var(--muted);margin:0}
 
 @media (max-width:960px){
-  .hero{grid-template-columns:1fr}
+  .hero,.hero.rev{grid-template-columns:1fr}
+  .hero.rev .hero-main{order:-1}
+  .nums{grid-template-columns:repeat(2,1fr);row-gap:36px}
+  .nums a:nth-child(3){border-left:0}
   .row4{grid-template-columns:repeat(2,1fr)}
   .long{grid-template-columns:1fr}
   .cats{grid-template-columns:repeat(3,1fr)}
