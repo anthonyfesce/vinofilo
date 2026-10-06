@@ -1,0 +1,26 @@
+name: IndexNow (Bing)
+# A ogni pubblicazione su main manda a IndexNow (Bing, Yandex, Seznam...) tutte le pagine della sitemap.
+on:
+  push:
+    branches: [main]
+    paths: [sitemap.xml]
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invia la sitemap a IndexNow
+        run: |
+          KEY=2b4789c22f8c65a39e5e4fac8b398db8
+          sleep 90  # lascia a GitHub Pages il tempo di pubblicare
+          python3 - <<PY
+          import re, json, urllib.request
+          urls = re.findall(r'<loc>([^<]+)</loc>', open('sitemap.xml').read())
+          body = json.dumps({"host": "vinofilo.com", "key": "$KEY",
+                             "keyLocation": "https://vinofilo.com/$KEY.txt", "urlList": urls}).encode()
+          req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body,
+                                       headers={"Content-Type": "application/json; charset=utf-8"})
+          r = urllib.request.urlopen(req, timeout=30)
+          print("IndexNow:", r.status, len(urls), "URL")
+          PY
