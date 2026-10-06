@@ -6,7 +6,7 @@ Output: index.html, articles/AAAA.MM.GG/slug/index.html, categoria/<cat>/index.h
         sitemap.xml, robots.txt, 404.html — direttamente nella radice del repository.
 Gli articoli con data futura non vengono pubblicati (servono per la programmazione).
 """
-import datetime as dt, html, json, os, re, shutil, sys
+import datetime as dt, hashlib, html, json, os, re, shutil, sys
 import markdown
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -74,6 +74,11 @@ NUMERI = [  # (slug, numero, didascalia): cifre già verificate negli articoli. 
     ("forma-del-calice", "1901", "L'anno delle misure di Hänig da cui nacque, per equivoco, la mappa della lingua"),
 ]
 
+def ver(rel):
+    """?v=<hash del file>: quando un'immagine cambia, cambia l'indirizzo e i browser non usano la copia vecchia."""
+    with open(os.path.join(ROOT, rel), "rb") as f:
+        return rel + "?v=" + hashlib.md5(f.read()).hexdigest()[:8]
+
 def img(a, cls="", ar=None):
     """Illustrazione dell'articolo (assets/img/<slug>.jpg|.webp|.png) o segnaposto colorato."""
     bg, fg, _ = CATS[a["category"]]
@@ -81,7 +86,7 @@ def img(a, cls="", ar=None):
     for ext in ("webp", "jpg", "png"):
         rel = f"assets/img/{a['slug']}.{ext}"
         if os.path.exists(os.path.join(ROOT, rel)):
-            return (f'<div class="ph {cls}" style="{style}"><img src="/{rel}" alt="{esc(a.get("alt") or a["title"])}" '
+            return (f'<div class="ph {cls}" style="{style}"><img src="/{ver(rel)}" alt="{esc(a.get("alt") or a["title"])}" '
                     f'loading="lazy" decoding="async"></div>')
     name = a.get("cover") or a["title"]
     word = re.split(r"['’]", name.split()[-1])[-1]
@@ -91,7 +96,7 @@ def img_path(slug):
     for ext in ("webp", "jpg", "png"):
         rel = f"assets/img/{slug}.{ext}"
         if os.path.exists(os.path.join(ROOT, rel)):
-            return "/" + rel
+            return "/" + ver(rel)
     return None
 
 CONSENSO = f'<script src="/assets/consenso.js" data-ga="{GA_ID}" defer></script>' if GA_ID else ""
@@ -121,7 +126,7 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 <meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 {FONTS}
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/{ver("assets/style.css")}">
 {extra_head}
 {CONSENSO}
 </head>
