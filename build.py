@@ -252,8 +252,33 @@ def build():
     if row:
         home += sect("Ultimi articoli", "Appena usciti dalla cantina") + f'<div class="row4">{"".join(card(a, False) for a in row)}</div>'
     counts = {c: sum(1 for a in arts if a["category"] == c) for c in CATS}
-    tiles = "".join(f'<a href="/categoria/{slugify(c)}/" style="--c:{v[0]};--fg:{v[1]}"><b>{c}</b><span>{v[2]} · {counts[c]} articoli</span></a>' for c, v in CATS.items())
-    home += sect("Esplora per tema") + f'<div class="cats">{tiles}</div></div>'
+    shown = set(re.findall(r'href="(/articles/[^"]+)"', home))
+    CAT_IMG = {"Vitigni": "vitigni-dimenticati-che-tornano", "Territori": "chianti-e-chianti-classico",
+               "Tecnica": "barrique-botte-cemento-acciaio", "Servizio": "forma-del-calice",
+               "Guide": "vino-al-ristorante-carta-dei-vini"}  # immagine scelta per ogni tema
+    def cat_pick(c):  # immagine scelta; se manca, l'articolo più recente non già visibile in home
+        its = [a for a in arts if a["category"] == c]
+        fav = next((a for a in its if a["slug"] == CAT_IMG.get(c)), None)
+        return fav or (next((a for a in its if a["url"] not in shown), its[0]) if its else None)
+    style = os.environ.get("CATS_STYLE", "indice")
+    if style == "tessere":
+        tiles = ""
+        for i, (c, v) in enumerate(CATS.items(), 1):
+            a = cat_pick(c)
+            tiles += (f'<a href="/categoria/{slugify(c)}/">{img(a, ar="4/5") if a else ""}<span class="t-n">{i:02d}</span>'
+                      f'<h3>{c}</h3><p>{esc(v[2])}</p><span class="t-c">{counts[c]} articoli ›</span></a>')
+        home += sect("Esplora per tema") + f'<div class="tess">{tiles}</div></div>'
+    else:
+        rows = ""
+        for i, (c, v) in enumerate(CATS.items(), 1):
+            its = [a for a in arts if a["category"] == c]
+            a = cat_pick(c)
+            tit = "".join(f'<li>{esc(x.get("cover") or x["title"].split(":")[0].split(",")[0])}</li>' for x in its[:3])
+            rows += (f'<a class="ix" href="/categoria/{slugify(c)}/"><span class="ix-n">{i:02d}</span>{img(a, "ix-ph", "1/1") if a else ""}'
+                     f'<div class="ix-m"><h3>{c}</h3><p>{esc(v[2])}</p></div><ul class="ix-l">{tit}</ul>'
+                     f'<span class="ix-c">{counts[c]} articoli ›</span></a>')
+        home += sect("Esplora per tema", "L'archivio di Vinofilo in cinque capitoli") + f'<div class="idx">{rows}</div></div>'
+
     write("index.html", page(NAME, f"{NAME}: {TAGLINE.lower()}. Vitigni, territori, tecnica e servizio raccontati con un punto di vista.", "/", home))
 
     # Categorie
