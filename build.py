@@ -23,7 +23,7 @@ CATS = {  # categoria: (colore, testo, descrizione)
 }
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500'
-         '&family=Archivo:wght@500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">')
+         '&family=Archivo:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">')
 
 def slugify(s):
     s = s.lower()
@@ -92,7 +92,7 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 </head>
 <body>
 <header class="masthead"><div class="wrap">
-<a href="/" class="wordmark">VINOFILO</a>
+<a href="/" class="wordmark">VINOFILO</a><p class="tagline">{TAGLINE}</p>
 </div></header>
 <div class="wrap"><nav class="nav">{nav}</nav></div>
 <main>
