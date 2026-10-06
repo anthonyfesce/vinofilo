@@ -92,13 +92,13 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 </head>
 <body>
 <header class="masthead"><div class="wrap">
-<span class="side">Rivista di vino</span><a href="/" class="wordmark">Vino<i>filo</i></a><span class="side">{TAGLINE}</span>
+<a href="/" class="wordmark">VINO<i>filo</i></a>
 </div></header>
 <div class="wrap"><nav class="nav">{nav}</nav></div>
 <main>
 {content}
 </main>
-<footer><div class="wrap"><a href="/" class="wordmark">Vino<i>filo</i></a><p>{TAGLINE} · © {dt.date.today().year}</p></div></footer>
+<footer><div class="wrap"><a href="/" class="wordmark">VINO<i>filo</i></a><p>{TAGLINE} · © {dt.date.today().year}</p></div></footer>
 </body>
 </html>
 """
@@ -115,8 +115,8 @@ def circle(a):
 
 def sect(title, sub="", link=None):
     l = f'<a href="{link}">Vedi tutti ›</a>' if link else ""
-    s = f"<p>{esc(sub)}</p>" if sub else ""
-    return f'<div class="sect"><div><h2>{esc(title)}</h2>{s}</div>{l}</div>'
+    s = f'<p class="sect-sub">{esc(sub)}</p>' if sub else ""
+    return f'<div class="sect"><h2>{esc(title)}</h2>{l}</div>{s}'
 
 def write(rel, text):
     p = os.path.join(ROOT, rel)
