@@ -22,7 +22,7 @@ CATS = {  # categoria: (colore, testo, descrizione)
     "Guide": ("#1F2E47", "#F4EDE1", "Per orientarsi"),
 }
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-         '<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500'
+         '<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500'
          '&family=Archivo:wght@500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">')
 
 def slugify(s):
@@ -92,13 +92,13 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 </head>
 <body>
 <header class="masthead"><div class="wrap">
-<a href="/" class="wordmark">VINOfilo</a>
+<a href="/" class="wordmark">VINOFILO</a>
 </div></header>
 <div class="wrap"><nav class="nav">{nav}</nav></div>
 <main>
 {content}
 </main>
-<footer><div class="wrap"><a href="/" class="wordmark">VINOfilo</a><p>{TAGLINE} · © {dt.date.today().year}</p></div></footer>
+<footer><div class="wrap"><a href="/" class="wordmark">VINOFILO</a><p>{TAGLINE} · © {dt.date.today().year}</p></div></footer>
 </body>
 </html>
 """
