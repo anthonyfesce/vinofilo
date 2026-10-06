@@ -257,7 +257,7 @@ def build():
             if len(first) == 4: break
         cells = "".join(f'<a href="{x["u"]}"><b>{esc(x["n"])}</b><p>{esc(x["t"])}</p><span>Leggi ›</span></a>' for x in first)
         data = json.dumps(pool_n, ensure_ascii=False).replace("</", "<\\/")
-        home += sect("I numeri", "Quattro cifre dagli articoli, ogni volta diverse") + f'<div class="nums" id="nums">{cells}</div>' + (
+        home += sect("I numeri", "Cifre da raccontare a cena") + f'<div class="nums" id="nums">{cells}</div>' + (
             '<script>(function(){var P=' + data + ';var o=[],u={};P.sort(function(){return Math.random()-.5});'
             'for(var i=0;i<P.length&&o.length<4;i++){if(!u[P[i].u]){u[P[i].u]=1;o.push(P[i])}}'
             'var e=function(s){return s.replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;","\\"":"&quot;"}[c]})};'
