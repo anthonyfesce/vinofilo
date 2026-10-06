@@ -84,7 +84,13 @@ Ogni articolo usa la propria illustrazione come og:image e nel JSON-LD. Icona iP
 - Evitare etichette, quadranti, quaderni con scritte: il modello inventa testo. Scrivere "plain blank labels", "no writing".
 - Le metafore vengono disegnate alla lettera ("like the hand of a clock" → una mano): descrivere la forma, non la metafora.
 
-## Da generare: scorta 7 ottobre – 20 novembre 2026
+## Scorta 7 ottobre – 20 novembre 2026 (GENERATE il 06.10.2026)
+Tutte e 58 generate dal campo `illustrazione:` di ogni articolo + coda di stile (pieno riquadro, colore del vino realistico,
+etichette bianche, niente testo). Seed 111 tranne: hostaria-verona 444 (nella 111 mani in primo piano), vino-carbonara 333,
+vino-con-la-zucca 333, bollicine-sotto-15-euro 444 (nelle 111 scritte finte su etichette/cartellini), aprire-vino-senza-cavatappi 333
+(figura strana), vino-con-le-lasagne 222 (bottiglia viola). Lezione: con bottiglie in primo piano aggiungere "Bottles have plain
+blank labels or no labels at all" e nel negativo "handwriting, scribbles on labels, paper note, card, hands".
+
 
 Articoli già nel repo con data futura. Il sito li pubblica da solo la mattina della loro data, **ma solo se esiste
 `assets/img/<slug>.jpg`**: senza illustrazione l'articolo resta in attesa. Generare in ordine di data, con qualche giorno
