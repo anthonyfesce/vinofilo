@@ -13,6 +13,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://vinofilo.com"
 NAME = "Vinofilo"
 TAGLINE = "Storie, territori e tecnica del vino"
+GA_ID = ""  # ID di misurazione GA4 (G-XXXXXXXXXX). Vuoto = niente statistiche e niente banner.
 MESI = ["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"]
 CATS = {  # categoria: (colore, testo, descrizione)
     "Vitigni": ("#7E1C2B", "#FBF3E4", "Le uve e il loro carattere"),
@@ -93,6 +94,9 @@ def img_path(slug):
             return "/" + rel
     return None
 
+CONSENSO = f'<script src="/assets/consenso.js" data-ga="{GA_ID}" defer></script>' if GA_ID else ""
+PREF = ' · <a href="#" onclick="vfPreferenzeCookie();return false">Preferenze cookie</a>' if GA_ID else ""
+
 def page(title, desc, path, content, active="", og_type="website", extra_head="", image=None):
     image = image or img_path("og-vinofilo")
     og_img = (f'<meta property="og:image" content="{SITE}{image}"><meta property="og:image:width" content="1536">'
@@ -119,6 +123,7 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 {FONTS}
 <link rel="stylesheet" href="/assets/style.css">
 {extra_head}
+{CONSENSO}
 </head>
 <body>
 <header class="masthead"><div class="wrap">
@@ -128,7 +133,7 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 <main>
 {content}
 </main>
-<footer><div class="wrap"><a href="/" class="wordmark">VINOFILO</a><p>{TAGLINE} · © {dt.date.today().year} · <a href="/privacy/">Privacy e cookie</a></p></div></footer>
+<footer><div class="wrap"><a href="/" class="wordmark">VINOFILO</a><p>{TAGLINE} · © {dt.date.today().year} · <a href="/privacy/">Privacy e cookie</a>{PREF}</p></div></footer>
 </body>
 </html>
 """
@@ -261,8 +266,12 @@ def build():
         raw = open(os.path.join(pdir, fn), encoding="utf-8").read()
         m = re.match(r"---\n(.*?)\n---\n(.*)", raw, re.S)
         meta = {k.strip(): v.strip() for k, v in (l.split(":", 1) for l in m.group(1).splitlines() if ":" in l)}
+        txt = m.group(2).strip()
+        keep, drop = ("ga", "noga") if GA_ID else ("noga", "ga")
+        txt = re.sub(rf"<!--{drop}-->.*?<!--/{drop}-->\n?", "", txt, flags=re.S)
+        txt = re.sub(rf"<!--/?{keep}-->\n?", "", txt)
         md.reset()
-        body = md.convert(m.group(2).strip())
+        body = md.convert(txt)
         path = f"/{meta['slug']}/"
         content = (f'<article><header class="art-head"><h1>{esc(meta["title"])}</h1></header>'
                    f'<div class="body page">{body}</div></article>')
