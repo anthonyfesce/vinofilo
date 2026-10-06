@@ -21,9 +21,7 @@ CATS = {  # categoria: (colore, testo, descrizione)
     "Servizio": ("#E07254", "#1B1416", "Bicchieri, gradi, decanter"),
     "Guide": ("#1F2E47", "#F4EDE1", "Per orientarsi"),
 }
-FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-         '<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500'
-         '&family=Archivo:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">')
+FONTS = '<link rel="stylesheet" href="/assets/fonts/fonts.css">'
 
 def slugify(s):
     s = s.lower()
@@ -117,7 +115,7 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 <main>
 {content}
 </main>
-<footer><div class="wrap"><a href="/" class="wordmark">VINOFILO</a><p>{TAGLINE} · © {dt.date.today().year}</p></div></footer>
+<footer><div class="wrap"><a href="/" class="wordmark">VINOFILO</a><p>{TAGLINE} · © {dt.date.today().year} · <a href="/privacy/">Privacy e cookie</a></p></div></footer>
 </body>
 </html>
 """
@@ -241,10 +239,27 @@ def build():
         content = f'<div class="wrap"><div class="cat-head"><div class="kick">{esc(CATS[c][2])}</div><h1>{c}</h1></div>{sect(f"{len(items)} articoli")}<div class="row3">{inner}</div></div>'
         write(f"categoria/{slugify(c)}/index.html", page(c, f"Articoli su {c.lower()} del vino — {NAME}.", f"/categoria/{slugify(c)}/", content, c))
 
+    # Pagine statiche (content/pagine/*.md): privacy ecc.
+    pages = []
+    pdir = os.path.join(ROOT, "content/pagine")
+    for fn in sorted(os.listdir(pdir)) if os.path.isdir(pdir) else []:
+        if not fn.endswith(".md"): continue
+        raw = open(os.path.join(pdir, fn), encoding="utf-8").read()
+        m = re.match(r"---\n(.*?)\n---\n(.*)", raw, re.S)
+        meta = {k.strip(): v.strip() for k, v in (l.split(":", 1) for l in m.group(1).splitlines() if ":" in l)}
+        md.reset()
+        body = md.convert(m.group(2).strip())
+        path = f"/{meta['slug']}/"
+        content = (f'<article><header class="art-head"><h1>{esc(meta["title"])}</h1></header>'
+                   f'<div class="body page">{body}</div></article>')
+        shutil.rmtree(os.path.join(ROOT, meta["slug"]), ignore_errors=True)
+        write(f"{meta['slug']}/index.html", page(meta["title"], meta["description"], path, content))
+        pages.append(path)
+
     # 404, sitemap, robots
     write("404.html", page("Pagina non trovata", "Pagina non trovata.", "/404.html",
           '<div class="wrap"><div class="cat-head"><h1>Bottiglia vuota</h1><p class="standfirst">Questa pagina non esiste. <a href="/" style="color:var(--accent)">Torna alla home ›</a></p></div></div>'))
-    urls = [("/", arts[0]["d"])] + [(a["url"], a["d"]) for a in arts] + [(f"/categoria/{slugify(c)}/", None) for c in CATS]
+    urls = [("/", arts[0]["d"])] + [(a["url"], a["d"]) for a in arts] + [(f"/categoria/{slugify(c)}/", None) for c in CATS] + [(p, None) for p in pages]
     sm = "".join(f"<url><loc>{SITE}{u}</loc>{f'<lastmod>{d.isoformat()}</lastmod>' if d else ''}</url>" for u, d in urls)
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")

@@ -167,3 +167,5 @@ footer p{font-family:var(--head);font-size:12px;color:var(--muted);margin:0}
   .art-head{padding:34px 16px 24px}
   .art-cover,.body{padding-left:16px;padding-right:16px}
 }
+footer p a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.body.page>p:first-of-type::first-letter{float:none;font:inherit;padding:0;color:inherit}
