@@ -5,29 +5,32 @@ Se il file manca, il sito mostra un segnaposto colorato: si può pubblicare lo s
 
 - Formato: 1536×1024 (3:2). Il soggetto deve stare **al centro**, perché la stessa immagine
   viene ritagliata anche a cerchio nella home.
-- Generazione: ComfyUI sul PC (Qwen-Image 2.1, porta 8000), 4 varianti per prompt, si tiene la migliore.
+- Generazione: ComfyUI sul PC (Qwen-Image 2.1, porta 8000), 3 varianti per prompt (seed 101, 202, 303), si tiene la migliore.
 - Controllo prima di pubblicare: niente testo o lettere nell'immagine, mani e anatomia corrette,
   bottiglie e bicchieri con forme plausibili. Surreale va bene, errori grossolani no.
 
-## Stile (uguale per tutte)
+## Stile (uguale per tutte, deciso il 06.10.2026: gouache)
 
-Bold contemporary editorial pop illustration for a wine magazine. Thick confident black ink outlines,
-flat saturated colours (cadmium yellow, hot magenta pink, emerald green, vermilion red, cobalt blue),
-subtle halftone dots and light risograph grain. Playful, slightly surreal humour. One clear central
-subject that fills most of the frame and stays centred. Plain flat colour background. No text, no letters,
-no numbers, no labels, no logos.
+Sophisticated editorial gouache painting, like the cover of a literary magazine: flat matte gouache shapes,
+muted refined palette of deep burgundy, ochre, sage green, dusty blue and cream, generous negative space,
+quiet poetic and slightly surreal mood, mature and elegant. Centred composition: the main subject sits in
+the middle of the frame. No text.
+
+Negativo: text, letters, words, numbers, writing, typography, caption, label text, logo, watermark, signature,
+cartoon, comic, childish, cute faces on objects, anthropomorphic, neon colours, 3d render, plastic, clutter,
+many small objects, duplicated objects, deformed, blurry
 
 ## Prompt per articolo
 
 | slug | soggetto |
 |---|---|
-| nebbiolo-vitigno-piu-difficile | A giant, grumpy cluster of dark Nebbiolo grapes wearing a knitted wool scarf, rising out of thick white fog over striped hillside vineyard rows; a tiny winemaker climbs up to it on a wooden ladder. Background flat cobalt blue. |
-| etna-vulcano-del-vino | A smoking volcano whose crater overflows with red wine instead of lava, running down black terraces dotted with small gnarled bush vines. Background flat cadmium yellow. |
-| metodo-classico-charmat | A champagne-style bottle doing a cheerful handstand in a wooden riddling rack, a fountain of round bubbles bursting upward; beside it a shiny steel tank wearing a bow tie. Background flat hot pink. |
-| temperatura-di-servizio | Split scene: a red wine bottle sweating in a deckchair under a blazing sun, and a white wine bottle frozen solid inside a block of ice with a scarf, both looking unhappy. Background half vermilion, half pale blue. |
-| vini-orange | A bunch of white grapes lying in a large half-buried terracotta amphora like a bathtub, slowly turning orange, with a tiny sun umbrella. Background flat emerald green. |
-| forma-del-calice | A parade of five wine glasses of very different shapes standing in a row like proud characters with little legs, the widest one in the centre holding a swirl of red wine. Background flat cadmium yellow. |
-| amarone-appassimento | Bunches of red grapes drying on bamboo racks in a wooden attic, a snail carrying an old pocket watch crawls along the rack. Background flat magenta pink. |
-| leggere-etichetta-vino | A detective in a trench coat and hat examining a wine bottle with a huge magnifying glass; the bottle's label is blank and shows only abstract stripes. Background flat emerald green. |
-| decantare-o-no | A glass decanter shaped like a hot-air balloon, filled with red wine, floating over rolling hills with a tiny wicker basket underneath. Background flat cobalt blue. |
-| cantina-in-casa | Inside a cosy vaulted brick cellar, wine bottles sleeping in wooden bunk beds under little patchwork blankets, one candle glowing. Background deep vermilion. |
+| nebbiolo-vitigno-piu-difficile | A single heavy cluster of dark Nebbiolo grapes with two autumn vine leaves floats in the centre of a pale sky like a hot-air balloon, above the Langhe hills wrapped in soft white fog, a small hilltop village with a medieval tower in the mist below. |
+| etna-vulcano-del-vino | In the centre, an old gnarled bush-trained vine stands alone on terraces of black volcanic sand held by dry-stone walls; directly behind it the snowy cone of Etna releases a thin plume of smoke into the evening sky. |
+| metodo-classico-charmat | In the centre, a dark green sparkling wine bottle stands on a cellar floor, and from its open neck a slender column of tiny bubbles rises high into the air, turning into a string of pearls. |
+| temperatura-di-servizio | In the centre, two wine bottles side by side on a table: a red wine bottle standing in a warm patch of sunlight and a white wine bottle resting in a silver ice bucket with a few ice cubes, long soft shadows. |
+| vini-orange | In the centre, a large terracotta amphora half-buried in the earth of a vineyard, its open mouth filled with glowing amber-orange wine, a few bunches of white grapes beside it, gentle hills in the distance. |
+| forma-del-calice | In the centre, five empty wine glasses of very different shapes stand in a row on a long linen table, their shadows stretching across it; the middle one, a wide round bowl, holds a little red wine. |
+| amarone-appassimento | In the centre, bunches of red grapes drying on bamboo racks under the wooden roof beams of a quiet loft, soft light falling from a small window onto the slowly shrivelling grapes. |
+| leggere-etichetta-vino | In the centre, a single wine bottle with a large blank cream label stands on a table, an antique brass magnifying glass leaning against it. |
+| decantare-o-no | In the centre, a crystal wine decanter full of deep red wine floats gently above rolling vineyard hills like a hot-air balloon, in a pale evening sky. |
+| cantina-in-casa | In the centre, the arched doorway of a small vaulted brick cellar, rows of wine bottles lying in wooden racks inside, lit by the glow of a single lamp. |
