@@ -92,13 +92,13 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 </head>
 <body>
 <header class="masthead"><div class="wrap">
-<a href="/" class="wordmark">VINO<i>filo</i></a>
+<a href="/" class="wordmark">VINOfilo</a>
 </div></header>
 <div class="wrap"><nav class="nav">{nav}</nav></div>
 <main>
 {content}
 </main>
-<footer><div class="wrap"><a href="/" class="wordmark">VINO<i>filo</i></a><p>{TAGLINE} · © {dt.date.today().year}</p></div></footer>
+<footer><div class="wrap"><a href="/" class="wordmark">VINOfilo</a><p>{TAGLINE} · © {dt.date.today().year}</p></div></footer>
 </body>
 </html>
 """
