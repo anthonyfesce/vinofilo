@@ -202,6 +202,9 @@ Vin Santo rigenerato (nelle prime prove il vino veniva rosso): prompt con "trans
 Ogni riepilogo ha la SUA illustrazione (niente riciclo di quella di presentazione). L'articolo viene scritto dopo l'evento;
 l'immagine si può generare prima, con questo nome. Senza immagine l'articolo resta in attesa.
 
+FATTO il 06.10.2026: le 5 immagini sono già in `assets/img/` (seed 111/222/333, tenuta la migliore).
+Tartufo rigenerato: al primo giro sembrava un cavolfiore. Nel prompt va descritto come "smooth irregular lumpy tuber… like a misshapen pale potato or a knob of ginger, pale ochre and hazelnut beige", con "cauliflower, broccoli, florets" nel negativo.
+
 | uscita | slug | inquadratura | soggetto |
 |---|---|---|---|
 | 24-10 | barolo-en-primeur-2026-com-e-andata | notturno | Night view of a medieval brick castle on a Langhe hilltop lit warmly from inside after an evening event, seen from the dark vineyard rows below, a few tiny figures walking down the lane with lanterns, autumn mist in the valleys, deep indigo sky. |
