@@ -1,0 +1,43 @@
+---
+title: Puglia beyond the postcard: Primitivo, Negroamaro and Nero di Troia
+description: From Italy’s wine tanker to a region worth collecting: Primitivo, Negroamaro, Nero di Troia and the rosati of Salento, told without the postcard clichés.
+slug: puglia-wine-primitivo-negroamaro-nero-di-troia
+cover: Puglia
+---
+For much of the twentieth century, Puglian wine travelled incognito. It left in tankers, made its way up the peninsula and ended up inside bottles bearing the names of other regions, lending colour, alcohol and body to northern reds that struggled to stand up on their own. It was an authorised transfusion, with Puglia as the universal donor. The trouble with giving blood, though, is that nobody remembers your name.
+
+Today plenty of people remember it, sometimes for the wrong reasons: jammy reds, labels with the sun setting over the sea, alcohol levels worthy of a liqueur. The postcard, in short. But the region behind it is longer, more varied and far more interesting than that.
+
+## The wine that did the dirty work
+
+Its reputation as a “blending wine” is no invention of its detractors. Puglia has always produced a great deal, from grapes able to ripen sugar and colour to levels the hills of central and northern Italy could only dream of. After the post-war land reform, which broke up the great estates into a myriad of small holdings, the logic became one of yields: more grapes per hectare, more tonnes to sell to the co-operatives and to bottlers outside the region. Quality was not a goal; it was an accident.
+
+The change of pace came late, between the end of the 1980s and the 1990s, when the methanol scandal of 1986 forced the whole of Italian wine to take a hard look in the mirror. Professional oenologists and agronomists arrived in Puglia, wineries began bottling for themselves, and the old *alberello* bush vines stopped being a nuisance to grub up and became a heritage. Volume wine still exists, but the direction has changed.
+
+## Primitivo: an Italian name, a Dalmatian passport
+
+Primitivo owes its name to an agronomic trait, not to a wild temperament. At the end of the eighteenth century don Francesco Filippo Indellicati, a priest and amateur botanist in Gioia del Colle, noted a grape that ripened earlier than the others: “primativo”, from *primus*. From there the variety spread south as far as the Manduria area, where it found its second home. As for exactly how it got there, tales of dowries and noble marriages circulate that are best taken with caution.
+
+Then there is the story that went round the world. In the 1960s an American researcher noticed the resemblance between Puglia’s Primitivo and Zinfandel, California’s emblematic red. In the early 1990s Carole Meredith, a geneticist at the University of California, Davis, confirmed through DNA that they were the same variety (sources waver between 1993 and 1994). It remained to discover where it came from. The answer came from Croatia: the Zagreb researchers Ivan Pejić and Edi Maletić, sampling old Dalmatian vineyards with the Davis team, found at Kaštel Novi, near Split, a handful of vines of a local grape called Crljenak Kaštelanski. At the end of 2001 the DNA delivered its verdict: a match. The same variety was later traced back to the historic name Tribidrag, attested in Dalmatian documents as early as the fifteenth century.
+
+In other words, Primitivo is not a child of Puglia but a very long-standing guest. Which takes nothing away from the Puglians: over two centuries they have made it into something different from Californian Zinfandel.
+
+The variety’s two souls can be read clearly in two designations. Primitivo di Manduria, a DOC since 1974, comes from between the provinces of Taranto and Brindisi, on flat land near the sea, over red and limestone soils: warm, broad wines, with a minimum of 13.5 per cent alcohol written into the rulebook. Since 2011 the sweet version, Primitivo di Manduria Dolce Naturale, has been the region’s first DOCG. Gioia del Colle, a DOC since 1987, lies instead on the Murge plateau, at around 350 metres: big day-night temperature swings, limestone, more acidity. Same grape, different grammar. Anyone who thinks Primitivo is nothing but power and stewed fruit should start here.
+
+## Negroamaro, Salento in red and in pink
+
+Heading down towards the heel, the protagonist changes. Negroamaro is the grape of Salento par excellence, traditionally grown as bush vines between Lecce, Brindisi and Taranto. Its name is often explained as a double reference to blackness, from Latin and Greek, rather than to bitterness, *amaro*: an appealing etymology, but not an undisputed one. What is certain is the character of the wine: dark, earthy, with a bitter, balsamic streak that makes it more austere than Primitivo and, when well made, surprisingly good at the table. Salice Salentino, Copertino, Brindisi, Squinzano, Leverano: the designations that tell its story are many, and they often pair it with Malvasia Nera to soften it.
+
+But Negroamaro has another life too, perhaps its most original. Salento is one of Italy’s great rosato lands, and has been since long before pink became an aperitivo colour. In 1943, in the midst of the Allied occupation, the Leone de Castris family of Salice Salentino bottled Five Roses, considered Italy’s first bottled rosé: Negroamaro with a dash of Malvasia Nera. Legend has it that the English name is linked to supplies for the American army, and that the “five” has at least three different explanations. Legends aside, here rosato is not a by-product of red wine but a tradition with its own technique, built on short macerations and a deeper colour than its Provençal cousins.
+
+## Nero di Troia, the north nobody looks at
+
+The Puglian postcard usually stops south of Bari. A pity, because the north of the region has a red that resembles neither of its two Salento siblings. Nero di Troia (or Uva di Troia) is grown mainly across the province of Barletta-Andria-Trani, the northern Bari area and the Daunia. Theories about the origin of the name abound, from the small town of Troia in the province of Foggia to myths of the Greek hero Diomedes landing on these shores: none has been proven.
+
+It is a late-ripening grape, with firm tannin and lively acidity, which asks for time in the vineyard and in the bottle. Its heartland is Castel del Monte, a DOC since 1971, named after the octagonal castle of Frederick II. Since 2011 Castel del Monte Nero di Troia Riserva has been a DOCG, with at least 90% Nero di Troia and two years of ageing, one of them in wood. These are more vertical, less immediate wines, closer in spirit to a lowland Nebbiolo than to a southern red.
+
+## The future lies in subtraction
+
+Puglia’s risk is no longer mediocrity. It is excess. Part of the market has learned to love Primitivo precisely for its faults, the residual sugar, the dessert-like softness, the warming alcohol, and some have every interest in carrying on making it that way. That would be a shame. The most interesting things happen where someone has the courage to take away: a Gioia del Colle unafraid of acidity, a Negroamaro that lets its bitter side speak, a Salento rosato vinified like a serious wine, a Nero di Troia given long enough to wait.
+
+Puglia spent a century making other people’s wines better. Now that it signs its own, the best service it can do itself is to stop resembling what the world expects of it.

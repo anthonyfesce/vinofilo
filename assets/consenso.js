@@ -5,6 +5,11 @@
   var s = document.currentScript, GA = s && s.getAttribute('data-ga');
   if (!GA) return;
   var KEY = 'vf_consenso', SEI_MESI = 182 * 864e5;
+  // Testi nella lingua della pagina (attributi data-* dello script); in mancanza, italiano.
+  function a(n, d) { return (s && s.getAttribute(n)) || d; }
+  function h(x) { return String(x).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  var TXT = a('data-t', 'Usiamo cookie di statistica (Google Analytics) per capire quali articoli vengono letti. Si attivano solo se accetti.'),
+      OK = a('data-ok', 'Accetta'), NO = a('data-no', 'Rifiuta'), PL = a('data-p', 'Privacy e cookie'), PU = a('data-pu', '/privacy/');
 
   function leggi() {
     try { var v = JSON.parse(localStorage.getItem(KEY)); if (v && Date.now() - v.t < SEI_MESI) return v.s; } catch (e) {}
@@ -35,10 +40,9 @@
   function banner() {
     if (document.getElementById('vf-cookie')) return;
     var b = document.createElement('div'); b.id = 'vf-cookie'; b.setAttribute('role', 'dialog');
-    b.setAttribute('aria-label', 'Preferenze cookie');
-    b.innerHTML = '<p>Usiamo cookie di statistica (Google Analytics) per capire quali articoli vengono letti. ' +
-      'Si attivano solo se accetti. <a href="/privacy/">Privacy e cookie</a></p>' +
-      '<div><button type="button" data-v="no">Rifiuta</button><button type="button" data-v="si" class="si">Accetta</button></div>';
+    b.setAttribute('aria-label', PL);
+    b.innerHTML = '<p>' + h(TXT) + ' <a href="' + h(PU) + '">' + h(PL) + '</a></p>' +
+      '<div><button type="button" data-v="no">' + h(NO) + '</button><button type="button" data-v="si" class="si">' + h(OK) + '</button></div>';
     b.addEventListener('click', function (e) {
       var v = e.target.getAttribute && e.target.getAttribute('data-v'); if (!v) return;
       salva(v); b.remove();

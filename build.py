@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """Generatore statico di Vinofilo.
 
-Sorgenti: content/articles/*.md (front matter: date, number, title, description, category, slug)
-Output: index.html, articles/AAAA.MM.GG/slug/index.html, categoria/<cat>/index.html,
-        sitemap.xml, robots.txt, 404.html — direttamente nella radice del repository.
+Sorgenti: content/articles/*.md (italiano; front matter: date, number, title, description, category, slug)
+          content/i18n/<lingua>/<slug-italiano>.md (traduzioni: title, description, slug, cover + testo)
+          lingue.py (testi fissi del sito in ogni lingua)
+Output: italiano alla radice (index.html, articles/AAAA.MM.GG/slug/, categoria/<cat>/, privacy/),
+        le altre lingue in /<lingua>/... ; sitemap.xml con hreflang, robots.txt, 404.html.
 Gli articoli con data futura non vengono pubblicati (servono per la programmazione).
 """
 import datetime as dt, hashlib, html, json, os, re, shutil, sys
 import markdown
 from zoneinfo import ZoneInfo
+from lingue import L, ORDINE, ATTIVE, fmt_date, prefix
 
 # "Oggi" sempre nel fuso italiano (anche quando gira su GitHub Actions, che è in UTC).
 TODAY = (dt.date.fromisoformat(os.environ["VINOFILO_TODAY"]) if os.environ.get("VINOFILO_TODAY")
@@ -19,17 +22,19 @@ AUTO_FROM = dt.date(2026, 10, 7)
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://vinofilo.com"
 NAME = "Vinofilo"
-TAGLINE = "Storie, territori e tecnica del vino"
 GA_ID = "G-H26K5NGH04"  # ID di misurazione GA4 (G-XXXXXXXXXX). Vuoto = niente statistiche e niente banner.
-MESI = ["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"]
-CATS = {  # categoria: (colore, testo, descrizione)
-    "Vitigni": ("#7E1C2B", "#FBF3E4", "Le uve e il loro carattere"),
-    "Territori": ("#2F5D50", "#F4EDE1", "Dove nasce il vino"),
-    "Tecnica": ("#E9B44C", "#1B1416", "Come si fa, davvero"),
-    "Servizio": ("#E07254", "#1B1416", "Bicchieri, gradi, decanter"),
-    "Guide": ("#1F2E47", "#F4EDE1", "Per orientarsi"),
+CATS = {  # categoria (chiave italiana): (colore, testo)
+    "Vitigni": ("#7E1C2B", "#FBF3E4"),
+    "Territori": ("#2F5D50", "#F4EDE1"),
+    "Tecnica": ("#E9B44C", "#1B1416"),
+    "Servizio": ("#E07254", "#1B1416"),
+    "Guide": ("#1F2E47", "#F4EDE1"),
 }
+CAT_IMG = {"Vitigni": "vitigni-dimenticati-che-tornano", "Territori": "chianti-e-chianti-classico",
+           "Tecnica": "barrique-botte-cemento-acciaio", "Servizio": "forma-del-calice",
+           "Guide": "vino-al-ristorante-carta-dei-vini"}  # immagine scelta per ogni tema in "Esplora per tema"
 FONTS = '<link rel="stylesheet" href="/assets/fonts/fonts.css">'
+AVAIL = ["it"]  # lingue effettivamente pubblicate (riempita da build())
 
 def slugify(s):
     s = s.lower()
@@ -38,34 +43,67 @@ def slugify(s):
 
 def esc(s): return html.escape(s, quote=True)
 
+def jsonstr(s): return json.dumps(s, ensure_ascii=False)
+
+def read_md(path):
+    raw = open(path, encoding="utf-8").read()
+    m = re.match(r"---\n(.*?)\n---\n(.*)", raw, re.S)
+    if not m: sys.exit(f"Front matter mancante in {path}")
+    meta = {k.strip(): v.strip() for k, v in (l.split(":", 1) for l in m.group(1).splitlines() if ":" in l)}
+    return meta, m.group(2).strip()
+
+def ver(rel):
+    """?v=<hash del file>: quando un'immagine cambia, cambia l'indirizzo e i browser non usano la copia vecchia."""
+    with open(os.path.join(ROOT, rel), "rb") as f:
+        return rel + "?v=" + hashlib.md5(f.read()).hexdigest()[:8]
+
+def img_path(key):
+    for ext in ("webp", "jpg", "png"):
+        rel = f"assets/img/{key}.{ext}"
+        if os.path.exists(os.path.join(ROOT, rel)):
+            return "/" + ver(rel)
+    return None
+
+# ---------------------------------------------------------------- articoli
+
 def load():
+    """Articoli italiani pubblicabili oggi, dal più recente."""
     arts = []
     for fn in sorted(os.listdir(os.path.join(ROOT, "content/articles"))):
         if not fn.endswith(".md"): continue
-        raw = open(os.path.join(ROOT, "content/articles", fn), encoding="utf-8").read()
-        m = re.match(r"---\n(.*?)\n---\n(.*)", raw, re.S)
-        if not m: sys.exit(f"Front matter mancante in {fn}")
-        meta = dict(l.split(":", 1) for l in m.group(1).splitlines() if ":" in l)
-        meta = {k.strip(): v.strip() for k, v in meta.items()}
+        meta, body = read_md(os.path.join(ROOT, "content/articles", fn))
         for k in ("date", "title", "description", "category", "slug"):
             if not meta.get(k): sys.exit(f"Campo '{k}' mancante in {fn}")
         if meta["category"] not in CATS: sys.exit(f"Categoria sconosciuta in {fn}: {meta['category']}")
         d = dt.date.fromisoformat(meta["date"])
-        body = m.group(2).strip()
-        arts.append(dict(meta, d=d, body=body, words=len(body.split()),
+        arts.append(dict(meta, d=d, body=body, words=len(body.split()), key=meta["slug"], lang="it",
                          url=f"/articles/{d:%Y.%m.%d}/{meta['slug']}/",
                          number=int(meta.get("number", 0) or 0)))
     live = []
     for a in arts:
         if a["d"] > TODAY: continue  # data futura: resta in scorta, nessuna pagina né sitemap
-        if a["d"] >= AUTO_FROM and not img_path(a["slug"]):
-            print(f"ATTENZIONE: {a['slug']} ({a['d']}) non ha ancora l'illustrazione: rimandato", file=sys.stderr)
+        if a["d"] >= AUTO_FROM and not img_path(a["key"]):
+            print(f"ATTENZIONE: {a['key']} ({a['d']}) non ha ancora l'illustrazione: rimandato", file=sys.stderr)
             continue
         live.append(a)
     live.sort(key=lambda a: (-a["d"].toordinal(), a["number"]))
     return live
 
-def itdate(d): return f"{d.day} {MESI[d.month-1]} {d.year}"
+def translate(arts, lg):
+    """Versione degli articoli nella lingua lg: solo quelli con traduzione in content/i18n/<lg>/."""
+    out, d = [], os.path.join(ROOT, "content/i18n", lg)
+    for a in arts:
+        p = os.path.join(d, a["key"] + ".md")
+        if not os.path.exists(p): continue
+        meta, body = read_md(p)
+        for k in ("title", "description", "slug"):
+            if not meta.get(k): sys.exit(f"Campo '{k}' mancante in {p}")
+        t = dict(a, title=meta["title"], description=meta["description"], cover=meta.get("cover", a.get("cover", "")),
+                 slug=meta["slug"], body=body, lang=lg, quote=meta.get("quote", ""), alt=meta.get("alt", ""),
+                 url=f"{prefix(lg)}/articles/{a['d']:%Y.%m.%d}/{meta['slug']}/")
+        t.pop("former", None)
+        out.append(t)
+    return out
 
 NUMERI = [  # (slug, numero, didascalia): cifre già verificate negli articoli. La home ne mostra 4 a rotazione.
     ("nebbiolo-vitigno-piu-difficile", "1268", "L'anno della prima menzione documentata di un vino chiamato «nibiol», vicino a Torino"),
@@ -86,53 +124,62 @@ NUMERI = [  # (slug, numero, didascalia): cifre già verificate negli articoli. 
     ("forma-del-calice", "1901", "L'anno delle misure di Hänig da cui nacque, per equivoco, la mappa della lingua"),
 ]
 
-def ver(rel):
-    """?v=<hash del file>: quando un'immagine cambia, cambia l'indirizzo e i browser non usano la copia vecchia."""
-    with open(os.path.join(ROOT, rel), "rb") as f:
-        return rel + "?v=" + hashlib.md5(f.read()).hexdigest()[:8]
+def numeri(lg):
+    """Didascalie dei NUMERI nella lingua lg (content/i18n/<lg>/_numeri.json: "slug|numero" -> testo)."""
+    if lg == "it": return NUMERI
+    p = os.path.join(ROOT, "content/i18n", lg, "_numeri.json")
+    tr = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+    return [(s, n, tr[f"{s}|{n}"]) for s, n, _ in NUMERI if f"{s}|{n}" in tr]
+
+# ---------------------------------------------------------------- pezzi di pagina
+
+def cat_name(lg, c): return L[lg]["cats"][c][0]
+def cat_desc(lg, c): return L[lg]["cats"][c][1]
+def cat_url(lg, c): return f"{prefix(lg)}/{L[lg]['cat_dir']}/{L[lg]['cats'][c][2]}/"
 
 def img(a, cls="", ar=None):
-    """Illustrazione dell'articolo (assets/img/<slug>.jpg|.webp|.png) o segnaposto colorato."""
-    bg, fg, _ = CATS[a["category"]]
+    """Illustrazione dell'articolo (assets/img/<slug-italiano>.jpg|.webp|.png) o segnaposto colorato."""
+    bg, fg = CATS[a["category"]]
     style = f"--c:{bg};--fg:{fg}" + (f";--ar:{ar}" if ar else "")
-    for ext in ("webp", "jpg", "png"):
-        rel = f"assets/img/{a['slug']}.{ext}"
-        if os.path.exists(os.path.join(ROOT, rel)):
-            return (f'<div class="ph {cls}" style="{style}"><img src="/{ver(rel)}" alt="{esc(a.get("alt") or a["title"])}" '
-                    f'loading="lazy" decoding="async"></div>')
+    src = img_path(a["key"])
+    if src:
+        return (f'<div class="ph {cls}" style="{style}"><img src="{src}" alt="{esc(a.get("alt") or a["title"])}" '
+                f'loading="lazy" decoding="async"></div>')
     name = a.get("cover") or a["title"]
     word = re.split(r"['’]", name.split()[-1])[-1]
     return f'<div class="ph {cls}" style="{style}" aria-hidden="true"><span class="ini">{esc(word[0].upper())}</span></div>'
 
-def img_path(slug):
-    for ext in ("webp", "jpg", "png"):
-        rel = f"assets/img/{slug}.{ext}"
-        if os.path.exists(os.path.join(ROOT, rel)):
-            return "/" + ver(rel)
-    return None
-
-CONSENSO = f'<script src="/assets/consenso.js" data-ga="{GA_ID}" defer></script>' if GA_ID else ""
-PREF = ' · <a href="#" onclick="vfPreferenzeCookie();return false">Preferenze cookie</a>' if GA_ID else ""
-
-def page(title, desc, path, content, active="", og_type="website", extra_head="", image=None):
+def page(lg, title, desc, path, content, active="", og_type="website", extra_head="", image=None, alts=None):
+    t = L[lg]
     image = image or img_path("og-vinofilo")
     og_img = (f'<meta property="og:image" content="{SITE}{image}"><meta property="og:image:width" content="1536">'
               f'<meta property="og:image:height" content="1024"><meta name="twitter:card" content="summary_large_image">'
               f'<meta name="twitter:image" content="{SITE}{image}">') if image else ""
-    nav = "".join(f'<a href="/categoria/{slugify(c)}/"{" class=on" if c == active else ""}>{c}</a>' for c in CATS)
+    alts = alts or {lg: path}
+    hreflang = "".join(f'<link rel="alternate" hreflang="{l}" href="{SITE}{u}">' for l, u in alts.items())
+    if "it" in alts: hreflang += f'<link rel="alternate" hreflang="x-default" href="{SITE}{alts["it"]}">'
+    nav = "".join(f'<a href="{cat_url(lg, c)}"{" class=on" if c == active else ""}>{esc(cat_name(lg, c))}</a>' for c in CATS)
+    langs = "".join(f'<a href="{alts.get(l, prefix(l) + "/")}" hreflang="{l}" lang="{l}"{" class=on" if l == lg else ""}>{L[l]["short"]}</a>'
+                    for l in AVAIL)
+    langbar = f'<nav class="langs" aria-label="{esc(t["languages"])}">{langs}</nav>' if len(AVAIL) > 1 else ""
+    home = prefix(lg) + "/"
     canon = SITE + path
     full_title = title if title == NAME else f"{title} — {NAME}"
+    consenso = (f'<script src="/{ver("assets/consenso.js")}" data-ga="{GA_ID}" data-t="{esc(t["banner"])}" data-ok="{esc(t["accept"])}" '
+                f'data-no="{esc(t["reject"])}" data-p="{esc(t["privacy"])}" data-pu="{prefix(lg)}/privacy/" defer></script>') if GA_ID else ""
+    pref = f' · <a href="#" onclick="vfPreferenzeCookie();return false">{esc(t["cookie_prefs"])}</a>' if GA_ID else ""
     return f"""<!doctype html>
-<html lang="it">
+<html lang="{lg}" dir="{t['dir']}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(full_title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{canon}">
+{hreflang}
 <meta property="og:type" content="{og_type}"><meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{canon}">
-<meta property="og:site_name" content="{NAME}"><meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="{NAME}"><meta property="og:locale" content="{t['locale']}">
 {og_img}
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta name="robots" content="max-image-preview:large">
@@ -141,33 +188,37 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 {FONTS}
 <link rel="stylesheet" href="/{ver("assets/style.css")}">
 {extra_head}
-{CONSENSO}
+{consenso}
 </head>
 <body>
 <header class="masthead"><div class="wrap">
-<a href="/" class="wordmark">VINOFILO</a><p class="tagline">{TAGLINE}</p>
+{langbar}
+<a href="{home}" class="wordmark">VINOFILO</a><p class="tagline">{esc(t['tagline'])}</p>
 </div></header>
 <div class="wrap"><nav class="nav">{nav}</nav></div>
 <main>
 {content}
 </main>
-<footer><div class="wrap"><a href="/" class="wordmark">VINOFILO</a><p>{TAGLINE} · © {TODAY.year} · <a href="/privacy/">Privacy e cookie</a>{PREF}</p></div></footer>
+<footer><div class="wrap"><a href="{home}" class="wordmark">VINOFILO</a><p>{esc(t['tagline'])} · © {TODAY.year} · <a href="{prefix(lg)}/privacy/">{esc(t['privacy'])}</a>{pref}</p>
+{langbar.replace('class="langs"', 'class="langs foot"')}</div></footer>
 </body>
 </html>
 """
 
-def card(a, desc=True):
+def kick(lg, a, date=True):
+    return f'<div class="kick">{esc(cat_name(lg, a["category"]))}' + (f' <span>· {fmt_date(lg, a["d"])}</span>' if date else "") + '</div>'
+
+def card(lg, a, desc=True):
     d = f'<p>{esc(a["description"])}</p>' if desc else ""
-    return (f'<a class="card" href="{a["url"]}">{img(a)}<div class="kick">{esc(a["category"])} <span>· {itdate(a["d"])}</span></div>'
-            f'<h3>{esc(a["title"])}</h3>{d}</a>')
+    return f'<a class="card" href="{a["url"]}">{img(a)}{kick(lg, a)}<h3>{esc(a["title"])}</h3>{d}</a>'
 
-def circle(a):
+def circle(lg, a):
     sub = a.get("tagline") or a["description"]
-    return (f'<a href="{a["url"]}">{img(a, "circle")}<h3>{esc(a["title"].split(":")[0])}</h3>'
-            f'<p>{esc(sub)}</p><div class="tags">in <b>{esc(a["category"])}</b></div></a>')
+    return (f'<a href="{a["url"]}">{img(a, "circle")}<h3>{esc(re.split(r"[:：]", a["title"])[0])}</h3>'
+            f'<p>{esc(sub)}</p><div class="tags">{esc(L[lg]["in_cat"])} <b>{esc(cat_name(lg, a["category"]))}</b></div></a>')
 
-def sect(title, sub="", link=None):
-    l = f'<a href="{link}">Vedi tutti ›</a>' if link else ""
+def sect(title, sub="", link=None, lg="it"):
+    l = f'<a href="{link}">{esc(L[lg]["see_all"])}</a>' if link else ""
     s = f'<p class="sect-sub">{esc(sub)}</p>' if sub else ""
     return f'<div class="sect"><h2>{esc(title)}</h2>{l}</div>{s}'
 
@@ -176,164 +227,189 @@ def write(rel, text):
     os.makedirs(os.path.dirname(p), exist_ok=True)
     open(p, "w", encoding="utf-8").write(text)
 
-def build():
-    arts = load()
-    if not arts: sys.exit("Nessun articolo pubblicabile")
-    # pulizia output generato
-    for d in ("articles", "categoria"):
-        shutil.rmtree(os.path.join(ROOT, d), ignore_errors=True)
+def short_title(a):
+    return a.get("cover") or re.split(r"[:：,，]", a["title"])[0]
+
+# ---------------------------------------------------------------- generazione
+
+def build_lang(lg, arts, alt_art, md, sitemap):
+    t, P = L[lg], prefix(lg)
+    mins = lambda a: max(1, round(a["words"] / 220))
 
     # Articoli
-    md = markdown.Markdown(extensions=["extra", "smarty"], extension_configs={"smarty": {"substitutions": {
-        "left-double-quote": "“", "right-double-quote": "”", "left-single-quote": "‘", "right-single-quote": "’"}}})
     for a in arts:
-        # vecchi indirizzi (es. articolo spostato di data): pagina di rimando verso quello nuovo
-        for old in filter(None, (u.strip() for u in a.get("former", "").split(","))):
-            new = SITE + a["url"]
-            write(old.strip("/") + "/index.html",
-                  f'<!doctype html><html lang="it"><head><meta charset="utf-8"><title>{esc(a["title"])}</title>'
-                  f'<link rel="canonical" href="{new}"><meta name="robots" content="noindex">'
-                  f'<meta http-equiv="refresh" content="0; url={a["url"]}"></head>'
-                  f'<body><p><a href="{a["url"]}">{esc(a["title"])}</a></p></body></html>\n')
+        if lg == "it":  # vecchi indirizzi (articolo spostato di data): pagina di rimando verso quello nuovo
+            for old in filter(None, (u.strip() for u in a.get("former", "").split(","))):
+                new = SITE + a["url"]
+                write(old.strip("/") + "/index.html",
+                      f'<!doctype html><html lang="it"><head><meta charset="utf-8"><title>{esc(a["title"])}</title>'
+                      f'<link rel="canonical" href="{new}"><meta name="robots" content="noindex">'
+                      f'<meta http-equiv="refresh" content="0; url={a["url"]}"></head>'
+                      f'<body><p><a href="{a["url"]}">{esc(a["title"])}</a></p></body></html>\n')
         md.reset()
         body = md.convert(a["body"])
         body = re.sub(r"(\w)‘(\d)", r"\1’\2", body)  # l’80%, non l‘80%
-        mins = max(1, round(a["words"] / 220))
         rel = [x for x in arts if x is not a and x["category"] == a["category"]][:3]
         rel += [x for x in arts if x is not a and x not in rel][:3 - len(rel)]
+        im = img_path(a["key"])
         ld = ('<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article",'
               f'"headline":{jsonstr(a["title"])},"description":{jsonstr(a["description"])},'
-              f'"datePublished":"{a["d"].isoformat()}","inLanguage":"it","mainEntityOfPage":"{SITE}{a["url"]}",'
+              f'"datePublished":"{a["d"].isoformat()}","inLanguage":"{lg}","mainEntityOfPage":"{SITE}{a["url"]}",'
               f'"publisher":{{"@type":"Organization","name":"{NAME}"}}'
-              + (f',"image":"{SITE}{img_path(a["slug"])}"' if img_path(a["slug"]) else "") + '}</script>')
+              + (f',"image":"{SITE}{im}"' if im else "") + '}</script>')
         content = f"""<article>
-<header class="art-head"><div class="kick"><a href="/categoria/{slugify(a['category'])}/">{esc(a['category'])}</a></div>
+<header class="art-head"><div class="kick"><a href="{cat_url(lg, a['category'])}">{esc(cat_name(lg, a['category']))}</a></div>
 <h1>{esc(a['title'])}</h1><p class="standfirst">{esc(a['description'])}</p>
-<div class="byline">{itdate(a['d'])} · {mins} minuti di lettura</div></header>
+<div class="byline">{fmt_date(lg, a['d'])} · {t['read_time'].format(n=mins(a))}</div></header>
 <div class="art-cover">{img(a)}</div>
 <div class="body">{body}<p class="fin">❦</p></div>
 </article>
-<section class="wrap related">{sect("Da leggere ancora")}<div class="row3">{''.join(card(x) for x in rel)}</div></section>"""
+<section class="wrap related">{sect(t['more'], lg=lg)}<div class="row3">{''.join(card(lg, x) for x in rel)}</div></section>"""
+        alts = alt_art[a["key"]]
         write(a["url"].strip("/") + "/index.html",
-              page(a["title"], a["description"], a["url"], content, a["category"], "article", ld, img_path(a["slug"])))
+              page(lg, a["title"], a["description"], a["url"], content, a["category"], "article", ld, im, alts))
+        sitemap.append((a["url"], a["d"], alts))
 
     # Home
     lead, side, rest = arts[0], arts[1:4], arts[4:]
     circ, rest = rest[:6], rest[6:]
     row, rest = rest[:4], rest[4:]
-    longr = rest[0] if rest else None
     q = next((a for a in arts if a.get("quote")), arts[min(3, len(arts) - 1)])
     qtext = q.get("quote") or q["description"]
-    side_html = "".join(f'<a href="{a["url"]}">{img(a) if i == 0 else ""}<div class="kick">{esc(a["category"])}</div>'
-                        f'<h3>{esc(a["title"])}</h3><div class="meta">{itdate(a["d"])}</div></a>' for i, a in enumerate(side))
+    side_html = "".join(f'<a href="{a["url"]}">{img(a) if i == 0 else ""}{kick(lg, a, False)}'
+                        f'<h3>{esc(a["title"])}</h3><div class="meta">{fmt_date(lg, a["d"])}</div></a>' for i, a in enumerate(side))
     home = f"""<div class="wrap">
 <section class="hero"><a class="hero-main" href="{lead['url']}">{img(lead, ar="3/2")}
-<div class="kick" style="margin-top:18px">{esc(lead['category'])} <span>· {itdate(lead['d'])}</span></div>
+<div class="kick" style="margin-top:18px">{esc(cat_name(lg, lead['category']))} <span>· {fmt_date(lg, lead['d'])}</span></div>
 <h2>{esc(lead['title'])}</h2><p>{esc(lead['description'])}</p></a>
 <div class="side-list">{side_html}</div></section>"""
     if circ:
-        home += sect("Da bere e da sapere", "Una selezione dall'archivio di Vinofilo") + f'<div class="circles">{"".join(circle(a) for a in circ)}</div>'
+        home += sect(t["selection"], t["selection_sub"]) + f'<div class="circles">{"".join(circle(lg, a) for a in circ)}</div>'
     home += "</div>"
     home += f'<section class="quote"><div class="wrap"><p>“{esc(qtext)}”</p><a href="{q["url"]}">{esc(q["title"])} →</a></div></section>'
     home += '<div class="wrap">'
-    # Seconda apertura, specchiata: la lettura più lunga fra quelle sotto la prima apertura
     pool = [a for a in arts if a not in [lead] + side]
-    if len(pool) >= 4:
+    if len(pool) >= 4:  # seconda apertura, specchiata: la lettura più lunga
         lead2 = max(pool, key=lambda a: a["words"])
         side2 = [a for a in pool if a is not lead2][-3:]
-        side2_html = "".join(f'<a href="{a["url"]}">{img(a) if i == 0 else ""}<div class="kick">{esc(a["category"])}</div>'
-                             f'<h3>{esc(a["title"])}</h3><div class="meta">{itdate(a["d"])}</div></a>' for i, a in enumerate(side2))
+        side2_html = "".join(f'<a href="{a["url"]}">{img(a) if i == 0 else ""}{kick(lg, a, False)}'
+                             f'<h3>{esc(a["title"])}</h3><div class="meta">{fmt_date(lg, a["d"])}</div></a>' for i, a in enumerate(side2))
         home += f"""<section class="hero rev">
 <div class="side-list">{side2_html}</div>
 <a class="hero-main" href="{lead2['url']}">{img(lead2, ar="3/2")}
-<div class="kick" style="margin-top:18px">Lettura lunga <span>· {esc(lead2['category'])} · {round(lead2['words'] / 220)} minuti</span></div>
+<div class="kick" style="margin-top:18px">{esc(t['long_read'])} <span>· {esc(cat_name(lg, lead2['category']))} · {t['minutes'].format(n=mins(lead2))}</span></div>
 <h2>{esc(lead2['title'])}</h2><p>{esc(lead2['description'])}</p></a></section>"""
-    by = {a["slug"]: a for a in arts}
-    pool_n = [{"u": by[sl]["url"], "n": n, "t": t} for sl, n, t in NUMERI if sl in by]
+    by = {a["key"]: a for a in arts}
+    pool_n = [{"u": by[sl]["url"], "n": n, "t": tx} for sl, n, tx in numeri(lg) if sl in by]
     if len(pool_n) >= 4:
         first, used = [], set()
         for x in pool_n:
             if x["u"] not in used: first.append(x); used.add(x["u"])
             if len(first) == 4: break
-        cells = "".join(f'<a href="{x["u"]}"><b>{esc(x["n"])}</b><p>{esc(x["t"])}</p><span>Leggi ›</span></a>' for x in first)
+        rd = t["read"]
+        cells = "".join(f'<a href="{x["u"]}"><b>{esc(x["n"])}</b><p>{esc(x["t"])}</p><span>{esc(rd)}</span></a>' for x in first)
         data = json.dumps(pool_n, ensure_ascii=False).replace("</", "<\\/")
-        home += sect("I numeri", "Cifre da raccontare a cena") + f'<div class="nums" id="nums">{cells}</div>' + (
-            '<script>(function(){var P=' + data + ';var o=[],u={};P.sort(function(){return Math.random()-.5});'
+        home += sect(t["numbers"], t["numbers_sub"]) + f'<div class="nums" id="nums">{cells}</div>' + (
+            '<script>(function(){var P=' + data + ',R=' + jsonstr(rd) + ';var o=[],u={};P.sort(function(){return Math.random()-.5});'
             'for(var i=0;i<P.length&&o.length<4;i++){if(!u[P[i].u]){u[P[i].u]=1;o.push(P[i])}}'
             'var e=function(s){return s.replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;","\\"":"&quot;"}[c]})};'
-            'document.getElementById("nums").innerHTML=o.map(function(x){return\'<a href="\'+x.u+\'"><b>\'+e(x.n)+\'</b><p>\'+e(x.t)+\'</p><span>Leggi ›</span></a>\'}).join("")})();</script>')
+            'document.getElementById("nums").innerHTML=o.map(function(x){return\'<a href="\'+x.u+\'"><b>\'+e(x.n)+\'</b><p>\'+e(x.t)+\'</p><span>\'+e(R)+\'</span></a>\'}).join("")})();</script>')
     if row:
-        home += sect("Ultimi articoli", "Appena usciti dalla cantina") + f'<div class="row4">{"".join(card(a, False) for a in row)}</div>'
+        home += sect(t["latest"], t["latest_sub"]) + f'<div class="row4">{"".join(card(lg, a, False) for a in row)}</div>'
     counts = {c: sum(1 for a in arts if a["category"] == c) for c in CATS}
-    shown = set(re.findall(r'href="(/articles/[^"]+)"', home))
-    CAT_IMG = {"Vitigni": "vitigni-dimenticati-che-tornano", "Territori": "chianti-e-chianti-classico",
-               "Tecnica": "barrique-botte-cemento-acciaio", "Servizio": "forma-del-calice",
-               "Guide": "vino-al-ristorante-carta-dei-vini"}  # immagine scelta per ogni tema
+    shown = set(re.findall(r'href="([^"]*/articles/[^"]+)"', home))
     def cat_pick(c):  # immagine scelta; se manca, l'articolo più recente non già visibile in home
         its = [a for a in arts if a["category"] == c]
-        fav = next((a for a in its if a["slug"] == CAT_IMG.get(c)), None)
+        fav = next((a for a in its if a["key"] == CAT_IMG.get(c)), None)
         return fav or (next((a for a in its if a["url"] not in shown), its[0]) if its else None)
-    style = os.environ.get("CATS_STYLE", "indice")
-    if style == "tessere":
-        tiles = ""
-        for i, (c, v) in enumerate(CATS.items(), 1):
-            a = cat_pick(c)
-            tiles += (f'<a href="/categoria/{slugify(c)}/">{img(a, ar="4/5") if a else ""}<span class="t-n">{i:02d}</span>'
-                      f'<h3>{c}</h3><p>{esc(v[2])}</p><span class="t-c">{counts[c]} articoli ›</span></a>')
-        home += sect("Esplora per tema") + f'<div class="tess" id="esplora">{tiles}</div></div>'
-    else:
-        rows = ""
-        for i, (c, v) in enumerate(CATS.items(), 1):
-            its = [a for a in arts if a["category"] == c]
-            a = cat_pick(c)
-            tit = "".join(f'<li>{esc(x.get("cover") or x["title"].split(":")[0].split(",")[0])}</li>' for x in its[:3])
-            rows += (f'<a class="ix" href="/categoria/{slugify(c)}/"><span class="ix-n">{i:02d}</span>{img(a, "ix-ph", "1/1") if a else ""}'
-                     f'<div class="ix-m"><h3>{c}</h3><p>{esc(v[2])}</p></div><ul class="ix-l">{tit}</ul>'
-                     f'<span class="ix-c">{counts[c]} articoli ›</span></a>')
-        home += sect("Esplora per tema", "L'archivio di Vinofilo in cinque capitoli") + f'<div class="idx" id="esplora">{rows}</div></div>'
-
-    write("index.html", page(NAME, f"{NAME}: {TAGLINE.lower()}. Vitigni, territori, tecnica e servizio raccontati con un punto di vista.", "/", home))
+    rows = ""
+    for i, c in enumerate(CATS, 1):
+        its = [a for a in arts if a["category"] == c]
+        a = cat_pick(c)
+        tit = "".join(f'<li>{esc(short_title(x))}</li>' for x in its[:3])
+        rows += (f'<a class="ix" href="{cat_url(lg, c)}"><span class="ix-n">{i:02d}</span>{img(a, "ix-ph", "1/1") if a else ""}'
+                 f'<div class="ix-m"><h3>{esc(cat_name(lg, c))}</h3><p>{esc(cat_desc(lg, c))}</p></div><ul class="ix-l">{tit}</ul>'
+                 f'<span class="ix-c">{esc(t["n_articles"].format(n=counts[c]))} {"‹" if t["dir"] == "rtl" else "›"}</span></a>')
+    home += sect(t["explore"], t["explore_sub"]) + f'<div class="idx" id="esplora">{rows}</div></div>'
+    home_alts = {l: prefix(l) + "/" for l in ORDINE if alt_art.get("__home__", {}).get(l)}
+    write((P.strip("/") + "/index.html").lstrip("/"), page(lg, NAME, t["home_desc"], P + "/", home, alts=home_alts))
+    sitemap.append((P + "/", arts[0]["d"], home_alts))
 
     # Categorie
+    cat_alts = {c: {l: cat_url(l, c) for l in home_alts} for c in CATS}
     for c in CATS:
         items = [a for a in arts if a["category"] == c]
-        inner = "".join(card(a) for a in items) or "<p>Articoli in arrivo.</p>"
-        content = f'<div class="wrap"><div class="cat-head"><div class="kick">{esc(CATS[c][2])}</div><h1>{c}</h1></div>{sect(f"{len(items)} articoli")}<div class="row3">{inner}</div></div>'
-        write(f"categoria/{slugify(c)}/index.html", page(c, f"Articoli su {c.lower()} del vino — {NAME}.", f"/categoria/{slugify(c)}/", content, c))
+        inner = "".join(card(lg, a) for a in items) or f"<p>{esc(t['coming'])}</p>"
+        content = (f'<div class="wrap"><div class="cat-head"><div class="kick">{esc(cat_desc(lg, c))}</div><h1>{esc(cat_name(lg, c))}</h1></div>'
+                   f'{sect(t["n_articles"].format(n=len(items)))}<div class="row3">{inner}</div></div>')
+        u = cat_url(lg, c)
+        write(u.strip("/") + "/index.html",
+              page(lg, cat_name(lg, c), t["cat_desc"].format(cat=cat_name(lg, c), desc=cat_desc(lg, c)), u, content, c, alts=cat_alts[c]))
+        sitemap.append((u, None, cat_alts[c]))
 
-    # Pagine statiche (content/pagine/*.md): privacy ecc.
-    pages = []
-    pdir = os.path.join(ROOT, "content/pagine")
+    # Pagine statiche (privacy ecc.): italiano in content/pagine/, traduzioni in content/i18n/<lg>/pagine/
+    pdir = os.path.join(ROOT, "content/pagine") if lg == "it" else os.path.join(ROOT, "content/i18n", lg, "pagine")
     for fn in sorted(os.listdir(pdir)) if os.path.isdir(pdir) else []:
         if not fn.endswith(".md"): continue
-        raw = open(os.path.join(pdir, fn), encoding="utf-8").read()
-        m = re.match(r"---\n(.*?)\n---\n(.*)", raw, re.S)
-        meta = {k.strip(): v.strip() for k, v in (l.split(":", 1) for l in m.group(1).splitlines() if ":" in l)}
-        txt = m.group(2).strip()
+        meta, txt = read_md(os.path.join(pdir, fn))
         keep, drop = ("ga", "noga") if GA_ID else ("noga", "ga")
         txt = re.sub(rf"<!--{drop}-->.*?<!--/{drop}-->\n?", "", txt, flags=re.S)
         txt = re.sub(rf"<!--/?{keep}-->\n?", "", txt)
         md.reset()
         body = md.convert(txt)
-        path = f"/{meta['slug']}/"
+        path = f"{P}/{meta['slug']}/"
+        palts = {l: f"{prefix(l)}/{meta['slug']}/" for l in ORDINE
+                 if l == "it" or os.path.exists(os.path.join(ROOT, "content/i18n", l, "pagine", fn))}
         content = (f'<article><header class="art-head"><h1>{esc(meta["title"])}</h1></header>'
                    f'<div class="body page">{body}</div></article>')
-        shutil.rmtree(os.path.join(ROOT, meta["slug"]), ignore_errors=True)
-        write(f"{meta['slug']}/index.html", page(meta["title"], meta["description"], path, content))
-        pages.append(path)
+        if lg == "it": shutil.rmtree(os.path.join(ROOT, meta["slug"]), ignore_errors=True)
+        write(path.strip("/") + "/index.html", page(lg, meta["title"], meta["description"], path, content, alts=palts))
+        sitemap.append((path, None, palts))
 
-    # 404, sitemap, robots
-    write("404.html", page("Pagina non trovata", "Pagina non trovata.", "/404.html",
-          '<div class="wrap"><div class="cat-head"><h1>Bottiglia vuota</h1><p class="standfirst">Questa pagina non esiste. <a href="/" style="color:var(--accent)">Torna alla home ›</a></p></div></div>'))
-    urls = [("/", arts[0]["d"])] + [(a["url"], a["d"]) for a in arts] + [(f"/categoria/{slugify(c)}/", None) for c in CATS] + [(p, None) for p in pages]
-    sm = "".join(f"<url><loc>{SITE}{u}</loc>{f'<lastmod>{d.isoformat()}</lastmod>' if d else ''}</url>" for u, d in urls)
-    write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
+def build():
+    base = load()
+    if not base: sys.exit("Nessun articolo pubblicabile")
+    by_lang = {"it": base}
+    for lg in ORDINE[1:]:
+        if lg not in ATTIVE: continue
+        tr = translate(base, lg)
+        if tr: by_lang[lg] = tr
+    # mappa delle versioni di ogni articolo: chiave italiana -> {lingua: url}
+    alt_art = {a["key"]: {} for a in base}
+    for lg in ORDINE:
+        for a in by_lang.get(lg, []): alt_art[a["key"]][lg] = a["url"]
+    alt_art["__home__"] = {lg: True for lg in by_lang}
+    AVAIL[:] = [lg for lg in ORDINE if lg in by_lang]
+
+    # pulizia output generato
+    for d in ("articles", "categoria"):
+        shutil.rmtree(os.path.join(ROOT, d), ignore_errors=True)
+    for lg in ORDINE[1:]:
+        shutil.rmtree(os.path.join(ROOT, lg), ignore_errors=True)
+
+    md = markdown.Markdown(extensions=["extra", "smarty"], extension_configs={"smarty": {"substitutions": {
+        "left-double-quote": "“", "right-double-quote": "”", "left-single-quote": "‘", "right-single-quote": "’"}}})
+    sitemap = []
+    for lg in ORDINE:
+        if lg in by_lang:
+            build_lang(lg, by_lang[lg], alt_art, md, sitemap)
+
+    # 404, sitemap (con hreflang), robots
+    t = L["it"]
+    write("404.html", page("it", t["nf_title"], t["nf_title"] + ".", "/404.html",
+          f'<div class="wrap"><div class="nf"><b>{t["nf_big"]}</b><h1>{t["nf_h1"]}</h1><p class="standfirst">{t["nf_text"]}</p>'
+          f'<a href="/">{t["nf_back"]}</a></div></div>'))
+    def url_xml(u, d, alts):
+        x = f"<url><loc>{SITE}{u}</loc>" + (f"<lastmod>{d.isoformat()}</lastmod>" if d else "")
+        if len(alts) > 1:
+            x += "".join(f'<xhtml:link rel="alternate" hreflang="{l}" href="{SITE}{v}"/>' for l, v in alts.items())
+            if "it" in alts: x += f'<xhtml:link rel="alternate" hreflang="x-default" href="{SITE}{alts["it"]}"/>'
+        return x + "</url>"
+    sm = "".join(url_xml(*s) for s in sitemap)
+    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+          f'xmlns:xhtml="http://www.w3.org/1999/xhtml">{sm}</urlset>\n')
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
-    print(f"OK: {len(arts)} articoli pubblicati")
-
-def jsonstr(s):
-    import json
-    return json.dumps(s, ensure_ascii=False)
+    print(f"OK: {len(base)} articoli pubblicati; lingue: " + ", ".join(f"{lg} {len(v)}" for lg, v in by_lang.items()))
 
 if __name__ == "__main__":
     build()
