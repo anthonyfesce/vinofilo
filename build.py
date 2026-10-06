@@ -246,9 +246,21 @@ def build():
             'document.getElementById("nums").innerHTML=o.map(function(x){return\'<a href="\'+x.u+\'"><b>\'+e(x.n)+\'</b><p>\'+e(x.t)+\'</p><span>Leggi ›</span></a>\'}).join("")})();</script>')
     if row:
         home += sect("Ultimi articoli", "Appena usciti dalla cantina") + f'<div class="row4">{"".join(card(a, False) for a in row)}</div>'
-    counts = {c: sum(1 for a in arts if a["category"] == c) for c in CATS}
-    tiles = "".join(f'<a href="/categoria/{slugify(c)}/" style="--c:{v[0]};--fg:{v[1]}"><b>{c}</b><span>{v[2]} · {counts[c]} articoli</span></a>' for c, v in CATS.items())
-    home += sect("Esplora per tema") + f'<div class="cats">{tiles}</div></div>'
+    # Esplora per tema: per ogni categoria una copertina (illustrazione non già usata sopra) e i titoli più recenti
+    shown = {id(x) for x in [lead] + side + circ + row}
+    if len(pool) >= 4: shown |= {id(lead2)} | {id(x) for x in side2}
+    tiles = ""
+    for c, v in CATS.items():
+        items = [a for a in arts if a["category"] == c]
+        if not items: continue
+        cover = next((a for a in items if id(a) not in shown and img_path(a["slug"])), items[0])
+        shown.add(id(cover))
+        cu = f"/categoria/{slugify(c)}/"
+        links = "".join(f'<li><a href="{a["url"]}">{esc(a["title"].split(":")[0])}</a></li>' for a in items[:3])
+        tiles += (f'<div class="theme" style="--c:{v[0]}"><a class="theme-cover" href="{cu}">{img(cover, ar="3/4")}'
+                  f'<span class="theme-name"><b>{esc(c)}</b><i>{esc(v[2])}</i></span></a>'
+                  f'<ul>{links}</ul><a class="theme-all" href="{cu}">Tutti i {len(items)} articoli ›</a></div>')
+    home += sect("Esplora per tema", "Cinque porte d'ingresso all'archivio") + f'<div class="themes">{tiles}</div></div>'
     write("index.html", page(NAME, f"{NAME}: {TAGLINE.lower()}. Vitigni, territori, tecnica e servizio raccontati con un punto di vista.", "/", home))
 
     # Categorie
