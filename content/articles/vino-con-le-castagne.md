@@ -1,6 +1,6 @@
 ---
 date: 2026-10-11
-number: 48
+number: 49
 title: Castagne e vino: il novello, e tutto quello che viene dopo
 description: Caldarroste, castagnaccio, marron glacé e zuppe: perché il novello è l'abbinamento classico e quali vini fanno ancora meglio, da San Martino al Recioto.
 category: Servizio

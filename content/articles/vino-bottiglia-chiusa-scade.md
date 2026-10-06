@@ -1,6 +1,6 @@
 ---
 date: 2026-11-06
-number: 85
+number: 101
 title: Il vino in bottiglia chiusa scade? Cosa non dice l'etichetta
 description: Perché sul vino non c'è data di scadenza, quali bottiglie vanno bevute giovani, quali reggono anni e come capire se un vino chiuso è andato.
 category: Servizio

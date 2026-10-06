@@ -1,6 +1,6 @@
 ---
 date: 2026-11-12
-number: 91
+number: 113
 title: Che vino con le lasagne, dalla bolognese a quella di Carnevale
 description: Bolognese, al pesto, ai funghi, vegetariane o napoletane di Carnevale. Quale vino scegliere per ogni lasagna, tra Sangiovese, Lambrusco e Barbera.
 category: Guide

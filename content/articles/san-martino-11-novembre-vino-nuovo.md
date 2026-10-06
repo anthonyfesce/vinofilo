@@ -1,6 +1,6 @@
 ---
 date: 2026-10-27
-number: 72
+number: 81
 title: San Martino, il giorno in cui ogni mosto diventa vino
 description: L'11 novembre, San Martino: origini della festa, l'estate di San Martino, le tradizioni regionali col vino nuovo e cosa stappare quel giorno.
 category: Guide

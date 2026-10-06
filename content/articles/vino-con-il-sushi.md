@@ -1,6 +1,6 @@
 ---
 date: 2026-10-17
-number: 58
+number: 62
 title: Che vino con il sushi: bollicine, Riesling e i rossi da lasciare a casa
 description: Soia, wasabi, salmone e tempura: perché con il sushi funzionano bollicine secche, Riesling e rosati, e quali vini evitare. Con esempi italiani.
 category: Servizio

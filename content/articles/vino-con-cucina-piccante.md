@@ -1,6 +1,6 @@
 ---
 date: 2026-10-31
-number: 78
+number: 89
 title: Che vino con il piccante? Zucchero, acidità e poco alcol
 description: Curry, tom yum, mala del Sichuan e 'nduja. Perché alcol e tannino accendono il bruciore e quali vini lo domano davvero, dal Riesling ai rosati.
 category: Guide

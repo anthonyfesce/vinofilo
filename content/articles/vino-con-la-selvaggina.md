@@ -1,6 +1,6 @@
 ---
 date: 2026-11-04
-number: 83
+number: 98
 title: Che vino con la selvaggina, dal cinghiale al fagiano senza sbagliare
 description: Cinghiale, cervo, capriolo, lepre e fagiano chiedono rossi diversi. Una guida agli abbinamenti, dal salmì al civet, con i grandi vini italiani.
 category: Guide

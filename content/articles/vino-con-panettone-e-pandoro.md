@@ -1,6 +1,6 @@
 ---
 date: 2026-11-17
-number: 96
+number: 123
 title: Panettone e pandoro, smettete di stappare il brut
 description: Perché lo spumante secco con il dolce di Natale non funziona e quali vini scegliere davvero tra Moscato d'Asti, passiti, Recioto e Brachetto.
 category: Guide

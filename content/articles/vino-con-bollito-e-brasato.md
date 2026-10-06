@@ -1,6 +1,6 @@
 ---
 date: 2026-11-11
-number: 90
+number: 111
 title: Che vino con bollito e brasato? Il rosso giusto per la carne d'inverno
 description: Bollito piemontese e lombardo con le salse, brasato al Barolo, cotechino e lenticchie. Quale vino mettere in pentola e quale versare nel bicchiere.
 category: Guide

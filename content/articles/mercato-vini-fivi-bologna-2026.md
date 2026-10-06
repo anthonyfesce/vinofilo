@@ -1,6 +1,6 @@
 ---
 date: 2026-10-22
-number: 66
+number: 72
 title: Mercato dei Vini FIVI 2026: mille vignaioli, un carrello, Bologna
 description: Dal 21 al 23 novembre BolognaFiere ospita il 15° Mercato dei Vini FIVI: mille vignaioli indipendenti che vendono senza intermediari. Come muoversi.
 category: Guide

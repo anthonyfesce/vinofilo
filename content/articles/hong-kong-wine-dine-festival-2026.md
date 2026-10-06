@@ -1,6 +1,6 @@
 ---
 date: 2026-10-14
-number: 52
+number: 56
 title: Hong Kong Wine & Dine 2026: il porto dove il vino non paga dazio
 description: Dal 29 ottobre al 1° novembre Hong Kong apre il suo Wine & Dine Festival sul porto: storia, Bordeaux, cosa aspettarsi e cosa stappare da casa.
 category: Guide

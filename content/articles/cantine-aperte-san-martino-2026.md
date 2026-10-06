@@ -1,6 +1,6 @@
 ---
 date: 2026-10-17
-number: 57
+number: 61
 title: Cantine Aperte a San Martino 2026: il vino nuovo si assaggia in vasca
 description: Dall'1 al 15 novembre le cantine del Movimento Turismo del Vino aprono le porte per il vino nuovo. Come organizzarsi, cosa chiedere, cosa aspettarsi.
 category: Guide

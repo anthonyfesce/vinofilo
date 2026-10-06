@@ -1,6 +1,6 @@
 ---
 date: 2026-10-15
-number: 54
+number: 58
 title: Quante bottiglie per una cena? Il conto che nessuno vuole fare
 description: Quanti calici in una bottiglia, quanto vino a testa, in che ordine servirlo e a che temperatura: la guida pratica per una cena tra amici o una festa.
 category: Guide

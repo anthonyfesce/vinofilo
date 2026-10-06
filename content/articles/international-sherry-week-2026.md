@@ -1,6 +1,6 @@
 ---
 date: 2026-10-18
-number: 59
+number: 63
 title: International Sherry Week 2026: sette giorni per smettere di snobbare Jerez
 description: Dal 2 all'8 novembre torna la International Sherry Week: cos'è lo Sherry, come si leggono i suoi stili e cosa abbinare, anche a tavola all'italiana.
 category: Guide

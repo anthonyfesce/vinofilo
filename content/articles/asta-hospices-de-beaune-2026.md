@@ -1,6 +1,6 @@
 ---
 date: 2026-10-16
-number: 55
+number: 59
 title: Hospices de Beaune 2026: l'asta che fa il prezzo alla Borgogna
 description: Il 15 novembre alle Halles di Beaune la 166a Vente des Vins des Hospices: storia, regole dell'asta e perché tutto il mercato la osserva.
 category: Guide

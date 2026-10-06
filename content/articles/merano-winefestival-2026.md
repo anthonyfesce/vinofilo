@@ -1,6 +1,6 @@
 ---
 date: 2026-10-20
-number: 62
+number: 67
 title: Merano WineFestival 2026: cinque giorni di vino al Kurhaus
 description: Dal 6 al 10 novembre la 35a edizione del Merano WineFestival torna al Kurhaus: storia, selezioni WineHunter, cosa aspettarsi e cosa stappare.
 category: Guide

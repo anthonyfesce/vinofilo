@@ -1,6 +1,6 @@
 ---
 date: 2026-11-10
-number: 89
+number: 109
 title: Vino in pentola, quale usare davvero e cosa resta dell'alcol
 description: Bianco o rosso, sfumare, brasati, risotti e dolci. Quale vino usare in cucina e quanto alcol resta davvero dopo la cottura.
 category: Guide

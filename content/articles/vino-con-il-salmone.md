@@ -1,6 +1,6 @@
 ---
 date: 2026-11-15
-number: 94
+number: 119
 title: Che vino con il salmone, dalle tartine delle feste alla griglia
 description: Affumicato, crudo, al forno o alla griglia. Quattro salmoni e quattro vini, dal metodo classico al Pinot Nero, senza paura del rosso.
 category: Guide

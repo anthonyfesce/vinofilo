@@ -1,6 +1,6 @@
 ---
 date: 2026-10-22
-number: 65
+number: 71
 title: Decanter Fine Wine Encounter: Londra stappa mille vini in due giorni
 description: Il 6 e 7 novembre il Decanter Fine Wine Encounter torna al Landmark di Londra: cos'è un fine wine e come sopravvivere a un grande tasting.
 category: Guide

@@ -1,6 +1,6 @@
 ---
 date: 2026-10-26
-number: 71
+number: 79
 title: Fumo, grasso e tannino: che vino aprire per la grigliata
 description: Costine, fiorentina, agnello, pollo, verdure e pesce alla brace: quale vino italiano scegliere, perché funziona e a che temperatura servirlo.
 category: Servizio

@@ -1,6 +1,6 @@
 ---
 date: 2026-11-08
-number: 87
+number: 105
 title: Le migliori bollicine sotto i 15 euro, denominazione per denominazione
 description: Prosecco Superiore, Trento DOC, Crémant, Cava, Oltrepò, Lambrusco e Asti, ecco cosa cercare in etichetta per bere bene sotto i 15 euro.
 category: Guide

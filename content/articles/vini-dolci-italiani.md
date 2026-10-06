@@ -1,6 +1,6 @@
 ---
 date: 2026-11-14
-number: 93
+number: 117
 title: I grandi vini dolci italiani, una mappa dalle Alpi alle isole
 description: Appassimento, muffa nobile, vendemmia tardiva e vini fortificati, una guida ai vini dolci italiani da Nord a Sud, dal Recioto al Moscato di Noto.
 category: Guide

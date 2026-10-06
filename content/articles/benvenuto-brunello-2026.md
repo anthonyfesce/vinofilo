@@ -1,6 +1,6 @@
 ---
 date: 2026-10-20
-number: 63
+number: 68
 title: Benvenuto Brunello 2026: Montalcino apre la porta alla 2022
 description: Dal 19 al 23 novembre Montalcino presenta il Brunello 2022 e le altre annate nuove: cosa aspettarsi dalla 35a edizione e cosa stappare a casa.
 category: Guide

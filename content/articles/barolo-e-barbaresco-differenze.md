@@ -1,6 +1,6 @@
 ---
 date: 2026-10-13
-number: 50
+number: 53
 title: Barolo e Barbaresco: stessa uva, due caratteri, pochi chilometri
 description: Comuni, suoli, invecchiamento minimo e menzioni geografiche: cosa distingue davvero Barolo e Barbaresco, due vini da Nebbiolo separati dall'Alba.
 category: Territori

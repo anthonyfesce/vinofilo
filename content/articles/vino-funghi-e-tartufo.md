@@ -1,6 +1,6 @@
 ---
 date: 2026-10-12
-number: 49
+number: 51
 title: Funghi e tartufo: che vino versare quando il bosco arriva a tavola
 description: Porcini, tartufo bianco d'Alba e nero: perché Nebbiolo, Barbera, Pinot Nero e bianchi strutturati funzionano, e quale legno evitare.
 category: Servizio

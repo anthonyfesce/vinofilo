@@ -1,6 +1,6 @@
 ---
 date: 2026-11-02
-number: 80
+number: 93
 title: Che vino con il pesce? Il bianco non è un obbligo, è un'abitudine
 description: Crudo, forno, griglia, umido e pesce azzurro, quale vino scegliere davvero con il pesce, rosati e rossi leggeri compresi.
 category: Guide

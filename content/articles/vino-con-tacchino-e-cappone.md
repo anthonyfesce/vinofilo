@@ -1,6 +1,6 @@
 ---
 date: 2026-11-18
-number: 97
+number: 125
 title: Che vino con tacchino e cappone, dal brodo al ripieno
 description: Cappone lesso, cappone ripieno, tacchino arrosto. Quale vino scegliere tra rossi leggeri, bianchi strutturati e rosati, piatto per piatto.
 category: Guide

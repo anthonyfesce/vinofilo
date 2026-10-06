@@ -1,6 +1,6 @@
 ---
 date: 2026-11-13
-number: 92
+number: 115
 title: Che vino con il cioccolato, ovvero l'abbinamento più ostile a tavola
 description: Fondente, al latte o bianco? Perché il cioccolato mette in crisi quasi ogni vino e quali tipologie, da Porto e Banyuls al Barolo Chinato, reggono l'urto.
 category: Guide

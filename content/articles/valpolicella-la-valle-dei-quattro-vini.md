@@ -1,6 +1,6 @@
 ---
 date: 2026-11-01
-number: 79
+number: 91
 title: Valpolicella, la valle dei quattro vini (più uno)
 description: Classico, Superiore, Ripasso, Amarone e Recioto: come funziona la famiglia della Valpolicella, tra marogne, Corvina e un rosso quotidiano da riscoprire.
 category: Territori

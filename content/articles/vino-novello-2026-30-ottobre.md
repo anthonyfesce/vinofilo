@@ -1,6 +1,6 @@
 ---
 date: 2026-10-15
-number: 53
+number: 57
 title: Novello 2026: il 30 ottobre si stappa, e la legge lo vuole così
 description: Il vino novello 2026 arriva il 30 ottobre: regole, macerazione carbonica, quanto dura, cosa lo separa dal Beaujolais Nouveau e perché ha perso smalto.
 category: Guide

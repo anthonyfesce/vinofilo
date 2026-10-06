@@ -1,6 +1,6 @@
 ---
 date: 2026-10-23
-number: 68
+number: 74
 title: Marsala, il grande vino italiano che abbiamo chiuso in cucina
 description: Da John Woodhouse a Florio, dal Marsala all'uovo alla rinascita: storia, categorie e riscatto del vino fortificato più sottovalutato d'Italia.
 category: Vitigni

@@ -1,6 +1,6 @@
 ---
 date: 2026-10-16
-number: 56
+number: 60
 title: Prosecco, istruzioni per l'uso: DOC, DOCG, Cartizze e Rive
 description: DOC, DOCG, Asolo, Cartizze, Rive e Col Fondo: la mappa del Prosecco, dal villaggio di Trieste all'uva Glera fino alle colline UNESCO.
 category: Territori

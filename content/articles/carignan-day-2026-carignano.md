@@ -1,6 +1,6 @@
 ---
 date: 2026-10-14
-number: 51
+number: 55
 title: Carignan Day 2026: il 29 ottobre si brinda al vitigno riabilitato
 description: Il 29 ottobre è l'International Carignan Day: dal Languedoc al Priorat, dal Maule cileno al Sulcis, cosa sapere sul Carignano e cosa stappare.
 category: Guide

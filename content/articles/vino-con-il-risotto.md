@@ -1,6 +1,6 @@
 ---
 date: 2026-10-24
-number: 69
+number: 75
 title: Che vino con il risotto? Quello in pentola decide quello nel bicchiere
 description: Milanese, al Barolo, all'Amarone, di mare, al radicchio. Come scegliere il vino per il risotto, partendo da quello che versi in pentola.
 category: Guide

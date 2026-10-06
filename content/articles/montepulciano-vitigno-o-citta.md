@@ -1,6 +1,6 @@
 ---
 date: 2026-10-21
-number: 64
+number: 69
 title: Montepulciano: il vitigno abruzzese o la città toscana?
 description: Montepulciano d'Abruzzo e Vino Nobile di Montepulciano hanno in comune solo il nome: vitigni, regioni, disciplinari e come leggerli in etichetta.
 category: Vitigni

@@ -1,6 +1,6 @@
 ---
 date: 2026-10-28
-number: 74
+number: 83
 title: Tempranillo Day 2026: il 12 novembre si stappa la Spagna
 description: Giovedì 12 novembre è l'International Tempranillo Day: Rioja, Ribera del Duero, Toro e Portogallo, cosa aprire e cosa metterci accanto.
 category: Guide

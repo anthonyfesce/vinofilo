@@ -1,6 +1,6 @@
 ---
 date: 2026-10-30
-number: 77
+number: 87
 title: Senza cavatappi? Come aprire il vino senza farsi male
 description: Tappo spinto dentro, vite e pinza, la scarpa contro il muro. I metodi che funzionano, quelli da evitare e la storia del cavatappi.
 category: Servizio

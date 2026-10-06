@@ -1,6 +1,6 @@
 ---
 date: 2026-11-09
-number: 88
+number: 107
 title: Quante calorie ha un bicchiere di vino, conti alla mano
 description: Da dove vengono le calorie del vino, quanto pesano alcol e zucchero, una tabella calcolata per tipologia e cosa dice l'etichetta dal dicembre 2023.
 category: Tecnica

@@ -1,6 +1,6 @@
 ---
 date: 2026-11-07
-number: 86
+number: 103
 title: Che vino con la fiorentina, e perché quasi sempre Sangiovese
 description: Chianti Classico, Rosso di Montalcino, Brunello o Nobile? Come scegliere il vino per la fiorentina e cosa bere fuori Toscana.
 category: Guide

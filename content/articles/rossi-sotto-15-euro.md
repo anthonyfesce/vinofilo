@@ -1,6 +1,6 @@
 ---
 date: 2026-10-19
-number: 61
+number: 65
 title: I migliori vini rossi sotto i 15 euro, una mappa per denominazioni
 description: Dal Montepulciano d'Abruzzo al Cirò, dalla Barbera d'Asti al Beaujolais cru, le denominazioni rosse che danno di più quando il budget è 15 euro.
 category: Guide

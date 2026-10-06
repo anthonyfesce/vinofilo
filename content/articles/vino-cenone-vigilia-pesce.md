@@ -1,6 +1,6 @@
 ---
 date: 2026-11-16
-number: 95
+number: 121
 title: Che vino per la Vigilia di pesce, dal baccalà al capitone
 description: Baccalà, capitone, fritture, crudi e spaghetti alle vongole. Guida agli abbinamenti per il cenone di magro della Vigilia, regione per regione.
 category: Guide

@@ -1,6 +1,6 @@
 ---
 date: 2026-10-28
-number: 75
+number: 84
 title: Fillossera, il pidocchio che ha riscritto la mappa del vino
 description: Dall'America alla Francia, poi all'Italia: come un insetto di un millimetro distrusse i vigneti europei e perché quasi ogni vite oggi ha radici americane.
 category: Tecnica

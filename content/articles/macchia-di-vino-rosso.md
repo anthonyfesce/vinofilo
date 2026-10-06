@@ -1,6 +1,6 @@
 ---
 date: 2026-11-03
-number: 81
+number: 95
 title: Macchia di vino rosso, cosa funziona davvero e cosa no
 description: Perché il vino rosso macchia, come trattare tessuti, tovaglie e tappeti con acqua fredda e percarbonato, e quali rimedi della nonna lasciar perdere.
 category: Servizio

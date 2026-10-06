@@ -1,6 +1,6 @@
 ---
 date: 2026-10-25
-number: 70
+number: 77
 title: Che vino con carbonara, amatriciana e cacio e pepe
 description: Guanciale, pecorino e pepe dettano legge. Quale vino scegliere con i tre grandi primi romani, dal Cesanese al Frascati, e perché funziona.
 category: Guide

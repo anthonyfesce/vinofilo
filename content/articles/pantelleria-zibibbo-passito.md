@@ -1,6 +1,6 @@
 ---
 date: 2026-11-05
-number: 84
+number: 99
 title: Pantelleria, dove la vite si nasconde dal vento per fare il Passito
 description: Zibibbo, alberello pantesco patrimonio UNESCO, conche, muretti a secco e appassimento al sole: perché il Passito di Pantelleria è un vino che costa fatica.
 category: Territori

@@ -1,6 +1,6 @@
 ---
 date: 2026-10-23
-number: 67
+number: 73
 title: Merlot Day, 7 novembre: riabilitare l'uva che Sideways ha deriso
 description: Il 7 novembre si celebra l'International Merlot Day: da Pomerol al Ticino, passando per Friuli e Bolgheri, la storia e cosa stappare quel giorno.
 category: Guide

@@ -1,6 +1,6 @@
 ---
 date: 2026-10-18
-number: 60
+number: 64
 title: Vini per l'aperitivo: bollicine, rosati e l'arte di non esagerare
 description: Bollicine, bianchi freschi, rosati, vermouth e spritz: quali vini scegliere per l'aperitivo all'italiana e come abbinarli a fritti, olive e salumi.
 category: Guide

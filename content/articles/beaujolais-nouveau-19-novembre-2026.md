@@ -1,6 +1,6 @@
 ---
 date: 2026-11-04
-number: 82
+number: 97
 title: Beaujolais Nouveau 2026: il 19 novembre torna il vino più discusso
 description: Giovedì 19 novembre esce il Beaujolais Nouveau 2026: storia dello slogan, Gamay, macerazione carbonica, Sarmentelles di Beaujeu e i cru da scoprire.
 category: Guide

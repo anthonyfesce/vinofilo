@@ -1,6 +1,6 @@
 ---
 date: 2026-11-19
-number: 98
+number: 127
 title: Che vino servire a Natale, portata per portata e regione per regione
 description: Dal brodo dei tortellini all'abbacchio, dal cardone ai dolci di famiglia, i vini giusti per il pranzo del 25 dicembre secondo le tradizioni d'Italia.
 category: Guide

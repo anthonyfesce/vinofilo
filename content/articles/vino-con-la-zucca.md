@@ -1,6 +1,6 @@
 ---
 date: 2026-10-27
-number: 73
+number: 82
 title: Che vino con la zucca? L'abbinamento più subdolo dell'autunno
 description: Risotto, tortelli mantovani, vellutata o zucca al forno, quale vino scegliere quando la dolcezza della zucca mette in crisi il bicchiere.
 category: Guide

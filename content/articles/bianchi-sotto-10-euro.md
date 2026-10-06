@@ -1,6 +1,6 @@
 ---
 date: 2026-10-29
-number: 76
+number: 85
 title: Vini bianchi buoni sotto i 10 euro, dove cercarli davvero
 description: Guida ai vini bianchi italiani sotto i 10 euro, con le denominazioni e le tipologie che a quel prezzo danno più di quanto costano.
 category: Guide
