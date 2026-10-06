@@ -1,0 +1,69 @@
+name: Uscite automatiche
+# Ogni mattina ricostruisce il sito: gli articoli in scorta con data di oggi (fuso Europe/Rome)
+# e illustrazione pronta entrano in home, categorie e sitemap. Se cambia qualcosa: commit, push,
+# pubblicazione su GitHub Pages e invio della sitemap a IndexNow.
+on:
+  schedule:
+    - cron: "17 5 * * *"   # 7:17 ora legale italiana, 6:17 ora solare
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: uscite
+  cancel-in-progress: false
+
+jobs:
+  pubblica:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ricostruisci il sito
+        env:
+          TZ: Europe/Rome
+        run: |
+          pip install --quiet markdown
+          python3 build.py
+
+      - name: Pubblica se qualcosa è cambiato
+        id: pub
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nessuna novità oggi."
+            echo "changed=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git -c user.name="Vinofilo" -c user.email="redazione@vinofilo.com" \
+            commit -m "Uscite del $(TZ=Europe/Rome date +%d.%m.%Y)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=1" >> "$GITHUB_OUTPUT"
+
+      - name: Avvia la pubblicazione su GitHub Pages
+        if: steps.pub.outputs.changed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages partirà comunque dal push."
+
+      - name: Invia la sitemap a IndexNow (Bing)
+        if: steps.pub.outputs.changed == '1'
+        run: |
+          KEY=2b4789c22f8c65a39e5e4fac8b398db8
+          sleep 120
+          python3 - <<PY
+          import re, json, urllib.request
+          urls = re.findall(r'<loc>([^<]+)</loc>', open('sitemap.xml').read())
+          body = json.dumps({"host": "vinofilo.com", "key": "$KEY",
+                             "keyLocation": "https://vinofilo.com/$KEY.txt", "urlList": urls}).encode()
+          req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body,
+                                       headers={"Content-Type": "application/json; charset=utf-8"})
+          print("IndexNow:", urllib.request.urlopen(req, timeout=30).status, len(urls), "URL")
+          PY

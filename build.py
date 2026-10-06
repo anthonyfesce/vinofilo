@@ -8,6 +8,13 @@ Gli articoli con data futura non vengono pubblicati (servono per la programmazio
 """
 import datetime as dt, hashlib, html, json, os, re, shutil, sys
 import markdown
+from zoneinfo import ZoneInfo
+
+# "Oggi" sempre nel fuso italiano (anche quando gira su GitHub Actions, che è in UTC).
+TODAY = (dt.date.fromisoformat(os.environ["VINOFILO_TODAY"]) if os.environ.get("VINOFILO_TODAY")
+         else dt.datetime.now(ZoneInfo("Europe/Rome")).date())
+# Dagli articoli in scorta in poi, si esce solo con l'illustrazione pronta.
+AUTO_FROM = dt.date(2026, 10, 7)
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://vinofilo.com"
@@ -48,8 +55,13 @@ def load():
         arts.append(dict(meta, d=d, body=body, words=len(body.split()),
                          url=f"/articles/{d:%Y.%m.%d}/{meta['slug']}/",
                          number=int(meta.get("number", 0) or 0)))
-    today = dt.date.fromisoformat(os.environ["VINOFILO_TODAY"]) if os.environ.get("VINOFILO_TODAY") else dt.date.today()
-    live = [a for a in arts if a["d"] <= today]
+    live = []
+    for a in arts:
+        if a["d"] > TODAY: continue  # data futura: resta in scorta, nessuna pagina né sitemap
+        if a["d"] >= AUTO_FROM and not img_path(a["slug"]):
+            print(f"ATTENZIONE: {a['slug']} ({a['d']}) non ha ancora l'illustrazione: rimandato", file=sys.stderr)
+            continue
+        live.append(a)
     live.sort(key=lambda a: (-a["d"].toordinal(), a["number"]))
     return live
 
@@ -139,7 +151,7 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 <main>
 {content}
 </main>
-<footer><div class="wrap"><a href="/" class="wordmark">VINOFILO</a><p>{TAGLINE} · © {dt.date.today().year} · <a href="/privacy/">Privacy e cookie</a>{PREF}</p></div></footer>
+<footer><div class="wrap"><a href="/" class="wordmark">VINOFILO</a><p>{TAGLINE} · © {TODAY.year} · <a href="/privacy/">Privacy e cookie</a>{PREF}</p></div></footer>
 </body>
 </html>
 """
