@@ -13,6 +13,11 @@ rispetto alle vicine. Inquadrature da alternare: panorama, veduta aerea, notturn
 figura umana (di profilo o di lato, mai mani in primo piano), costa/montagna. Per un nuovo articolo scegliere un'inquadratura diversa
 da quelle degli ultimi 4–5 articoli.
 
+## Vincolo rigido: il colore del vino (Anthony, 06.10.2026)
+Il colore del vino deve essere sempre corretto e credibile (bianchi paglierino/dorati, orange ambrato, rosati dal salmone al ciliegia,
+rossi dal rubino al granato, Lambrusco violaceo, spumanti oro pallido). Mai vino verde, azzurro o di colori inventati.
+Tutto il resto (soggetto, inquadratura, surreale) è flessibile. Controllare il vino in ogni immagine prima di pubblicarla.
+
 ## Stile (uguale per tutte)
 Coda del prompt: Sophisticated editorial gouache painting, like the cover of a literary magazine: flat matte gouache shapes, muted
 refined palette of deep burgundy, ochre, sage green, dusty blue and cream, quiet poetic mood, mature and elegant. The painting fills
