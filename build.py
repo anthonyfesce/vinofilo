@@ -123,6 +123,7 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 <meta property="og:site_name" content="{NAME}"><meta property="og:locale" content="it_IT">
 {og_img}
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="robots" content="max-image-preview:large">
 <meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 {FONTS}
