@@ -267,7 +267,7 @@ def build():
             a = cat_pick(c)
             tiles += (f'<a href="/categoria/{slugify(c)}/">{img(a, ar="4/5") if a else ""}<span class="t-n">{i:02d}</span>'
                       f'<h3>{c}</h3><p>{esc(v[2])}</p><span class="t-c">{counts[c]} articoli ›</span></a>')
-        home += sect("Esplora per tema") + f'<div class="tess">{tiles}</div></div>'
+        home += sect("Esplora per tema") + f'<div class="tess" id="esplora">{tiles}</div></div>'
     else:
         rows = ""
         for i, (c, v) in enumerate(CATS.items(), 1):
@@ -277,7 +277,7 @@ def build():
             rows += (f'<a class="ix" href="/categoria/{slugify(c)}/"><span class="ix-n">{i:02d}</span>{img(a, "ix-ph", "1/1") if a else ""}'
                      f'<div class="ix-m"><h3>{c}</h3><p>{esc(v[2])}</p></div><ul class="ix-l">{tit}</ul>'
                      f'<span class="ix-c">{counts[c]} articoli ›</span></a>')
-        home += sect("Esplora per tema", "L'archivio di Vinofilo in cinque capitoli") + f'<div class="idx">{rows}</div></div>'
+        home += sect("Esplora per tema", "L'archivio di Vinofilo in cinque capitoli") + f'<div class="idx" id="esplora">{rows}</div></div>'
 
     write("index.html", page(NAME, f"{NAME}: {TAGLINE.lower()}. Vitigni, territori, tecnica e servizio raccontati con un punto di vista.", "/", home))
 
