@@ -1,11 +1,12 @@
 ---
-date: 2026-10-06
+date: 2026-10-02
 number: 7
 title: Amarone, il vino nato dall'attesa: appassimento, Recioto e Ripasso
 description: Come l'appassimento nei fruttai crea l'Amarone, cosa lo lega a Recioto e Ripasso e perché oggi si discute del suo stile.
 category: Tecnica
 cover: Amarone
 slug: amarone-appassimento
+former: /articles/2026.10.06/amarone-appassimento/
 ---
 Quasi tutti i grandi rossi del mondo nascono da una corsa: vendemmiare al momento giusto, pigiare in fretta, proteggere il frutto. L'Amarone nasce dal contrario. Le uve, una volta staccate dalla pianta, non vanno subito in cantina: vengono messe da parte e lasciate perdere acqua per mesi, mentre fuori l'autunno diventa inverno. È un vino che chiede pazienza prima ancora di essere vino, e forse è per questo che chi lo produce tende a parlarne con il tono che si riserva alle cose che non si possono affrettare.
 

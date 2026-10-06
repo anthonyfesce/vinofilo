@@ -1,11 +1,12 @@
 ---
-date: 2026-10-06
+date: 2026-10-01
 number: 9
 title: Decantare o no: quando il decanter aiuta e quando fa danni
 description: Separare i sedimenti o dare ossigeno? Quando decantare un vino giovane, quando proteggere un vecchio rosso fragile, e cosa fare con bianchi e bollicine.
 category: Servizio
 cover: Decantare
 slug: decantare-o-no
+former: /articles/2026.10.06/decantare-o-no/
 ---
 Il decanter è l'oggetto più teatrale della tavola, e proprio per questo il più frainteso. Lo si vede comparire accanto a bottiglie che non ne hanno alcun bisogno, e mancare quando servirebbe davvero. Il gesto in sé dice poco: versare un vino in una caraffa può salvarlo, migliorarlo, oppure togliergli in mezz'ora quello che il tempo gli aveva dato in vent'anni. Tutto dipende da cosa si sta cercando di ottenere, e la prima cosa da capire è che le ragioni per decantare sono due, diverse e spesso in contraddizione tra loro.
 

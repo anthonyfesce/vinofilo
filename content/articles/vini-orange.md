@@ -1,11 +1,12 @@
 ---
-date: 2026-10-06
+date: 2026-10-04
 number: 5
 title: Vini orange: il bianco che si comporta da rosso (e divide le tavole)
 description: Cosa sono i vini orange, perché non sono sinonimo di naturale, dalle anfore georgiane a Oslavia, e come abbinarli a tavola senza paura.
 category: Tecnica
 cover: Orange
 slug: vini-orange
+former: /articles/2026.10.06/vini-orange/
 ---
 Versate un vino orange a una tavola di appassionati e succede sempre la stessa cosa: metà dei bicchieri si alza con curiosità, l'altra metà resta ferma, sospettosa. Il colore ambrato, la torbidità a volte, quella stretta tannica che nessuno si aspetta da un bianco. Pochi vini hanno la stessa capacità di spaccare una stanza in due. Ed è proprio per questo che vale la pena capirli, prima di giudicarli.
 

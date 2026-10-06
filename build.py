@@ -153,6 +153,14 @@ def build():
     md = markdown.Markdown(extensions=["extra", "smarty"], extension_configs={"smarty": {"substitutions": {
         "left-double-quote": "“", "right-double-quote": "”", "left-single-quote": "‘", "right-single-quote": "’"}}})
     for a in arts:
+        # vecchi indirizzi (es. articolo spostato di data): pagina di rimando verso quello nuovo
+        for old in filter(None, (u.strip() for u in a.get("former", "").split(","))):
+            new = SITE + a["url"]
+            write(old.strip("/") + "/index.html",
+                  f'<!doctype html><html lang="it"><head><meta charset="utf-8"><title>{esc(a["title"])}</title>'
+                  f'<link rel="canonical" href="{new}"><meta name="robots" content="noindex">'
+                  f'<meta http-equiv="refresh" content="0; url={a["url"]}"></head>'
+                  f'<body><p><a href="{a["url"]}">{esc(a["title"])}</a></p></body></html>\n')
         md.reset()
         body = md.convert(a["body"])
         body = re.sub(r"(\w)‘(\d)", r"\1’\2", body)  # l’80%, non l‘80%

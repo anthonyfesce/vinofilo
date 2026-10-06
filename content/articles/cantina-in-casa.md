@@ -1,11 +1,12 @@
 ---
-date: 2026-10-06
+date: 2026-09-30
 number: 10
 title: Una cantina in casa: cosa serve davvero per far invecchiare il vino
 description: Temperatura stabile, umidità, buio e quiete: cosa conta per conservare il vino in casa, cantinetta o ripostiglio, e quali bottiglie vale la pena aspettare.
 category: Guide
 cover: La cantina
 slug: cantina-in-casa
+former: /articles/2026.10.06/cantina-in-casa/
 ---
 Quasi tutte le bottiglie che finiscono male non vengono rovinate dal tempo, ma dalla buona volontà. Le si compra con l'idea di "metterle via", le si sistema in piedi sopra il frigorifero o in una vetrinetta luminosa del soggiorno, e dopo qualche anno si stappa un vino stanco, cotto, che sa più di attesa che di evoluzione. Il problema non è la mancanza di una cantina scavata nel tufo. È non sapere che cosa una cantina fa, davvero, per il vino.
 

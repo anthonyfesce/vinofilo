@@ -1,11 +1,12 @@
 ---
-date: 2026-10-06
+date: 2026-10-05
 number: 3
 title: Metodo Classico o Charmat: cosa cambia davvero nel bicchiere
 description: Rifermentazione in bottiglia o in autoclave, mesi sui lieviti, perlage e profumi: Franciacorta, Trento DOC e Prosecco senza snobismi.
 category: Tecnica
 cover: Le bollicine
 slug: metodo-classico-charmat
+former: /articles/2026.10.06/metodo-classico-charmat/
 ---
 Tutte le bollicine nascono da un piccolo incidente controllato: un vino già fatto a cui si restituiscono zucchero e lieviti, chiudendolo in un contenitore da cui l'anidride carbonica non può scappare. Il gas resta prigioniero, si scioglie nel liquido e aspetta il momento del tappo. Fin qui, Franciacorta e Prosecco raccontano la stessa storia. La differenza sta tutta nel contenitore, e nel tempo che ci si concede dentro.
 

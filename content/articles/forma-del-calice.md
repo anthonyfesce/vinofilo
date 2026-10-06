@@ -1,11 +1,12 @@
 ---
-date: 2026-10-06
+date: 2026-10-03
 number: 6
 title: Il calice giusto: quanto conta davvero la forma del bicchiere
 description: Coppa, apertura, stelo, cristallo: cosa dice la scienza sulla forma del calice, perché la mappa della lingua è un mito e se il calice universale basta.
 category: Servizio
 cover: Il calice
 slug: forma-del-calice
+former: /articles/2026.10.06/forma-del-calice/
 ---
 Nessun oggetto, a tavola, è stato caricato di tante promesse quanto il calice da vino. Gli si chiede di "aprire" un Barolo, di "accompagnare" l'acidità di un Riesling, di mandare il vino nel punto esatto della lingua. Alcune di queste promesse sono fisica. Altre sono letteratura commerciale scritta con grande eleganza. Separare le une dalle altre è il modo migliore per rispettare il vino, e anche il proprio portafoglio.
 

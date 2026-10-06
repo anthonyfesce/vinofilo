@@ -1,11 +1,12 @@
 ---
-date: 2026-10-06
+date: 2026-10-04
 number: 4
 title: Temperatura di servizio: perché sbagliamo rossi e bianchi
 description: Rossi troppo caldi, bianchi gelati: perché la "temperatura ambiente" è un equivoco e quali gradi rispettare, tipologia per tipologia.
 category: Servizio
 cover: Temperatura
 slug: temperatura-di-servizio
+former: /articles/2026.10.06/temperatura-di-servizio/
 ---
 
 Si può spendere una piccola fortuna per una bottiglia, scegliere il calice giusto, aspettare l'occasione adatta, e poi rovinare tutto con un termometro che nessuno ha guardato. Non serve un tappo difettoso né una cantina malandata: basta un rosso servito a ventiquattro gradi accanto al termosifone, o un bianco tirato fuori dal frigorifero e versato subito, così freddo da non dire più niente. È l'errore più comune a tavola, e il più facile da correggere. Proprio per questo è così irritante.

@@ -1,0 +1,43 @@
+---
+date: 2026-09-26
+number: 16
+title: Vitigni dimenticati: perché l'Italia riscopre le sue uve perdute
+description: Dal Verdiso al Pecorino, dal Raboso al Cagnulari: come si salva un vitigno quasi estinto e perché la moda dell'autoctono ha anche dei rischi.
+category: Vitigni
+cover: Riscoperte
+slug: vitigni-dimenticati-che-tornano
+illustrazione: In the centre, a single ancient gnarled vine grows out of an open botanical herbarium, its old leaves turning into fresh green shoots and small dark grape clusters under soft morning light.
+---
+Ogni tanto, in un vigneto vecchio, un vignaiolo trova una pianta che non torna. Il grappolo è sbagliato, la foglia ha un taglio strano, il nonno la chiamava con un nome che nessun libro riporta. Quasi sempre è una curiosità destinata a finire nella stufa. Qualche volta, invece, è l'inizio di una seconda vita: anni dopo quel nome sta su un'etichetta, in un disciplinare, nella carta dei vini di un'enoteca di Milano. L'Italia è piena di queste resurrezioni, e vale la pena capire come funzionano prima di brindarci sopra.
+
+## Un paese con troppe uve
+
+Il punto di partenza è un numero che pochi paesi possono vantare. Il Registro Nazionale delle Varietà di Vite, il catalogo ufficiale che stabilisce quali uve si possono moltiplicare e piantare, elenca oggi oltre seicento varietà da vino (in un articolo di qualche anno fa Decanter citava 644 iscrizioni; il conteggio cambia a ogni aggiornamento ministeriale, quindi la cifra esatta va presa come indicativa). E non tutte sono autoctone: dentro ci sono anche Cabernet, Merlot e compagnia internazionale. Ian D'Agata, che a questo tema ha dedicato un libro intero, stima più di cinquecento varietà che abitano la Penisola da secoli, e ammette che molte altre aspettano ancora di essere identificate.
+
+Perchè così tante? Perchè l'Italia è stata a lungo un mosaico di valli, signorie e mercati locali, dove ogni comunità selezionava le piante che funzionavano nel proprio angolo di collina. Poi sono arrivati la fillossera, le guerre, lo spopolamento delle campagne e, nel dopoguerra, la corsa alla resa: si reimpiantava con quello che produceva di più e si vendeva meglio. Centinaia di varietà sono sopravvissute solo per inerzia, qualche filare ai margini, una pergola dietro casa.
+
+## Come si salva un'uva
+
+Riportare in vita un vitigno non è un gesto romantico, è un lavoro lungo e in buona parte burocratico. Si comincia con la ricognizione: si cercano le piante superstiti, spesso poche decine, e le si descrive con gli strumenti dell'ampelografia, cioè forma della foglia, del grappolo, epoca di germogliamento e di maturazione. Poi arriva il DNA. Il profilo genetico serve a capire se quella pianta "misteriosa" è davvero una varietà a sé, oppure un'uva già nota con un nome locale. Le sorprese non mancano: il Cagnulari sardo, per esempio, compare in diversi elenchi di sinonimi come la stessa varietà del Graciano spagnolo, anche se le ricostruzioni sulla sua parentela con la famiglia dei Bovale non sono del tutto concordi.
+
+Segue la parte meno fotogenica. Le piante vanno controllate per i virus, perché moltiplicare materiale malato significa diffondere il problema. Si mettono a dimora in vigneti di collezione, si osservano per diverse annate, si fanno microvinificazioni per capire se quel vino vale la fatica. Solo allora si può chiedere l'iscrizione al Registro Nazionale e, a livello regionale, l'autorizzazione a coltivarla. Senza questi passaggi un vignaiolo non può piantarla legalmente né scriverne il nome in etichetta. Tra il ritrovamento e la prima bottiglia possono passare dieci, quindici anni.
+
+## Tre storie, tre modelli
+
+Il Trevigiano è un buon laboratorio. Accanto alla Glera, il disciplinare del Conegliano Valdobbiadene Prosecco DOCG ammette fino al 15% di altre uve, tra cui tre bianche della tradizione locale: Verdiso, Bianchetta Trevigiana e Perera. Per decenni sono state le comprimarie del Prosecco, quelle che davano acidità o profumo alla massa. Oggi il Verdiso viene di nuovo vinificato anche in purezza da alcuni produttori, ma la superficie resta minuscola: si parla di un centinaio di ettari, un numero che circola nelle fonti divulgative e che va preso con cautela. Poco più a sud, il Raboso del Piave, rosso ruvido e acidissimo che la tradizione vuole difficile da domare, ha ottenuto nel 2010 la DOCG Piave Malanotte: almeno il 70% di Raboso Piave, una quota di uve appassite tra il 15 e il 30%, tre anni di affinamento prima della vendita. Qui il recupero passa per la regola: dare a un vitigno scomodo una forma riconoscibile.
+
+Il secondo modello è il Pecorino, che dimostra quanto in fretta una riscoperta possa diventare un successo di massa. Secondo la ricostruzione più diffusa, all'inizio degli anni Ottanta Guido Cocci Grifoni andò a cercarne le ultime viti nella zona di Arquata del Tronto, nell'alto Piceno, e ne ricavò marze per la sua azienda di Ripatransone. In Abruzzo, nel 1997, Luigi Cataldi Madonna fu tra i primi a scrivere il nome del vitigno in etichetta. Da lì la crescita: nel 2011 è nata la DOCG Offida, che prevede un Pecorino con almeno l'85% dell'uva, e oggi in Abruzzo le stime parlano di oltre mille ettari. Da reliquia a vino da aperitivo in una generazione.
+
+Il terzo modello è la Sardegna del Cagnulari, coltivato soprattutto nel Sassarese, attorno a Usini. Qui il recupero è legato a una figura precisa: Giovanni Maria Cherchi, che dagli anni Settanta lavorò su un'uva in declino e ne fece un vino in bottiglia. Il Cagnulari compare anche tra le tipologie della DOC Alghero, ma molte etichette usano le indicazioni geografiche tipiche dell'isola. Un caso in cui un singolo vignaiolo testardo ha contato più di qualsiasi programma pubblico.
+
+## Il rovescio della medaglia
+
+Fin qui la favola. Ma la moda dell'autoctono ha anche i suoi effetti collaterali, ed è giusto nominarli.
+
+Il primo è l'equivoco del "dimenticato quindi buono". Molte varietà sono state abbandonate per ragioni concrete: maturavano male, si ammalavano, davano vini sbilanciati. Non tutte meritano un ritorno, e un'uva rara non è automaticamente un'uva interessante. Il secondo è il marketing della rarità: quando l'aggettivo "autoctono" fa vendere, la tentazione è piantarlo ovunque, anche dove non ha senso, e trasformare un'identità locale in un prodotto da scaffale come gli altri. Il Pecorino, con la sua espansione rapidissima, è già oggetto di discussioni su quanto stile e quanta omologazione stia accumulando.
+
+C'è poi un rischio quasi paradossale. Se ogni zona punta sulla propria riscoperta, il risultato può essere una nuova monocoltura, solo con un nome più esotico. La biodiversità che il recupero dovrebbe proteggere si restringe di nuovo, attorno al vitigno vincente del momento. E infine la confusione dei nomi: sinonimi regionali, identità genetiche condivise con uve straniere, grafie diverse da un paese all'altro. Per chi beve, l'etichetta rischia di promettere un'unicità che il DNA non conferma.
+
+## Chi salva cosa
+
+Detto questo, preferisco un'Italia che si interroga sulle sue uve perdute a una che pianta Chardonnay per abitudine. Il valore di queste riscoperte non sta nella rarità in sé, ma in quello che costringono a fare: guardare un territorio, studiarlo, accettare vini meno levigati e più parlanti. Il vitigno da salvare non è quello che fa notizia, è quello che, dopo dieci anni di prove, dimostra di avere ancora qualcosa da dire. Gli altri possono restare nei vigneti di collezione, come libri in una biblioteca: conservati, consultabili, e non per forza in vetrina.

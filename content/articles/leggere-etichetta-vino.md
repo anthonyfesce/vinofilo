@@ -1,11 +1,12 @@
 ---
-date: 2026-10-06
+date: 2026-10-02
 number: 8
 title: Leggere un'etichetta di vino italiana, senza farsi incantare
 description: DOCG, DOC, IGT, Riserva, Classico, annata e QR code: cosa dice davvero l'etichetta di un vino italiano e cosa invece tace sulla qualità.
 category: Guide
 cover: L'etichetta
 slug: leggere-etichetta-vino
+former: /articles/2026.10.06/leggere-etichetta-vino/
 ---
 Un'etichetta di vino è un documento legale travestito da biglietto da visita. Ogni parola stampata lì sopra è stata autorizzata, regolata, a volte contrattata per anni tra consorzi e ministeri; eppure la maggior parte di noi la guarda come si guarda una copertina, cercando un nome noto o una grafica rassicurante. Vale la pena imparare a leggerla davvero, anche solo per scoprire quanto poco promette.
 
