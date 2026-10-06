@@ -14,13 +14,24 @@ img{display:block;max-width:100%}
 
 /* Testata */
 .masthead{border-bottom:0}
+.masthead .wrap{position:relative}
+.langsel{align-self:flex-end;margin:-14px 0 10px;position:relative;font-family:var(--head);font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;z-index:20}
+[dir=rtl] .langsel{align-self:flex-start}
+.langsel summary{list-style:none;cursor:pointer;color:var(--ink-2);padding:4px 0;display:flex;align-items:center;gap:8px}
+.langsel summary::-webkit-details-marker{display:none}
+.langsel summary::after{content:"";width:6px;height:6px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .2s}
+.langsel[open] summary::after{transform:translateY(2px) rotate(-135deg)}
+.langsel summary:hover{color:var(--accent)}
+.langsel ul{position:absolute;top:100%;right:0;margin:8px 0 0;padding:8px 0;list-style:none;background:var(--bg);border:1px solid var(--rule);box-shadow:0 10px 30px rgba(27,20,22,.08);min-width:170px;text-transform:none;letter-spacing:.02em}
+[dir=rtl] .langsel ul{right:auto;left:0}
+.langsel li a{display:block;padding:7px 18px;font-size:14px;color:var(--ink-2)}
+.langsel li a:hover{background:#F6F1EA;color:var(--ink)}
+.langsel li a.on{color:var(--ink);font-weight:700}
 .langs{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;font-family:var(--head);font-size:10.5px;font-weight:500;letter-spacing:.14em;text-transform:uppercase}
 .langs a{color:var(--muted)}
 .langs a.on{color:var(--ink);font-weight:700}
 .langs a:hover{color:var(--accent)}
-.masthead .langs{align-self:flex-end;margin:-14px 0 14px}
 footer .langs.foot{justify-content:flex-start;margin-top:14px}
-[dir=rtl] .masthead .langs{align-self:flex-start}
 [dir=rtl] footer .langs.foot{justify-content:flex-end}
 .masthead .wrap{display:flex;flex-direction:column;align-items:center;padding-top:34px;padding-bottom:0}
 .masthead .side{font-family:var(--head);font-size:11px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
@@ -188,7 +199,7 @@ footer p{font-family:var(--head);font-size:12px;color:var(--muted);margin:0}
   .circles a{padding:0 12px 40px}
 }
 @media (max-width:620px){
-  .masthead .langs{align-self:center;margin:-10px 0 12px;gap:2px 10px}
+  .langsel{margin:-10px 0 8px}
   .ix{grid-template-columns:64px 1fr;grid-template-rows:auto auto;gap:4px 16px;padding:16px 0}
   .ix .ix-ph{width:64px;grid-row:1/3}
   .ix-n{display:none}

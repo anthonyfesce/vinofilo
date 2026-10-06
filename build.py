@@ -159,9 +159,15 @@ def page(lg, title, desc, path, content, active="", og_type="website", extra_hea
     hreflang = "".join(f'<link rel="alternate" hreflang="{l}" href="{SITE}{u}">' for l, u in alts.items())
     if "it" in alts: hreflang += f'<link rel="alternate" hreflang="x-default" href="{SITE}{alts["it"]}">'
     nav = "".join(f'<a href="{cat_url(lg, c)}"{" class=on" if c == active else ""}>{esc(cat_name(lg, c))}</a>' for c in CATS)
-    langs = "".join(f'<a href="{alts.get(l, prefix(l) + "/")}" hreflang="{l}" lang="{l}"{" class=on" if l == lg else ""}>{L[l]["short"]}</a>'
-                    for l in AVAIL)
-    langbar = f'<nav class="langs" aria-label="{esc(t["languages"])}">{langs}</nav>' if len(AVAIL) > 1 else ""
+    links = [(l, alts.get(l, prefix(l) + "/")) for l in AVAIL]
+    # Menu a tendina in testata (regge molte lingue) + elenco completo e discreto nel piè di pagina.
+    opts = "".join(f'<li><a href="{u}" hreflang="{l}" lang="{l}"{" aria-current=true class=on" if l == lg else ""}>{L[l]["name"]}</a></li>'
+                   for l, u in links)
+    langbar = (f'<details class="langsel"><summary aria-label="{esc(t["languages"])}">{L[lg]["name"]}</summary>'
+               f'<ul>{opts}</ul></details>') if len(AVAIL) > 1 else ""
+    langfoot = (f'<nav class="langs foot" aria-label="{esc(t["languages"])}">' +
+                "".join(f'<a href="{u}" hreflang="{l}" lang="{l}"{" class=on" if l == lg else ""}>{L[l]["name"]}</a>' for l, u in links)
+                + '</nav>') if len(AVAIL) > 1 else ""
     home = prefix(lg) + "/"
     canon = SITE + path
     full_title = title if title == NAME else f"{title} — {NAME}"
@@ -200,7 +206,7 @@ def page(lg, title, desc, path, content, active="", og_type="website", extra_hea
 {content}
 </main>
 <footer><div class="wrap"><a href="{home}" class="wordmark">VINOFILO</a><p>{esc(t['tagline'])} · © {TODAY.year} · <a href="{prefix(lg)}/privacy/">{esc(t['privacy'])}</a>{pref}</p>
-{langbar.replace('class="langs"', 'class="langs foot"')}</div></footer>
+{langfoot}</div></footer>
 </body>
 </html>
 """
@@ -380,6 +386,7 @@ def build():
         for a in by_lang.get(lg, []): alt_art[a["key"]][lg] = a["url"]
     alt_art["__home__"] = {lg: True for lg in by_lang}
     AVAIL[:] = [lg for lg in ORDINE if lg in by_lang]
+    if os.environ.get("DEMO_TUTTE_LINGUE"): AVAIL[:] = ORDINE  # solo per le anteprime
 
     # pulizia output generato
     for d in ("articles", "categoria"):
