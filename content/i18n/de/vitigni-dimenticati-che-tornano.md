@@ -1,0 +1,40 @@
+---
+title: Vergessene Rebsorten: Warum Italien seine verlorenen Trauben wiederentdeckt
+description: Von Verdiso bis Pecorino, von Raboso bis Cagnulari: Wie man eine fast ausgestorbene Rebsorte rettet und warum der Trend zum Autochthonen auch Risiken hat.
+slug: vergessene-rebsorten-italien-wiederentdeckt
+cover: Wiederentdeckungen
+---
+
+Hin und wieder findet ein Winzer in einem alten Weinberg einen Stock, der nicht ins Bild passt. Die Traube ist falsch, das Blatt hat einen seltsamen Schnitt, der Großvater nannte ihn mit einem Namen, den kein Buch verzeichnet. Fast immer bleibt es eine Kuriosität, die im Ofen endet. Manchmal aber ist es der Beginn eines zweiten Lebens: Jahre später steht dieser Name auf einem Etikett, in einer Produktspezifikation, auf der Weinkarte einer Mailänder Enothek. Italien ist voller solcher Auferstehungen, und es lohnt sich zu verstehen, wie sie funktionieren, bevor man darauf anstößt.
+
+## Ein Land mit zu vielen Trauben
+
+Ausgangspunkt ist eine Zahl, die nur wenige Länder vorweisen können. Das Nationale Register der Rebsorten, der offizielle Katalog, der festlegt, welche Trauben vermehrt und gepflanzt werden dürfen, führt heute über sechshundert Keltertraubensorten auf (in einem Artikel von vor einigen Jahren nannte Decanter 644 Eintragungen; die Zählung ändert sich mit jeder ministeriellen Aktualisierung, die genaue Zahl ist also als Richtwert zu nehmen). Und nicht alle sind autochthon: Darin finden sich auch Cabernet, Merlot und die internationale Gesellschaft. Ian D’Agata, der diesem Thema ein ganzes Buch gewidmet hat, schätzt mehr als fünfhundert Sorten, die die Halbinsel seit Jahrhunderten bewohnen, und räumt ein, dass viele weitere noch auf ihre Identifizierung warten.
+
+Warum so viele? Weil Italien lange ein Mosaik aus Tälern, Herrschaften und lokalen Märkten war, in dem jede Gemeinschaft die Pflanzen auswählte, die in ihrem Winkel des Hügels funktionierten. Dann kamen die Reblaus, die Kriege, die Entvölkerung des Landes und, in der Nachkriegszeit, der Wettlauf um den Ertrag: Man pflanzte mit dem neu, was am meisten brachte und sich am besten verkaufte. Hunderte von Sorten haben nur aus Trägheit überlebt, ein paar Reihen am Rand, eine Pergola hinter dem Haus.
+
+## Wie man eine Traube rettet
+
+Eine Rebsorte wieder zum Leben zu erwecken ist keine romantische Geste, es ist eine lange, großenteils bürokratische Arbeit. Es beginnt mit der Bestandsaufnahme: Man sucht die überlebenden Pflanzen, oft nur wenige Dutzend, und beschreibt sie mit den Instrumenten der Ampelographie, also Form des Blattes und der Traube, Zeitpunkt von Austrieb und Reife. Dann kommt die DNA. Das genetische Profil dient dazu zu verstehen, ob diese „geheimnisvolle“ Pflanze wirklich eine eigene Sorte ist oder eine schon bekannte Traube mit lokalem Namen. An Überraschungen fehlt es nicht: Der sardische Cagnulari etwa erscheint in mehreren Synonymlisten als dieselbe Sorte wie der spanische Graciano, auch wenn die Rekonstruktionen zu seiner Verwandtschaft mit der Familie der Bovale nicht ganz einhellig sind.
+
+Es folgt der am wenigsten fotogene Teil. Die Pflanzen müssen auf Viren geprüft werden, denn krankes Material zu vermehren bedeutet, das Problem zu verbreiten. Man pflanzt sie in Sammlungsweinbergen aus, beobachtet sie über mehrere Jahrgänge und macht Mikrovinifizierungen, um zu verstehen, ob dieser Wein die Mühe wert ist. Erst dann kann man die Eintragung in das Nationale Register und, auf regionaler Ebene, die Genehmigung zum Anbau beantragen. Ohne diese Schritte darf ein Winzer sie weder legal pflanzen noch ihren Namen auf das Etikett schreiben. Zwischen Fund und erster Flasche können zehn, fünfzehn Jahre vergehen.
+
+## Drei Geschichten, drei Modelle
+
+Das Trevigiano ist ein gutes Labor. Neben der Glera lässt die Produktspezifikation des Conegliano Valdobbiadene Prosecco DOCG bis zu 15 % anderer Trauben zu, darunter drei Weißweinsorten der lokalen Tradition: Verdiso, Bianchetta Trevigiana und Perera. Jahrzehntelang waren sie die Nebendarsteller des Prosecco, jene, die der Masse Säure oder Duft gaben. Heute wird der Verdiso von einigen Erzeugern wieder auch sortenrein vinifiziert, aber die Fläche bleibt winzig: Man spricht von etwa hundert Hektar, eine Zahl, die in den populärwissenschaftlichen Quellen kursiert und mit Vorsicht zu nehmen ist. Etwas weiter südlich erhielt der Raboso del Piave, ein rauer, sehr saurer Rotwein, der der Überlieferung nach schwer zu bändigen ist, 2010 die DOCG Piave Malanotte: mindestens 70 % Raboso Piave, ein Anteil angetrockneter Trauben zwischen 15 und 30 %, drei Jahre Reifung vor dem Verkauf. Hier läuft die Rückgewinnung über die Regel: einer unbequemen Rebsorte eine erkennbare Form zu geben.
+
+Das zweite Modell ist der Pecorino, der zeigt, wie schnell eine Wiederentdeckung zum Massenerfolg werden kann. Nach der verbreitetsten Rekonstruktion ging Guido Cocci Grifoni Anfang der Achtzigerjahre auf die Suche nach den letzten Reben in der Gegend von Arquata del Tronto, im oberen Piceno, und gewann Edelreiser für sein Gut in Ripatransone. In den Abruzzen gehörte Luigi Cataldi Madonna 1997 zu den Ersten, die den Namen der Rebsorte aufs Etikett schrieben. Von da an das Wachstum: 2011 entstand die DOCG Offida, die einen Pecorino mit mindestens 85 % der Traube vorsieht, und heute sprechen Schätzungen in den Abruzzen von mehr als tausend Hektar. Von der Reliquie zum Aperitifwein in einer Generation.
+
+Das dritte Modell ist das Sardinien des Cagnulari, vor allem im Sassarese rund um Usini angebaut. Hier ist die Rückgewinnung an eine bestimmte Figur gebunden: Giovanni Maria Cherchi, der seit den Siebzigerjahren an einer im Niedergang begriffenen Traube arbeitete und einen abgefüllten Wein daraus machte. Der Cagnulari erscheint auch unter den Typen der DOC Alghero, aber viele Etiketten verwenden die typischen geografischen Angaben der Insel. Ein Fall, in dem ein einzelner sturer Winzer mehr zählte als jedes öffentliche Programm.
+
+## Die Kehrseite der Medaille
+
+Bis hierhin das Märchen. Aber der Trend zum Autochthonen hat auch seine Nebenwirkungen, und es ist richtig, sie zu benennen.
+
+Die erste ist das Missverständnis „vergessen, also gut“. Viele Sorten wurden aus konkreten Gründen aufgegeben: Sie reiften schlecht, wurden krank, ergaben unausgewogene Weine. Nicht alle verdienen eine Rückkehr, und eine seltene Traube ist nicht automatisch eine interessante Traube. Die zweite ist das Marketing der Seltenheit: Wenn das Adjektiv „autochthon“ verkauft, ist die Versuchung groß, es überall zu pflanzen, auch dort, wo es keinen Sinn hat, und eine lokale Identität in ein Regalprodukt wie jedes andere zu verwandeln. Der Pecorino ist mit seiner rasend schnellen Ausbreitung schon Gegenstand von Diskussionen darüber, wie viel Stil und wie viel Vereinheitlichung er anhäuft.
+
+Dann gibt es ein fast paradoxes Risiko. Setzt jedes Gebiet auf seine eigene Wiederentdeckung, kann das Ergebnis eine neue Monokultur sein, nur mit einem exotischeren Namen. Die Biodiversität, die die Rückgewinnung schützen sollte, schrumpft wieder, rund um die Siegersorte des Augenblicks. Und schließlich die Verwirrung der Namen: regionale Synonyme, genetische Identitäten, die man mit ausländischen Trauben teilt, unterschiedliche Schreibweisen von Land zu Land. Für den Trinkenden riskiert das Etikett, eine Einzigartigkeit zu versprechen, die die DNA nicht bestätigt.
+
+## Wer rettet was
+
+Das gesagt, ziehe ich ein Italien, das sich nach seinen verlorenen Trauben fragt, einem vor, das aus Gewohnheit Chardonnay pflanzt. Der Wert dieser Wiederentdeckungen liegt nicht in der Seltenheit an sich, sondern in dem, wozu sie zwingen: ein Terroir anzuschauen, es zu studieren, weniger glattgeschliffene und mehr sprechende Weine zu akzeptieren. Die Rebsorte, die man retten sollte, ist nicht die, die Schlagzeilen macht, sondern die, die nach zehn Jahren Versuchen beweist, dass sie noch etwas zu sagen hat. Die anderen können in den Sammlungsweinbergen bleiben, wie Bücher in einer Bibliothek: bewahrt, nachschlagbar, und nicht unbedingt im Schaufenster.
