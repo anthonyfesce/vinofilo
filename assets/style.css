@@ -114,6 +114,7 @@ img{display:block;max-width:100%}
 .cats a:hover b{color:var(--c)}
 /* Esplora per tema – A: indice */
 .idx{margin-top:8px}
+.ix:last-child{border-bottom:0}
 .ix{display:grid;grid-template-columns:56px 96px minmax(0,1.1fr) minmax(0,1.4fr) auto;gap:0 32px;align-items:center;padding:22px 0;border-bottom:1px solid var(--rule);color:var(--ink)}
 .ix-n{font-family:var(--logo);font-style:italic;font-size:30px;color:var(--accent)}
 .ix .ix-ph{width:96px}
