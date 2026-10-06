@@ -157,10 +157,10 @@ di anticipo. Regole sopra: varietà di inquadratura, colore del vino corretto, n
 | 11-18 | vino-con-tacchino-e-cappone | An elegant, poetic gouache painting filling the entire frame, a winter farmyard of an old Lombard cascina seen from a distance, soft fog swallowing the poplars and the long brick barns, small figures crossing the courtyard with baskets, a few capons with glossy copper and green plumage pecking near a frozen trough, a warm lit window in the farmhouse, muted greys, ochres and faded greens, no text and no readable labels, no hands in the foreground. |
 | 11-19 | vini-per-natale | A snowy village street at night seen from outside, looking up at a single warmly lit window of an old stone house, inside a long festive table glimpsed through the glass with a white tablecloth, candles, a steaming soup tureen and several stemmed glasses of deep ruby red wine and one of pale golden sparkling wine, snowflakes drifting past the frame, soft blue darkness and golden lamplight filling the entire picture edge to edge. |
 
-## Da generare: 32 articoli aggiunti il 06.10.2026 sera (completano i 90, due al giorno fino al 20.11)
+## Generate: 32 articoli aggiunti il 06.10.2026 sera (completano i 90, due al giorno fino al 20.11)
 
-Stesse regole: varietà di inquadratura, colore del vino corretto, nessun testo, 3 seed e si tiene la migliore.
-Senza `assets/img/<slug>.jpg` l'articolo resta in attesa. Generare in ordine di data.
+FATTO il 06.10.2026: tutte e 32 le immagini sono in `assets/img/`. Seed 111/222/333, tenuta la migliore per varietà di inquadratura.
+Vin Santo rigenerato (nelle prime prove il vino veniva rosso): prompt con "translucent golden amber like honey" e "red wine" nel negativo, seed 444.
 
 | data | slug | soggetto |
 |---|---|---|
