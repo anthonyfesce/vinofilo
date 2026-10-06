@@ -14,16 +14,16 @@ SITE = "https://vinofilo.com"
 NAME = "Vinofilo"
 TAGLINE = "Storie, territori e tecnica del vino"
 MESI = ["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"]
-CATS = {  # categoria: (sfondo, testo, lettera di fondo)
-    "Vitigni": ("#7E1C2B", "#FBF3E4", "rgba(255,255,255,.10)"),
-    "Territori": ("#2F5D50", "#F4EDE1", "rgba(255,255,255,.10)"),
-    "Tecnica": ("#E9B44C", "#1B1416", "rgba(0,0,0,.08)"),
-    "Servizio": ("#E07254", "#1B1416", "rgba(0,0,0,.08)"),
-    "Guide": ("#1F2E47", "#F4EDE1", "rgba(255,255,255,.09)"),
+CATS = {  # categoria: (colore, testo, descrizione)
+    "Vitigni": ("#7E1C2B", "#FBF3E4", "Le uve e il loro carattere"),
+    "Territori": ("#2F5D50", "#F4EDE1", "Dove nasce il vino"),
+    "Tecnica": ("#E9B44C", "#1B1416", "Come si fa, davvero"),
+    "Servizio": ("#E07254", "#1B1416", "Bicchieri, gradi, decanter"),
+    "Guide": ("#1F2E47", "#F4EDE1", "Per orientarsi"),
 }
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500'
-         '&family=Inter:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">')
+         '&family=Archivo:wght@500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">')
 
 def slugify(s):
     s = s.lower()
@@ -56,14 +56,18 @@ def load():
 
 def itdate(d): return f"{d.day} {MESI[d.month-1]} {d.year}"
 
-def label(a, big=False):
-    name = a.get("cover") or a["title"].split(":")[0]
+def img(a, cls="", ar=None):
+    """Illustrazione dell'articolo (assets/img/<slug>.jpg|.webp|.png) o segnaposto colorato."""
+    bg, fg, _ = CATS[a["category"]]
+    style = f"--c:{bg};--fg:{fg}" + (f";--ar:{ar}" if ar else "")
+    for ext in ("webp", "jpg", "png"):
+        rel = f"assets/img/{a['slug']}.{ext}"
+        if os.path.exists(os.path.join(ROOT, rel)):
+            return (f'<div class="ph {cls}" style="{style}"><img src="/{rel}" alt="{esc(a.get("alt") or a["title"])}" '
+                    f'loading="lazy" decoding="async"></div>')
+    name = a.get("cover") or a["title"]
     word = re.split(r"['’]", name.split()[-1])[-1]
-    bg, fg, bl = CATS[a["category"]]
-    stamp = f'<span class="stamp">N°<b>{a["number"]:02d}</b></span>' if a["number"] else ""
-    return (f'<div class="label{" big" if big else ""}" style="--c:{bg};--fg:{fg};--bgl:{bl}" aria-hidden="true">'
-            f'<span class="bg">{esc(word[0].upper())}</span><span class="k">{esc(a["category"])}</span>{stamp}'
-            f'<span class="t">{esc(name)}</span></div>')
+    return f'<div class="ph {cls}" style="{style}" aria-hidden="true"><span class="ini">{esc(word[0].upper())}</span></div>'
 
 def page(title, desc, path, content, active="", og_type="website", extra_head=""):
     nav = "".join(f'<a href="/categoria/{slugify(c)}/"{" class=on" if c == active else ""}>{c}</a>' for c in CATS)
@@ -80,19 +84,17 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 <meta property="og:type" content="{og_type}"><meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{canon}">
 <meta property="og:site_name" content="{NAME}"><meta property="og:locale" content="it_IT">
-<meta name="theme-color" content="#F5F0E6">
+<meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 {FONTS}
 <link rel="stylesheet" href="/assets/style.css">
 {extra_head}
 </head>
 <body>
-<div class="strip"><div class="wrap"><span>Rivista di vino</span><em>bere meglio, capire di più</em><span>Italia</span></div></div>
 <header class="masthead"><div class="wrap">
-<a href="/" class="wordmark">Vino<i>filo</i></a>
-<p class="tagline">{TAGLINE}</p>
-<nav class="nav">{nav}</nav>
+<span class="side">Rivista di vino</span><a href="/" class="wordmark">Vino<i>filo</i></a><span class="side">{TAGLINE}</span>
 </div></header>
+<div class="wrap"><nav class="nav">{nav}</nav></div>
 <main>
 {content}
 </main>
@@ -101,9 +103,20 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 </html>
 """
 
-def card(a):
-    return (f'<a class="card" href="{a["url"]}">{label(a)}<div class="kick">{esc(a["category"])} <span>· {itdate(a["d"])}</span></div>'
-            f'<h3>{esc(a["title"])}</h3><p>{esc(a["description"])}</p></a>')
+def card(a, desc=True):
+    d = f'<p>{esc(a["description"])}</p>' if desc else ""
+    return (f'<a class="card" href="{a["url"]}">{img(a)}<div class="kick">{esc(a["category"])} <span>· {itdate(a["d"])}</span></div>'
+            f'<h3>{esc(a["title"])}</h3>{d}</a>')
+
+def circle(a):
+    sub = a.get("tagline") or a["description"]
+    return (f'<a href="{a["url"]}">{img(a, "circle")}<h3>{esc(a["title"].split(":")[0])}</h3>'
+            f'<p>{esc(sub)}</p><div class="tags">in <b>{esc(a["category"])}</b></div></a>')
+
+def sect(title, sub="", link=None):
+    l = f'<a href="{link}">Vedi tutti ›</a>' if link else ""
+    s = f"<p>{esc(sub)}</p>" if sub else ""
+    return f'<div class="sect"><div><h2>{esc(title)}</h2>{s}</div>{l}</div>'
 
 def write(rel, text):
     p = os.path.join(ROOT, rel)
@@ -135,38 +148,52 @@ def build():
 <header class="art-head"><div class="kick"><a href="/categoria/{slugify(a['category'])}/">{esc(a['category'])}</a></div>
 <h1>{esc(a['title'])}</h1><p class="standfirst">{esc(a['description'])}</p>
 <div class="byline">{itdate(a['d'])} · {mins} minuti di lettura</div></header>
-<div class="art-cover">{label(a, big=True)}</div>
+<div class="art-cover">{img(a)}</div>
 <div class="body">{body}<p class="fin">❦</p></div>
 </article>
-<section class="wrap related"><div class="sect"><h2>Da leggere ancora</h2><span>Vinofilo</span></div><div class="grid">{''.join(card(x) for x in rel)}</div></section>"""
+<section class="wrap related">{sect("Da leggere ancora")}<div class="row3">{''.join(card(x) for x in rel)}</div></section>"""
         write(a["url"].strip("/") + "/index.html",
               page(a["title"], a["description"], a["url"], content, a["category"], "article", ld))
 
     # Home
-    lead, rest = arts[0], arts[1:]
-    duo, grid = rest[:2], rest[2:]
-    q = grid[0] if grid else lead
+    lead, side, rest = arts[0], arts[1:4], arts[4:]
+    circ, rest = rest[:6], rest[6:]
+    row, rest = rest[:4], rest[4:]
+    longr = rest[0] if rest else None
+    q = next((a for a in arts if a.get("quote")), arts[min(3, len(arts) - 1)])
+    qtext = q.get("quote") or q["description"]
+    side_html = "".join(f'<a href="{a["url"]}">{img(a) if i == 0 else ""}<div class="kick">{esc(a["category"])}</div>'
+                        f'<h3>{esc(a["title"])}</h3><div class="meta">{itdate(a["d"])}</div></a>' for i, a in enumerate(side))
     home = f"""<div class="wrap">
-<section class="lead"><a href="{lead['url']}">{label(lead, big=True)}</a>
-<div><div class="kick">{esc(lead['category'])} <span>· {itdate(lead['d'])}</span></div>
-<a href="{lead['url']}"><h2>{esc(lead['title'])}</h2></a><p>{esc(lead['description'])}</p>
-<a class="more" href="{lead['url']}">Leggi l'articolo</a></div></section>
-<div class="sect"><h2>Ultimi articoli</h2><span>{len(arts)} storie</span></div>
-<div class="duo">{''.join(card(a) for a in duo)}</div></div>
-<section class="quote"><div class="wrap"><p>“{esc(q['description'])}”</p><a href="{q['url']}">{esc(q['title'])} →</a></div></section>
-<div class="wrap"><div class="grid">{''.join(card(a) for a in grid)}</div></div>"""
+<section class="hero"><a class="hero-main" href="{lead['url']}">{img(lead, ar="3/2")}
+<div class="kick" style="margin-top:18px">{esc(lead['category'])} <span>· {itdate(lead['d'])}</span></div>
+<h2>{esc(lead['title'])}</h2><p>{esc(lead['description'])}</p></a>
+<div class="side-list">{side_html}</div></section>"""
+    if circ:
+        home += sect("Da bere e da sapere", "Una selezione dall'archivio di Vinofilo") + f'<div class="circles">{"".join(circle(a) for a in circ)}</div>'
+    home += "</div>"
+    home += f'<section class="quote"><div class="wrap"><p>“{esc(qtext)}”</p><a href="{q["url"]}">{esc(q["title"])} →</a></div></section>'
+    home += '<div class="wrap">'
+    if row:
+        home += sect("Ultimi articoli", "Appena usciti dalla cantina") + f'<div class="row4">{"".join(card(a, False) for a in row)}</div>'
+    if longr:
+        home += sect("Lettura lunga") + (f'<a class="long" href="{longr["url"]}">{img(longr, ar="3/2")}<div><div class="kick">{esc(longr["category"])}</div>'
+                                          f'<h3>{esc(longr["title"])}</h3><p>{esc(longr["description"])}</p></div></a>')
+    counts = {c: sum(1 for a in arts if a["category"] == c) for c in CATS}
+    tiles = "".join(f'<a href="/categoria/{slugify(c)}/" style="--c:{v[0]};--fg:{v[1]}"><b>{c}</b><span>{v[2]} · {counts[c]} articoli</span></a>' for c, v in CATS.items())
+    home += sect("Esplora per tema") + f'<div class="cats">{tiles}</div></div>'
     write("index.html", page(NAME, f"{NAME}: {TAGLINE.lower()}. Vitigni, territori, tecnica e servizio raccontati con un punto di vista.", "/", home))
 
     # Categorie
     for c in CATS:
         items = [a for a in arts if a["category"] == c]
         inner = "".join(card(a) for a in items) or "<p>Articoli in arrivo.</p>"
-        content = f'<div class="wrap"><div class="cat-head"><div class="kick">Categoria</div><h1>{c}</h1></div><div class="grid" style="margin-top:44px">{inner}</div></div>'
+        content = f'<div class="wrap"><div class="cat-head"><div class="kick">{esc(CATS[c][2])}</div><h1>{c}</h1></div>{sect(f"{len(items)} articoli")}<div class="row3">{inner}</div></div>'
         write(f"categoria/{slugify(c)}/index.html", page(c, f"Articoli su {c.lower()} del vino — {NAME}.", f"/categoria/{slugify(c)}/", content, c))
 
     # 404, sitemap, robots
     write("404.html", page("Pagina non trovata", "Pagina non trovata.", "/404.html",
-          '<div class="wrap"><div class="cat-head"><h1>Bottiglia vuota</h1><p class="standfirst">Questa pagina non esiste. <a href="/" class="more">Torna alla home</a></p></div></div>'))
+          '<div class="wrap"><div class="cat-head"><h1>Bottiglia vuota</h1><p class="standfirst">Questa pagina non esiste. <a href="/" style="color:var(--accent)">Torna alla home ›</a></p></div></div>'))
     urls = [("/", arts[0]["d"])] + [(a["url"], a["d"]) for a in arts] + [(f"/categoria/{slugify(c)}/", None) for c in CATS]
     sm = "".join(f"<url><loc>{SITE}{u}</loc>{f'<lastmod>{d.isoformat()}</lastmod>' if d else ''}</url>" for u, d in urls)
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
