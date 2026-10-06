@@ -86,7 +86,18 @@ def img(a, cls="", ar=None):
     word = re.split(r"['’]", name.split()[-1])[-1]
     return f'<div class="ph {cls}" style="{style}" aria-hidden="true"><span class="ini">{esc(word[0].upper())}</span></div>'
 
-def page(title, desc, path, content, active="", og_type="website", extra_head=""):
+def img_path(slug):
+    for ext in ("webp", "jpg", "png"):
+        rel = f"assets/img/{slug}.{ext}"
+        if os.path.exists(os.path.join(ROOT, rel)):
+            return "/" + rel
+    return None
+
+def page(title, desc, path, content, active="", og_type="website", extra_head="", image=None):
+    image = image or img_path("og-vinofilo")
+    og_img = (f'<meta property="og:image" content="{SITE}{image}"><meta property="og:image:width" content="1536">'
+              f'<meta property="og:image:height" content="1024"><meta name="twitter:card" content="summary_large_image">'
+              f'<meta name="twitter:image" content="{SITE}{image}">') if image else ""
     nav = "".join(f'<a href="/categoria/{slugify(c)}/"{" class=on" if c == active else ""}>{c}</a>' for c in CATS)
     canon = SITE + path
     full_title = title if title == NAME else f"{title} — {NAME}"
@@ -101,6 +112,8 @@ def page(title, desc, path, content, active="", og_type="website", extra_head=""
 <meta property="og:type" content="{og_type}"><meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{canon}">
 <meta property="og:site_name" content="{NAME}"><meta property="og:locale" content="it_IT">
+{og_img}
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 {FONTS}
@@ -168,7 +181,8 @@ def build():
         ld = ('<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article",'
               f'"headline":{jsonstr(a["title"])},"description":{jsonstr(a["description"])},'
               f'"datePublished":"{a["d"].isoformat()}","inLanguage":"it","mainEntityOfPage":"{SITE}{a["url"]}",'
-              f'"publisher":{{"@type":"Organization","name":"{NAME}"}}}}</script>')
+              f'"publisher":{{"@type":"Organization","name":"{NAME}"}}'
+              + (f',"image":"{SITE}{img_path(a["slug"])}"' if img_path(a["slug"]) else "") + '}</script>')
         content = f"""<article>
 <header class="art-head"><div class="kick"><a href="/categoria/{slugify(a['category'])}/">{esc(a['category'])}</a></div>
 <h1>{esc(a['title'])}</h1><p class="standfirst">{esc(a['description'])}</p>
@@ -178,7 +192,7 @@ def build():
 </article>
 <section class="wrap related">{sect("Da leggere ancora")}<div class="row3">{''.join(card(x) for x in rel)}</div></section>"""
         write(a["url"].strip("/") + "/index.html",
-              page(a["title"], a["description"], a["url"], content, a["category"], "article", ld))
+              page(a["title"], a["description"], a["url"], content, a["category"], "article", ld, img_path(a["slug"])))
 
     # Home
     lead, side, rest = arts[0], arts[1:4], arts[4:]

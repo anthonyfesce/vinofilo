@@ -35,7 +35,7 @@ many small objects, duplicated objects, deformed, blurry
 | decantare-o-no | In the centre, a crystal wine decanter full of deep red wine floats gently above rolling vineyard hills like a hot-air balloon, in a pale evening sky. |
 | cantina-in-casa | In the centre, the arched doorway of a small vaulted brick cellar, rows of wine bottles lying in wooden racks inside, lit by the glow of a single lamp. |
 
-## Da generare (articoli 11–40, aggiunti il 06.10.2026)
+## Articoli 11–40 (illustrati il 06.10.2026)
 
 | slug | soggetto |
 |---|---|
@@ -55,7 +55,7 @@ many small objects, duplicated objects, deformed, blurry
 | solfiti-contiene-solfiti | In the centre, a single wine glass rests on a pale stone ledge while a thin ribbon of golden smoke curls upward from it and dissolves into a sky of faint, glittering sulphur-yellow stars. |
 | barrique-botte-cemento-acciaio | In the centre, a single oak barrel rests in a moonlit cellar, its staves slowly opening like the petals of a wooden flower. |
 | tappo-sughero-vite-sa-di-tappo | In the centre, a single natural cork floats in a pale night sky like a small moon, a faint spiral of mist rising from it over sleeping vineyard hills. |
-| rosati-italiani-come-si-fanno | In the centre, a single ripe red grape releases one thin pink ribbon of juice that curls upward through pale morning light like a rising streak of watercolour. |
+| rosati-italiani-come-si-fanno | In the centre, a small bunch of ripe red wine grapes on a short vine stem, with one thin ribbon of pale pink juice curling upward from it through soft morning light like a rising streak of watercolour. (rifatto: con "a single grape" usciva una mela) |
 | vino-dealcolato-cosa-dice-la-legge | In the centre, a single wine glass whose red wine rises out of it as a slow spiral of mist, drifting upward into a pale evening sky above quiet vineyard rows. |
 | rossi-da-bere-freschi | In the centre, a single stemmed glass of pale ruby wine rests on a slab of melting ice that drifts across a still alpine lake at dawn. |
 | abbinamenti-falsi-miti | In the centre, a single wine glass rests on a still lake, its reflection turning into a silver fish swimming among floating artichoke leaves. |
@@ -68,4 +68,16 @@ many small objects, duplicated objects, deformed, blurry
 | le-annate-contano-davvero | In the centre, a single bunch of dark grapes hangs from a vine like a pendulum inside a tall antique clock case, its glass door half open onto a sunlit vineyard. |
 | glossario-parole-del-vino | In the centre, an antique open dictionary rests on a vineyard terrace, its pages curling into grapevine tendrils and tiny bunches of grapes under a soft dusk sky. |
 | come-si-diventa-sommelier | In the centre, a single silver tastevin rests on an open stone staircase that spirals upward into a pale sky, each step carved like a terraced vineyard. |
-| regalare-una-bottiglia | In the centre, a single wine bottle wrapped in a loose silk ribbon rests on a windowsill, its long shadow stretching across the floor like the hand of a clock. |
+| regalare-una-bottiglia | In the centre, a single dark wine bottle with a plain unlabelled glass, wrapped in a loose cream silk ribbon tied in a bow, standing on a sunlit windowsill, its long slender shadow stretching diagonally across a pale floor. (rifatto: "hand of a clock" disegnava una mano umana) |
+
+## Immagine di condivisione
+
+og-vinofilo (assets/img/og-vinofilo.jpg, og:image di home, categorie e 404): In the centre, a single elegant wine glass of deep red wine
+stands on a low stone wall, and inside its bowl a whole miniature Italian landscape of vineyard hills, cypresses and a distant
+hilltop village glows in the last evening light.
+
+Ogni articolo usa la propria illustrazione come og:image e nel JSON-LD. Icona iPhone: assets/apple-touch-icon.png (V in Cormorant su bordeaux).
+
+## Lezioni
+- Evitare "label", "clock", "dictionary con scritte": il modello inventa testo. Scrivere "plain unlabelled", "blank pages".
+- Metafore letterali ("like the hand of a clock") vengono disegnate alla lettera: descrivere la forma, non la metafora.
