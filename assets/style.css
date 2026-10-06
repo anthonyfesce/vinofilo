@@ -83,8 +83,8 @@ img{display:block;max-width:100%}
 .circles .tags b{font-weight:600;color:var(--ink);border-bottom:1px solid var(--ink)}
 
 /* Fascia citazione */
-.quote{text-align:center;margin-top:24px}
-.quote .wrap{padding-top:52px;padding-bottom:52px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.quote{text-align:center;margin-top:40px;background:#F1E8DA;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.quote .wrap{padding-top:64px;padding-bottom:60px}
 .quote p{font-family:var(--text);font-style:italic;font-size:clamp(26px,3.2vw,42px);line-height:1.22;max-width:900px;margin:0 auto 20px}
 .quote a{font-family:var(--head);font-weight:600;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
 
