@@ -1,6 +1,6 @@
 ---
-title: Etna Wine: The Volcano That Redrew the Map of Italian Wine
-description: Nerello Mascalese, Carricante, ungrafted bush vines and 142 contrade: why Etna is Italy's most talked-about wine region, and what lies beyond the myth.
+title: Etna, the volcano that redrew the map of Italian wine
+description: Nerello Mascalese, Carricante, ungrafted bush vines and 142 contrade: why Etna is Italy’s most talked-about wine region, and what lies beyond the myth.
 slug: etna-wine-volcano-sicily
 cover: Etna
 ---

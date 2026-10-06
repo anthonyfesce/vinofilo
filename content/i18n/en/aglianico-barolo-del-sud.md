@@ -1,5 +1,5 @@
 ---
-title: Aglianico, the “Barolo of the South” that doesn't need Piedmont
+title: Aglianico, the “Barolo of the South” that doesn’t need Piedmont
 description: Taurasi, Vulture and Taburno: why Aglianico gets called the “Barolo of the South”, and why the nickname ends up fitting it like a suit a size too small.
 slug: aglianico-barolo-of-the-south
 cover: Aglianico

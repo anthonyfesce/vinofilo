@@ -1,6 +1,6 @@
 ---
-title: Alto Adige, Italy's most precise mountain wine
-description: Less than 1% of Italy's vineyards, cooperatives that set the standard, vines up to a thousand metres: why Alto Adige is Italy's most exacting mountain wine.
+title: Alto Adige, Italy’s most precise mountain wine
+description: Less than 1% of Italy’s vineyards, cooperatives that set the standard, vines up to a thousand metres: why Alto Adige is Italy’s most exacting mountain wine.
 slug: alto-adige-mountain-wine-italy
 cover: Alto Adige
 ---

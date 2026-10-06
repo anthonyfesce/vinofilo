@@ -1,5 +1,5 @@
 ---
-title: To Decant or Not: When a Decanter Helps and When It Does Harm
+title: To decant or not: when a decanter helps and when it does harm
 description: Removing sediment or adding oxygen? When to decant a young wine, when to protect a fragile old red, and what to do with whites and sparkling wines.
 slug: should-you-decant-wine
 cover: Decanting

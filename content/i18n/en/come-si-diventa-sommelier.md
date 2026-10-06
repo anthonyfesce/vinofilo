@@ -1,5 +1,5 @@
 ---
-title: How to Become a Sommelier: The Routes, the Levels and the Real Timelines
+title: How to become a sommelier: the routes, the levels and the real timelines
 description: AIS, FISAR, ONAV, WSET, up to Master Sommelier and Master of Wine: how the paths to becoming a sommelier work in Italy, and how long they really take.
 slug: how-to-become-a-sommelier-italy
 cover: Sommelier

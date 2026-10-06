@@ -1,6 +1,6 @@
 ---
 title: Amarone, the wine born of waiting: appassimento, Recioto and Ripasso
-description: How drying grapes in Valpolicella's fruttai creates Amarone, what links it to Recioto and Ripasso, and why its style is up for debate today.
+description: How drying grapes in Valpolicella’s fruttai creates Amarone, what links it to Recioto and Ripasso, and why its style is up for debate today.
 slug: amarone-appassimento-recioto-ripasso
 cover: Amarone
 ---

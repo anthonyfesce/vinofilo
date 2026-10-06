@@ -1,6 +1,6 @@
 ---
-title: Ten Italian Wines for Beginners: How to Train Your Palate
-description: Ten Italian appellations, from sparkling wines to Moscato d'Asti, chosen to train your palate on acidity, tannin, saltiness and sweetness.
+title: Ten Italian wines for beginners: how to train your palate
+description: Ten Italian appellations, from sparkling wines to Moscato d’Asti, chosen to train your palate on acidity, tannin, saltiness and sweetness.
 slug: italian-wines-for-beginners
 cover: First steps
 ---

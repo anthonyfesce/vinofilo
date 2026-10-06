@@ -1,5 +1,5 @@
 ---
-title: How to Taste Wine Without Sounding Like a Snob (or Lying)
+title: How to taste wine without sounding like a snob (or lying)
 description: Look, swirl, sniff, sip: wine tasting explained without the posturing, with the physics of wine legs and a simple method for training your nose.
 slug: how-to-taste-wine-like-a-pro
 cover: Tasting

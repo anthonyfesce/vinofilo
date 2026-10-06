@@ -1,0 +1,42 @@
+---
+title: Dealcoholised wine: how the alcohol is removed and what the law says
+description: Vacuum distillation, reverse osmosis, spinning cone: how dealcoholised wine is made and what EU and Italian rules provide for, excise duty included.
+slug: dealcoholised-wine-how-made-law
+cover: Alcohol-free
+---
+
+For centuries the winemaker’s problem was how to get alcohol into the bottle, sound and in the right amount. Today part of the job consists of doing the opposite: drawing it out without taking everything else along with it. Put like that it sounds like a paradox, and to some extent it is. But it is also one of the most eventful regulatory chapters in European wine over the past five years, with Italy arriving last, after much hesitation, and with a sticking point that was neither technical nor cultural, but fiscal.
+
+## Three ways to remove the alcohol
+
+The starting point is always a finished wine, fermented in the normal way. The problem is that ethanol boils at a lower temperature than water, but not low enough to leave the aromas intact, since they are even more volatile and delicate. Heating a wine at atmospheric pressure to evaporate its alcohol means cooking it. All the permitted techniques therefore revolve around the same idea: lowering the working temperature, or separating the molecules without using heat.
+
+**Vacuum distillation** reduces the pressure inside the equipment, and with it the boiling point: the alcohol is driven off at far milder temperatures than in a traditional still. It is the most direct method, but it tends to carry away a share of the aromatic compounds as well.
+
+The **spinning cone** (in Italian *cono rotante*; in full, spinning cone column) is a sophisticated variant of the same principle. The wine flows in an extremely thin film over a series of cones rotating inside a column under vacuum, while a stream of vapour passes through it. The trick lies in working in two passes: first the most volatile aromatic fractions are extracted at a very low temperature and set aside; then the alcohol is removed; finally the recovered aromas are returned to the dealcoholised wine.
+
+**Reverse osmosis** takes a different approach: no evaporation, but a membrane with extremely fine pores. Under pressure, water and alcohol pass through it, while the larger molecules (colour, tannins, acids, most of the aromas) stay on the other side, in a kind of concentrate. The alcohol is then separated from the filtered liquid, usually by distillation, and the wine’s water goes back into the concentrate. This point deserves emphasis: the water returned is the wine’s own, not added water.
+
+## What Brussels says
+
+The framework is Regulation (EU) 2021/2117, which in December 2021 amended the Common Market Organisation and brought wines with reduced alcohol within the official perimeter of wine. There are two definitions. **Dealcoholised**: an actual alcoholic strength of no more than 0.5% vol. **Partially dealcoholised**: above 0.5%, but below the minimum laid down for the original category. Three techniques are permitted, used alone or in combination: partial vacuum evaporation, membrane techniques and distillation. Increasing the sugar content of the must to compensate is not allowed, and the process must not create organoleptic defects. For wines with a protected designation of origin or geographical indication, the regulation provides, as a general rule, only for partial dealcoholisation, and only if the production rules allow for it.
+
+In 2026 came the so-called wine package, Regulation (EU) 2026/471, which mainly reworked the labelling: a harmonised “alcohol-free”-type wording for products up to 0.5% vol, the indication “0.0%” reserved for those that stay within 0.05%, a dedicated term for wines with a strength at least 30% below the minimum for their category, and the obligation to state that the product has been obtained by dealcoholisation. On the exact wording in Italian, the sources consulted do not entirely agree, and the scope of the changes for appellation wines is also reported inconsistently: on these two points it is wise to wait for the consolidated text and the first implementing circulars.
+
+## Italy and the excise knot
+
+Italy got there by degrees, and not without contradictions. In the spring of 2024 the agriculture minister was publicly arguing that these drinks should not be called wine; by the autumn the line had changed. On 20 December 2024 ministerial decree no. 672816 was signed, transposing the European rules with some more restrictive choices: dealcoholisation excluded for all PDO and PGI wines, a ban on adding external water and flavourings, no increase in sugars.
+
+On paper the green light was there. In practice, for much of 2025 almost nothing could be produced in Italy. The first obstacle was logistical: wineries had to physically separate the spaces for dealcoholised products from those for traditional wine, until an amendment approved in the spring allowed work to be carried out in existing facilities, provided they had digital registers and a tax warehouse licence. The second obstacle was thornier: the extracted alcohol. Removing the ethanol from wine means producing ethyl alcohol, that is, a product subject to excise duty, with interests at stake ranging from wineries to distillers.
+
+The solution came in two stages. A fiscal decree-law approved in June 2025 inserted into the Consolidated Excise Act (Testo unico delle accise) a new Article 33-ter dedicated to dealcoholisation, leaving the details to an implementing measure. That measure is the decree of 29 December 2025, published in the Gazzetta Ufficiale on 5 January 2026 and in force from the following day. It distinguishes operators by volume, with a threshold of 1,000 hectolitres of dealcoholised wine a year: below it, a simplified regime for those who already run a tax warehouse for wine; above it, a specific licence. The separated alcohol travels under excise duty suspension to authorised warehouses. In plain terms: from 2026 an Italian winery can dealcoholise on its own premises under clear rules, something that many previously did by relying on third-party plants, often across the border.
+
+## Why wineries care
+
+The simplest answer is commercial. The no- and low-alcohol segment is growing in markets that matter a great deal to Italian wine, from Northern Europe to the United Kingdom and the United States, and those who could not produce it in Italy risked handing that segment to their competitors. Then there is a less openly stated reason: a basic wine that cannot find an outlet may find a different one after dealcoholisation. And there is the question of identity, which explains the caution over appellations: for a *consorzio*, the producers’ body that protects an appellation, tying its name to a product that loses its alcoholic component is a delicate choice, and indeed the door remains largely closed.
+
+## What is left in the glass
+
+Alcohol is not a neutral ingredient. It gives body and a sensation of warmth, supports the aromas and softens the perception of acidity. Removing it means obtaining a thinner liquid, in which acidity sticks out and, in reds, tannin can turn angular. It is no coincidence that the most convincing results, by broad consensus in the industry, come from sparkling wines and aromatic whites, where bubbles and perfume cover part of the void. Structured reds remain the toughest challenge. The Italian rules, which ban external flavourings and water, make the challenge more honest and also more difficult.
+
+Our view is that dealcoholised wine should be judged for what it is: neither an amputated wine nor grape juice in disguise, but a new drink born from wine that keeps a recognisable part of it. The real test will not be regulatory but one of taste: when we stop comparing it with the original and start asking whether it is good in itself, we will find out whether it has a future or merely a market.

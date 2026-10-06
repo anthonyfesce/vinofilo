@@ -1,5 +1,5 @@
 ---
-title: Five wine pairing myths it's time to leave on the table
+title: Five wine pairing myths it’s time to leave on the table
 description: Red wine with fish, sweet with dessert, cheese, artichokes and the rule of terroir: five food and wine pairing clichés, revisited with some common sense.
 slug: wine-pairing-myths-debunked
 cover: Food pairing
