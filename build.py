@@ -6,7 +6,7 @@ Output: index.html, articles/AAAA.MM.GG/slug/index.html, categoria/<cat>/index.h
         sitemap.xml, robots.txt, 404.html — direttamente nella radice del repository.
 Gli articoli con data futura non vengono pubblicati (servono per la programmazione).
 """
-import datetime as dt, html, os, re, shutil, sys
+import datetime as dt, html, json, os, re, shutil, sys
 import markdown
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -56,11 +56,23 @@ def load():
 
 def itdate(d): return f"{d.day} {MESI[d.month-1]} {d.year}"
 
-NUMERI = [  # (slug, numero, didascalia): cifre già verificate negli articoli
+NUMERI = [  # (slug, numero, didascalia): cifre già verificate negli articoli. La home ne mostra 4 a rotazione.
     ("nebbiolo-vitigno-piu-difficile", "1268", "L'anno della prima menzione documentata di un vino chiamato «nibiol», vicino a Torino"),
+    ("nebbiolo-vitigno-piu-difficile", "38", "I mesi minimi di invecchiamento prima che un Barolo possa uscire, di cui 18 in legno"),
+    ("nebbiolo-vitigno-piu-difficile", "1980", "L'anno delle prime DOCG italiane: Barolo, Barbaresco, Brunello e Nobile di Montepulciano"),
     ("etna-vulcano-del-vino", "142", "Le contrade dell'Etna che si possono citare in etichetta, dopo la nuova mappa del 2022"),
+    ("etna-vulcano-del-vino", "1968", "L'anno in cui l'Etna diventò la prima DOC della Sicilia"),
     ("metodo-classico-charmat", "60", "I mesi minimi sui lieviti per un Franciacorta Riserva"),
+    ("metodo-classico-charmat", "1895", "L'anno in cui Federico Martinotti descrisse la rifermentazione in grandi recipienti"),
+    ("metodo-classico-charmat", "1993", "L'anno di nascita del Trento DOC, prima denominazione italiana riservata al metodo classico"),
     ("vini-orange", "2013", "L'anno in cui l'UNESCO ha riconosciuto la vinificazione georgiana in qvevri"),
+    ("vini-orange", "1995", "L'anno in cui Stanko Radikon tornò a macerare la Ribolla sulle bucce"),
+    ("amarone-appassimento", "14%", "Il titolo alcolometrico minimo dell'Amarone della Valpolicella"),
+    ("leggere-etichetta-vino", "85%", "La quota minima di vino dell'annata dichiarata per i vini a denominazione"),
+    ("leggere-etichetta-vino", "2023", "Da dicembre di quell'anno ingredienti e valori nutrizionali entrano nell'etichetta del vino"),
+    ("temperatura-di-servizio", "6–10°", "La forchetta di temperatura per servire spumanti e Champagne"),
+    ("cantina-in-casa", "12–14°", "La temperatura di cantina citata più spesso come ideale"),
+    ("forma-del-calice", "1901", "L'anno delle misure di Hänig da cui nacque, per equivoco, la mappa della lingua"),
 ]
 
 def img(a, cls="", ar=None):
@@ -188,16 +200,25 @@ def build():
         side2 = [a for a in pool if a is not lead2][-3:]
         side2_html = "".join(f'<a href="{a["url"]}">{img(a) if i == 0 else ""}<div class="kick">{esc(a["category"])}</div>'
                              f'<h3>{esc(a["title"])}</h3><div class="meta">{itdate(a["d"])}</div></a>' for i, a in enumerate(side2))
-        home += sect("Lettura lunga", "Il pezzo da leggere con calma, e altri tre per continuare") + f"""<section class="hero rev">
+        home += f"""<section class="hero rev">
 <div class="side-list">{side2_html}</div>
 <a class="hero-main" href="{lead2['url']}">{img(lead2, ar="3/2")}
-<div class="kick" style="margin-top:18px">{esc(lead2['category'])} <span>· {round(lead2['words'] / 220)} minuti di lettura</span></div>
+<div class="kick" style="margin-top:18px">Lettura lunga <span>· {esc(lead2['category'])} · {round(lead2['words'] / 220)} minuti</span></div>
 <h2>{esc(lead2['title'])}</h2><p>{esc(lead2['description'])}</p></a></section>"""
-    nums = [n for n in NUMERI if any(a["slug"] == n[0] for a in arts)][:4]
-    if nums:
-        by = {a["slug"]: a for a in arts}
-        home += sect("I numeri", "Quattro cifre prese dagli articoli") + '<div class="nums">' + "".join(
-            f'<a href="{by[sl]["url"]}"><b>{esc(n)}</b><p>{esc(t)}</p><span>Leggi ›</span></a>' for sl, n, t in nums) + "</div>"
+    by = {a["slug"]: a for a in arts}
+    pool_n = [{"u": by[sl]["url"], "n": n, "t": t} for sl, n, t in NUMERI if sl in by]
+    if len(pool_n) >= 4:
+        first, used = [], set()
+        for x in pool_n:
+            if x["u"] not in used: first.append(x); used.add(x["u"])
+            if len(first) == 4: break
+        cells = "".join(f'<a href="{x["u"]}"><b>{esc(x["n"])}</b><p>{esc(x["t"])}</p><span>Leggi ›</span></a>' for x in first)
+        data = json.dumps(pool_n, ensure_ascii=False).replace("</", "<\\/")
+        home += sect("I numeri", "Quattro cifre dagli articoli, ogni volta diverse") + f'<div class="nums" id="nums">{cells}</div>' + (
+            '<script>(function(){var P=' + data + ';var o=[],u={};P.sort(function(){return Math.random()-.5});'
+            'for(var i=0;i<P.length&&o.length<4;i++){if(!u[P[i].u]){u[P[i].u]=1;o.push(P[i])}}'
+            'var e=function(s){return s.replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;","\\"":"&quot;"}[c]})};'
+            'document.getElementById("nums").innerHTML=o.map(function(x){return\'<a href="\'+x.u+\'"><b>\'+e(x.n)+\'</b><p>\'+e(x.t)+\'</p><span>Leggi ›</span></a>\'}).join("")})();</script>')
     if row:
         home += sect("Ultimi articoli", "Appena usciti dalla cantina") + f'<div class="row4">{"".join(card(a, False) for a in row)}</div>'
     counts = {c: sum(1 for a in arts if a["category"] == c) for c in CATS}

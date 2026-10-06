@@ -61,7 +61,7 @@ img{display:block;max-width:100%}
 .side-list a:hover h3{color:var(--accent)}
 .side-list .ph{--ar:16/9;margin-bottom:12px}
 
-.hero.rev{grid-template-columns:1fr 2fr;padding-top:0}
+.hero.rev{grid-template-columns:1fr 2fr;padding-top:48px}
 
 /* I numeri */
 .nums{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
