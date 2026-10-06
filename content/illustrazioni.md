@@ -196,3 +196,16 @@ Senza `assets/img/<slug>.jpg` l'articolo resta in attesa. Generare in ordine di 
 | 11-19 | vino-con-la-polenta | A gouache painting of an autumn mountainside in full colour, larch and beech turning gold and rust, a small stone-and-wood alpine hut in the lower third of the frame with a thin curl of smoke rising from its chimney, soft misty peaks behind, filling the entire frame, no text, no hands. |
 | 11-20 | vin-santo-caratelli-e-pazienza | Interior of an attic with small wooden barrels lined along the beams, oblique golden light falling from a small window, seen from below, filling the whole frame, gouache style, no readable text, no hands in the foreground, a small glass in shadow holding deep amber wine. |
 | 11-20 | vino-con-i-tortellini-in-brodo | Night view of the porticoes of Bologna with light snow falling, warm lamplight pooling on the flagstones under the arches, a softly glowing trattoria window at the far end, gouache style filling the entire frame, no readable text or signs, no hands in the foreground. |
+
+## Da generare: articoli dopo-evento (riepiloghi, Anthony 06.10.2026)
+
+Ogni riepilogo ha la SUA illustrazione (niente riciclo di quella di presentazione). L'articolo viene scritto dopo l'evento;
+l'immagine si può generare prima, con questo nome. Senza immagine l'articolo resta in attesa.
+
+| uscita | slug | inquadratura | soggetto |
+|---|---|---|---|
+| 24-10 | barolo-en-primeur-2026-com-e-andata | notturno | Night view of a medieval brick castle on a Langhe hilltop lit warmly from inside after an evening event, seen from the dark vineyard rows below, a few tiny figures walking down the lane with lanterns, autumn mist in the valleys, deep indigo sky. |
+| 09-11 | asta-tartufo-bianco-alba-2026-risultati | natura morta su fondo scuro | Still life on a dark background, slightly off-centre to the right: a large knobbly white truffle resting on folded linen beside a glass of translucent garnet-red Nebbiolo wine, a small brass scale and a few fallen autumn vine leaves, warm candlelight from the left. |
+| 11-11 | merano-winefestival-2026-com-e-andata | veduta aerea | Aerial view of an Alpine spa town at dusk in late autumn, a long Art Nouveau pavilion lit along a river promenade, golden trees on the banks, small figures on the bridges, snow-dusted mountains around the valley. |
+| 16-11 | hospices-de-beaune-2026-risultati-asta | ritmo/ripetizione | Long rows of small oak barrels receding into a stone-vaulted Burgundian cellar, each with a single short candle burning on top, warm flickering light on the vaults, one glass of ruby-red Pinot Noir on the nearest barrel head at the lower left. |
+| 24-11 | benvenuto-brunello-2026-com-e-andata | interno con figure piccole | Interior of a medieval cloister in a Tuscan hill town in November, small figures of tasters with wine glasses moving under the stone arches, a glass of deep ruby-garnet red wine on a stone ledge in the foreground at the right, misty hills glimpsed through an arch. |
