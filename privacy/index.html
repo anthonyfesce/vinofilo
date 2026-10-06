@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="/assets/fonts/fonts.css">
 <link rel="stylesheet" href="/assets/style.css">
 
-
+<script src="/assets/consenso.js" data-ga="G-H26K5NGH04" defer></script>
 </head>
 <body>
 <header class="masthead"><div class="wrap">
@@ -30,7 +30,7 @@
 <p>Il titolare del trattamento è <strong>Another Perspective Pictures S.r.l.</strong>, Via Monte Napoleone 21, 20121 Milano.</p>
 <p>Per qualsiasi domanda o richiesta sui dati personali si scrive a <strong>redazione@vinofilo.com</strong>.</p>
 <h2>Quali dati vengono trattati</h2>
-<p>Il sito non raccoglie dati tramite moduli e non usa strumenti di statistica, di profilazione o di pubblicità.</p>
+<p>Il sito non raccoglie dati tramite moduli e non usa strumenti di profilazione o di pubblicità. Usa uno strumento di statistica, Google Analytics, solo se il visitatore lo accetta (vedi più sotto).</p>
 <p>Il primo trattamento è quello tecnico, inevitabile per far arrivare le pagine al browser: quando si apre una pagina, i server che la distribuiscono registrano informazioni come l’indirizzo IP, la data e l’ora della richiesta, la pagina richiesta e il tipo di browser. Servono a far funzionare il sito, a proteggerlo da abusi e attacchi e a risolvere eventuali problemi tecnici.</p>
 <p>La base giuridica è il legittimo interesse del titolare a pubblicare un sito funzionante e sicuro (art. 6, par. 1, lett. f del Regolamento UE 2016/679, “GDPR”).</p>
 <h2>Chi gestisce tecnicamente il sito</h2>
@@ -40,8 +40,17 @@
 </ul>
 <p>Questi fornitori trattano i dati tecnici secondo le proprie informative e possono conservarli su server anche fuori dall’Unione europea, in particolare negli Stati Uniti. Questi trasferimenti avvengono sulla base delle garanzie previste dal GDPR, cioè la decisione di adeguatezza sull’EU-US Data Privacy Framework, a cui questi fornitori dichiarano di aderire, oppure le clausole contrattuali standard approvate dalla Commissione europea.</p>
 <p>Anche i caratteri tipografici sono ospitati sul sito stesso: aprire una pagina non comporta richieste a servizi esterni di font.</p>
+<h2>Statistiche di visita</h2>
+<p>Se il visitatore accetta nel banner, il sito usa <strong>Google Analytics 4</strong> (Google Ireland Limited) per sapere in forma aggregata quante persone lo visitano, quali articoli leggono e da dove arrivano (motori di ricerca, social, link). Serve solo a capire quali contenuti funzionano, non a fare pubblicità o profilazione.</p>
+<p>Google Analytics 4 non registra né conserva l’indirizzo IP completo. I dati restano nell’account Analytics del titolare per il tempo impostato (14 mesi) e possono essere trattati da Google anche fuori dall’Unione europea, con le garanzie descritte sopra.</p>
+<p>La base giuridica è il consenso (art. 6, par. 1, lett. a del GDPR). Senza consenso Google Analytics non si carica affatto. Il consenso si può ritirare in qualsiasi momento dal link “Preferenze cookie” in fondo a ogni pagina.</p>
 <h2>Cookie</h2>
-<p>Vinofilo non usa cookie di profilazione, di statistica o di terze parti a scopo pubblicitario. Per questo non mostra un banner di consenso.</p>
+<p>Vinofilo non usa cookie di profilazione o di terze parti a scopo pubblicitario. Usa:</p>
+<ul>
+<li><strong>cookie di statistica di Google Analytics</strong> (<code>_ga</code> e <code>_ga_</code> seguito da un codice), solo dopo il consenso, con durata fino a 2 anni;</li>
+<li><strong>una preferenza salvata nel browser</strong> (<code>vf_consenso</code>, nella memoria locale del browser e non come cookie) che ricorda la scelta fatta nel banner per 6 mesi, così il banner non riappare a ogni pagina.</li>
+</ul>
+<p>Rifiutando, nessun cookie di statistica viene impostato e quelli eventualmente presenti vengono cancellati.</p>
 <p>Cloudflare può impostare cookie tecnici di sicurezza (per esempio <code>__cf_bm</code>) che servono solo a distinguere i visitatori reali dal traffico automatico. Sono strettamente necessari al funzionamento sicuro del sito e, secondo le linee guida del Garante per la protezione dei dati personali, non richiedono consenso.</p>
 <p>Se in futuro il sito introducesse altri cookie non tecnici, questa pagina verrà aggiornata e, quando necessario, verrà chiesto il consenso prima di attivarli.</p>
 <h2>Per quanto tempo</h2>
@@ -52,6 +61,6 @@
 <h2>Link esterni</h2>
 <p>Gli articoli possono contenere link ad altri siti. Una volta usciti da Vinofilo valgono le informative di quei siti, su cui il titolare non ha controllo.</p></div></article>
 </main>
-<footer><div class="wrap"><a href="/" class="wordmark">VINOFILO</a><p>Storie, territori e tecnica del vino · © 2026 · <a href="/privacy/">Privacy e cookie</a></p></div></footer>
+<footer><div class="wrap"><a href="/" class="wordmark">VINOFILO</a><p>Storie, territori e tecnica del vino · © 2026 · <a href="/privacy/">Privacy e cookie</a> · <a href="#" onclick="vfPreferenzeCookie();return false">Preferenze cookie</a></p></div></footer>
 </body>
 </html>

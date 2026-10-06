@@ -13,7 +13,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://vinofilo.com"
 NAME = "Vinofilo"
 TAGLINE = "Storie, territori e tecnica del vino"
-GA_ID = ""  # ID di misurazione GA4 (G-XXXXXXXXXX). Vuoto = niente statistiche e niente banner.
+GA_ID = "G-H26K5NGH04"  # ID di misurazione GA4 (G-XXXXXXXXXX). Vuoto = niente statistiche e niente banner.
 MESI = ["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"]
 CATS = {  # categoria: (colore, testo, descrizione)
     "Vitigni": ("#7E1C2B", "#FBF3E4", "Le uve e il loro carattere"),
