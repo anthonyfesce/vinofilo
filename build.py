@@ -239,6 +239,27 @@ def short_title(a):
 
 # ---------------------------------------------------------------- generazione
 
+def rss(lg, items, path, title, desc, link):
+    """Feed RSS (ultimi articoli, con illustrazione): lo legge Pinterest per creare i Pin da solo."""
+    def it(a):
+        im = img_path(a["key"])
+        if not im: return ""
+        fn = os.path.join(ROOT, im.lstrip("/").split("?")[0])
+        when = dt.datetime.combine(a["d"], dt.time(7, 0), ZoneInfo("Europe/Rome"))
+        return (f"<item><title>{esc(a['title'])}</title><link>{SITE}{a['url']}</link>"
+                f"<guid isPermaLink=\"true\">{SITE}{a['url']}</guid>"
+                f"<pubDate>{when.strftime('%a, %d %b %Y %H:%M:%S %z')}</pubDate>"
+                f"<category>{esc(cat_name(lg, a['category']))}</category>"
+                f"<description>{esc(a['description'])}</description>"
+                f'<enclosure url="{SITE}{esc(im)}" length="{os.path.getsize(fn)}" type="image/jpeg"/>'
+                f'<media:content url="{SITE}{esc(im)}" medium="image" type="image/jpeg" width="1536" height="1024"/></item>')
+    body = "".join(it(a) for a in items[:60])
+    write(path.strip("/"), '<?xml version="1.0" encoding="UTF-8"?>\n'
+          '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>'
+          f"<title>{esc(title)}</title><link>{SITE}{link}</link><description>{esc(desc)}</description>"
+          f"<language>{lg}</language>"
+          f'<atom:link href="{SITE}{path}" rel="self" type="application/rss+xml"/>{body}</channel></rss>\n')
+
 def build_lang(lg, arts, alt_art, md, sitemap):
     t, P = L[lg], prefix(lg)
     mins = lambda a: max(1, round(a["words"] / 220))
@@ -342,6 +363,8 @@ def build_lang(lg, arts, alt_art, md, sitemap):
     write((P.strip("/") + "/index.html").lstrip("/"), page(lg, NAME, t["home_desc"], P + "/", home, alts=home_alts))
     sitemap.append((P + "/", arts[0]["d"], home_alts))
 
+    rss(lg, arts, f"{P}/feed.xml", NAME, t["home_desc"], P + "/")
+
     # Categorie
     cat_alts = {c: {l: cat_url(l, c) for l in home_alts} for c in CATS}
     for c in CATS:
@@ -353,6 +376,7 @@ def build_lang(lg, arts, alt_art, md, sitemap):
         write(u.strip("/") + "/index.html",
               page(lg, cat_name(lg, c), t["cat_desc"].format(cat=cat_name(lg, c), desc=cat_desc(lg, c)), u, content, c, alts=cat_alts[c]))
         sitemap.append((u, None, cat_alts[c]))
+        rss(lg, items, u + "feed.xml", f"{NAME} · {cat_name(lg, c)}", cat_desc(lg, c), u)
 
     # Pagine statiche (privacy ecc.): italiano in content/pagine/, traduzioni in content/i18n/<lg>/pagine/
     pdir = os.path.join(ROOT, "content/pagine") if lg == "it" else os.path.join(ROOT, "content/i18n", lg, "pagine")
