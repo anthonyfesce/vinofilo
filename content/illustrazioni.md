@@ -212,3 +212,6 @@ Tartufo rigenerato: al primo giro sembrava un cavolfiore. Nel prompt va descritt
 | 11-11 | merano-winefestival-2026-com-e-andata | veduta aerea | Aerial view of an Alpine spa town at dusk in late autumn, a long Art Nouveau pavilion lit along a river promenade, golden trees on the banks, small figures on the bridges, snow-dusted mountains around the valley. |
 | 16-11 | hospices-de-beaune-2026-risultati-asta | ritmo/ripetizione | Long rows of small oak barrels receding into a stone-vaulted Burgundian cellar, each with a single short candle burning on top, warm flickering light on the vaults, one glass of ruby-red Pinot Noir on the nearest barrel head at the lower left. |
 | 24-11 | benvenuto-brunello-2026-com-e-andata | interno con figure piccole | Interior of a medieval cloister in a Tuscan hill town in November, small figures of tasters with wine glasses moving under the stone arches, a glass of deep ruby-garnet red wine on a stone ledge in the foreground at the right, misty hills glimpsed through an arch. |
+
+## guide-vini-2027-premiati (07.10.2026)
+Tavolo da biblioteca visto dall'alto con guide rilegate senza scritte, quaderno, calici di rosso granato e bianco dorato, foglie d'autunno alla finestra. Seed 111/222/333, tenuta la 222. Negativo aggiunto: "book titles, printed text on covers".
