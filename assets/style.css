@@ -199,6 +199,10 @@ footer p{font-family:var(--head);font-size:12px;color:var(--muted);margin:0}
   .circles a{padding:0 12px 40px}
 }
 @media (max-width:620px){
+  footer .wrap{flex-direction:column;align-items:center;text-align:center;gap:16px}
+  footer p{line-height:1.7}
+  footer .langs.foot,[dir=rtl] footer .langs.foot{justify-content:center;margin-top:4px}
+  .dsep{display:none}
   .langsel{margin:-12px 0 8px;font-size:12.5px}
   .langsel summary{padding:10px 0 10px 12px}
   .langsel ul{min-width:220px;padding:10px 0}
@@ -231,6 +235,8 @@ footer p{font-family:var(--head);font-size:12px;color:var(--muted);margin:0}
   .art-head{padding:34px 16px 24px}
   .art-cover,.body{padding-left:16px;padding-right:16px}
 }
+.mbr{display:none}
+@media (max-width:620px){.mbr{display:block}}
 footer p a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 .body.page>p:first-of-type::first-letter{float:none;font:inherit;padding:0;color:inherit}
 #vf-cookie{position:fixed;left:16px;right:16px;bottom:16px;z-index:99;max-width:760px;margin:0 auto;background:var(--ink);color:#F5EFE6;

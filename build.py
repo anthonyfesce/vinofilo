@@ -34,6 +34,7 @@ CAT_IMG = {"Vitigni": "vitigni-dimenticati-che-tornano", "Territori": "chianti-e
            "Tecnica": "barrique-botte-cemento-acciaio", "Servizio": "forma-del-calice",
            "Guide": "vino-al-ristorante-carta-dei-vini"}  # immagine scelta per ogni tema in "Esplora per tema"
 FONTS = '<link rel="stylesheet" href="/assets/fonts/fonts.css">'
+FOOT_LANGS = ["it", "en", "fr", "zh", "ar"]  # lingue mostrate nel piè di pagina (il menu in testata le ha tutte)
 AVAIL = ["it"]  # lingue effettivamente pubblicate (riempita da build())
 
 def slugify(s):
@@ -178,7 +179,7 @@ def page(lg, title, desc, path, content, active="", og_type="website", extra_hea
     langbar = (f'<details class="langsel"><summary aria-label="{esc(t["languages"])}">{L[lg]["name"]}</summary>'
                f'<ul>{opts}</ul></details>') if len(AVAIL) > 1 else ""
     langfoot = (f'<nav class="langs foot" aria-label="{esc(t["languages"])}">' +
-                "".join(f'<a href="{u}" hreflang="{l}" lang="{l}"{" class=on" if l == lg else ""}>{L[l]["name"]}</a>' for l, u in links)
+                "".join(f'<a href="{u}" hreflang="{l}" lang="{l}"{" class=on" if l == lg else ""}>{L[l]["name"]}</a>' for l, u in links if l in FOOT_LANGS)
                 + '</nav>') if len(AVAIL) > 1 else ""
     home = prefix(lg) + "/"
     canon = SITE + path
@@ -218,7 +219,7 @@ def page(lg, title, desc, path, content, active="", og_type="website", extra_hea
 <main>
 {content}
 </main>
-<footer><div class="wrap"><a href="{home}" class="wordmark">VINOFILO</a><p>{esc(t['tagline'])} · © {TODAY.year} · <a href="{prefix(lg)}/privacy/">{esc(t['privacy'])}</a>{pref}</p>
+<footer><div class="wrap"><a href="{home}" class="wordmark">VINOFILO</a><p>{esc(t['tagline'])} · © {TODAY.year}<span class="dsep"> · </span><br class="mbr"><a href="{prefix(lg)}/privacy/">{esc(t['privacy'])}</a>{pref}</p>
 {langfoot}</div></footer>
 </body>
 </html>
