@@ -8,7 +8,7 @@ solo se esiste la sua traduzione. Le didascalie dei NUMERI stanno in content/i18
 
 ORDINE = ["it", "en", "de", "fr", "es", "ru", "zh", "ar"]
 # Lingue pubblicate davvero: si aggiunge una lingua qui solo quando TUTTE le sue traduzioni sono pronte e approvate.
-ATTIVE = ["it", "en", "de", "fr"]
+ATTIVE = ["it", "en", "de", "fr", "es", "ru", "zh", "ar"]
 
 L = {
 "it": dict(

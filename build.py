@@ -144,7 +144,15 @@ HUB = {  # (nome breve in home, sottotitolo breve in home, indirizzo, titolo del
     "de": ("Markt", "Export, Weinlese und Ranglisten", "markt-und-daten", "Markt & Daten",
            "Export, Weinlese, Führer und Ranglisten: die Zahlen des Weins, erklärt mit ihren Quellen"),
     "fr": ("Marché", "Exportations, vendanges et classements", "marche-et-donnees", "Marché & données",
-           "Exportations, vendanges, guides et classements : les chiffres du vin, expliqués avec leurs sources")}
+           "Exportations, vendanges, guides et classements : les chiffres du vin, expliqués avec leurs sources"),
+    "es": ("Mercado", "Exportaciones, vendimias y clasificaciones", "mercado-y-datos", "Mercado y datos",
+           "Exportaciones, vendimias, guías y clasificaciones: las cifras del vino, explicadas con sus fuentes"),
+    "ru": ("Рынок", "Экспорт, урожаи и рейтинги", "rynok-i-dannye", "Рынок и данные",
+           "Экспорт, урожаи, путеводители и рейтинги: цифры вина с объяснением и источниками"),
+    "zh": ("市场", "出口、收成与榜单", "shichang-yu-shuju", "市场与数据",
+           "出口、收成、指南与榜单：用数据读懂葡萄酒，并标明来源"),
+    "ar": ("السوق", "الصادرات والمحاصيل والتصنيفات", "alsuq-wa-albayanat", "السوق والبيانات",
+           "الصادرات والمحاصيل والأدلة والتصنيفات: أرقام النبيذ مشروحة مع مصادرها")}
 def hub(lg): return HUB.get(lg, HUB["en"])
 def hub_url(lg): return f"{prefix(lg)}/{hub(lg)[2]}/"
 
