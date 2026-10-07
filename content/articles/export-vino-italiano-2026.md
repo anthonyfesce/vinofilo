@@ -5,6 +5,7 @@ title: Export del vino italiano nel 2026: cosa dicono davvero i numeri del primo
 description: Meno 6,2% a valore, Stati Uniti a meno 14%, spumanti in tenuta e la Cina che cresce: i dati Istat sull'export di vino spiegati senza gergo da addetti ai lavori.
 category: Guide
 cover: Export 2026
+formato: dati
 slug: export-vino-italiano-2026
 illustrazione: An elegant, poetic gouache painting filling the entire frame: a busy old Mediterranean harbour at dawn seen from slightly above, wooden crates of wine bottles stacked on the quay beside a large cargo ship, a few dockworkers seen small and from a distance, gulls, calm water reflecting a pale pink and dusty blue sky, the town rising behind with ochre houses, no text, no readable labels, no hands.
 ---

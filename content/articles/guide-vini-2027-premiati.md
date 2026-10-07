@@ -5,6 +5,7 @@ title: Guide dei vini 2027: chi hanno premiato finora, e dove si danno ragione
 description: Bibenda, Winemag, DoctorWine e Gambero Rosso: i primi premiati delle guide 2027, i vini che tornano in più classifiche e il calendario delle prossime uscite.
 category: Guide
 cover: Guide 2027
+formato: dati
 slug: guide-vini-2027-premiati
 illustrazione: An elegant, poetic gouache painting filling the entire frame: a long wooden library table seen slightly from above, covered with several thick closed wine guidebooks with plain coloured cloth covers and ribbon bookmarks, an open notebook with handwritten notes and small hand-drawn stars, a few wine glasses with deep garnet red and pale golden white wine, a corkscrew and two uncorked bottles without readable labels, warm afternoon light from a tall window, autumn vine leaves in the background, no text, no readable labels, no hands.
 ---

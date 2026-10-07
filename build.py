@@ -78,7 +78,7 @@ def load():
         d = dt.date.fromisoformat(meta["date"])
         arts.append(dict(meta, d=d, body=body, words=len(body.split()), key=meta["slug"], lang="it",
                          url=f"/articles/{d:%Y.%m.%d}/{meta['slug']}/",
-                         number=int(meta.get("number", 0) or 0)))
+                         number=int(meta.get("number", 0) or 0), dati=(meta.get("formato") == "dati")))
     live = []
     for a in arts:
         if a["d"] > TODAY: continue  # data futura: resta in scorta, nessuna pagina né sitemap
@@ -135,6 +135,18 @@ def numeri(lg):
 
 def cat_name(lg, c): return L[lg]["cats"][c][0]
 def cat_desc(lg, c): return L[lg]["cats"][c][1]
+HUB = {  # (nome breve in home, sottotitolo breve in home, indirizzo, titolo della pagina, sottotitolo della pagina)
+    "it": ("Mercato", "Export, vendemmie e classifiche", "mercato-e-dati", "Mercato e dati",
+           "Export, vendemmie, guide e classifiche: i numeri del vino spiegati con le fonti"),
+    "en": ("Market", "Exports, harvests and rankings", "market-and-data", "Market & data",
+           "Exports, harvests, guides and rankings: the numbers of wine, explained with their sources"),
+    "de": ("Markt", "Export, Weinlese und Ranglisten", "markt-und-daten", "Markt & Daten",
+           "Export, Weinlese, Führer und Ranglisten: die Zahlen des Weins, erklärt mit ihren Quellen"),
+    "fr": ("Marché", "Exportations, vendanges et classements", "marche-et-donnees", "Marché & données",
+           "Exportations, vendanges, guides et classements : les chiffres du vin, expliqués avec leurs sources")}
+def hub(lg): return HUB.get(lg, HUB["en"])
+def hub_url(lg): return f"{prefix(lg)}/{hub(lg)[2]}/"
+
 def cat_url(lg, c): return f"{prefix(lg)}/{L[lg]['cat_dir']}/{L[lg]['cats'][c][2]}/"
 
 def img(a, cls="", ar=None):
@@ -358,6 +370,13 @@ def build_lang(lg, arts, alt_art, md, sitemap):
         rows += (f'<a class="ix" href="{cat_url(lg, c)}"><span class="ix-n">{i:02d}</span>{img(a, "ix-ph", "1/1") if a else ""}'
                  f'<div class="ix-m"><h3>{esc(cat_name(lg, c))}</h3><p>{esc(cat_desc(lg, c))}</p></div><ul class="ix-l">{tit}</ul>'
                  f'<span class="ix-c">{esc(t["n_articles"].format(n=counts[c]))} {"‹" if t["dir"] == "rtl" else "›"}</span></a>')
+    dati = [a for a in arts if a.get("dati")]
+    if dati:
+        h = hub(lg)
+        rows += (f'<a class="ix" href="{hub_url(lg)}"><span class="ix-n">{len(CATS) + 1:02d}</span>{img(dati[0], "ix-ph", "1/1")}'
+                 f'<div class="ix-m"><h3>{esc(h[0])}</h3><p>{esc(h[1])}</p></div>'
+                 f'<ul class="ix-l">{"".join(f"<li>{esc(short_title(x))}</li>" for x in dati[:3])}</ul>'
+                 f'<span class="ix-c">{esc(t["n_articles"].format(n=len(dati)))} {"‹" if t["dir"] == "rtl" else "›"}</span></a>')
     home += sect(t["explore"], t["explore_sub"]) + f'<div class="idx" id="esplora">{rows}</div></div>'
     home_alts = {l: prefix(l) + "/" for l in ORDINE if alt_art.get("__home__", {}).get(l)}
     write((P.strip("/") + "/index.html").lstrip("/"), page(lg, NAME, t["home_desc"], P + "/", home, alts=home_alts))
@@ -377,6 +396,17 @@ def build_lang(lg, arts, alt_art, md, sitemap):
               page(lg, cat_name(lg, c), t["cat_desc"].format(cat=cat_name(lg, c), desc=cat_desc(lg, c)), u, content, c, alts=cat_alts[c]))
         sitemap.append((u, None, cat_alts[c]))
         rss(lg, items, u + "feed.xml", f"{NAME} · {cat_name(lg, c)}", cat_desc(lg, c), u)
+
+    # Pagina "Mercato e dati": raccoglie gli articoli con formato: dati, qualunque sia la rubrica
+    if dati:
+        h = hub(lg)
+        content = (f'<div class="wrap"><div class="cat-head"><div class="kick">{esc(h[4])}</div><h1>{esc(h[3])}</h1></div>'
+                   f'{sect(t["n_articles"].format(n=len(dati)))}<div class="row3">{"".join(card(lg, a) for a in dati)}</div></div>')
+        hub_alts = {l: hub_url(l) for l in home_alts}
+        write(hub_url(lg).strip("/") + "/index.html",
+              page(lg, h[3], t["cat_desc"].format(cat=h[3], desc=h[4]), hub_url(lg), content, alts=hub_alts))
+        sitemap.append((hub_url(lg), dati[0]["d"], hub_alts))
+        rss(lg, dati, hub_url(lg) + "feed.xml", f"{NAME} · {h[3]}", h[4], hub_url(lg))
 
     # Pagine statiche (privacy ecc.): italiano in content/pagine/, traduzioni in content/i18n/<lg>/pagine/
     pdir = os.path.join(ROOT, "content/pagine") if lg == "it" else os.path.join(ROOT, "content/i18n", lg, "pagine")

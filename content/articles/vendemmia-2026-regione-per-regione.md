@@ -5,6 +5,7 @@ title: Vendemmia 2026, regione per regione: la raccolta più precoce e i numeri 
 description: Franciacorta a luglio, Veneto e Toscana in anticipo, Sicilia promossa: com'è andata la vendemmia 2026 e perché quest'anno le stime ufficiali sono saltate.
 category: Territori
 cover: Vendemmia 2026
+formato: dati
 slug: vendemmia-2026-regione-per-regione
 illustrazione: An elegant, poetic gouache painting filling the entire frame: a wide aerial view of an Italian peninsula landscape divided like a patchwork into vineyard hills of different colours, from golden-green northern slopes with snowy mountains on the top edge to sun-scorched ochre and terracotta southern hills near a deep blue sea at the bottom, tiny harvest crates and tractors scattered among the rows, a hot pale sky with a low summer sun, no text, no map labels, no hands.
 ---
