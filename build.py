@@ -189,6 +189,7 @@ def page(lg, title, desc, path, content, active="", og_type="website", extra_hea
 {og_img}
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta name="robots" content="max-image-preview:large">
+<meta name="p:domain_verify" content="bfcd6e632dce611e69dd9036ca40adb4">
 <meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 {FONTS}
