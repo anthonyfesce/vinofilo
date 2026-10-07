@@ -215,3 +215,6 @@ Tartufo rigenerato: al primo giro sembrava un cavolfiore. Nel prompt va descritt
 
 ## guide-vini-2027-premiati (07.10.2026)
 Tavolo da biblioteca visto dall'alto con guide rilegate senza scritte, quaderno, calici di rosso granato e bianco dorato, foglie d'autunno alla finestra. Seed 111/222/333, tenuta la 222. Negativo aggiunto: "book titles, printed text on covers".
+
+## vendemmia-2026-regione-per-regione e export-vino-italiano-2026 (07.10.2026)
+Vendemmia: raccolta in collina con raccoglitori piccoli, trattore su strada bianca, caldo estivo. Export: porto mediterraneo all'alba con casse di bottiglie e nave. Seed 111/222/333, tenuta la 111 per entrambi.
