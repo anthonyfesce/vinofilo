@@ -1,0 +1,44 @@
+---
+title: Barbera, la uva del pueblo que decidió crecer
+description: Acidez viva, tanino amable: cómo la Barbera pasó de tinto de todos los días a protagonista entre Asti, Nizza y Alba, hasta llegar a California y Argentina.
+slug: barbera-la-uva-del-pueblo
+cover: Barbera
+---
+
+Durante generaciones la Barbera fue el vino que ya estaba en la mesa antes de que alguien decidiera abrirlo. No necesitaba presentaciones, ni una añada que recordar: llegaba en jarra, acompañaba los *agnolotti* y el hervido, y a nadie se le ocurría llamarla «grande». Después, en pocas décadas, aquel tinto dado por sentado empezó a hacerse pagar el respeto. La pregunta, hoy, es si ha perdido algo por el camino.
+
+## El tinto que parece lo contrario del Nebbiolo
+
+Basta mirar la copa. Donde el Nebbiolo es pálido y austero, la Barbera es oscura, casi tinta, con una fruta de cereza y ciruela que llega enseguida. Y donde el Nebbiolo arañaba con el tanino, la Barbera tiene poco: su particularidad, conocida por cualquiera que la estudie, es la combinación de color profundo, cuerpo pleno, tanino bajo y acidez alta.
+
+Esta anomalía lo explica casi todo. La acidez da frescura y largura, y convierte a la Barbera en una compañera natural de los platos grasos y sabrosos de la cocina piamontesa. El tanino contenido la hace accesible de joven, sin necesidad de esperar diez años como con un Barolo. La otra cara de la moneda es que el equilibrio es delicado: en viñas demasiado productivas, con rendimientos altos, la acidez se queda en una aspereza desnuda y el vino resulta delgado y chirriante. Por eso la diferencia entre una Barbera de mesa y una Barbera seria empieza casi siempre en la viña, con racimos que se dejan madurar y cargas reducidas.
+
+Es también, según las fuentes más difundidas, la variedad más cultivada del Piamonte, con una cuota que llega a rozar la mitad de las cepas de la región. Una uva del pueblo, en suma, en el sentido más literal: la que está en todas partes.
+
+## Asti y Nizza, dos peldaños de la misma escalera
+
+El corazón histórico es el Monferrato astigiano. Barbera d'Asti tiene la DOC desde 1970 y la DOCG desde 2008. El pliego de condiciones admite hasta un 10 % de otras uvas tintas del territorio (Freisa, Grignolino, Dolcetto), de modo que la Barbera debe ser al menos el 90 %. La versión Superiore exige una crianza de al menos 14 meses, seis de ellos en barricas de madera, y una graduación mínima de 12,5 % vol.
+
+Más arriba está Nizza. Nacida como subzona del Barbera d'Asti, con la indicación Superiore Nizza a partir de 2008, se convirtió en una DOCG independiente con la vendimia de 2014. Las reglas son más estrictas: Barbera al 100 %, rendimientos más bajos, un área limitada a 18 municipios y una crianza mínima de 18 meses, seis de ellos en madera. La Riserva sube a 30 meses, con al menos 12 en madera. Es la respuesta de un territorio que ha decidido no conformarse, y que ha entendido que debía decirle al mundo, por escrito, que esta Barbera no es la de la jarra.
+
+Vale la pena señalar que la jerarquía, aquí, no se construye con precios inflados sino con decisiones agronómicas y con tiempo. Lo cual, para una denominación joven, es una buena base de partida.
+
+## Alba, donde la Barbera hace de segundona
+
+En las colinas de las Langhe y el Roero la historia es distinta. Barbera d'Alba, la DOC, convive con el Nebbiolo, y como en toda convivencia hay quien manda. Los mejores emplazamientos, los bien orientados y de gran vocación, suelen ir al Nebbiolo, que rinde más en el mercado. La Barbera a menudo ha de conformarse con posiciones menos nobles.
+
+Y, sin embargo, justo aquí ha encontrado una de sus voces más limpias: vinos de fruta más intensa y potente que los de Asti, con un cuerpo más pleno. Quien la bebe por lo que es, sin esperar un sucedáneo del Barolo, descubre que entre las dos ciudades piamontesas la comparación merece la pena.
+
+## La barrique y el precio de la ambición
+
+El capítulo más discutido es el de la madera. Tras el desplome de confianza que siguió al escándalo del metanol de mediados de los años ochenta, que golpeó duramente la imagen del vino piamontés y, según varias reconstrucciones, también las superficies cultivadas de Barbera, una parte de los productores eligió el camino opuesto: menos cantidad, más concentración, crianza en pequeñas barricas de roble. El resultado fue una Barbera más oscura, más suave, más avainillada y más cara de hacer.
+
+El riesgo es evidente: la acidez de la Barbera soporta bien la madera, pero la madera nueva e invasora corre el peligro de tapar justo lo que hacía interesante a la Barbera, es decir, la fruta viva y la tensión. Hoy cada vez más botellas pasan un tiempo medido en roble, y el compromiso más convincente parece estar en el medio: un toque de madera que dé estructura, no maquillaje.
+
+## Más allá del Piamonte
+
+La Barbera ha viajado, y no solo por Italia, donde se cultiva también en Lombardía y Emilia-Romaña. Según los datos de 2010, los viñedos italianos ocupaban unas 20.500 hectáreas, California casi 4.700, Argentina más de mil, Australia un centenar. Son cifras anticuadas, pero cuentan un hecho: su acidez es valiosa en los climas cálidos, donde otras uvas la pierden con facilidad.
+
+## Un vino que no debe avergonzarse de ser fácil
+
+Mi opinión es que la Barbera ha hecho bien en crecer, pero haría mal en olvidar de dónde viene. Su fuerza es precisamente esa doble naturaleza: puede ser el vino del domingo en la mesa y, con los cuidados adecuados, un tinto de bodega. Denominaciones como Nizza nos recuerdan que la ambición, cuando pasa por la viña y no por el marketing, le sienta de maravilla. Pero el día en que una Barbera deje de ser también un vino alegre e inmediato, habremos perdido la razón por la que nos enamoramos de ella.

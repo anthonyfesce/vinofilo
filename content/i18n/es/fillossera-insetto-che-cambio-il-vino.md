@@ -1,0 +1,39 @@
+---
+title: Filoxera, el pulgón que reescribió el mapa del vino
+description: De América a Francia, luego a Italia: cómo un insecto de un milímetro destruyó los viñedos europeos y por qué casi toda vid tiene hoy raíces americanas.
+slug: filoxera-insecto-que-cambio-el-vino
+cover: Filoxera
+---
+Casi cada copa de vino europeo que le toque beber esconde un secreto bajo tierra: la planta que dio la uva es, de la cintura para abajo, americana. Arriba hay Nebbiolo, Sangiovese o Pinot Nero; abajo, una raíz nacida de especies silvestres de Norteamérica. Este compromiso, hoy tan normal que nadie piensa ya en él, es el legado de un insecto de aproximadamente un milímetro que en la segunda mitad del siglo XIX puso de rodillas la viticultura del continente.
+
+## Un polizón
+
+La filoxera (hoy *Daktulosphaira vitifoliae*, durante mucho tiempo llamada *Phylloxera vastatrix*) es un áfido originario de América del Norte. Allí convivía desde siempre con las vides silvestres locales, que con el tiempo habían aprendido a defenderse: cuando el insecto pica las raíces, la planta americana aísla la herida y sigue adelante. La *Vitis vinifera* europea no. Sus raíces se hinchan de agallas, se pudren, se abren a las infecciones, y en el plazo de unas pocas estaciones la vid muere.
+
+El problema es que en el siglo XIX las vides americanas viajaban. Se importaban por curiosidad botánica y para experimentar contra otro azote de la época, el oídio. Con las plantas llegó también el huésped. Las fuentes sitúan la introducción en Francia entre finales de los años cincuenta y los primeros años sesenta del siglo XIX; el primer caso documentado se remonta a 1863, en Pujaut, en el departamento del Gard, no lejos del Ródano. Durante unos años nadie entendió qué estaba pasando. En 1868 el botánico Jules-Émile Planchon, llamado por los viticultores de la zona, encontró el insecto en las raíces de las plantas aún vivas y lo relacionó con la mortandad. No todos le creyeron: durante mucho tiempo se discutió si el áfido era la causa del deterioro o solo un oportunista que aprovechaba vides ya enfermas.
+
+## Francia en seco
+
+Mientras los científicos discutían, la filoxera caminaba. En veinte años subió desde el Midi hasta Burdeos, Borgoña, la Champagne. Las cifras dicen más que cualquier adjetivo: según las series históricas reunidas por el National Bureau of Economic Research, la producción francesa pasó de unos 84 millones de hectolitros en 1875 a unos 23 millones en 1889. El gobierno puso en juego un premio para quien encontrara un remedio, y los remedios propuestos fueron de todo tipo: inundar los viñedos en invierno, inyectar sulfuro de carbono en el terreno, incluso enterrar un sapo vivo bajo cada cepa. Algunos métodos funcionaban a medias, casi todos costaban demasiado.
+
+La salida vino del propio enemigo. Si las vides americanas resistían, bastaba tomar sus raíces e injertar encima las variedades europeas. La idea circulaba ya en los primeros años setenta, pero hicieron falta años para entender qué especies usar: muchas americanas no toleraban los suelos calcáreos franceses. Fue decisiva la contribución de viveristas y estudiosos de ultramar, entre ellos el tejano Thomas Volney Munson, que puso a disposición especies adecuadas para terrenos ricos en cal. Desde entonces el portainjerto se ha convertido en una elección técnica por derecho propio, con sus siglas y sus cruces, que el viticultor pondera tanto como el clon de la uva.
+
+Había también un atajo, y muchos lo tomaron: plantar directamente uvas americanas o híbridos entre americanas y europeas, los llamados productores directos. Resistentes, generosos, pero con un gusto que a los paladares habituados a la *vinifera* les parecía salvaje. La Isabella, de la que viene el *fragolino*, es un recuerdo de aquella temporada: todavía hoy esa uva no puede dar vino comercializable como tal.
+
+## Italia, primero beneficiada y luego golpeada
+
+Italia vivió la crisis en dos tiempos. En los primeros años ochenta, con Francia sin vino, los tintos del Sur tomaron el camino de los puertos franceses en cantidades nunca vistas, a menudo para acabar mezclados con lo poco que los franceses aún producían. La fiesta duró poco. En 1888 estalló la guerra comercial entre los dos países y el vino fue una de las mercancías más afectadas: quien había plantado viñas pensando en el mercado de ultrapuertos se encontró con las bodegas llenas.
+
+Entretanto el insecto había llegado también a nuestra casa. Según la Enciclopedia Italiana, un deterioro sospechoso se había observado cerca de Lecco ya en 1875, pero la confirmación oficial llegó en 1879, en Valmadrera y en los campos de Agrate. Al año siguiente aparecieron focos en Sicilia, en las provincias de Caltanissetta y Mesina, y en Liguria; el Piamonte fue alcanzado en 1886, la Toscana en 1888, la Apulia en 1899. A finales de siglo los municipios afectados eran más de novecientos. En 1931 la filoxera estaba presente en 89 provincias de 92, y cerca de una cuarta parte de la vasta superficie vitícola nacional de la época, que incluía también la vid casada con los árboles entre los campos, había sido destruida o gravemente dañada.
+
+## Quién se salvó, y por qué
+
+El insecto tiene un punto débil: se mueve por el terreno a través de fisuras y galerías. En la arena suelta esos pasajes se derrumban, y la filoxera no logra desplazarse de una raíz a otra. Por eso los viñedos sobre dunas y sobre suelos volcánicos arenosos han quedado en buena parte inmunes. En Portugal, en Colares, en la costa atlántica, las vides de Ramisco hunden las raíces en la arena hasta la arcilla subyacente. En Santorini, las vides conducidas en cesta a ras de suelo crecen sobre ceniza y piedra pómez. El caso más sonado es Chile, que nunca ha visto la filoxera: desierto al norte, Andes al este, Pacífico al oeste, hielos al sur. Ni siquiera los viveristas chilenos, sin embargo, pueden darse por seguros para siempre, y las importaciones de material vegetal están allí estrictamente controladas.
+
+En Italia las bolsas de pie franco, es decir, de vides sobre sus propias raíces, siguen la misma lógica. Los suelos volcánicos del Etna y las arenas del Sulcis, de los que hemos hablado en estas páginas, son los ejemplos más conocidos; a ellos se suman viñas de alta montaña en el Valle de Aosta, donde el frío y los terrenos sueltos han hecho de barrera, y pañuelos de tierra dispersos en la Campania y en otros lugares. Son plantas preciosas como archivo genético. En cambio, cuánto cambia el pie franco el vino en la copa es una pregunta todavía abierta, y quien promete reconocerlo a ciegas tiene siempre un poco de carga de la prueba.
+
+## Un mapa redibujado
+
+El daño más profundo, en Italia, no fue solo la pérdida de viñas, sino el modo en que se reconstruyeron. Replantar sobre portainjerto americano costaba: plantas nuevas, injertos, años sin cosecha. Se replantaba donde convenía, y con lo que más rendía. Muchos viñedos mixtos, donde convivían decenas de variedades locales, dejaron paso a unas pocas uvas fiables y productivas. Muchas variedades menores, hoy recuperadas con esfuerzo, salieron de escena precisamente en ese tránsito. En el mismo periodo, con el mildiú sumándose a los males y la emigración vaciando los campos, ciertas colinas difíciles no se volvieron a plantar en absoluto.
+
+El resultado es que la geografía del vino italiano que conocemos hoy es en gran medida un producto del siglo XX, nacida de la reconstrucción y no de una continuidad milenaria como cuenta alguna etiqueta. No es un mal. Pero es una buena razón para desconfiar del marketing de la tradición inmutable: bajo casi todo viñedo hay una raíz americana, y encima una decisión tomada por algún bisabuelo con las cuentas en la mano. La filoxera, que sigue ahí en el terreno y nunca se ha ido, nos recuerda que el vino es un compromiso logrado entre naturaleza y necesidad. Y es precisamente eso, más que el mito, lo que lo hace interesante.
