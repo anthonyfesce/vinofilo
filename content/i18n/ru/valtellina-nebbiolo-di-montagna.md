@@ -1,5 +1,5 @@
 ---
-title: Вальтеллина: Неббиоло, карабкающееся по сухим стенкам
+title: Вальтеллина: Nebbiolo, карабкающееся по сухим стенкам
 description: Террасы, сухие стенки и Chiavennasca: как рождается горное Nebbiolo Вальтеллины, от пяти подзон до Sforzato из подвяленного винограда.
 slug: valtellina-nebbiolo-gornoe-chiavennasca
 cover: Valtellina

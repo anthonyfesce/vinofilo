@@ -4,11 +4,11 @@ description: El 6 y el 7 de noviembre el Decanter Fine Wine Encounter vuelve al 
 slug: decanter-fine-wine-encounter-londres-2026
 cover: Londres
 ---
-Mil vinos, ciento treinta productores, dieciséis países y dos días de tiempo: dicho así parece un reto de feria de pueblo, y sin embargo es una de las citas más refinadas del calendario europeo. El viernes 6 y el sábado 7 de noviembre el Decanter Fine Wine Encounter volverá a Londres, bajo las palmeras del Landmark, y para quien ama el vino «del serio» será la ocasión de probar en una tarde lo que normalmente exigiría años de cenas, viajes y conocidos adecuados.
+Mil vinos, ciento treinta productores, dieciséis países y dos días de tiempo: dicho así parece un reto de feria de pueblo, y sin embargo es una de las citas más refinadas del calendario europeo. El viernes 6 y el sábado 7 de noviembre el Decanter Fine Wine Encounter volverá a Londres, bajo las palmeras del Landmark, y para quien ama el vino «de los serios» será la ocasión de probar en una tarde lo que normalmente exigiría años de cenas, viajes y conocidos adecuados.
 
 ## Qué significa «fine wine»
 
-Partamos de la palabra, porque es resbaladiza. «Fine wine» no es una denominación, no existe un pliego de condiciones ni una comisión que la conceda. Es una categoría de mercado y de reputación: vinos con una historia, capaces de evolucionar largamente en botella, producidos en cantidades limitadas en lugares precisos, y que por eso se intercambian, se coleccionan y a veces se revenden años después. Un Burdeos clasificado, un gran Borgoña, un Champagne millesimato, un Barolo de cru: ese es el territorio.
+Partamos de la palabra, porque es resbaladiza. «Fine wine» no es una denominación, no existe un pliego de condiciones ni una comisión que la conceda. Es una categoría de mercado y de reputación: vinos con una historia, capaces de evolucionar largamente en botella, producidos en cantidades limitadas en lugares precisos, y que por eso se intercambian, se coleccionan y a veces se revenden años después. Un Burdeos clasificado, un gran Borgoña, un Champagne de añada, un Barolo de cru: ese es el territorio.
 
 El criterio más honesto, sin embargo, sigue siendo el tiempo. Un fine wine es un vino que después de diez o veinte años todavía tiene algo que decir, y a menudo dice cosas que de joven no sabía. El precio alto es una consecuencia, no una definición: existen botellas carísimas que envejecen mal y vinos de precio moderado que atraviesan las décadas con desenvoltura. Y es precisamente aquí donde un evento como este resulta útil, porque permite comparar distintas añadas del mismo vino y entender con la propia boca qué significa de verdad «evolución».
 

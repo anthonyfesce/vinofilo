@@ -24,7 +24,7 @@ Aquí el Pinot Nero hace lo que hace en Champagne, es decir, da la columna verte
 
 ## Una DOCG con nombre largo
 
-El reconocimiento llegó en 2007 con la Oltrepò Pavese Metodo Classico DOCG. El pliego de condiciones original pedía al menos un 70 % de Pinot Nero en la versión base y en el rosado (85 % para el tipo Pinot Nero), y el resto en manos de Chardonnay, Pinot Grigio y Pinot Bianco, con al menos 15 meses sobre lías, 24 para el millesimato.
+El reconocimiento llegó en 2007 con la Oltrepò Pavese Metodo Classico DOCG. El pliego de condiciones original pedía al menos un 70 % de Pinot Nero en la versión base y en el rosado (85 % para el tipo Pinot Nero), y el resto en manos de Chardonnay, Pinot Grigio y Pinot Bianco, con al menos 15 meses sobre lías, 24 para el de añada.
 
 El problema es el nombre. «Oltrepò Pavese Metodo Classico» es correcto y sin encanto, imposible de pronunciar en una vinoteca abarrotada. Por eso el territorio ha trabajado en una marca de denominación más corta, Classese, y en reglas más estrictas: según las crónicas, vendimia manual, rendimientos más bajos y al menos 24 meses sobre lías para todos. Sobre la versión definitiva de estos cambios y su entrada en vigor no he encontrado una confirmación que me permita dar una fecha, y por eso lo presento como dirección de marcha, no como hecho consumado.
 

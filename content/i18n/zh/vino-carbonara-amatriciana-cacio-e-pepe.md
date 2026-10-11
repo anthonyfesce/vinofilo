@@ -18,7 +18,7 @@ Pecorino romano才是餐桌上真正的裁判。它是陈年奶酪，咸，那�
 
 Carbonara是三者里最年轻的，也是最招人议论的。有记载的最早食谱出人意料地是美国的，1952年发表于芝加哥；在意大利，它于1954年出现在美食出版物上，而那些最初的版本里用的是pancetta，而不是guanciale。Pecorino和guanciale要晚些才站稳脚跟，在五十年代末到六十年代之间。换句话说，那些发誓carbonara有千年传统的人，捍卫的是一份比许多人的祖父还年轻的食谱。
 
-Carbonara在酒的方面的难题是蛋。蛋黄在上颚裹上一层奶油般的薄膜，削弱了较单薄的酒的酸度，又让多单宁的红酒变苦。在这里，拉齐奥自己就有答案：Frascati，意大利最早的DOC之一，1966年获得认定，尤其是Frascati Superiore，2011年升为DOCG。产区规章要求以Malvasia为基础，Malvasia di Candia和Malvasia del Lazio合计至少70%，再由Trebbiano、Greco和其他白葡萄补足。Malvasia del Lazio，又称Puntinata，带来香气和一定的圆润感；Superiore版本则多了肩膀。结果是一款白酒，分量足以与蛋黄并肩，清新足以去掉guanciale的油腻。
+Carbonara在酒的方面的难题是蛋。蛋黄在上颚裹上一层奶油般的薄膜，削弱了较单薄的酒的酸度，又让多单宁的红酒变苦。在这里，拉齐奥自己就有答案：Frascati，意大利最早的DOC之一，1966年获得认定，尤其是Frascati Superiore，2011年升为DOCG。产区规章要求以Malvasia为基础，Malvasia di Candia和Malvasia del Lazio合计至少70%，再由Trebbiano、Greco和其他白葡萄补足。Malvasia del Lazio，又称Puntinata，带来香气和一定的圆润感；Superiore版本则多了骨架。结果是一款白酒，分量足以与蛋黄并肩，清新足以去掉guanciale的油腻。
 
 想走出拉齐奥的人，逻辑是一样的：中等酒体、很少或完全没有橡木味、酸度鲜活的白酒。Castelli di Jesi的Verdicchio或Avellino的Fiano走的是同一个调子，带有微苦或烟熏的气息，与胡椒对话得很好。
 

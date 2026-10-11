@@ -14,7 +14,7 @@ Lo que se sabe con más certeza es la parábola del siglo XX. El Sagrantino estu
 
 ## El tanino como biografía
 
-¿Por qué el Sagrantino es tan tánico? Porque la piel de la baya es gruesa y rica en polifenoles, y porque la variedad madura con calma, ya avanzada la estación. El resultado es una estructura imponente, que en los vinos jóvenes puede parecer casi hostil y que necesita tiempo, oxígeno y madera para suavizarse. No es casual que los productores hablen a menudo de un tinto que hay que «domar», y que muchos de los estilos de las últimas décadas hayan sido, en el fondo, intentos de negociar con este tanino: maduraciones más avanzadas, extracciones más dulces, botas grandes en lugar de barricas nuevas.
+¿Por qué el Sagrantino es tan tánico? Porque la piel de la baya es gruesa y rica en polifenoles, y porque la variedad madura con calma, ya avanzada la estación. El resultado es una estructura imponente, que en los vinos jóvenes puede parecer casi hostil y que necesita tiempo, oxígeno y madera para suavizarse. No es casual que los productores hablen a menudo de un tinto que hay que «domar», y que muchos de los estilos de las últimas décadas hayan sido, en el fondo, intentos de negociar con este tanino: maduraciones más avanzadas, extracciones más dulces, grandes toneles en lugar de barricas nuevas.
 
 Decir que es uno de los tintos más tánicos de Italia no es marketing, es una descripción razonable, aunque unas clasificaciones científicas rigurosas, con los números en la mano, son otra cuestión. Lo cierto es que en el panorama italiano pocos vinos exigen tanta paciencia a quien los sirve y a quien los bebe.
 

@@ -18,7 +18,7 @@ cover: 平安夜
 
 偏爱静止白酒的人，可以看看海岸与高海拔产的酒：Gallura的Vermentino，1996年起为DOCG，有咸鲜感和一丝微苦，与生的甲壳类很合；Etna Bianco，由Carricante酿成，带来近乎锋利的酸度和火山的矿物感，配生鱼迸出火花。到了这个阶段，要避开在新橡木桶里待过很久的白酒：对生鱼肉来说，香草味是个闯入者。
 
-## Vongole、炸物与capitone：白酒必须有肩膀的地方
+## Vongole、炸物与capitone：白酒必须有骨架的地方
 
 Vongole意面看上去是道细腻的菜，其实不是。有蒜，有欧芹，常常有辣椒，尤其有vongole的汁，咸鲜而近乎汤。过于单薄的白酒会消失。这里管用的是中南部有地域特色的大白酒：Castelli di Jesi的Verdicchio，收尾带杏仁味；Avellino的Fiano或Greco di Tufo，前者更圆润带烟熏，后者更紧绷而矿物感强；Sannio的Falanghina，留给坚持坎帕尼亚经典的人。
 

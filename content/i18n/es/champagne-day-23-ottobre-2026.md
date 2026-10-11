@@ -18,7 +18,7 @@ Los números dan la medida. El viñedo cubre unas 34 000 hectáreas repartidas e
 
 El pliego de condiciones admite siete variedades, pero cuentan tres: Pinot Noir, Chardonnay y Meunier se reparten el viñedo en partes casi equivalentes, con el Pinot Noir ligeramente a la cabeza. Arbane, Petit Meslier, Pinot Blanc y Pinot Gris sobreviven en porcentajes mínimos.
 
-La palabra clave es ensamblaje. La mayor parte del Champagne es sin añada: se mezclan vinos de uvas, pueblos y sobre todo años diferentes, recurriendo a los vinos de reserva guardados en bodega. El objetivo es obtener cada año el estilo reconocible de la casa, haya hecho lo que haya hecho el tiempo. El millesimato, producido solo en las añadas consideradas a la altura, es la excepción y no la regla. El pliego de condiciones impone al menos 15 meses en bodega antes de la comercialización para el sin añada, de los cuales al menos 12 sobre las lías, y tres años para el millesimato. Las casas serias casi siempre van bastante más allá.
+La palabra clave es ensamblaje. La mayor parte del Champagne es sin añada: se mezclan vinos de uvas, pueblos y sobre todo años diferentes, recurriendo a los vinos de reserva guardados en bodega. El objetivo es obtener cada año el estilo reconocible de la casa, haya hecho lo que haya hecho el tiempo. El Champagne de añada, producido solo en las añadas consideradas a la altura, es la excepción y no la regla. El pliego de condiciones impone al menos 15 meses en bodega antes de la comercialización para el sin añada, de los cuales al menos 12 sobre las lías, y tres años para el de añada. Las casas serias casi siempre van bastante más allá.
 
 ## Maisons y vignerons, quién hace qué
 
@@ -40,7 +40,7 @@ La mejor manera de honrar el 23 de octubre es usarlo como lección comparada. Do
 
 La comparación con las burbujas italianas surge de manera natural, y hay que hacerla sin complejos. Dejemos de lado la cuestión del método, que ya hemos tratado: aquí hablamos de Metodo Classico contra Metodo Classico. Franciacorta, Trento DOC, Alta Langa y Oltrepò Pavese trabajan con las mismas uvas de base, Chardonnay y Pinot Nero, pero en climas distintos. Más sol en Franciacorta, más altitud en el Trentino y en el Alta Langa. De ahí salen vinos a menudo más maduros de fruta, a veces menos cortantes, que no necesitan mucho azúcar para estar en equilibrio.
 
-Las diferencias reales son culturales. La Champagne lo ha construido todo sobre el ensamblaje y los vinos de reserva; en Italia la añada pesa más y el Alta Langa, por ejemplo, es por pliego de condiciones siempre millesimato y exige al menos 30 meses sobre las lías, el doble del mínimo francés para el sin añada. Y luego la escala: las denominaciones italianas del Metodo Classico son jóvenes (el Trento DOC es de 1993, la DOCG Franciacorta de 1995) y pequeñas frente a un sistema que expide cientos de millones de botellas.
+Las diferencias reales son culturales. La Champagne lo ha construido todo sobre el ensamblaje y los vinos de reserva; en Italia la añada pesa más y el Alta Langa, por ejemplo, es por pliego de condiciones siempre de añada y exige al menos 30 meses sobre las lías, el doble del mínimo francés para el sin añada. Y luego la escala: las denominaciones italianas del Metodo Classico son jóvenes (el Trento DOC es de 1993, la DOCG Franciacorta de 1995) y pequeñas frente a un sistema que expide cientos de millones de botellas.
 
 ## Información práctica
 

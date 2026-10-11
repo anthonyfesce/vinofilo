@@ -20,7 +20,7 @@ En Tufo, en cambio, el nombre del pueblo ya lo dice casi todo. La toba es una ro
 
 ## Por qué envejecen (y por qué sorprende)
 
-Aquí está el punto. Un vino blanco resiste los años si tiene acidez verdadera, extracto y una estructura que no se deshaga al primer oxígeno. El Fiano, joven, es sobrio: notas de avellana, hierbas, flores de manzanilla, fruta blanca apenas insinuada. Con el tiempo desarrolla un registro más oscuro y amplio, de miel, cera, fruta seca. El Greco tiene más espalda, y según muchos productores puede cerrarse y volver a abrirse de forma casi caprichosa a lo largo de una década.
+Aquí está el punto. Un vino blanco resiste los años si tiene acidez verdadera, extracto y una estructura que no se deshaga al primer oxígeno. El Fiano, joven, es sobrio: notas de avellana, hierbas, flores de manzanilla, fruta blanca apenas insinuada. Con el tiempo desarrolla un registro más oscuro y amplio, de miel, cera, fruta seca. El Greco tiene más cuerpo, y según muchos productores puede cerrarse y volver a abrirse de forma casi caprichosa a lo largo de una década.
 
 La comparación con ciertos blancos del norte de Europa no es una bravuconada de portada: es la descripción de mecanismos similares, acidez alta y maduración lenta. Esto no significa que cada botella merezca la bodega; muchos vinos de ambas denominaciones están pensados para beberse jóvenes, y está bien así. Significa que las dos DOCG tienen un techo de calidad que las mejores botellas alcanzan solo con la paciencia de quien las guarda aparte.
 
