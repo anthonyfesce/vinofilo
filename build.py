@@ -191,7 +191,9 @@ def page(lg, title, desc, path, content, active="", og_type="website", extra_hea
                 + '</nav>') if len(AVAIL) > 1 else ""
     home = prefix(lg) + "/"
     canon = SITE + path
-    full_title = title if title == NAME else f"{title} — {NAME}"
+    # home: titolo "Vinofilo: <motto>" (Bing segnalava "Title too short" con solo "Vinofilo")
+    is_home = title == NAME
+    full_title = re.split(r"[.。]\s*", desc)[0] if is_home else f"{title} — {NAME}"
     consenso = (f'<script src="/{ver("assets/consenso.js")}" data-ga="{GA_ID}" data-t="{esc(t["banner"])}" data-ok="{esc(t["accept"])}" '
                 f'data-no="{esc(t["reject"])}" data-p="{esc(t["privacy"])}" data-pu="{prefix(lg)}/privacy/" defer></script>') if GA_ID else ""
     pref = f' · <a href="#" onclick="vfPreferenzeCookie();return false">{esc(t["cookie_prefs"])}</a>' if GA_ID else ""
@@ -222,6 +224,7 @@ def page(lg, title, desc, path, content, active="", og_type="website", extra_hea
 <header class="masthead"><div class="wrap">
 {langbar}
 <a href="{home}" class="wordmark">VINOFILO</a><p class="tagline">{esc(t['tagline'])}</p>
+{f'<h1 class="vh">{esc(full_title)}</h1>' if is_home else ""}
 </div></header>
 <div class="wrap"><nav class="nav">{nav}</nav></div>
 <main>
@@ -388,7 +391,10 @@ def build_lang(lg, arts, alt_art, md, sitemap):
                  f'<span class="ix-c">{esc(t["n_articles"].format(n=len(dati)))} {"‹" if t["dir"] == "rtl" else "›"}</span></a>')
     home += sect(t["explore"], t["explore_sub"]) + f'<div class="idx" id="esplora">{rows}</div></div>'
     home_alts = {l: prefix(l) + "/" for l in ORDINE if alt_art.get("__home__", {}).get(l)}
-    write((P.strip("/") + "/index.html").lstrip("/"), page(lg, NAME, t["home_desc"], P + "/", home, alts=home_alts))
+    write((P.strip("/") + "/index.html").lstrip("/"), page(lg, NAME, t["home_desc"], P + "/", home, alts=home_alts,
+         extra_head='<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "WebSite",
+             "name": NAME, "alternateName": ["vinofilo.com", "VINOFILO"], "url": SITE + P + "/", "inLanguage": lg,
+             "description": t["home_desc"]}, ensure_ascii=False) + "</script>"))
     sitemap.append((P + "/", arts[0]["d"], home_alts))
 
     rss(lg, arts, f"{P}/feed.xml", NAME, t["home_desc"], P + "/")
