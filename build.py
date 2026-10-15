@@ -392,9 +392,13 @@ def build_lang(lg, arts, alt_art, md, sitemap):
     home += sect(t["explore"], t["explore_sub"]) + f'<div class="idx" id="esplora">{rows}</div></div>'
     home_alts = {l: prefix(l) + "/" for l in ORDINE if alt_art.get("__home__", {}).get(l)}
     write((P.strip("/") + "/index.html").lstrip("/"), page(lg, NAME, t["home_desc"], P + "/", home, alts=home_alts,
-         extra_head='<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "WebSite",
-             "name": NAME, "alternateName": ["vinofilo.com", "VINOFILO"], "url": SITE + P + "/", "inLanguage": lg,
-             "description": t["home_desc"]}, ensure_ascii=False) + "</script>"))
+         extra_head='<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@graph": [
+             {"@type": "WebSite", "@id": SITE + "/#website", "name": NAME, "alternateName": ["vinofilo.com", "VINOFILO"],
+              "url": SITE + P + "/", "inLanguage": lg, "description": t["home_desc"], "publisher": {"@id": SITE + "/#org"}},
+             {"@type": "Organization", "@id": SITE + "/#org", "name": NAME, "alternateName": "vinofilo.com", "url": SITE + "/",
+              "logo": SITE + "/assets/apple-touch-icon.png", "email": "redazione@vinofilo.com",
+              "sameAs": ["https://www.pinterest.com/vinofilo/", "https://www.linkedin.com/company/vinofilo/"]}]},
+             ensure_ascii=False) + "</script>"))
     sitemap.append((P + "/", arts[0]["d"], home_alts))
 
     rss(lg, arts, f"{P}/feed.xml", NAME, t["home_desc"], P + "/")
