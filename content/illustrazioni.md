@@ -218,3 +218,12 @@ Tavolo da biblioteca visto dall'alto con guide rilegate senza scritte, quaderno,
 
 ## vendemmia-2026-regione-per-regione e export-vino-italiano-2026 (07.10.2026)
 Vendemmia: raccolta in collina con raccoglitori piccoli, trattore su strada bianca, caldo estivo. Export: porto mediterraneo all'alba con casse di bottiglie e nave. Seed 111/222/333, tenuta la 111 per entrambi.
+
+## Rubrica "Dove comprare vino online" (19.10.2026, n. 134–137)
+Soggetti nel campo illustrazione di ciascun articolo; coda di stile e negativo standard (+ screens, smartphone, hands); seed 111/222/333.
+| slug | inquadratura |
+|---|---|
+| comprare-vino-online-italia-enoteche | dall'alto, magazzino a volte |
+| comprare-vino-online-app-marketplace | dettaglio, collo di bottiglia e calice rosso |
+| comprare-vino-online-francia-germania | attraverso una finestra sulle vigne |
+| comprare-vino-online-regno-unito-stati-uniti | dal basso, bottega di vino a Londra al tramonto |

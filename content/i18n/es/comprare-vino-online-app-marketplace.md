@@ -1,0 +1,82 @@
+---
+title: Comprar vino online con apps, marketplaces y entrega rápida
+description: Vivino, Amazon, Winelivery, Svinando, Esselunga y Wine-Searcher cara a cara: envíos, plazos y opiniones de usuarios. Para quién tiene sentido cada uno.
+slug: comprar-vino-online-apps-marketplaces
+cover: Botellas a domicilio
+---
+El teléfono vibra y la botella ya está sobre la mesa: bastan una app y diez minutos. O no, porque el vino que habías elegido tras fotografiar una etiqueta llega desde un almacén de otro país y tarda tres semanas. Comprar vino online fuera de las grandes tiendas especializadas es un juego con varias reglas, y las reglas cambian según quién sostenga el carrito: una plataforma que da escaparate a otros vendedores, un gigante que vende de todo, un mensajero en moto, una web que vive de ofertas con cuenta atrás.
+
+En la primera entrega contamos las grandes tiendas de vino online italianas: Tannico, Vino.com, Callmewine, Xtrawine, Bernabei, Signorvino. Aquí cambiamos de escenario y miramos los canales que nacen del teléfono, del supermercado o de las prisas: apps, marketplaces, entregas rápidas, ventas relámpago. De cada uno encontraréis quién hay detrás, qué tamaño tiene, cómo se envía y qué cuentan los usuarios. Son datos públicos y voces recogidas en la red, no compras de prueba: Vinofilo no ha pedido nada. Las cifras de envío son orientativas y conviene volver a comprobarlas en el carrito, porque cambian a menudo. En las dos próximas entregas cruzamos fronteras: primero Francia y Alemania, después el Reino Unido y Estados Unidos.
+
+## Vivino
+
+[Vivino](https://www.vivino.com/) nació en 2010 en Dinamarca, después desplazó su centro de gravedad hacia Estados Unidos y fue fundada por Heini Zachariassen. Su página italiana declara más de 77 millones de usuarios y más de tres mil quinientos millones de etiquetas escaneadas: cifras que la convierten en el mayor archivo de botellas fotografiadas del mundo. El oficio original es ese: enfocas la etiqueta, lees la puntuación de la comunidad y las notas de cata. Desde hace unos años, sin embargo, Vivino es también un marketplace, y se presenta como el más grande del mundo.
+
+Lo que hay que entender es que Vivino no es una tienda con un único almacén. Pone en contacto a quien compra con tiendas y productores asociados: el pedido se hace desde la app en pocos toques, pero el envío, los costes y los plazos dependen del vendedor. Por eso las condiciones cambian de un carrito a otro y conviene mirar siempre la línea de entrega antes de confirmar. La disponibilidad en Italia está confirmada por el sitio en italiano y por la prensa del sector, pero la lista de vendedores que envían a nuestro país varía con el tiempo.
+
+Los usuarios lo recomiendan por la facilidad de compra, por las ofertas en cajas y por la posibilidad de encontrar etiquetas difíciles de hallar en otros sitios. El gran tema crítico, entre las reseñas públicas, son las entregas: algunos usuarios han señalado esperas largas, paquetes con retraso, una añada equivocada o botellas rotas en el viaje, a menudo cuando el almacén del vendedor estaba en el extranjero. La atención al cliente, en cambio, se describe con más frecuencia como reactiva a la hora de arreglar errores y artículos agotados.
+
+Ideal para quien elige con la comunidad, quiere curiosear entre muchas bodegas y no tiene prisa.
+
+## Amazon
+
+[Amazon](https://www.amazon.it/) no necesita presentación, y precisamente por eso conviene mirar cómo vende el vino. En Italia el intento más conocido se remonta a 2016, cuando abrió una tienda dedicada gestionada por Vinitaly Wine Club, con más de 700 vinos de más de 500 bodegas y entregas declaradas en 24-48 horas. Hoy el vino está en la categoría de bebidas alcohólicas: Amazon explica a los vendedores que hace falta una habilitación específica, la verificación de la edad del comprador y el cumplimiento de las normas fiscales sobre alcohol, y que se puede enviar por cuenta propia o confiar la logística a Amazon, en cuyo caso la oferta puede ser apta para Prime.
+
+Traducido para quien compra: no hay un solo Amazon del vino, hay muchos vendedores, desde la tienda de barrio hasta el distribuidor, y la experiencia depende de quién figure como vendedor y de quién envíe. Sobre las condiciones de entrega y devolución vale la regla general: mirad la línea «Vendido por» y «Enviado por» y después la fecha prevista. No hemos encontrado reseñas ni análisis independientes lo bastante sólidos sobre el vino en Amazon.it, así que no recogemos sus valoraciones: lo que se puede decir es que la comodidad es conocida, que el catálogo está fragmentado y que los precios y el embalaje no son uniformes.
+
+Ideal para quien ya tiene una suscripción a Prime, compra una etiqueta conocida y quiere comodidad y un servicio de atención familiar.
+
+## Winelivery
+
+[Winelivery](https://www.winelivery.com/) es la app italiana de drink delivery: nacida en Milán a mediados de la década de 2010, promete llevar a casa vino, cerveza, destilados y cócteles en unos treinta minutos, a la temperatura justa. En septiembre de 2026 fue adquirida al 100 % por Compagnia del Gusto Holding, la sociedad de cartera de la familia Cosulich, y pasará a formar parte del área vitivinícola Compagnia delle Vigne. Según la prensa económica cuenta con unos 1,7 millones de descargas y más de 400.000 clientes, una red de locales físicos (Wine&Bar, con algunos puntos en franquicia) y una estructura interna de marketing digital.
+
+¿Cuánto vale en euros? Las reconstrucciones a partir de los balances hablan de ingresos algo superiores a los 5 millones en 2024 y de más de 4,4 millones en 2025, con una pérdida de unos 1,8 millones; el máximo fue de más de 7,7 millones en 2022. Cifras de una empresa que ha encontrado su lugar pero no es un coloso. El modelo es el del drink delivery: la entrega es rápida y funciona en las ciudades cubiertas, mientras que el coste («contributo di consegna», la tarifa de entrega) aparece solo en el momento del pago y puede cambiar con la zona y con las promociones.
+
+Los usuarios lo recomiendan por la velocidad y por la atención al cliente, que en las reseñas públicas se elogia a menudo por su capacidad de resolver los problemas de pedido. Las dudas son más raras pero pesadas: algunos usuarios han señalado un pedido cancelado por falta de existencias, con la misma botella puesta de nuevo a la venta después, y reembolsos no inmediatos. La empresa, en un caso, respondió explicando que se había corregido un error entre las existencias de la app y el almacén.
+
+Ideal para el último minuto: la cena improvisada, el regalo olvidado, la botella fría ahora mismo.
+
+## Svinando
+
+[Svinando](https://www.svinando.com/) nació en octubre de 2012 en el Piamonte, en Valle Talloria, en la provincia de Cuneo. En 2018 fue adquirida por Giordano Vini y hoy forma parte del grupo cotizado Italian Wine Brands. El grupo la presenta con más de 4.000 referencias entre vinos, destilados, cervezas artesanales y especialidades y con actividad en ocho mercados europeos; en Italia, según una nota de 2021, había atendido a más de 100.000 aficionados. No hay una facturación propia pública: el grupo solo comunica el dato agregado de venta a distancia, que en 2025 descendió.
+
+La fórmula es la venta relámpago: pocas botellas seleccionadas, descuentos declarados, cantidades limitadas y plazos estrechos. Cada etiqueta se cuenta y pasa por catas periódicas. Es una web que invita a decidir deprisa, y eso es a la vez su encanto y su riesgo. El envío parte de cifras en torno a 5 euros y es gratuito por encima de un umbral que, según los comparadores, es de 59 euros; la devolución se presenta como gratuita en un plazo de 14 días. Comprobad las condiciones en el carrito, que pueden variar con las promociones.
+
+Los usuarios lo recomiendan por la selección, por los precios y por las ofertas que consideran ventajosas y, a menudo, por vinos a la altura de las expectativas. Las dudas llegan de la logística: algunos usuarios han señalado entregas con semanas de retraso, pedidos sin actualizaciones de seguimiento, botellas rotas o equivocadas y respuestas difíciles del servicio de atención.
+
+Ideal para quien disfruta de la caza de ofertas, tiene tiempo y pide con un margen de paciencia.
+
+## Esselunga
+
+Entre los supermercados, el caso mejor documentado para el vino es [Esselunga](https://enoteca.esselunga.it/), que el 14 de noviembre de 2023 abrió una auténtica enoteca online separada de la compra a domicilio. En el lanzamiento contaba con unas 1.400 etiquetas de 350 productores, dos tercios italianas y casi 400 francesas; en junio de 2025 se hablaba de unas 2.500 referencias. Las botellas están en un almacén dedicado, en un área con luz y temperatura controladas, y alrededor del 95 % de la selección online no se vende en las enotecas de los puntos de venta.
+
+Sobre la entrega, los datos que recoge la prensa son: 24 horas en Lombardía, hasta 72 horas en el resto de Italia, entrega el mismo día en Milán para los pedidos realizados antes de las 11 h, envío gratuito por encima de 70 euros y recogida en tienda siempre gratuita. Son datos de 2023 y de 2025: comprobad las condiciones actuales antes de pedir. La compra a domicilio es un servicio distinto, con una entrega en torno a 7,90 euros y un pedido mínimo de 60 euros en las regiones cubiertas.
+
+No hemos encontrado reseñas independientes lo bastante sólidas sobre la enoteca online, por lo que no recogemos valoraciones de usuarios. Una guía de julio de 2026 la describe como una opción orientada a franjas de precio medio-bajas, con muchas etiquetas entre 10 y 20 euros y alguna botella de alto nivel. La tesis comercial de Esselunga es clara: un cliente fiel, ya acostumbrado a sus tiendas, que encuentra también buen vino.
+
+Ideal para quien ya es cliente de Esselunga, quiere un nombre tranquilizador y le gusta poder recoger en tienda.
+
+## Wine-Searcher
+
+Con [Wine-Searcher](https://www.wine-searcher.com/) hay que aclarar enseguida que no vende vino. Es un buscador vertical que compara precios y disponibilidad de una botella en tiendas y productores de todo el mundo y remite a la web de quien la vende. Fundado en 1998 por Martin Brown, con sede en Auckland, ha cambiado de propietario varias veces: en 2023 pasó a Flaviar y, en mayo de 2026, a una sociedad estadounidense vinculada a la familia Goudet. Declara unos 20 millones de ofertas en 126 países, procedentes de unas 38.000 tiendas y productores.
+
+El servicio básico es gratuito; la suscripción Pro muestra más vendedores por cada etiqueta. En los foros de aficionados la división es nítida: quien compra mucho dice que se amortiza, quien compra poco no ve la razón para pagar. Las advertencias recurrentes son útiles: un vino señalado como disponible puede no estarlo, el envío puede anular el ahorro y no siempre está claro adónde entrega un vendedor. La herramienta es perfecta para botellas concretas y fáciles de identificar, menos para descubrimientos y para el mercado italiano, donde la cobertura hay que verificarla caso por caso.
+
+Ideal para quien busca una botella precisa y quiere saber si está pagando lo justo.
+
+## A simple vista
+
+| Tienda | Tamaño | Envío | Ideal para |
+|---|---|---|---|
+| Vivino | Más de 77 millones de usuarios | Depende del vendedor | Descubrimiento y comunidad |
+| Amazon | Marketplace con muchos vendedores | Depende del vendedor y de Prime | Comodidad y costumbre |
+| Winelivery | Más de 400.000 clientes | Unos 30 minutos, coste al pagar | Último minuto |
+| Svinando | Más de 4.000 referencias | Desde unos 5 euros, gratis desde 59 | Caza de ofertas |
+| Esselunga | Unas 2.500 referencias | Gratis desde 70, recogida en tienda | Clientes de Esselunga |
+| Wine-Searcher | Unos 20 millones de ofertas | No vende | Comparar precios |
+
+## Nuestra idea
+
+Ninguna clasificación: son herramientas para momentos distintos. Quien tenga ganas de curiosear y descubrir encontrará en Vivino un escaparate enorme, a condición de leer siempre quién envía. Quien tenga prisa y viva en una ciudad cubierta puede confiar en Winelivery. Quien disfrute del vértigo de la oferta y tenga paciencia mirará a Svinando. Quien quiera seguridad de marca y comodidad se sentirá en casa con Esselunga o con Amazon, eligiendo bien al vendedor. Y antes de cada compra de una botella importante, un paseo por Wine-Searcher cuesta un minuto y puede ahorrar un arrepentimiento.
+
+La regla vale para todos: mirad el coste de envío antes que el precio, comprobad los plazos declarados y desconfiad de un precio que parece demasiado bueno si el almacén está lejos. En la próxima entrega se va más allá de la frontera, con Francia y Alemania.
