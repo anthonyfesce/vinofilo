@@ -227,3 +227,9 @@ Soggetti nel campo illustrazione di ciascun articolo; coda di stile e negativo s
 | comprare-vino-online-app-marketplace | dettaglio, collo di bottiglia e calice rosso |
 | comprare-vino-online-francia-germania | attraverso una finestra sulle vigne |
 | comprare-vino-online-regno-unito-stati-uniti | dal basso, bottega di vino a Londra al tramonto |
+
+Generate il 19.10.2026 (3 seed ciascuna), tenute: italia-enoteche 111, app-marketplace 111, francia-germania 222, regno-unito-stati-uniti 333.
+
+## Regola seed (Anthony, 19.10.2026)
+Per Vinofilo si genera SOLO il seed 111 e lo si controlla (colore del vino, scritte finte, mani, figure strane, inquadratura). Solo se ha un difetto si prova 222, poi 333/444. Nello storico la 111 era buona in 52 casi su 58. Il confronto tra 3 seed resta per Fix It In Post.
+Nota tecnica: inviando il workflow via API, il nodo QwenImage21Cache vuole anche device "auto" e dtype "default".
