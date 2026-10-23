@@ -233,3 +233,5 @@ Generate il 19.10.2026 (3 seed ciascuna), tenute: italia-enoteche 111, app-marke
 ## Regola seed (Anthony, 19.10.2026)
 Per Vinofilo si genera SOLO il seed 111 e lo si controlla (colore del vino, scritte finte, mani, figure strane, inquadratura). Solo se ha un difetto si prova 222, poi 333/444. Nello storico la 111 era buona in 52 casi su 58. Il confronto tra 3 seed resta per Fix It In Post.
 Nota tecnica: inviando il workflow via API, il nodo QwenImage21Cache vuole anche device "auto" e dtype "default".
+
+- lista-rossa-italia-nostra-paesaggi-del-vino (n. 138, 24.10.2026): seed 111 ok al primo colpo. Veduta dall alto di vigneti terrazzati con muri a secco e una cappella di campagna abbandonata, borgo in lontananza.
