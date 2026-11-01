@@ -6,7 +6,7 @@ description: Amati dai Borbone, piantati nella vigna a ventaglio di San Leucio, 
 category: Vitigni
 cover: Pallagrello
 slug: pallagrello-e-casavecchia
-illustrazione: Wide panoramic view over the green hills north of Caserta towards the blue Matese mountains, a semicircular fan-shaped vineyard with ten radiating rows on a gentle slope in the foreground, a pale baroque palace far in the hazy plain, soft late-afternoon light, a glass of deep ruby red wine on a low stone wall in the lower corner, elegant poetic gouache filling the whole frame.
+illustrazione: Low aerial view at golden hour of a large fan-shaped vineyard radiating like the spokes of a fan up a gentle hillside, at its base the 18th-century Bourbon silk factory and palace of San Leucio near Caserta, wooded Campanian hills and villages surrounding it all the way to the edges of the frame, long soft shadows, elegant poetic gouache filling the whole frame with no empty background.
 ---
 
 Ci sono vini che hanno una storia, e vini che hanno solo una leggenda. Il Pallagrello e il Casavecchia hanno la sfortuna e la fortuna di averle entrambe: un passato da tavola reale, un secolo di silenzio quasi totale e una rinascita così recente che molti appassionati, anche in Campania, non li hanno mai assaggiati. Eppure, a mezz'ora dalla Reggia di Caserta, si gioca una delle partite più interessanti del vino italiano.

@@ -6,7 +6,7 @@ description: Il Montepulciano a picco sull'Adriatico e la Lacrima che profuma di
 category: Territori
 cover: Conero
 slug: rosso-conero-lacrima
-illustrazione: Repeating rhythm of curved vine rows descending a green limestone promontory toward a deep blue Adriatic sea, row after row echoing the shape of the waves below, a single glass of deep ruby red wine on a white stone ledge in the lower corner, late afternoon light, elegant poetic gouache filling the whole frame, no text or readable labels.
+illustrazione: The white limestone cliffs of Monte Conero plunging into the turquoise Adriatic, a hidden pebble beach and a fishing boat, above the cliffs vineyards and a small country chapel, a scattering of wild pink roses in the foreground beside two glasses of red wine, one deep ruby red and one dark purple-ruby red with a violet rim, both natural realistic red wine colours, elegant poetic gouache filling the whole frame.
 ---
 
 Chi passa l'estate sulla Riviera del Conero di solito torna a casa con due ricordi: le spiagge bianche sotto la falesia e una bottiglia di Verdicchio comprata per abitudine. Peccato, perché a pochi chilometri da Ancona si fanno due rossi che hanno poco in comune tra loro, se non la vicinanza al mare: un Montepulciano scuro e salmastro, e una piccola uva dimenticata che profuma come un mazzo di rose. Le Marche bianche le conosciamo. Quelle rosse meritano un viaggio in più.
