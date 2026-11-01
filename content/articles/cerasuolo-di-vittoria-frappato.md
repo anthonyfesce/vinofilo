@@ -6,7 +6,7 @@ description: Nero d'Avola e Frappato su sabbie rosse e calcare. Perché l'unica 
 category: Territori
 cover: Vittoria
 slug: cerasuolo-di-vittoria-frappato
-illustrazione: A wide panorama of the gentle plateau around Vittoria in south-eastern Sicily in late afternoon light, low bush-trained vines on bright brick-red sandy soil, scattered carob and olive trees, dry stone walls, a distant pale strip of the Mediterranean on the horizon, a single small glass of light translucent cherry-red wine resting on a stone wall in the foreground, elegant poetic gouache filling the whole frame, no text, no readable labels, no hands.
+illustrazione: A Sicilian baroque terrace in Ragusa Ibla at sunset, golden limestone churches and domes descending the valley, a small table with a plate of caponata and bread, a carafe of bright translucent cherry red wine slightly chilled with condensation on the glass, bougainvillea spilling over the balustrade, elegant poetic gouache filling the whole frame.
 ---
 
 Se si chiede a qualcuno di immaginare un rosso siciliano, quasi sempre descrive un vino scuro, caldo, pieno di frutta matura e di sole. È l'immagine che il Nero d'Avola ha costruito nel mondo, e non è sbagliata. Ma nell'angolo sud-orientale dell'isola, tra Ragusa e Gela, esiste da secoli un'altra idea di Sicilia: un rosso chiaro, profumato, quasi trasparente, che chiede il secchiello invece del camino. Si chiama Cerasuolo di Vittoria, ed è l'unica DOCG di una regione che conta decine di denominazioni. Non è un caso che il primato sia toccato proprio a lui.

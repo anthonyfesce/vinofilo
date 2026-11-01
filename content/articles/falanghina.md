@@ -6,7 +6,7 @@ description: Dai Campi Flegrei su piede franco alle colline del Sannio, storia, 
 category: Vitigni
 cover: Falanghina
 slug: falanghina
-illustrazione: Aerial view of the Campi Flegrei near Naples, a ring of green volcanic craters with small vineyards tucked between the rims, scattered houses and a glimpse of the blue gulf with an island on the horizon, late afternoon golden light, a glass of pale straw-yellow white wine resting on a sun-warmed tufa wall at the edge of the frame, elegant poetic gouache filling the whole frame.
+illustrazione: Aerial view of the Campi Flegrei coast near Naples, green volcanic craters filled with vineyards, the Bay of Pozzuoli glittering, Ischia and Procida islands on the horizon, small white boats on the sea, late afternoon golden light, elegant poetic gouache filling the whole frame.
 ---
 
 Al ristorante, in Campania e ormai ben oltre, la Falanghina è diventata una parola d'ordine. Si ordina come si ordina un'acqua frizzante: senza pensarci, sapendo che arriverà un bianco fresco, agrumato, facile con la frittura e con la pizza. Questa popolarità è una fortuna, perché ha salvato un vitigno che negli anni Settanta stava sparendo. Ma è anche un equivoco, perché dietro quel nome ci sono due paesaggi, due storie e, secondo la ricerca ampelografica, perfino due Falanghine diverse.

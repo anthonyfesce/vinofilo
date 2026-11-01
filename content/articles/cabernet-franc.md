@@ -6,7 +6,7 @@ description: Ha generato il Cabernet Sauvignon e il Merlot, regna a Chinon e a C
 category: Vitigni
 cover: Cabernet Franc
 slug: cabernet-franc
-illustrazione: Aerial view of the Loire valley near Chinon in late summer, a medieval castle on a limestone ridge above a slow silver river, a patchwork of vineyards on gentle slopes with pale tuffeau-stone villages, soft golden light, a glass of bright ruby red wine on a sunlit terrace wall in the lower corner, elegant poetic gouache filling the whole frame.
+illustrazione: A Loire château by the river at Chinon at blue dusk, tufa stone towers above old slate roofs, a small table on a terrace below set with a plate of goat cheese and a glass of medium ruby red wine with a violet tint, the lights of the town reflecting in the Vienne river, elegant poetic gouache filling the whole frame.
 ---
 
 Nelle famiglie importanti c'è sempre un parente che ha fatto tutto e di cui nessuno parla. Nel vino quel parente è il Cabernet Franc. Ha messo al mondo il Cabernet Sauvignon, il rosso più piantato e più celebrato del pianeta, e anche il Merlot. Eppure, al ristorante, quasi nessuno ordina un Cabernet Franc chiamandolo per nome. Lo beve, spesso senza saperlo, in un Saint-Émilion, in un rosso della Loira, in un taglio toscano. È ora di presentarlo come si deve.

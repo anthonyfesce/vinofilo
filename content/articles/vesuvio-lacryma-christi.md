@@ -6,7 +6,7 @@ description: Leggende di lacrime e diavoli, Piedirosso e Caprettone, vigne su un
 category: Territori
 cover: Vesuvio
 slug: vesuvio-lacryma-christi
-illustrazione: Close-up detail of a ripe bunch of golden-green white grapes hanging from an old vine, its leaves dusted with grey volcanic ash, dark porous lava stones and black sand on the ground beneath, a glass of pale straw-yellow white wine catching the warm light at the edge of the frame, the blurred blue cone of a volcano far behind, elegant poetic gouache filling the whole frame.
+illustrazione: View from the ruins of Pompeii with broken columns and an ancient Roman garden replanted with vines on pergolas, Mount Vesuvius looming large behind under a soft pink sky, a terracotta cup and a glass of light translucent ruby red wine resting fully visible on a fallen column in the middle of the frame, elegant poetic gouache filling the whole frame.
 ---
 
 Pochi vini hanno un nome così impegnativo. Lacryma Christi, le lacrime di Cristo: un'etichetta che promette il sacro, cresce sulle pendici del vulcano più famoso del mondo e guarda dall'alto le rovine di una città sepolta dalla cenere. Con premesse del genere, il rischio è che il vino diventi un souvenir, la bottiglia da portare a casa dopo la gita a Pompei. Per molto tempo è andata proprio così. Oggi vale la pena riassaggiarlo con un'altra attenzione, perché sotto la leggenda c'è un territorio vero, e piuttosto straordinario.

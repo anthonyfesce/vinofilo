@@ -6,7 +6,7 @@ description: Pendenze vertiginose, ardesia e una scala di parole gotiche. Guida 
 category: Vitigni
 cover: Riesling
 slug: riesling-mosella-pradikat
-illustrazione: Steep terraced vineyards of grey slate plunging down to a winding river in the Mosel valley, a small village with a church spire on the opposite bank, misty autumn morning light, a glass of pale straw-yellow white wine on a slate wall in the lower corner, elegant poetic gouache filling the whole frame.
+illustrazione: Dramatic view looking straight down a vertiginous slate vineyard on the Moselle, rows of single-staked vines plunging toward a sharp bend of the river, a tiny monorail cart climbing the slope, shards of blue-grey slate glinting in morning light, a half-timbered village with a slim church spire far below, elegant poetic gouache filling the whole frame.
 ---
 
 Ci sono vigneti che si visitano e vigneti che si scalano. Sulla Mosella, tra Treviri e Coblenza, il fiume disegna anse lente e le viti salgono quasi in verticale su pareti di ardesia scura, così ripide che un italiano pensa subito alle terrazze delle Cinque Terre o ai muretti della Valtellina. Da quei pendii esce il Riesling più riconoscibile del mondo: leggero di alcol, teso come una corda di violino, a volte dolce, a volte secco. Ed è proprio questo "a volte" a mettere in crisi chiunque prenda in mano una bottiglia tedesca.

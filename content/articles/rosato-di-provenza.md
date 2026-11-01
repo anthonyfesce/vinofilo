@@ -6,7 +6,7 @@ description: Côtes de Provence, Bandol e un boom nato da un colore. Come la Pro
 category: Territori
 cover: Provenza
 slug: rosato-di-provenza
-illustrazione: Cross-section view of a Provençal hillside cut like a geological diagram, layers of pale limestone, red earth and stones below, vine roots reaching down, above ground neat rows of vines with a distant blue Mediterranean and umbrella pines, a single glass of very pale salmon-pink rosé resting on the surface line, soft winter light, elegant poetic gouache filling the whole frame, no text or readable labels.
+illustrazione: A Provençal market table in the shade of plane trees, crates of lavender, peaches and olives, a bowl of ice holding a bottle of very pale salmon-pink rosé wine, two glasses of pale onion-skin pink rosé, a stone fountain and ochre houses with blue shutters behind, dappled light, elegant poetic gouache filling the whole frame.
 ---
 
 Pochi vini al mondo si riconoscono da lontano, prima ancora di leggere l'etichetta. Il rosé di Provenza è uno di questi: quel rosa così chiaro da sembrare acqua appena tinta, buccia di cipolla, petalo, pesca bianca. Non è un dettaglio estetico. Il colore, qui, è diventato una promessa di stile, una specie di marchio collettivo che nessuno ha registrato ma che tutto il mondo copia. Ed è proprio questo il paradosso più interessante: una regione francese ha trasformato in modello globale un vino che per decenni, quasi ovunque, è stato considerato una via di mezzo senza ambizioni.

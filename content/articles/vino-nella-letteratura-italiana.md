@@ -6,7 +6,7 @@ description: Dante, Boccaccio, Redi, Pascoli, Pavese, Fenoglio e Soldati. Sette 
 category: Tecnica
 cover: Letteratura
 slug: vino-nella-letteratura-italiana
-illustrazione: Wide panorama of Italian hills at dusk shifting from Tuscan cypresses to Langhe vineyards, an open old book resting on a stone parapet in the foreground beside a glass of deep ruby red wine, distant villages and a winding river, elegant poetic gouache filling the whole frame.
+illustrazione: A warm old Italian osteria at night with dark wooden tables, a writer seen from behind sitting alone at a corner table under a lamp, a fiasco of red wine and a glass of ruby red wine beside a closed notebook and a fountain pen, shelves of bottles and hanging lanterns, a doorway opening onto a moonlit cobbled street, elegant poetic gouache filling the whole frame.
 ---
 
 Se si togliesse il vino dalla letteratura italiana, resterebbe in piedi quasi tutto, ma con un'aria più fredda. Non è il protagonista dei nostri classici, e quasi mai è un oggetto di culto come nei poeti persiani o nei romanzieri francesi dell'Ottocento. È piuttosto un'unità di misura: dice chi è ricco e chi no, chi lavora e chi festeggia, dove siamo e in che secolo. Seguirlo da Dante a Soldati significa leggere un'altra storia d'Italia, scritta a margine.

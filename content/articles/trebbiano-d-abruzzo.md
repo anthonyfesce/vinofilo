@@ -6,7 +6,7 @@ description: Sottovalutato, confuso con gli altri Trebbiani, eppure capace di in
 category: Vitigni
 cover: Trebbiano d'Abruzzo
 slug: trebbiano-d-abruzzo
-illustrazione: Panoramic view of Abruzzo hills covered in pergola vineyards stretching from the snow-capped Gran Sasso massif down to a hazy Adriatic sea, golden late-afternoon light, a glass of golden straw-yellow white wine resting on a stone ledge in the foreground corner, elegant poetic gouache filling the whole frame.
+illustrazione: Interior of an old Abruzzo cellar with a row of large concrete vats and old wooden barrels, a narrow arched doorway opening onto a sunlit pergola vineyard with the Gran Sasso mountains beyond, a single tall glass of golden straw-yellow white wine on a wooden stool in the cool shadow, dust floating in a beam of light, elegant poetic gouache filling the whole frame.
 ---
 
 Se c'è un nome che in Italia fa abbassare le aspettative, è Trebbiano. Basta pronunciarlo e scatta l'immagine del bianco da damigiana, quello delle sagre, versato fresco e dimenticato in fretta. Poi qualcuno apre una bottiglia abruzzese con quindici o vent'anni sulle spalle e il pregiudizio comincia a scricchiolare. Il Trebbiano d'Abruzzo vive esattamente in questa contraddizione: è il bianco più comune della regione e, nelle mani giuste, uno dei più longevi d'Italia.

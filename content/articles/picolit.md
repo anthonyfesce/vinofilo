@@ -6,7 +6,7 @@ description: Pochi acini per grappolo, rese minime e una fama settecentesca da c
 category: Vitigni
 cover: Picolit
 slug: picolit
-illustrazione: Terraced vineyards on the gentle Colli Orientali hills of Friuli at golden late-autumn light, sparse loose bunches of golden grapes on bare-leaved vines, the snow-dusted Julian Alps rising behind, a small glass of deep golden amber dessert wine on a stone wall, elegant poetic gouache filling the whole frame.
+illustrazione: Extreme close-up still life of a single sparse Picolit bunch with few scattered golden grapes and many tiny undeveloped berries, lying on an antique silver tray beside a small crystal glass of luminous golden-amber sweet wine a folded silk fan recalling an 18th-century court, dark green velvet background, candlelight, elegant poetic gouache filling the whole frame.
 ---
 
 Ci sono vitigni che producono troppo e vanno tenuti a freno. Il Picolit è il caso opposto: è la pianta stessa a fare la cernita, prima ancora del vignaiolo. Guardate un suo grappolo in settembre e sembra incompleto, come se qualcuno fosse passato a staccare gli acini uno sì e due no. Da questa avarizia naturale è nato uno dei vini dolci più celebrati d'Italia, e anche uno dei più fraintesi.

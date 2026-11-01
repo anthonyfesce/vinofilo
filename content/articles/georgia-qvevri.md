@@ -6,7 +6,7 @@ description: Dalle giare neolitiche vicino a Tbilisi al riconoscimento UNESCO de
 category: Territori
 cover: Georgia
 slug: georgia-qvevri
-illustrazione: Close-up of the wide clay mouth of an ancient qvevri buried in an earthen cellar floor, its rim dusted with soil and a wooden lid set aside, a shallow clay bowl of deep amber wine catching soft light beside it, warm ochre and umber tones, elegant poetic gouache filling the whole frame.
+illustrazione: A Georgian marani wine cellar with the clay rims of buried qvevri jars set in the earthen floor, one lid open, a traditional clay drinking bowl filled with glowing golden orange amber wine, bright orange like apricot, sunlight falling from a small window, vine-covered Caucasus foothills seen through the doorway, elegant poetic gouache filling the whole frame.
 ---
 
 Ogni storia del vino ha bisogno di un "prima". Per i Romani era la Grecia, per i Greci l'Oriente, per noi italiani spesso basta l'Etruria. Ma se si cerca davvero il primo capitolo, quello scritto nell'argilla e non nei libri, la strada porta in un piccolo paese stretto tra il Caucaso e il Mar Nero. La Georgia non è soltanto un luogo dove si fa vino da molto tempo: è il posto dove, finora, il vino comincia.

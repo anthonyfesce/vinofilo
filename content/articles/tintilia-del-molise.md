@@ -6,7 +6,7 @@ description: Origini discusse, una DOC nata nel 2011 e pochi ettari in collina. 
 category: Vitigni
 cover: Tintilia
 slug: tintilia-del-molise
-illustrazione: Wide view of rolling Molise hills in late autumn with scattered small vineyards, oak woods and a stone hill village on a distant ridge, a small solitary human figure seen in profile walking along a dirt track between the vines, low golden light and long shadows, a glass of deep ruby red wine with purple glints resting on a fence post in the lower corner, elegant poetic gouache filling the whole frame, no text or readable labels.
+illustrazione: A remote Molise hill village perched on a rock at dawn, mist filling the valleys below, a small old vineyard of gnarled vines clinging to the slope, a shepherd and a few sheep tiny in the middle distance on a tratturo path, cool pink and grey light, elegant poetic gouache filling the whole frame.
 ---
 
 Il Molise non esiste, dice la battuta più ripetuta del web italiano. È una regione che si attraversa senza accorgersene, schiacciata tra la fama dell'Abruzzo e quella della Puglia, e che fino al 1963 non aveva nemmeno un'autonomia amministrativa propria: era una cosa sola con l'Abruzzo. Nel vino la storia è stata simile. Per decenni il Molise ha prodotto uve e vini che finivano altrove, spesso senza nome. Poi è arrivata la Tintilia, un'uva che nessuno sa bene da dove venga, e la regione invisibile ha trovato qualcosa da mettere in etichetta con il proprio nome.

@@ -6,7 +6,7 @@ description: Minho, Alvarinho e Loureiro, pergole alte e un frizzante leggero. P
 category: Territori
 cover: Vinho Verde
 slug: vinho-verde
-illustrazione: Aerial view of the green Minho countryside in northern Portugal, small granite villages, maize fields and vines trained high on pergolas along field edges, a winding river reaching toward the Atlantic haze, a glass of pale straw-yellow white wine with fine bubbles on a granite wall in a lower corner, elegant poetic gouache filling the whole frame.
+illustrazione: Lush green Minho countryside in northern Portugal, very high pergola vines trained over granite posts and a narrow lane, a granite manor house with whitewashed walls, a picnic table under the pergola with a glass of pale lemon-green slightly sparkling white wine with tiny bubbles, a plate of grilled sardines, soft misty Atlantic light, elegant poetic gouache filling the whole frame.
 ---
 
 Il nome è il primo equivoco, e anche il più fortunato. Vinho Verde significa "vino verde", ma nel bicchiere non c'è nulla di verde, e una parte della produzione è perfino rossa, di un viola quasi inchiostro. Per mezzo secolo il mondo lo ha conosciuto come il bianco leggero, appena frizzante e poco costoso da bere ghiacciato in estate. Era vero, ma non era tutto. E oggi lo è sempre meno.

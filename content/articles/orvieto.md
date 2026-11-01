@@ -6,7 +6,7 @@ description: Grotte nel tufo, Procanico e Grechetto, una tradizione dolce quasi 
 category: Territori
 cover: Orvieto
 slug: orvieto
-illustrazione: A hillside landscape in Umbria with the town of Orvieto perched on its sheer volcanic tuff cliff, the cathedral facade glinting in the distance, vineyards rolling down the slopes below wrapped in soft autumn morning mist, a glass of pale straw-yellow white wine on a stone ledge in the foreground, elegant poetic gouache filling the whole frame.
+illustrazione: Inside a cool tufa cave carved beneath Orvieto, rough golden-brown volcanic rock walls, old barrels resting in an alcove, an opening in the cave framing the sunlit cathedral facade high on its cliff, a glass of pale golden white wine on a barrel catching the light, elegant poetic gouache filling the whole frame.
 ---
 
 Ci sono città che hanno una cantina. Orvieto è una città che sta sopra una cantina. La rupe di tufo su cui poggia è scavata da secoli di grotte, pozzi e cunicoli, e una parte di quei vuoti è servita per fare e conservare il vino. Basta questa immagine per capire che qui il bianco non è un prodotto agricolo tra gli altri, ma una cosa che fa parte della pietra stessa. Eppure, fuori dall'Umbria, l'Orvieto è spesso il vino che si ordina senza pensarci troppo. È un peccato, e anche un po' un'ingiustizia.

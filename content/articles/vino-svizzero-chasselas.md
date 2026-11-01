@@ -6,7 +6,7 @@ description: Chasselas, le terrazze UNESCO del Lavaux, il Vallese della Petite A
 category: Territori
 cover: Svizzera
 slug: vino-svizzero-chasselas
-illustrazione: Night view of the steep stone-walled vineyard terraces of Lavaux descending to a moonlit Lake Geneva, village lights glowing on the shore and the dark silhouette of the Alps beyond, a glass of pale straw-yellow white wine resting on a terrace wall in the lower corner, elegant poetic gouache filling the whole frame.
+illustrazione: A small Swiss lakeside steamboat gliding on Lake Geneva in the foreground, behind it the vertiginous stone-walled terraces of Lavaux rising in steps up the slope with small villages, snowy Alps across the water, crisp clear morning, elegant poetic gouache filling the whole frame.
 ---
 
 C'è un paese in mezzo all'Europa che produce vino da duemila anni, coltiva quasi 15.000 ettari di vigna su pendii dove altrove si farebbe alpinismo, e ne manda all'estero più o meno una bottiglia su cento. Non è un paradosso da dépliant turistico: è la Svizzera. Chi vive a Londra, New York o Milano può passare una vita da appassionato senza aver mai visto una carta dei vini con un Dézaley o una Petite Arvine. Non per snobismo, ma perché quelle bottiglie non partono quasi mai.

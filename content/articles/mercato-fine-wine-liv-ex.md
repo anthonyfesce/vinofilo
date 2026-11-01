@@ -6,7 +6,7 @@ description: Dal picco del 2022 alla lenta ripresa del 2026. Come funzionano gli
 category: Guide
 cover: Fine wine
 slug: mercato-fine-wine-liv-ex
-illustrazione: Aerial view of a patchwork of vineyards around a winding river, with a small harbour quay where stacks of wooden wine cases wait beside an old warehouse, soft golden evening light and long shadows, a single glass of deep garnet red wine on a crate in the lower corner, elegant poetic gouache filling the whole frame.
+illustrazione: A quiet London fine wine warehouse vault seen from above, long aisles of stacked wooden wine cases and racks of dusty bottles lying down, a small figure in a dark coat walking between the aisles with a lantern-like lamp, a rising and falling curve suggested only by the stepped heights of the stacked cases, cool blue and warm amber light, elegant poetic gouache filling the whole frame.
 ---
 
 Per qualche anno il vino da collezione è sembrato un titolo che non scendeva mai. Poi, nell'autunno del 2022, la curva si è fermata e ha cominciato a piegarsi verso il basso, lentamente ma senza esitazioni, per quasi tre anni. Chi segue questo mondo lo ha visto succedere su un grafico preciso, quello degli indici di Liv-ex, la piattaforma londinese su cui i commercianti scambiano le bottiglie più ricercate del pianeta. Vale la pena capire che cosa misurano, perché raccontano molto più del prezzo di qualche etichetta celebre.

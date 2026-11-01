@@ -17,6 +17,18 @@ da quelle degli ultimi 4–5 articoli.
 Il colore del vino deve essere sempre corretto e credibile (bianchi paglierino/dorati, orange ambrato, rosati dal salmone al ciliegia,
 rossi dal rubino al granato, Lambrusco violaceo, spumanti oro pallido). Mai vino verde, azzurro o di colori inventati.
 Tutto il resto (soggetto, inquadratura, surreale) è flessibile. Controllare il vino in ogni immagine prima di pubblicarla.
+Se l'articolo parla di UN vino preciso (Lacryma Christi, Grignolino, un rosato di Provenza, un vin jaune...), il vino nell'immagine
+deve avere il colore di QUEL vino: non serve la tonalità esatta, ma mai un bianco per un rosso, un rosso per un rosato, ecc. Se la
+denominazione ha più tipologie, usare quella di cui l'articolo parla di più (Lacryma Christi = rosso di Piedirosso). (Anthony, 1.11.2026)
+
+## Niente formule ripetute, niente immagini noiose (Anthony, 1.11.2026)
+Nel pacchetto 21.11–4.1 circa 20 prompt su 90 usavano la stessa formula "paesaggio di vigne + calice appoggiato su un muretto in
+primo piano": corrette una per una, banali viste in fila. Anthony: la qualità e lo stile non si sacrificano alla velocità.
+- Quando si scrivono i prompt di un pacchetto: rileggerli tutti insieme prima di generare; la formula "calice sul muretto/parapetto
+  davanti al panorama" al massimo 1 volta ogni 10 articoli. Ogni prompt deve avere un'idea legata al tema dell'articolo (un luogo
+  preciso, un momento, un oggetto della storia), non un paesaggio generico con un bicchiere.
+- Nel controllo non basta l'assenza di difetti: scartare anche le immagini corrette ma piatte o generiche e rifarle con un prompt
+  nuovo. Guardare le immagini a una dimensione decente, non solo in miniatura.
 
 ## Stile (uguale per tutte)
 Coda del prompt: Sophisticated editorial gouache painting, like the cover of a literary magazine: flat matte gouache shapes, muted

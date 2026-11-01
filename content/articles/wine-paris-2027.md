@@ -6,7 +6,7 @@ description: Dal 15 al 17 febbraio 2027 Parigi ospita Wine Paris, oggi il salone
 category: Guide
 cover: Wine Paris
 slug: wine-paris-2027
-illustrazione: Panoramic coastal view of Mediterranean vineyard terraces descending towards a calm winter sea under a pale silver sky, a distant hazy horizon, a single glass of deep ruby red wine resting on a dry-stone wall in the lower corner, elegant poetic gouache filling the whole frame.
+illustrazione: A vast elegant Paris exhibition hall with a high glass and iron roof, rows of wine tasting stands with crowds of small figures, banners without any writing, crates and spittoons, the Eiffel Tower visible through the tall glass windows in winter light, elegant poetic gouache filling the whole frame.
 ---
 
 Per molto tempo la geografia del vino professionale è stata semplice: in primavera si andava a Düsseldorf per ProWein, poi a Verona per Vinitaly, e Parigi era la città dove si beveva, non quella dove si comprava. Oggi la mappa è cambiata. A metà febbraio i padiglioni di Porte de Versailles diventano il luogo in cui buona parte del commercio mondiale del vino si dà appuntamento, e chi lavora nel settore ha imparato a prenotare l'albergo con mesi di anticipo. Dal 15 al 17 febbraio 2027 si ricomincia.

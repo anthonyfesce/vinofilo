@@ -6,7 +6,7 @@ description: Savagnin, un velo di lieviti, sei anni e tre mesi in botte e il cla
 category: Territori
 cover: Jura
 slug: jura-vin-jaune
-illustrazione: A steep limestone escarpment in the French Jura topped by an old stone village with a church tower, terraced vineyards tumbling down the slope in late autumn gold, misty wooded mountains fading into the distance, a squat bottle beside a glass of deep golden-yellow wine on a stone wall in the lower corner, elegant poetic gouache filling the whole frame.
+illustrazione: Inside a dim attic cellar in the Jura, old wooden barrels with a visible pale veil of yeast floating on the wine surface through an open bung hole, a squat clavelin bottle and a glass of deep golden-yellow wine on a barrel head, a small window showing the village of Château-Chalon on its rocky cliff in winter light, elegant poetic gouache filling the whole frame.
 ---
 
 Ci sono vini che chiedono pazienza, e poi c'è il vin jaune, che la pretende per legge. Sei anni e tre mesi tra la vendemmia e l'imbottigliamento, in botti che nessuno rabbocca, sotto un sottile strato di lieviti che fa da coperta e da filtro. Il risultato è uno dei bianchi più strani e più longevi del mondo, un vino che divide come pochi e che, una volta capito, non si dimentica. Viene da una regione che anche molti appassionati sanno collocare a fatica sulla carta: il Jura.
