@@ -243,7 +243,7 @@ Prova su Comfy Cloud (1.11.2026, template image_qwen_image_2_1_t2i, 1536×1024, 
 
 ### Seed tenuti (generazione locale, 1.11.2026)
 Tutte le 90 generate su ComfyUI locale (Qwen-Image 2.1, 1536×1024), salvate come assets/img/<slug>.jpg q84. La prova su Comfy Cloud non è stata usata: rigenerate in locale anche le prime 4.
-- Seed 111 tenuto per 79 su 90.
-- Seed 222 (7): malbec-cahors-mendoza (figura in giacca fuori scala accanto al calice), rossi-del-friuli (calice che galleggia dentro la sezione del terreno), madeira (vino rosso rubino invece che ambrato), vigilia-dei-sette-pesci (scarabocchi sull'etichetta della bottiglia), vino-nella-letteratura-italiana (libro con righe scarabocchiate ben visibili; nella 222 le righe sono tenui e illeggibili), vernaccia-di-oristano (caraffa troppo rossa; la 222 è ambrata).
+- Seed 111 tenuto per 81 su 90.
+- Seed 222 (6): malbec-cahors-mendoza (figura in giacca fuori scala accanto al calice), rossi-del-friuli (calice che galleggia dentro la sezione del terreno), madeira (vino rosso rubino invece che ambrato), vigilia-dei-sette-pesci (scarabocchi sull'etichetta della bottiglia), vino-nella-letteratura-italiana (libro con righe scarabocchiate ben visibili; nella 222 le righe sono tenui e illeggibili), vernaccia-di-oristano (caraffa troppo rossa; la 222 è ambrata).
 - Seed 444 (3): chardonnay-nel-mondo (nella 111 e nella 222 compariva un calice di rosso), georgia-qvevri (vino nella ciotola rosso-bruno invece che ambrato in tutti i seed: tenuta la 444, la meno rossa; da rifare cambiando il prompt, es. "golden orange amber wine"), vesuvio-lacryma-christi (calice tagliato dal bordo in tutti i seed perché il prompt dice "at the edge of the frame": tenuta la 444, dove il calice si vede meglio; da rifare togliendo quella frase).
 - Accettate con riserva: classificazione-bordeaux-1855 (registro aperto con colonne illeggibili, richieste dal prompt), chateauneuf-du-pape (stemma sull'etichetta, senza scritte).
