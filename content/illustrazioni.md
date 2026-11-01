@@ -235,3 +235,8 @@ Per Vinofilo si genera SOLO il seed 111 e lo si controlla (colore del vino, scri
 Nota tecnica: inviando il workflow via API, il nodo QwenImage21Cache vuole anche device "auto" e dtype "default".
 
 - lista-rossa-italia-nostra-paesaggi-del-vino (n. 138, 24.10.2026): seed 111 ok al primo colpo. Veduta dall alto di vigneti terrazzati con muri a secco e una cappella di campagna abbandonata, borgo in lontananza.
+
+## Pacchetto 21.11.2026 – 4.1.2027 (n. 141–230, scritto l'1.11.2026)
+90 illustrazioni da generare, in ordine di data (elenco e inquadrature in content/redazione/pacchetto-2026-11.md; soggetto nel campo `illustrazione:` di ogni articolo + coda di stile e negativo standard; con bottiglie in primo piano aggiungere "Bottles have plain blank labels or no labels at all"). Solo seed 111, poi controllo.
+Senza `assets/img/<slug>.jpg` l'articolo non esce: la prima uscita è il 21.11 (gattinara-e-ghemme, vino-per-thanksgiving).
+Prova su Comfy Cloud (1.11.2026, template image_qwen_image_2_1_t2i, 1536×1024, seed 111): generate 4 immagini, poi l'account ha finito le generazioni gratuite. Job da scaricare dal PC con get_output: gattinara-e-ghemme 6587bb68-a818-43b4-92b7-aae235bf817f, vino-per-thanksgiving 6a6971df-e732-4bb0-98b1-11978fa89b02, vino-con-la-bagna-cauda 9839b9f3-df65-445b-bc0c-0ad5b9ef9b3f, produzione-mondiale-vino-2026 f2fe08c3-044c-4856-80ac-62e254a099ac. La sessione cloud non può scaricare da cloud.comfy.org (rete bloccata): le immagini vanno portate nel repo da una sessione sul PC.
