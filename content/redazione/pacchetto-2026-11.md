@@ -3,6 +3,7 @@
 Ogni giorno 2 articoli: uno IT (tema per chi vive in Italia, post LinkedIn in italiano) e uno EN (tema internazionale, angolo per lettore straniero, post LinkedIn in inglese con link /en/).
 Numeri 141–230 (139–140 riservati alla patch guide 2027/Barolo). Bozze in /home/claude/drafts4/. Traduzioni in tutte le lingue ATTIVE (en, de, fr, es, ru, zh, ar).
 Stato: colonna 'stato' = da fare / it+en / tradotto / nel repo / illustrazione.
+Controllo del 05.11.2026: 90/90 articoli con traduzioni in tutte le lingue attive e illustrazione. N. 144: stime OIV 2026 non ancora uscite, da aggiornare prima del 22.11.
 
 | n | data | tipo | slug | cat | cover | inquadratura | tema | stato |
 |---|---|---|---|---|---|---|---|---|

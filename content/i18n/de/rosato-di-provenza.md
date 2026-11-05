@@ -23,7 +23,7 @@ Dieser Ansatz hat auch eine institutionelle Grundlage. 1999 entstand in Vidauban
 
 ## Bandol, die Ausnahme, die altert
 
-Wenn Côtes de Provence die Regel ist, ist Bandol die Ausnahme. Auf Terrassen über dem Meer, westlich von Toulon, ist hier der Mourvèdre die Hauptfigur, eine spät reifende, tanninreiche Traube, die Sonne und die Nähe zum Meer braucht, um auszureifen. Ein beträchtlicher Anteil Mourvèdre ist auch im Rosé vorgesehen; manche Quellen sprechen von mindestens der Hälfte der Cuvée, doch die genaue Angabe muss in der geltenden Vorschrift überprüft werden. Das Ergebnis ist ein strukturierterer, salzigerer Rosé mit einem Gewebe, das der Zeit standhält. Es ist der deutlichste Beweis, dass Rosa nicht mit Leichtigkeit gleichzusetzen ist: Ein guter Bandol Rosé verhält sich nach einigen Jahren in der Flasche eher wie ein bedeutender Weißwein als wie ein Wein für den Poolrand.
+Wenn Côtes de Provence die Regel ist, ist Bandol die Ausnahme. Auf Terrassen über dem Meer, westlich von Toulon, ist hier der Mourvèdre die Hauptfigur, eine spät reifende, tanninreiche Traube, die Sonne und die Nähe zum Meer braucht, um auszureifen. Der Mourvèdre ist auch beim Rosé vorgeschrieben: Die Vorschrift legt seinen Anteil auf 20 bis 95 % der Rebfläche fest. Das Ergebnis ist ein strukturierterer, salzigerer Rosé mit einem Gewebe, das der Zeit standhält. Es ist der deutlichste Beweis, dass Rosa nicht mit Leichtigkeit gleichzusetzen ist: Ein guter Bandol Rosé verhält sich nach einigen Jahren in der Flasche eher wie ein bedeutender Weißwein als wie ein Wein für den Poolrand.
 
 ## Ein Boom in Zahlen
 

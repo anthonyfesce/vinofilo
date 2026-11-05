@@ -28,7 +28,7 @@ Se il Cannonau è la questione identitaria, il Vermentino di Gallura è la quest
 
 La Gallura, nel nord-est dell'isola, è terra di granito. I suoli sono sabbie grossolane nate dal disfacimento di quella roccia, povere, drenanti, poco generose. Le vigne non possono superare i 500 metri di quota secondo le regole della denominazione, e il vento le tiene asciutte e sane. Il risultato, nei casi migliori, è un bianco che tiene insieme struttura e tensione, con quella nota salina e amarognola sul finale che i sardi difendono come un tratto di carattere e non un difetto da limare.
 
-Vale la pena ricordare che il Vermentino non è un'esclusiva gallurese: esiste anche la DOC Vermentino di Sardegna, che copre l'intera isola, e il vitigno si coltiva con successo in Liguria, in Toscana e in Corsica, dove si chiama Rolle. Ma è in Gallura che ha trovato la sua forma più riconoscibile, e la DOCG ne è la certificazione burocratica.
+Vale la pena ricordare che il Vermentino non è un'esclusiva gallurese: esiste anche la DOC Vermentino di Sardegna, che copre l'intera isola, e il vitigno si coltiva con successo in Liguria, in Toscana e in Corsica, dove si chiama Vermentinu. Ma è in Gallura che ha trovato la sua forma più riconoscibile, e la DOCG ne è la certificazione burocratica.
 
 ## Carignano del Sulcis, viti che non hanno mai incontrato la fillossera
 

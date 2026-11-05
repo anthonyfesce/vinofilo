@@ -25,7 +25,7 @@ If Cannonau is the question of identity, Vermentino di Gallura is the question o
 
 Gallura, in the north-east of the island, is granite country. The soils are coarse sands formed by the breakdown of that rock, poor, free-draining and far from generous. Under the appellation’s rules the vineyards cannot exceed 500 metres in altitude, and the wind keeps them dry and healthy. The result, at its best, is a white that combines structure and tension, with that salty, slightly bitter note on the finish that the Sardinians defend as a trait of character rather than a flaw to be filed away.
 
-It is worth remembering that Vermentino is not exclusive to Gallura: there is also the Vermentino di Sardegna DOC, which covers the whole island, and the grape is grown successfully in Liguria, in Tuscany and in Corsica, where it is called Rolle. But it is in Gallura that it has found its most recognisable form, and the DOCG is its bureaucratic certification.
+It is worth remembering that Vermentino is not exclusive to Gallura: there is also the Vermentino di Sardegna DOC, which covers the whole island, and the grape is grown successfully in Liguria, in Tuscany and in Corsica, where it is called Vermentinu. But it is in Gallura that it has found its most recognisable form, and the DOCG is its bureaucratic certification.
 
 ## Carignano del Sulcis, vines that never met phylloxera
 

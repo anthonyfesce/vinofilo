@@ -23,7 +23,7 @@ That approach has an institutional backbone, too. In 1999 a research centre devo
 
 ## Bandol, the exception that ages
 
-If Côtes de Provence is the rule, Bandol is the exception. On terraces overlooking the sea, west of Toulon, the star is Mourvèdre, a late-ripening, tannic grape that needs sunshine and the proximity of the sea to ripen. A substantial share of Mourvèdre is required in the rosé too; some sources put it at no less than half the blend, though the precise figure should be checked against the current rules. The result is a more structured, more savoury rosé, with a texture that stands up to time. It is the clearest proof that pink does not mean slight: a good Bandol rosé, after a few years in bottle, behaves more like a serious white than a poolside wine.
+If Côtes de Provence is the rule, Bandol is the exception. On terraces overlooking the sea, west of Toulon, the star is Mourvèdre, a late-ripening, tannic grape that needs sunshine and the proximity of the sea to ripen. Mourvèdre is required in the rosé too: the rules set its share at between 20% and 95% of the vineyard. The result is a more structured, more savoury rosé, with a texture that stands up to time. It is the clearest proof that pink does not mean slight: a good Bandol rosé, after a few years in bottle, behaves more like a serious white than a poolside wine.
 
 ## A boom in numbers
 

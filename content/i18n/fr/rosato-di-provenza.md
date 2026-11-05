@@ -23,7 +23,7 @@ Cette approche a aussi une base institutionnelle. En 1999 est né à Vidauban un
 
 ## Bandol, l’exception qui vieillit
 
-Si les Côtes de Provence sont la norme, Bandol est l’exception. Sur des terrasses tournées vers la mer, à l’ouest de Toulon, le protagoniste est ici le Mourvèdre, raisin tardif et tannique qui a besoin de soleil et de la proximité de la mer pour mûrir. Une part importante de Mourvèdre est prévue aussi dans le rosé ; certaines sources parlent d’au moins la moitié de la cuvée, mais le chiffre précis est à vérifier dans le cahier des charges en vigueur. Le résultat est un rosé plus structuré, plus salin, avec une trame qui tient dans le temps. C’est la preuve la plus claire que le rose ne se confond pas avec la légèreté : un bon Bandol rosé, après quelques années en bouteille, se comporte davantage comme un grand blanc que comme un vin de bord de piscine.
+Si les Côtes de Provence sont la norme, Bandol est l’exception. Sur des terrasses tournées vers la mer, à l’ouest de Toulon, le protagoniste est ici le Mourvèdre, raisin tardif et tannique qui a besoin de soleil et de la proximité de la mer pour mûrir. Le Mourvèdre est obligatoire aussi pour le rosé : le cahier des charges fixe sa part entre 20 % et 95 % de l’encépagement. Le résultat est un rosé plus structuré, plus salin, avec une trame qui tient dans le temps. C’est la preuve la plus claire que le rose ne se confond pas avec la légèreté : un bon Bandol rosé, après quelques années en bouteille, se comporte davantage comme un grand blanc que comme un vin de bord de piscine.
 
 ## Un boom chiffré
 

@@ -23,7 +23,7 @@ Este enfoque tiene también una base institucional. En 1999 nació en Vidauban u
 
 ## Bandol, la excepción que envejece
 
-Si Côtes de Provence es la norma, Bandol es la excepción. En terrazas asomadas al mar, al oeste de Tolón, el protagonista es el Mourvèdre, uva tardía y tánica que necesita sol y cercanía al mar para madurar. Una cuota considerable de Mourvèdre está prevista también en el rosado; algunas fuentes hablan de al menos la mitad del *coupage*, pero el dato preciso debe comprobarse en el pliego de condiciones vigente. El resultado es un rosado más estructurado, más salino, con una trama que aguanta el paso del tiempo. Es la prueba más clara de que el rosa no equivale a ligereza: un buen Bandol rosado, tras algunos años en botella, se comporta más como un blanco importante que como un vino de borde de piscina.
+Si Côtes de Provence es la norma, Bandol es la excepción. En terrazas asomadas al mar, al oeste de Tolón, el protagonista es el Mourvèdre, uva tardía y tánica que necesita sol y cercanía al mar para madurar. El Mourvèdre es obligatorio también en el rosado: el pliego de condiciones fija su cuota entre el 20 % y el 95 % del viñedo. El resultado es un rosado más estructurado, más salino, con una trama que aguanta el paso del tiempo. Es la prueba más clara de que el rosa no equivale a ligereza: un buen Bandol rosado, tras algunos años en botella, se comporta más como un blanco importante que como un vino de borde de piscina.
 
 ## Un boom con cifras
 

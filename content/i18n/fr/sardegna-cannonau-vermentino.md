@@ -24,7 +24,7 @@ Si le Cannonau est la question identitaire, le Vermentino di Gallura est la ques
 
 La Gallura, au nord-est de l’île, est une terre de granit. Les sols sont des sables grossiers nés de la désagrégation de cette roche, pauvres, drainants, peu généreux. Les vignes ne peuvent dépasser 500 mètres d’altitude selon les règles de l’appellation, et le vent les garde sèches et saines. Le résultat, dans les meilleurs cas, est un blanc qui allie structure et tension, avec cette note saline et légèrement amère en finale que les Sardes défendent comme un trait de caractère et non comme un défaut à limer.
 
-Il faut rappeler que le Vermentino n’est pas une exclusivité de la Gallura : il existe aussi la DOC Vermentino di Sardegna, qui couvre toute l’île, et le cépage se cultive avec succès en Ligurie, en Toscane et en Corse, où il s’appelle Rolle. Mais c’est en Gallura qu’il a trouvé sa forme la plus reconnaissable, et la DOCG en est la certification bureaucratique.
+Il faut rappeler que le Vermentino n’est pas une exclusivité de la Gallura : il existe aussi la DOC Vermentino di Sardegna, qui couvre toute l’île, et le cépage se cultive avec succès en Ligurie, en Toscane et en Corse, où il s’appelle Vermentinu. Mais c’est en Gallura qu’il a trouvé sa forme la plus reconnaissable, et la DOCG en est la certification bureaucratique.
 
 ## Carignano del Sulcis, des vignes qui n’ont jamais rencontré le phylloxéra
 

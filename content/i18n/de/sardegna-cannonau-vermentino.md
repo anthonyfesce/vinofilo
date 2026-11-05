@@ -25,7 +25,7 @@ Ist der Cannonau die Identitätsfrage, so ist der Vermentino di Gallura die Pres
 
 Die Gallura im Nordosten der Insel ist Granitland. Die Böden sind grobe Sande, entstanden aus der Verwitterung dieses Gesteins, arm, durchlässig, wenig großzügig. Die Reben dürfen nach den Regeln der Denomination nicht über 500 Meter Höhe wachsen, und der Wind hält sie trocken und gesund. Das Ergebnis ist im besten Fall ein Weißwein, der Struktur und Spannung zusammenhält, mit jener salzigen, leicht bitteren Note im Abgang, die die Sarden als Charakterzug verteidigen und nicht als Fehler, den man abschleifen müsste.
 
-Es lohnt sich zu erwähnen, dass der Vermentino keine gallurische Exklusivität ist: Es gibt auch die DOC Vermentino di Sardegna, die die gesamte Insel abdeckt, und die Rebsorte wird erfolgreich in Ligurien, in der Toskana und auf Korsika angebaut, wo sie Rolle heißt. Aber in der Gallura hat sie ihre wiedererkennbarste Form gefunden, und die DOCG ist deren bürokratische Beglaubigung.
+Es lohnt sich zu erwähnen, dass der Vermentino keine gallurische Exklusivität ist: Es gibt auch die DOC Vermentino di Sardegna, die die gesamte Insel abdeckt, und die Rebsorte wird erfolgreich in Ligurien, in der Toskana und auf Korsika angebaut, wo sie Vermentinu heißt. Aber in der Gallura hat sie ihre wiedererkennbarste Form gefunden, und die DOCG ist deren bürokratische Beglaubigung.
 
 ## Carignano del Sulcis, Reben, die nie einer Reblaus begegnet sind
 
