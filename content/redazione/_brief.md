@@ -5,7 +5,12 @@ REGOLE
 - Fatti: verifica con WebSearch/WebFetch date, numeri, disciplinari, nomi. Se un dato non è verificabile non usarlo, oppure dichiaralo incerto nel testo. Niente citazioni inventate, niente assaggi in prima persona, niente consigli di acquisto di marchi specifici (puoi citare produttori solo per fatti storici documentati).
 - Prezzi: niente prezzo di singole bottiglie o marchi. Se il tema lo richiede puoi indicare FASCE di prezzo per tipologia/denominazione ("di solito tra X e Y euro sullo scaffale"), solo se trovi riscontri, presentandole come indicative.
 - Salute: nessuna affermazione su benefici del vino per la salute.
-- Scrivi con parole tue, non copiare dalle fonti. Niente link esterni nel testo.
+- Scrivi con parole tue, non copiare dalle fonti.
+- Link (regola di Anthony del 9.11.2026, sostituisce il vecchio "niente link esterni"): cita marchi, aziende ed eventi con il nome
+  corretto e linkali al loro sito ufficiale (URL verificato), e in generale usa più link in uscita verso fonti ufficiali: consorzi,
+  disciplinari, pagine della casa, pagine degli eventi. Formato Markdown [testo](https://...). Si possono linkare anche articoli
+  Vinofilo con /articles/AAAA.MM.GG/slug/ (in traduzione: /<lingua>/articles/AAAA.MM.GG/<slug tradotto>/): se il bersaglio non è
+  ancora uscito, build.py mostra solo il testo finché non esce.
 - Struttura: attacco forte (mai "In questo articolo"), 3–5 sezioni con titoli ## brevi, chiusura con un'opinione.
 - Usa l'apostrofo dritto ' e le lettere accentate vere (è, più, perché), mai e' o piu'.
 

@@ -288,6 +288,11 @@ def build_lang(lg, arts, alt_art, md, sitemap):
     t, P = L[lg], prefix(lg)
     mins = lambda a: max(1, round(a["words"] / 220))
 
+    # Link interni verso articoli non ancora usciti (serie programmate): solo testo finché il bersaglio non è online
+    live_urls = {x["url"] for x in arts}
+    unlink = lambda html_: re.sub(r'<a href="(/(?:[a-z]{2}/)?articles/[^"]+)">(.*?)</a>',
+                                  lambda m: m.group(0) if m.group(1) in live_urls else m.group(2), html_)
+
     # Articoli
     for a in arts:
         if lg == "it":  # vecchi indirizzi (articolo spostato di data): pagina di rimando verso quello nuovo
@@ -301,6 +306,7 @@ def build_lang(lg, arts, alt_art, md, sitemap):
         md.reset()
         body = md.convert(a["body"])
         body = re.sub(r"(\w)‘(\d)", r"\1’\2", body)  # l’80%, non l‘80%
+        body = unlink(body)
         rel = [x for x in arts if x is not a and x["category"] == a["category"]][:3]
         rel += [x for x in arts if x is not a and x not in rel][:3 - len(rel)]
         im = img_path(a["key"])
