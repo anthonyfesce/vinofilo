@@ -6,7 +6,7 @@ description: Perché 75 centilitri, che cosa cambia in una magnum e come si legg
 category: Servizio
 cover: Magnum
 slug: formati-bottiglia-magnum-e-oltre
-illustrazione: A rhythmic row of bottles of growing sizes lined up on a cellar shelf, seen from the front, dark glass with plain blank white labels, soft candlelit gouache light filling the entire frame, no text, no hands.
+illustrazione: A long vaulted brick cellar seen at eye level. In the middle ground, a cellar master in a dark apron and rolled sleeves seen from the side, walking along the aisle carrying a large magnum bottle of dark green glass carefully cradled against his chest. On a wooden table beside him, a standard bottle and a small half bottle stand next to each other. In the near foreground on the right, wooden racks of bottles lying on their sides. In the background, the vault recedes into warm lamplight. All objects at their true real-life size.
 ---
 Nessuno ha mai deciso a tavolino che una bottiglia di vino dovesse contenere 75 centilitri. Eppure oggi lo diamo per scontato come se fosse una legge di natura, e chiunque abbia provato a dividere una bottiglia in tre senza litigare sa che il numero è, per lo meno, scomodo. Da dove viene? La risposta onesta è che le spiegazioni sono parecchie e nessuna è definitiva.
 

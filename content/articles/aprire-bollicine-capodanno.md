@@ -6,7 +6,7 @@ description: Pressione, tappo, gabbietta, sciabolata, temperatura e calici. Come
 category: Servizio
 cover: Capodanno
 slug: aprire-bollicine-capodanno
-illustrazione: A long rhythmic row of identical tall flutes filled with pale gold sparkling wine marching diagonally across the whole frame, each with a rising column of tiny bubbles, foil-topped bottle necks repeating behind them like a colonnade, deep midnight blue background with scattered points of warm light, elegant poetic gouache filling the whole frame.
+illustrazione: New Year's Eve in an elegant city apartment just before midnight, seen from the doorway of the room. In the middle ground, a woman in a dark evening dress seen in profile, carefully easing the cork out of a bottle wrapped in a white napkin, the bottle tilted away from her. On the table beside her, empty flutes waiting. In the background, a tall window with small fireworks bursting over the rooftops. Deep blue night, warm lamplight and gold.
 ---
 
 Ogni anno, a pochi secondi dalla mezzanotte, in milioni di case succede la stessa cosa: qualcuno prende una bottiglia, la punta verso il soffitto, o peggio verso un ospite, e tira. Il botto, gli applausi, mezzo vino sul pavimento. È il gesto più festoso del calendario ed è anche, a pensarci bene, il modo peggiore di aprire una bottiglia che dentro ha più pressione di una gomma d'auto. Vale la pena di imparare a farlo bene, che si brindi a Milano, a Londra o a New York.

@@ -6,7 +6,7 @@ description: Appassimento, caratelli e madre. Come nasce il Vin Santo toscano, c
 category: Territori
 cover: Vin Santo
 slug: vin-santo-caratelli-e-pazienza
-illustrazione: Interior of an attic with small wooden barrels lined along the beams, oblique golden light falling from a small window, seen from below, filling the whole frame, gouache style, no readable text, no hands in the foreground, a small glass in shadow holding deep amber wine.
+illustrazione: Interior of a Tuscan farmhouse attic in winter, seen from the top of the wooden stairs. In the near foreground, a worn wooden handrail. In the middle ground, long bunches of white grapes hanging from wires under the roof beams and laid on cane mats, slowly shrivelling and turning amber; along the low wall under the roof, a row of small sealed oak barrels. In the background, a small window with soft winter light and a glimpse of cypresses and hills. Warm amber and honey tones, a feeling of quiet patience.
 ---
 Il Vin Santo è l'unico vino italiano che comincia con un atto di sfiducia verso l'uva. La si raccoglie sana, la si stende o la si appende in un locale ventilato e la si lascia lì per mesi, a perdere acqua e a concentrarsi, mentre fuori si discute di vendemmia come se fosse già finita. Il vino vero comincia dopo, quando quasi nessuno guarda più.
 

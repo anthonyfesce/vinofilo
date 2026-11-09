@@ -6,7 +6,7 @@ description: Moscato d'Asti e Asti Spumante non sono lo stesso vino. Differenze,
 category: Vitigni
 cover: Moscato d'Asti
 slug: moscato-d-asti
-illustrazione: Interior of a vaulted brick wine cellar carved under a Piedmont hill town, long rows of bottles resting in the soft amber light of hanging lamps, a few small figures walking in the far end of the tunnel, a tall flute of pale golden-straw sparkling wine with fine bubbles on a wooden barrel in the middle ground, elegant poetic gouache painting filling the whole frame, no text or readable labels, no hands in the foreground.
+illustrazione: The steep vineyard slopes above a small Piedmont town at harvest time, seen from mid-slope. In the near foreground, a wooden crate full of golden-yellow Moscato grapes resting between two vine rows. In the middle ground, two pickers in straw hats seen from the side, bending among the rows. In the background, the town in the valley with terracotta roofs, a church and a castle on a little hill, soft golden haze.
 ---
 
 C'è un vino italiano che sta sotto i sei gradi, si beve a metà pomeriggio senza sensi di colpa e, a un certo punto, è finito nei testi del rap americano. Il Moscato d'Asti è uno dei paradossi più simpatici del vino: un prodotto agricolo durissimo da fare, nato su colline dove i trattori non salgono, che fuori dall'Italia è diventato quasi un nome comune. Per capirlo bisogna prima sciogliere un equivoco che confonde molti stranieri, e qualche italiano: Moscato d'Asti e Asti Spumante non sono la stessa cosa.

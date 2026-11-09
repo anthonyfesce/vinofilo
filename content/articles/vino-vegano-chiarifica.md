@@ -6,7 +6,7 @@ description: La chiarifica usa albumina, caseina, gelatina o colla di pesce, che
 category: Tecnica
 cover: Vino vegano
 slug: vino-vegano-chiarifica
-illustrazione: A view from directly above a scrubbed wooden cellar table, arranged like a quiet inventory, with an eggshell and a small bowl of egg white, a jug of milk, a few pea pods, a dish of pale grey clay powder, a coil of dried fish bladder, and in the centre a tall clear glass of brilliant pale straw-yellow white wine catching the light, no readable text or labels, no hands in the foreground.
+illustrazione: Top-down still life on a pale scrubbed oak table in a cellar, composed like an elegant inventory with generous space between the objects: a brown egg cracked into a small white bowl showing a clear egg white, a small glass jug of milk, a few fresh green pea pods, a dish of fine pale grey clay powder, and slightly off-centre a tall clear glass of brilliant pale straw-yellow white wine casting a soft golden shadow on the wood. Soft side light, refined and minimal.
 ---
 Sembra una domanda da quiz: il vino è fatto d'uva, quindi è vegetale, quindi è vegano. Invece no, o almeno non sempre. Il motivo non sta in quello che c'è nel vino, ma in quello che è passato nel vino mentre lo si preparava: una serie di sostanze di origine animale usate per renderlo limpido e stabile, che alla fine vengono rimosse quasi del tutto. Quasi, appunto. Ed è su quel quasi che si gioca la questione.
 

@@ -6,7 +6,7 @@ description: Dal Moscato d'Asti a 5,5 gradi al Porto oltre i 19. Quanto alcol ha
 category: Guide
 cover: Gradazione
 slug: quanti-gradi-ha-il-vino
-illustrazione: A long old wooden windowsill in a cellar tasting room at golden hour, seven different wine glasses standing in a row from left to right, a flute of pale straw sparkling Moscato with tiny bubbles, a glass of pale yellow white wine, a salmon-pink rosé, a ruby red, a deep garnet red, a small glass of amber Vin Santo and a small glass of dark tawny Port, beyond the window rolling vineyard hills in autumn colours, warm light and long shadows, no readable text, no numbers, no labels, no hands in the foreground.
+illustrazione: Late afternoon inside a small old wine shop with dark wooden shelves. In the near foreground, on a marble counter, three glasses side by side: a pale gold sparkling wine with tiny bubbles, a deep ruby red wine and a small glass of amber fortified wine, next to a corkscrew. In the middle ground, the shopkeeper in a dark apron seen in profile, taking a bottle down from a high shelf. In the background, walls of bottles with plain blank labels and a shop window onto a quiet street with warm light.
 ---
 "Quanti gradi ha il vino?" è una di quelle domande a cui la risposta più onesta è un'altra domanda: quale vino? Si va da poco più di 5 gradi a oltre 20, e la maggior parte delle bottiglie da tavola sta in una forbice abbastanza stretta, grosso modo tra 11 e 14,5. Per orientarsi servono tre cose: sapere cosa dice la legge, capire da dove viene l'alcol, e leggere bene l'etichetta.
 

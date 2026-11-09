@@ -6,7 +6,7 @@ description: Il rosso che Mozart e Da Ponte misero in scena nel 1787 e il bianco
 category: Vitigni
 cover: Trentino
 slug: marzemino-e-nosiola
-illustrazione: Interior of a wooden attic loft in a Trentino village, long racks of drying golden-amber grape bunches hanging under the beams, small distant figures of two winemakers inspecting the grapes in the soft winter light from a small window, a glass of deep amber sweet wine on a barrel in the foreground, elegant poetic gouache filling the whole frame.
+illustrazione: An eighteenth-century opera house during a performance, seen from a gilded box at the side of the theatre. In the near foreground, the gilded edge of the box and a red velvet curtain. In the middle ground, the candlelit stage showing a supper scene: a gentleman in a red coat at a laden table raising a glass of dark red wine, a servant at his side. In the background, painted scenery of a palace hall and the dim tiers of boxes. Warm candlelight, burgundy and gold.
 ---
 
 Ci sono vitigni che hanno bisogno di un ufficio stampa e vitigni che hanno avuto Mozart. Il Marzemino appartiene alla seconda categoria, e in Trentino lo sanno benissimo: da più di due secoli quel brindisi in scena è il miglior biglietto da visita di un rosso che, altrimenti, quasi nessuno fuori dalla Vallagarina saprebbe pronunciare. La Nosiola, invece, non ha avuto librettisti. Ha avuto qualcosa di più raro: qualche famiglia ostinata che ha continuato ad appendere grappoli in soffitta anche quando non conveniva più a nessuno. Due vitigni trentini, due storie opposte, e una provincia che di solito raccontiamo solo per le bollicine.

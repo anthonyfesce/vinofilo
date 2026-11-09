@@ -6,7 +6,7 @@ description: Il Friuli non è solo bianchi. Storia dei suoi rossi autoctoni, dal
 category: Vitigni
 cover: Rossi friulani
 slug: rossi-del-friuli
-illustrazione: A cross-section of a terraced Friulian hillside in the Colli Orientali showing layered grey marl and sandstone soil with long vine roots reaching down, four old vines above ground each bearing small dark blue-black grape clusters, a distant abbey on the ridge under autumn light, a glass of deep purple-ruby red wine resting on the terrace edge, elegant poetic gouache filling the whole frame.
+illustrazione: A Friulian farmhouse courtyard in late autumn. In the near foreground, an old wooden cart loaded with crates of dark blue-black grapes. In the middle ground, the stone farmhouse with a long wooden balcony where bunches of red grapes hang to dry, and a farmer seen from the side carrying a crate. In the background, a low hill of vineyards in rust colours and a slender bell tower. Cool clear light.
 ---
 
 Quando si dice Friuli, chiunque abbia una minima familiarità con il vino pensa ai bianchi: il Friulano, la Ribolla, i grandi uvaggi del Collio. È un riflesso giustificato, e ce ne siamo occupati anche noi. Ma sulle colline tra Cividale, Prepotto e Rosazzo c'è un'altra storia, più ruvida e meno raccontata, fatta di uve rosse che a un certo punto la legge considerava semplicemente inesistenti. Che oggi si possano comprare è merito di pochi testardi, di un premio inventato da una famiglia di distillatori e di qualche vigneto piantato fuori dalle regole.

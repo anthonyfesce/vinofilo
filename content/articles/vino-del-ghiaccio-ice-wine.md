@@ -6,7 +6,7 @@ description: Uva congelata sulla pianta e raccolta di notte, dal Niagara alla Mo
 category: Tecnica
 cover: Ice wine
 slug: vino-del-ghiaccio-ice-wine
-illustrazione: A still life on a deep midnight-blue background, a cluster of frozen grapes glazed with frost and tiny ice crystals beside a slender glass of luminous golden-amber dessert wine, a few frosted vine leaves scattered on dark slate, soft candle-like light catching the ice, elegant poetic gouache filling the whole frame.
+illustrazione: A night harvest in a snowy vineyard, wide view at eye level. In the near foreground, snow-covered vine rows with small, loose, shrivelled bunches of golden-brown grapes dusted with frost still hanging here and there among the canes. In the middle ground, three small pickers in winter coats with head lamps moving slowly between the rows, small circles of warm light on the snow. In the background, a dark frozen river valley with the faint lights of a village and a deep blue starry sky. Cold blues with small warm points of light.
 ---
 
 C'è un momento, in una notte di gennaio sul Niagara o di dicembre in Mosella, in cui un termometro decide il destino di un'annata. Se scende sotto la soglia e ci resta abbastanza a lungo, squadre di vendemmiatori con le torce frontali entrano in vigna a raccogliere grappoli duri come biglie. Se non scende, quell'uva lasciata sulla pianta per mesi è perduta. L'ice wine, l'Eiswein dei tedeschi, è forse l'unico vino al mondo che dipende da un evento meteorologico preciso, e proprio per questo è diventato una specie di sismografo del riscaldamento globale.

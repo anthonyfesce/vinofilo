@@ -6,7 +6,7 @@ description: Come un'uva di Cahors, quasi cancellata da fillossera e gelo, è di
 category: Vitigni
 cover: Malbec
 slug: malbec-cahors-mendoza
-illustrazione: A split composition: on the left the medieval Valentré bridge with its three towers over the Lot river at Cahors among autumn vines, on the right the snow-capped Andes above high-altitude Mendoza vineyards, the two landscapes flowing into each other through a single winding river, a glass of deep inky purple-black red wine at the meeting point, elegant poetic gouache filling the whole frame.
+illustrazione: The medieval Valentre bridge at Cahors on an autumn morning, seen from the riverbank. In the near foreground, tall reeds and a small moored wooden boat. In the middle ground, the long stone bridge with its arches and three tall square towers, reflected in the calm dark river. In the background, limestone cliffs with vineyards above them, the leaves turning deep red and gold, light mist lifting from the water.
 ---
 
 Ci sono vitigni che il mondo associa a un luogo per diritto di nascita, come il Nebbiolo alle Langhe o il Sangiovese alla Toscana. E ce ne sono altri che hanno trovato la loro patria emigrando. Il Malbec appartiene alla seconda famiglia: nato in Francia, trattato a lungo da comprimario, ha dovuto attraversare un oceano e una catena di montagne per diventare protagonista. Oggi, quando si dice Malbec, quasi tutti pensano all'Argentina. Ma la storia comincia in un'ansa del fiume Lot.

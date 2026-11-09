@@ -6,7 +6,7 @@ description: Corvina, colline moreniche e tre sottozone storiche: perché il Bar
 category: Territori
 cover: Bardolino
 slug: bardolino-e-chiaretto
-illustrazione: Close-up macro of a cluster of ripe Corvina grapes, dusty blue-black berries with a soft bloom, hanging over pale glacial pebbles and gravel of a morainic vineyard soil, a sliver of Lake Garda shimmering out of focus behind, a glass of light translucent ruby red wine catching the light at the edge of the frame, elegant poetic gouache filling the whole frame.
+illustrazione: The eastern shore of Lake Garda in late autumn, seen from the low morainic hills above a lakeside village. In the near foreground, rows of vines with red-gold leaves and an old olive tree. In the middle ground, the village with its small harbour, a church and a promenade of trees. In the background, the wide calm lake and the long shape of Monte Baldo under soft light.
 ---
 
 Chi abita nel Nord Italia conosce il Bardolino prima ancora di averlo bevuto. È il nome di un paese sul lago, di una passeggiata domenicale, di una caraffa servita con il lavarello in una trattoria di Lazise. Proprio questa familiarità gli ha fatto torto: per decenni lo si è trattato come il rosso delle vacanze, quello che si beve senza pensarci, schiacciato tra il prestigio dell'Amarone a pochi chilometri e, più di recente, il successo del suo fratello rosa. Eppure dietro quel bicchiere chiaro c'è un territorio preciso, una geologia rara e una denominazione che negli ultimi anni ha deciso di prendersi sul serio.

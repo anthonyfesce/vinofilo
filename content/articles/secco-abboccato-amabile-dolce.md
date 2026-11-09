@@ -6,7 +6,7 @@ description: Le soglie europee di zucchero per vini fermi e spumanti, perché un
 category: Guide
 cover: Dolcezza
 slug: secco-abboccato-amabile-dolce
-illustrazione: An extreme close-up of a glass of luminous golden yellow sweet wine, the colour of honey held to the light, the bowl tilted slightly so thin slow tears run down the inside of the glass, a honeycomb and a few dried apricots softly behind it, warm amber light, painted in flat matte gouache shapes, no readable text or labels, no hands in the foreground.
+illustrazione: A refined Italian sitting room in late afternoon, seen at eye level. On a low walnut table, four small stemmed glasses in a loose arc, from left to right a pale straw dry white wine, a light golden wine, a deeper golden wine and a rich amber sweet wine. Beside them a small bowl of sugared almonds, a piece of honeycomb on a saucer and a few dried apricots. In the background, a softly lit window with sheer curtains and a potted lemon tree. Calm, warm and elegant.
 ---
 Secco, abboccato, amabile, dolce. Sono quattro parole che tutti abbiamo letto su un'etichetta e che quasi nessuno saprebbe tradurre in numeri. Eppure sono numeri, fissati dalla legge europea al grammo. E nascondono un tranello che spiazza anche i bevitori esperti: la stessa parola non vuol dire la stessa cosa su un vino fermo e su uno spumante. Un "secco" con le bollicine può contenere otto volte lo zucchero di un "secco" fermo.
 

@@ -6,7 +6,7 @@ description: Durella, suoli vulcanici e due denominazioni: come distinguere Less
 category: Vitigni
 cover: Durello
 slug: lessini-durello-spumante-vulcanico
-illustrazione: A moonlit night over the Monti Lessini, dark basalt rocks in the foreground and terraced vineyards of Durella grapes rolling away beneath a luminous full moon, no text, no hands, a flute of pale straw-yellow sparkling wine glimmering faintly on a flat rock.
+illustrazione: Late afternoon in the Lessini hills north of Verona, seen from a high grassy bend of a country road. In the near foreground, a low dry-stone wall built of dark grey-black volcanic stones, with a few yellow vine leaves resting on it. In the middle ground, a steep green hillside of tall pergola-trained vines with leaves turning yellow and a small stone farmhouse with a red-tiled roof among them. In the background, layered blue ridges of the Lessini mountains fading into haze, a small church tower on a far crest. Crisp cool light, slate grey, sage green and gold.
 ---
 Il nome dice già tutto: durello, duro. Duro è l'acino, con una buccia spessa che resiste alle muffe e al freddo delle colline; duro, per chi lo beve da giovane, è l'impatto di un'acidità che non fa sconti a nessuno. In un'Italia che ama le bollicine morbide e conciliatorie, il Durello è lo spumante che non chiede il permesso. E proprio per questo, da qualche anno, qualcuno ha cominciato a prenderlo molto sul serio.
 

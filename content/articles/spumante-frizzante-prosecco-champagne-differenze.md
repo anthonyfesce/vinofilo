@@ -6,7 +6,7 @@ description: Spumante e Prosecco sono la stessa cosa? Pressione, metodo, uve e d
 category: Guide
 cover: Bollicine
 slug: spumante-frizzante-prosecco-champagne-differenze
-illustrazione: Four different glasses standing in a row on a long marble bar counter, repeated reflections in a mirror behind them, a tall flute of pale straw sparkling wine with fine bubbles, a coupe of golden sparkling wine, a tumbler of lightly fizzy pale yellow wine with a few large bubbles, and a tulip glass of deep golden Champagne, soft evening light, no readable text or labels, no hands in the foreground.
+illustrazione: An old Milan cafe at dusk, seen in perspective along its polished wooden bar counter. Along the counter at natural scale, a tall flute of pale gold sparkling wine with fine bubbles, a tumbler of lightly fizzy pale straw wine, a wide coupe of golden Champagne and a silver ice bucket with a bottle whose neck is wrapped in plain gold foil. In the middle ground, a bartender in a white jacket seen in profile polishing a glass. In the background, mirrored shelves and the warm lights of the street through a large window.
 ---
 A dicembre la domanda si ripete in ogni supermercato e in ogni enoteca: spumante e Prosecco sono la stessa cosa? E il frizzante? E lo Champagne è solo uno spumante più caro? La confusione è comprensibile, perché queste parole stanno su piani diversi. "Spumante" e "frizzante" sono categorie di prodotto, definite dalla pressione delle bollicine. "Prosecco" e "Champagne" sono denominazioni d'origine, cioè nomi di luoghi con regole proprie. Un Prosecco può essere spumante o frizzante; uno Champagne è sempre spumante; non ogni spumante è Prosecco o Champagne.
 

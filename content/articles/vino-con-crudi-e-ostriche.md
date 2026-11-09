@@ -6,7 +6,7 @@ description: Pas dosé, Verdicchio, Vermentino, Chablis e Muscadet. Come sceglie
 category: Servizio
 cover: Ostriche
 slug: vino-con-crudi-e-ostriche
-illustrazione: Cross-section view of a single open oyster cut through like a geological diagram, the pearly shell and glistening flesh above, beneath it layered bands of pale limestone and grey marl studded with tiny fossil oyster shells, a sliver of seawater and crushed ice along the top edge, a glass of pale straw-yellow white wine with green glints rising at one side, elegant poetic gouache filling the whole frame.
+illustrazione: A wooden table on a terrace by the sea at noon in winter. In the near foreground, a platter of crushed ice with open oysters, red prawns and lemon halves. In the middle ground, two glasses of pale straw-yellow white wine. In the background, a grey-blue sea and a small harbour with fishing boats under a bright pale sky. Everything at natural scale.
 ---
 
 L'ostrica è il piatto più semplice del mondo e il più spietato con il vino. Non c'è salsa che copra un errore, non c'è cottura che ammorbidisca uno scontro: c'è un mollusco crudo, un po' di acqua di mare e un bicchiere. Nelle feste di fine anno, quando i vassoi di crudo arrivano in tavola accanto alle bollicine, conviene sapere perché certi vini funzionano e altri sembrano improvvisamente metallici, piatti o amari. Le regole sono poche, e quasi tutte hanno a che fare con il sale.

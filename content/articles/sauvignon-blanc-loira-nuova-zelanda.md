@@ -6,7 +6,7 @@ description: Sancerre e Pouilly-Fumé contro la Nuova Zelanda, Bordeaux bianco, 
 category: Vitigni
 cover: Sauvignon
 slug: sauvignon-blanc-loira-nuova-zelanda
-illustrazione: Nocturne of a vineyard valley under a deep blue night sky, rows of vines silvered by moonlight running towards dark hills, a river glinting in the distance and a faint glow of a small town on a hilltop, a glass of pale greenish straw-yellow white wine standing on a stone wall in the foreground catching the moonlight, elegant poetic gouache filling the whole frame.
+illustrazione: The hilltop town of Sancerre seen from the vineyards below in late autumn. In the near foreground, flinty white stones and chalky soil between rows of pruned vines. In the middle ground, rolling slopes of vineyards in gold and ochre. In the background, the round hill crowned by the town's grey roofs and an old stone tower, with the haze of the Loire valley beyond. Clear cool light.
 ---
 
 Pochi vini si riconoscono a occhi chiusi come un Sauvignon Blanc. Basta avvicinare il naso al bicchiere: erba appena tagliata, foglia di pomodoro, pompelmo, a volte frutto della passione, a volte quel sentore di pietra focaia che i francesi chiamano *silex*. È un vitigno che non sa stare zitto, e forse per questo il mondo si è diviso in due tifoserie: chi lo ama per l'energia e chi lo trova un po' troppo rumoroso. La storia recente del Sauvignon, però, non è una questione di gusti. È la storia di come un'isola agli antipodi abbia preso un'uva francese e l'abbia trasformata in un marchio nazionale.

@@ -6,7 +6,7 @@ description: Dieci generazioni ad Atripalda, il Taurasi, il Fiano e il Greco sal
 category: Territori
 cover: Mastroberardino
 slug: mastroberardino-taurasi-irpinia
-illustrazione: Cutaway cross-section of a small Irpinian hill town, above ground a cobbled street with stone houses and a church bell tower under a pale autumn sky, below ground revealed like an architectural drawing a deep vaulted cellar whose domed ceilings are painted with faded frescoes, long rows of large oak barrels and dusty bottles in niches, a lone tasting table with a glass of deep garnet red wine, muted ochre and burgundy palette, no text, no hands.
+illustrazione: Interior of an old underground wine cellar whose low vaulted ceiling is painted with faded frescoes of harvest scenes, seen at eye level down the central aisle. In the near foreground on both sides, the round fronts of large oak barrels. In the middle ground, the barrels receding in long rows and a single shaft of daylight falling from a high grated window onto the stone floor. In the background, a small figure in a dark coat seen from behind, walking away towards an arched doorway. Deep burgundy, ochre and warm shadow.
 ---
 
 Nel dopoguerra, in Irpinia, il consiglio più ragionevole a un giovane viticoltore sarebbe stato: pianta qualcosa che si vende. Cabernet, Merlot, Chardonnay, le uve che il mondo chiedeva. Antonio Mastroberardino fece il contrario, e quasi da solo. Quarto ritratto della serie "Eccellenze italiane": la casa che ha tenuto in vita l'Aglianico, il Fiano e il Greco quando nessuno li cercava.

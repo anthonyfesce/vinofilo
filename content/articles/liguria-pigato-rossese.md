@@ -6,7 +6,7 @@ description: Pigato, Vermentino, Rossese di Dolceacqua e Ormeasco. I vini della 
 category: Territori
 cover: Liguria
 slug: liguria-pigato-rossese
-illustrazione: Close-up detail of a ripe bunch of golden Pigato grapes with tiny rust-coloured freckles on the berries, hanging against a dry-stone terrace wall of grey Ligurian stone, a sprig of wild thyme and a glimpse of blue sea light in the background, elegant poetic gouache filling the whole frame.
+illustrazione: The terraced coast of western Liguria seen from the sea in the morning. In the near foreground, blue water and a small wooden fishing boat. In the middle ground, steep dry-stone terraces with vines and olive trees rising straight from the sea. In the background, a medieval village of tall pastel houses and a church tower perched on the ridge.
 ---
 
 Dalla spiaggia di Alassio o di Sanremo la Liguria sembra fatta per l'ombrellone. Basta salire di qualche tornante, però, e il mare diventa un riflesso lontano mentre la terra si mette in verticale: muretti a secco, terrazze strette come gradini, vigne che sembrano appese al vuoto. Il Ponente, la metà occidentale della regione che va da Genova al confine francese, produce poco vino e lo produce con fatica. È proprio per questo che vale la pena conoscerlo meglio del solito "bianco da pesce" che si ordina in trattoria senza guardare l'etichetta.

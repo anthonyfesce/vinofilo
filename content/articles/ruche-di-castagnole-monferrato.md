@@ -6,7 +6,7 @@ description: Il Ruchè di Castagnole Monferrato, DOCG dal 2010: la storia di don
 category: Vitigni
 cover: Ruchè
 slug: ruche-di-castagnole-monferrato
-illustrazione: A small country church on top of a hill seen frontally from afar, rows of vines in autumn colours spreading around it, a wide soft sky above, elegant poetic gouache filling the whole frame, no text, no hands.
+illustrazione: Eye-level view across a small country churchyard in the Monferrato hills at the end of October. In the near foreground on the left, the weathered stone gatepost of the parish garden with a climbing rose bush still carrying a few late pink roses. In the middle ground, a country priest in a long black cassock seen from behind, walking slowly along a grassy path between low rows of vines that come right up to the church wall, carrying a wicker basket of small dark purple grapes. In the background, a simple brick parish church with a square bell tower, and beyond it soft rolling hills in ochre and rust under a pale golden afternoon sky.
 ---
 Ci sono vitigni che si salvano grazie a un'università, un consorzio, un fondo europeo. Il Ruchè si è salvato grazie a un prete che aveva una vigna da amministrare e, a quanto pare, un debole per quello che ci cresceva. Non è una leggenda da pro loco: il parroco esiste, si chiamava don Giacomo Cauda, e senza di lui questo rosso piemontese oggi sarebbe, con ogni probabilità, una nota a piè di pagina nei trattati di ampelografia.
 

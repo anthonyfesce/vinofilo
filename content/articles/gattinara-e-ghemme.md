@@ -6,7 +6,7 @@ description: Spanna, rocce vulcaniche e due DOCG ai piedi del Monte Rosa. Storia
 category: Territori
 cover: Alto Piemonte
 slug: gattinara-e-ghemme
-illustrazione: A wide panorama of the hills of northern Piedmont at the foot of the Alps, terraced vineyards in autumn russet and gold climbing out of dark chestnut woods, the small town of Gattinara with its bell tower in the valley of the Sesia river, the snowy massif of Monte Rosa glowing pale pink on the horizon, a glass of pale garnet-red wine resting on a dry stone wall in the lower corner, elegant poetic gouache filling the whole frame, no text and no readable labels, no hands in the foreground.
+illustrazione: View from inside a ruined medieval stone tower on a hill, looking out through a tall arched opening. In the near foreground, the rough stone edges of the arch framing the whole scene. In the middle ground, steep vineyard terraces of Nebbiolo with leaves in rust and crimson tumbling down the hillside, a small village with terracotta roofs at the bottom. In the background, the great snowy massif of Monte Rosa glowing pink in the late sun above a hazy blue valley.
 ---
 
 Chi parte da Torino per vedere il Nebbiolo prende quasi sempre l'autostrada verso sud, e fa bene: le Langhe sono lì, belle e prenotate fino all'ultima camera. Ma esiste un'altra strada, verso nord, che porta in un'ora e poco più dove il Nebbiolo si chiama Spanna, i vigneti escono dal bosco a macchie e il Monte Rosa fa da fondale. Tra Vercelli e Novara, separati dal fiume Sesia, Gattinara e Ghemme raccontano una storia che le Langhe non conoscono: quella di un grande vino che ha rischiato davvero di sparire.

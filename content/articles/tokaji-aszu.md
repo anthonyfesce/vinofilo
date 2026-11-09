@@ -6,7 +6,7 @@ description: Dal decreto del 1737 ai puttonyos, dal Furmint al Tokaji secco, sto
 category: Territori
 cover: Tokaji
 slug: tokaji-aszu
-illustrazione: Interior of a long, low candlelit cellar carved into dark volcanic rock, walls covered in grey-black mould, rows of small old barrels fading into the distance and two tiny figures with lanterns at the far end, a single glass of deep amber-gold sweet wine on a barrel head in the foreground, elegant poetic gouache filling the whole frame.
+illustrazione: A misty morning at harvest in the Tokaj hills in Hungary. In the near foreground, a small wooden harvest tub between the vines holding a few bunches of shrivelled, raisin-like golden-amber grapes, wrinkled like dried fruit. In the middle ground, steep vineyard slopes with yellow leaves and a few pickers seen small and from behind, and a little baroque village church with an onion-shaped dome. In the background, a river with low fog and a rounded hill. Soft golden light breaking through the mist.
 ---
 
 Ci sono vini famosi per il gusto e vini famosi per le persone che li hanno bevuti. Il Tokaji Aszú è riuscito a essere entrambe le cose. Per tre secoli ha viaggiato sulle tavole delle corti europee, Versailles compresa, si è guadagnato un posto nell'inno nazionale ungherese e un soprannome che ogni ufficio stampa sogna. Ma la sua vera eredità, per chi studia il vino, è meno romantica e più importante: in quest'angolo nord-orientale dell'Ungheria si è pensato, prima che quasi ovunque, che alcune vigne valessero più di altre e che andasse scritto.

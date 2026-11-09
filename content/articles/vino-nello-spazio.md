@@ -6,7 +6,7 @@ description: Dodici bottiglie di Pétrus 2000 sulla Stazione Spaziale per 14 mes
 category: Tecnica
 cover: Spazio
 slug: vino-nello-spazio
-illustrazione: Cross-section view of a cylindrical space station module drifting above the curved blue limb of the Earth, inside it a row of slim steel canisters cradling dark wine bottles lit by a soft cabin glow, a single glass of deep garnet red wine floating weightless in the foreground, stars scattered across the dark sky, elegant poetic gouache filling the whole frame.
+illustrazione: Interior of a space station module, a quiet, clean and realistic scene. In the middle ground, a small padded storage case strapped to the wall holds a few dark wine bottles in white protective sleeves. In the background, a round window shows the curve of the Earth and the thin blue line of the atmosphere against black space. Soft cool light, white and dusty blue panels, nothing floating loose.
 ---
 
 Per secoli abbiamo chiesto al vino di invecchiare nel buio, al fresco e soprattutto fermo. Poi qualcuno ha pensato di fare l'esatto contrario: mettere dodici bottiglie di uno dei rossi più celebri del mondo su un razzo e lasciarle per quattordici mesi a girare intorno alla Terra a 400 chilometri di quota, a una velocità che fa sembrare un trasloco in camion una passeggiata. Non è uno scherzo da collezionisti annoiati. È un esperimento serio, con risultati curiosi e qualche domanda che resta aperta.

@@ -6,7 +6,7 @@ description: La tenuta che Vittorio Emanuele II comprò nel 1858 per la Bela Ros
 category: Territori
 cover: Fontanafredda
 slug: fontanafredda-barolo-serralunga
-illustrazione: Wide panoramic view of a small nineteenth-century wine village in the Langhe in late October, low buildings with facades painted in horizontal bands of brick red and cream, a modest church and old cellars clustered at the foot of a curving amphitheatre of vineyards turning rust and gold, a dark wood of oaks and chestnuts crowning the hill behind, soft mist in the valley, Serralunga's medieval tower faint on a distant ridge, no people, no text.
+illustrazione: A historic wine estate in the Langhe in late October, seen from the edge of its oak wood at a slightly raised eye level. In the near foreground, the trunks and low branches of old oaks with golden leaves framing the left side of the picture. In the middle ground, a small nineteenth-century estate village of low buildings painted in horizontal stripes of brick red and cream, a little church and the cellars, wrapped by curving rows of vines in rust and gold. In the background, the Langhe hills fading into mist and a medieval castle tower on a far ridge.
 ---
 
 Le storie del vino amano i re, ma di solito i re si limitano a bere. A Fontanafredda, invece, un re ha comprato la terra. Nel 1858 Vittorio Emanuele II, allora re di Sardegna e non ancora re d'Italia, acquista una tenuta a Serralunga d'Alba, nelle Langhe, per Rosa Vercellana, la donna che amava e che tutti chiamavano la Bela Rosin. Sesto ritratto della serie "Eccellenze italiane": una casa in cui la storia d'Italia e quella del Barolo si sono intrecciate fino a confondersi.

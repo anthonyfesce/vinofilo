@@ -6,7 +6,7 @@ description: Chi fece la classificazione del 1855, perché si basò sui prezzi, 
 category: Territori
 cover: Bordeaux
 slug: classificazione-bordeaux-1855
-illustrazione: Top-down view of an elegant dinner table filling the whole frame, crisp white linen, silver cutlery, an old leather-bound ledger lying open with illegible handwritten columns, two crystal glasses of deep garnet red Bordeaux wine and one small glass of golden amber sweet Sauternes, a scattering of oak leaves and a candlestick casting soft shadows, elegant poetic gouache, no readable text, no hands.
+illustrazione: A grand Medoc chateau on a winter morning, seen from the end of its gravel drive. In the near foreground, rows of pruned bare vines on pale gravelly soil. In the middle ground, the symmetrical cream stone chateau with grey slate roofs and two small corner towers, a pair of tall cedar trees beside it. In the background, a soft pale sky and the wide Gironde estuary as a silver line on the horizon. Formal, classical and quiet.
 ---
 
 Nel mondo del vino poche cose sono immobili come una lista compilata in fretta da un gruppo di mediatori nella primavera del 1855. Era pensata per una fiera, doveva servire a orientare i visitatori stranieri, e i suoi autori non immaginavano certo di scrivere le tavole della legge. Eppure da allora è cambiata in modo sostanziale una volta sola. Per capire perché Bordeaux ragiona ancora per "growth", per *cru*, bisogna tornare a quelle due settimane di lavoro.

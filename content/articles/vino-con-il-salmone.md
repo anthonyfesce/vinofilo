@@ -6,7 +6,7 @@ description: Affumicato, crudo, al forno o alla griglia. Quattro salmoni e quatt
 category: Guide
 cover: Il salmone
 slug: vino-con-il-salmone
-illustrazione: A Nordic coastline with a deep fjord of dark still water in a wide panoramic view, a small red wooden house on the rocky shore, and in the foreground on a weathered stone ledge a plate of smoked salmon slices beside a flute of pale golden sparkling wine with fine bubbles, all filling the entire frame.
+illustrazione: A long wooden kitchen counter by a tall window on a winter morning, seen at a low eye level along the counter. In the near foreground, a wooden board with thin pink-orange slices of smoked salmon, a halved lemon and a few sprigs of dill. In the middle ground, a flute of pale gold sparkling wine with fine bubbles and a stemmed glass of light, translucent ruby red Pinot Noir. In the background, the misted window with soft grey light and the faint shapes of a harbour with moored boats outside.
 ---
 Il salmone è il pesce più frainteso della tavola italiana. Lo trattiamo come un pesce qualunque, e quindi gli versiamo accanto il bianco di sempre, quello leggero e un po' timido che va bene con l'orata. Poi ci chiediamo perché il bicchiere sparisca. Il salmone non è un'orata: è grasso, ricco, a volte affumicato, a volte quasi carnoso. Più che un pesce, a tavola si comporta come una via di mezzo tra il pesce e il maiale. E il vino deve tenerne conto.
 

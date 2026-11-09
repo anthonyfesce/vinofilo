@@ -6,7 +6,7 @@ description: Stesso DNA, due storie. Come l'uva dalmata Tribidrag è diventata Z
 category: Vitigni
 cover: Zinfandel
 slug: primitivo-e-zinfandel
-illustrazione: Endless parallel rows of gnarled old head-trained bush vines repeating in rhythm across a warm ochre landscape, the pattern of twisted trunks and dark grape clusters echoing into the distance under a pale gold sky, a single glass of deep ruby red wine set on a low dry-stone wall where the rows begin, elegant poetic gouache filling the whole frame, no text, no hands.
+illustrazione: Late summer in Salento, eye-level view along a dusty red-earth track. In the near foreground on the left, a gnarled old bush-trained vine low to the ground, heavy with small dark blue-black bunches of grapes. In the middle ground, rows of low bush vines, a dry-stone wall and a white farmhouse with a flat roof. In the background, silver olive groves and a hazy line of sea under a pale hot sky. Warm ochre, terracotta and olive green.
 ---
 
 Per buona parte del Novecento lo Zinfandel è stato il vino più americano che ci fosse. Non veniva dalla Francia come il Cabernet, non aveva bisogno di un nome straniero da pronunciare con timore: era l'uva dei pionieri, delle vigne piantate durante la corsa all'oro, dei ceppi nodosi sopravvissuti a tutto. Poi la genetica ha presentato il conto. Lo Zinfandel era la stessa varietà del Primitivo pugliese, ed entrambi erano arrivati da un terzo paese ancora, la Croazia. Il vino più americano d'America aveva un passaporto dalmata.

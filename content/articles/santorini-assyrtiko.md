@@ -6,7 +6,7 @@ description: Viti a cesto, cenere vulcanica, radici senza innesto e un Vinsanto 
 category: Territori
 cover: Santorini
 slug: santorini-assyrtiko
-illustrazione: Wide panorama of the Santorini caldera at late-afternoon light, the deep blue Aegean far below the cliffs, a plateau of dark volcanic pumice soil dotted with low round basket-trained vines coiled close to the ground, distant white villages on the rim, a glass of pale lemon-gold white wine resting on a black lava stone, elegant poetic gouache filling the whole frame.
+illustrazione: A Santorini vineyard on a windy morning, low view across the ground. In the near foreground, an old vine trained in the island's traditional way: its own long canes are coiled round and round low on the dark grey volcanic soil into a wreath-like nest, with a few bunches of pale green-gold grapes sheltered inside; it is made only of living vine wood, not wicker. In the middle ground, more of these low coiled vines scattered across a bare terrace. In the background, the white village on the rim of the caldera cliff and the deep blue sea.
 ---
 
 Chi arriva a Santorini per la prima volta cerca le vigne e non le trova. Al posto dei filari ordinati che si vedono in Borgogna o nelle Langhe, sul pianoro sopra la caldera ci sono cerchi bassi e scuri, appoggiati sulla terra come cesti dimenticati. Sono viti. Alcune, si dice, hanno radici più vecchie degli Stati Uniti d'America, e crescono in un posto dove, a rigor di logica, l'uva non dovrebbe crescere affatto.

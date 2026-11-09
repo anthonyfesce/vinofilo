@@ -6,7 +6,7 @@ description: Estufagem e canteiro, Sercial, Verdelho, Boal e Malvasia, il legame
 category: Vitigni
 cover: Madeira
 slug: madeira
-illustrazione: A warm attic wine lodge on Madeira island with long rows of old dark casks stacked under wooden roof beams, golden afternoon light streaming through a small window that frames the blue Atlantic and steep green terraces, a small human figure in profile walking between the casks in the middle distance, a glass of amber-mahogany fortified wine resting on a cask in the foreground, elegant poetic gouache filling the whole frame.
+illustrazione: The steep terraced south coast of Madeira at sunset, seen from a cliff-top path. In the near foreground, vines on high wooden pergolas on a narrow stone terrace. In the middle ground, green terraces descending towards a town of white houses with red roofs along a bay. In the background, the wide Atlantic ocean in warm evening light.
 ---
 
 Ogni regola che si impara sul vino dice di proteggerlo: dal caldo, dalla luce, dall'aria. Il Madeira le infrange tutte e ne esce meglio. Si scalda per mesi, invecchia nei sottotetti, si ossida con metodo, e una volta aperto può restare sul tavolo per settimane senza perdere la faccia. Esistono bottiglie che hanno superato i due secoli in buone condizioni. Non è un vino che sopravvive al maltrattamento: è un vino che nasce da quello.

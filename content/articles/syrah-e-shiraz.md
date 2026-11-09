@@ -6,7 +6,7 @@ description: Dal Rodano settentrionale alla Barossa Valley fino a Cortona, stori
 category: Vitigni
 cover: Syrah
 slug: syrah-e-shiraz
-illustrazione: A sweeping journey map painted as a landscape: steep terraced granite slopes of Côte-Rôtie above the Rhône on one side, the flat red earth and old gum trees of the Barossa Valley on the other, joined by a long road winding through vineyards across the frame, a glass of deep purple-black red wine resting on a weathered wooden fence post along the road, elegant poetic gouache filling the whole frame.
+illustrazione: View from the small white chapel at the top of a steep granite hill above the Rhone, looking down. In the near foreground, the corner of the chapel's stone wall and a dry-stone terrace with old vines on wooden stakes. In the middle ground, narrow stone terraces of vines stepping down the hillside. In the background, the wide Rhone river, the roofs of a small town on its bank and low hills beyond under a clear winter sky.
 ---
 
 Pochi vitigni hanno una doppia vita così ben riuscita. In Francia si chiama Syrah e abita su pendii così ripidi che le vigne sembrano appese con le mollette; in Australia si chiama Shiraz e ha costruito la reputazione di un intero paese. Stessa uva, stesso DNA, due modi opposti di stare al mondo. E per decenni il nome in etichetta è stato quasi una promessa di stile: Syrah per il vino teso e pepato, Shiraz per quello caldo e generoso. Una semplificazione, certo, ma con un fondo di verità.

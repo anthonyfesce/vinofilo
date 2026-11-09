@@ -6,7 +6,7 @@ description: Da Giulio Ferrari ai Lunelli, la storia della casa che ha portato l
 category: Territori
 cover: Ferrari
 slug: ferrari-trento-metodo-classico
-illustrazione: Rhythmic interior of a long vaulted stone cellar under Trento, endless rows of wooden riddling racks holding hundreds of dark green bottles tilted neck-down, warm lamplight pooling on the gravel floor, a single tall flute of pale straw-gold sparkling wine with fine bubbles resting on an oak barrel in the middle distance, through a far archway a glimpse of steep pale Dolomite peaks at dusk, no labels, no text, no hands.
+illustrazione: Early morning on a hillside vineyard above Trento, seen from a high stone terrace. In the near foreground, rows of vines on pergola trellises with golden autumn leaves. In the middle ground, the city of Trento in the valley along the river, with its cathedral, bell towers and terracotta roofs. In the background, pale Dolomite rock walls lit pink by the sunrise. Fresh, luminous and elegant.
 ---
 
 Il nome trae in inganno da più di un secolo, quindi togliamolo subito di mezzo: con Maranello non c'entra niente. Ferrari, a Trento, è un cognome come tanti, e il signore che lo portava ha costruito una delle poche case spumantistiche italiane che si possono nominare a Reims senza abbassare la voce. Questo è il primo dei dieci ritratti della serie "Eccellenze italiane", dedicata alle case storiche che hanno dato una forma al vino italiano: si parte dal metodo classico, che in Italia ha avuto in Trentino uno dei suoi laboratori più precoci.

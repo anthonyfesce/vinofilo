@@ -6,7 +6,7 @@ description: Dal 1665 a Salice Salentino, il rosato del 1943 nato per un general
 category: Territori
 cover: Leone de Castris
 slug: leone-de-castris-five-roses
-illustrazione: A small figure in 1940s clothes seen in profile crossing a sunlit stone courtyard of an old Salento farmhouse, pushing a wooden handcart stacked with empty brown glass bottles, five wild pink roses climbing the pale limestone wall beside an arched doorway, on a stone table in the shade a glass carafe of bright coral-pink rosé wine, deep blue sky, long afternoon shadows, warm ochre and rose palette, no text, no hands in foreground.
+illustrazione: A whitewashed courtyard of an old Salento farmhouse at noon, seen from under a shaded stone arch. In the near foreground, the edge of the arch and a terracotta pot of wild pink roses. In the middle ground, a stone table in the shade with a simple glass carafe and two glasses of bright coral-pink rose wine. In the background, the sunlit courtyard with a palm tree and, beyond a low wall, flat red earth with rows of low bush vines under a deep blue sky. Strong light and cool deep shadows.
 ---
 
 Ci sono vini che nascono da un progetto e vini che nascono da un ordine arrivato all'improvviso. Il Five Roses appartiene alla seconda categoria: un rosato salentino che, nel 1943, piacque così tanto a un generale americano da trasformarsi in un marchio con un nome inglese. Ottavo ritratto della serie "Eccellenze italiane", dedicato a una casa del Sud che ha trovato la propria fama nel colore più sottovalutato del vino.

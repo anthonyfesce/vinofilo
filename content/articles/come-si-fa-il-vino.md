@@ -6,7 +6,7 @@ description: Vendemmia, pigiatura, fermentazione, macerazione e affinamento. Com
 category: Tecnica
 cover: Vinificazione
 slug: come-si-fa-il-vino
-illustrazione: A cutaway cross-section of a hillside winery, like an architect's drawing come to life, the hill set in a wide autumn landscape of vineyards, distant blue hills and a pale golden evening sky filling the whole background, showing grapes arriving at the top, a press and open vats of deep purple must on the middle floor, oak barrels resting in the cool cellar below, tiny workers on each level, pale straw-yellow white wine in one small vat and deep ruby red wine in another, no readable text or labels, no hands in the foreground.
+illustrazione: Interior of an old stone-floored winery during the harvest, seen at eye level from just inside the wide open barn doors. In the near foreground on the right, the edge of an old wooden basket press with its iron screw, a few crushed purple grape skins on the floor. In the middle ground, two small figures in work clothes seen in profile, standing on a low wooden step and punching down the cap of an open wooden fermentation vat full of deep purple must; beside it a second open vat holds pale golden grape juice. In the background, a row of oak barrels under a low brick vault and a bright doorway opening onto the vineyard in autumn sunlight. Warm slanting light and dust in the air.
 ---
 Il vino è uno dei pochi alimenti che si fa quasi da solo. Basta schiacciare dell'uva matura in un recipiente e aspettare: i lieviti che vivono sulle bucce e nell'ambiente cominciano a mangiare lo zucchero, e in pochi giorni il succo dolce diventa una bevanda alcolica. Il difficile non è far nascere il vino. È impedirgli di diventare aceto, e decidere che cosa deve essere.
 

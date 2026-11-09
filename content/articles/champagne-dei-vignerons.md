@@ -6,7 +6,7 @@ description: Sigle in etichetta, Anselme Selosse e la scommessa del luogo contro
 category: Territori
 cover: Grower Champagne
 slug: champagne-dei-vignerons
-illustrazione: Extreme close-up of a flute of pale gold sparkling wine with fine streams of tiny bubbles rising, set on a block of white chalk with a few ripe golden Chardonnay grapes and a crumb of earth beside it, soft cool morning light from a cellar window, elegant poetic gouache filling the whole frame, no text or readable labels, no hands.
+illustrazione: A small grower's courtyard in a Champagne village in late autumn, seen at eye level through an open wooden gate. In the near foreground on the right, an old wooden riddling rack holding a few dark green bottles neck-down. In the middle ground, a grower in a heavy wool jacket seen in profile, stacking empty wooden harvest crates beside a small stone press house. In the background, chalky slopes striped with vine rows turning gold and a slender church steeple. Pale winter light, chalk white, ochre and slate.
 ---
 
 Per gran parte del Novecento lo Champagne ha avuto un volto solo: quello delle grandi case. Nomi scritti in corsivo dorato, cantine scavate nel gesso sotto Reims ed Épernay, uno stile da riconoscere al primo sorso, sempre uguale a sé stesso. Chi coltivava la vigna, quasi sempre, restava dietro le quinte, vendeva le uve e non firmava nulla. Poi alcuni viticoltori hanno cominciato a fare una cosa semplice e quasi sovversiva: imbottigliare il proprio vino e scriverci sopra il proprio nome. È da lì che nasce quello che i mercati anglosassoni chiamano grower Champagne, e che in Francia si dice più volentieri Champagne de vignerons.

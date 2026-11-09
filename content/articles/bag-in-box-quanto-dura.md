@@ -6,7 +6,7 @@ description: Quanto dura un bag in box aperto e uno ancora sigillato, perché re
 category: Servizio
 cover: Bag in box
 slug: bag-in-box-quanto-dura
-illustrazione: A still life on a dark background, painted like an old master pantry scene, with a plain unmarked wine box with its small tap open, a single glass being filled with garnet red wine below it, a bowl of figs and a heel of bread beside it, soft light from one side, no readable text or labels, no hands in the foreground.
+illustrazione: A quiet farmhouse pantry seen from its open doorway. In the near foreground, the edge of the wooden door and a cool terracotta tiled floor. In the middle ground, on a sturdy wooden shelf at eye level, a plain unprinted cardboard wine box with its small tap at the bottom, and below the tap a simple tumbler of garnet red wine. Around it on the shelves, glazed earthenware jars, a braid of garlic, folded linen tea towels and a few dark bottles lying on their sides. In the background, a small high window on the right letting in soft daylight. Calm, ordinary, honest atmosphere.
 ---
 In molte case italiane il bag in box ha preso il posto della damigiana: sta nel ripostiglio, ha un rubinetto, e nessuno sa bene quanto si possa aspettare prima di finirlo. La risposta in breve: una volta aperto, in genere da tre a sei settimane, meglio se in un luogo fresco o in frigorifero; ancora sigillato, alcuni mesi, non anni, e conviene rispettare la data indicata sulla confezione. Il perché sta tutto in un sacchetto di plastica.
 

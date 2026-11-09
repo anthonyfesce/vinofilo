@@ -6,7 +6,7 @@ description: Riesling, Gewurztraminer, Pinot Gris e Muscat, 51 grand cru e una s
 category: Territori
 cover: Alsazia
 slug: alsazia-vini
-illustrazione: Rhythmic repeating rows of vines climbing the gentle Vosges foothills towards a line of colourful half-timbered village houses and a slender church steeple, a row of tall slim green flute bottles without labels echoing the same pattern along the bottom edge, a glass of pale golden white wine among them, elegant poetic gouache filling the whole frame.
+illustrazione: A wine village in Alsace in December, seen from the vineyard slope above it. In the near foreground, rows of bare vines on a steep slope with a light dusting of snow and a small stone wayside shrine. In the middle ground, steep roofs and colourful half-timbered houses clustered around a church with a pointed spire. In the background, forested Vosges hills with a ruined castle on a crest under a pale winter sky.
 ---
 
 Ci sono regioni francesi che sembrano fatte apposta per scoraggiare lo straniero: Borgogna, con i suoi climat e i suoi cognomi ripetuti, o Bordeaux, dove l'uva in etichetta quasi non compare. Poi c'è l'Alsazia, che da decenni fa la cosa più semplice e, per la Francia, più eretica: scrive il nome del vitigno sulla bottiglia. Riesling, Gewurztraminer, Pinot Gris, Muscat. Sembra un dettaglio da ufficio marketing e invece è la conseguenza di una storia lunga e complicata, che si capisce solo guardando una carta geografica e un libro di storia insieme.

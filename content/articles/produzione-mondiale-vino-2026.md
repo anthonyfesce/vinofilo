@@ -6,7 +6,7 @@ description: Produzione, consumi e superfici secondo l'OIV, perché il mondo fa 
 category: Guide
 cover: Mondo
 slug: produzione-mondiale-vino-2026
-illustrazione: Interior of a vast old wine warehouse with tall vaulted ceilings, endless rows of oak barrels and stacked dark bottles receding into amber lamplight, a few small figures with ledgers walking between the rows far away, a long table in the middle with an old globe and a single glass of deep ruby red wine, elegant poetic gouache filling the whole frame, no text or readable labels, no hands in the foreground.
+illustrazione: Aerial view at dawn over a wide valley of vineyards, painted like a calm map. Most of the plots are neat rows of vines in rust, ochre and burgundy autumn colours, but several plots have been uprooted and lie as bare ploughed brown earth; on one of them a small tractor works, leaving long furrows. A farmhouse with a red roof, a line of poplars and a river with thin morning mist cross the scene. Graphic, quiet and slightly melancholic.
 ---
 
 Ogni novembre, da Digione, arriva il numero che il mondo del vino aspetta e un po' teme. L'OIV, l'Organizzazione internazionale della vigna e del vino, un organismo intergovernativo che raccoglie i dati dei paesi produttori, pubblica le prime stime della vendemmia appena chiusa. Non è un oroscopo: è il bilancio di un settore che da qualche anno fa i conti con una verità scomoda. Si produce meno, si pianta meno, e soprattutto si beve meno. La domanda interessante non è più chi vince la classifica, ma quanto è lunga la discesa.

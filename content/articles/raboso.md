@@ -6,7 +6,7 @@ description: Acidità tagliente, tannino ruvido, una leggenda sulla rabbia e una
 category: Vitigni
 cover: Raboso
 slug: raboso
-illustrazione: Nocturnal view of the Piave river plain under a full moon, a small medieval hamlet with a bell tower among dark vine rows, mist over the water, wooden crates of drying red grapes in an open barn glowing with lamplight, a glass of deep garnet-ruby red wine on a rustic table in the foreground, elegant poetic gouache filling the whole frame.
+illustrazione: The Piave river in winter at dusk. In the near foreground, pale pebbles and dry reeds on the riverbank. In the middle ground, the wide braided riverbed with shallow channels reflecting the sky. In the background, flat land with tall trellised vines, a farmhouse among poplars and the dark line of the Prealps. Moody blue, grey and dull red.
 ---
 
 Ci sono vini che si fanno amare al primo sorso e vini che pretendono di essere capiti. Il Raboso appartiene senza discussione alla seconda categoria. Giovane, è un rosso che graffia: acidità altissima, tannino duro, un frutto scuro che fatica a farsi largo. Nel Veneto del Prosecco, delle bollicine facili e dei rossi morbidi della Valpolicella, è l'eccezione che nessuno ha voluto addomesticare del tutto. Ed è proprio per questo che vale la pena raccontarlo.

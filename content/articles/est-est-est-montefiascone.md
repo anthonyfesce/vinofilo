@@ -6,7 +6,7 @@ description: La leggenda del servitore Martino e del vescovo Defuk, la tomba di 
 category: Territori
 cover: Est Est Est
 slug: est-est-est-montefiascone
-illustrazione: A moonlit medieval street in a small hill town above a dark volcanic lake, a lone servant on horseback seen from the side stopping at a tavern door marked with three chalk strokes, a warm lantern glow from inside where a carafe of pale golden white wine stands on a bench, the dome of a church on the skyline, no readable text or letters, no hands in the foreground.
+illustrazione: Late evening in a medieval hill town above a volcanic lake, seen from a narrow cobbled lane. In the near foreground on the left, the worn stone doorstep of an old tavern, its wooden door ajar with warm lamplight spilling out, three short vertical chalk lines marked on the door frame. In the middle ground, a horse tethered to an iron ring in the wall and a rider in a long medieval travelling cloak seen from behind, about to step inside. In the background, the lane opens onto the large dark dome of a cathedral and, far below, the silver surface of the lake under a deep blue night sky.
 ---
 Ci sono vini che si ricordano per il gusto e vini che si ricordano per il nome. L'Est! Est!! Est!!! di Montefiascone appartiene, con poche discussioni, alla seconda categoria: tre parole latine, una punteggiatura che cresce come un entusiasmo da osteria, e una storia che quasi tutti conoscono a metà. La domanda di chi lo vede per la prima volta in carta è sempre la stessa: perché si chiama così? La risposta è una leggenda. Bella, antica, e da raccontare per quello che è.
 

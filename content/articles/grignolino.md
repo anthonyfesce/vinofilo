@@ -6,7 +6,7 @@ description: Colore tenue, tannino deciso, acidità viva. Storia, denominazioni 
 category: Vitigni
 cover: Grignolino
 slug: grignolino
-illustrazione: A wide view of the Monferrato hills at golden hour, vine rows curving over the slopes toward a hilltop village with a bell tower, and in the middle distance a small solitary figure in profile walking along a vineyard path carrying a wicker basket, a glass of pale light ruby red wine resting on a low stone wall in the foreground, elegant poetic gouache filling the whole frame.
+illustrazione: A Monferrato farmhouse kitchen at midday, seen from inside towards the open window. In the near foreground, on a wooden table, a glass carafe and two short glasses of pale, translucent light red wine, bright cherry red, beside a plate of small stuffed pasta. In the middle ground, the open window with green wooden shutters and a pot of geraniums on the sill. In the background, through the window, a sunny hillside of vines in late autumn colours and a brick castle on a ridge.
 ---
 
 Il Grignolino è il vino che smentisce chi giudica un rosso dal colore. Nel bicchiere sembra quasi un rosato carico, un rubino chiaro che con il tempo vira verso l'aranciato. Poi lo si beve e arriva un tannino asciutto, una nota amarognola, un'acidità che non chiede permesso. Non è un vino accomodante, e non ha mai fatto molto per diventarlo. Forse è per questo che il Piemonte, dopo averlo amato a lungo, ha rischiato di perderlo per strada.

@@ -6,7 +6,7 @@ description: La carta geografica del 1956, il Terre Alte del 1981 e la DOCG Rosa
 category: Territori
 cover: Livio Felluga
 slug: livio-felluga-rosazzo
-illustrazione: Top-down view of an old farmhouse table in Friuli, an unfolded hand-drawn map of rolling hills with tiny vineyard parcels, a winding road and a hilltop abbey sketched in sepia ink with no letters or words on it, two stemmed glasses of pale straw-yellow white wine casting soft golden shadows on the paper, a few chestnuts, a sprig of autumn vine leaves and a brass compass at the edges, warm afternoon light, no text, no hands.
+illustrazione: An ancient abbey on a hilltop in the Friuli hills, seen from the vineyards below in late autumn. In the near foreground, rows of vines with golden leaves and a low stone wall. In the middle ground, gently rolling hills with vineyards drawn in soft curving lines, a few cypresses and a farmhouse. In the background, the abbey with its bell tower among dark cypresses on the hilltop, against a pale sky.
 ---
 
 Molto prima che le denominazioni lo imponessero, un produttore friulano decise che chi comprava il suo vino doveva sapere da dove veniva. Non scrisse un disciplinare: disegnò una mappa. Dal 1956 le etichette di Livio Felluga portano la carta geografica delle colline di Rosazzo, ed è difficile immaginare una dichiarazione di poetica più chiara. Nono ritratto della serie "Eccellenze italiane", dedicato a una casa che ha fatto dei bianchi del Friuli un punto di riferimento internazionale.

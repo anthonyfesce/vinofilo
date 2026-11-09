@@ -6,7 +6,7 @@ description: Secco, dolce o spumante, dalla Loira di Vouvray e Savennières al S
 category: Vitigni
 cover: Chenin
 slug: chenin-blanc-loira-sudafrica
-illustrazione: A cross-section view of a Loire hillside cut open like a geological diagram, golden Chenin Blanc vines on top, their roots descending through layers of pale cream tuffeau limestone into a carved underground cellar where bottles rest in the soft chalk, a glass of pale golden-yellow white wine on a barrel inside the cave, elegant poetic gouache filling the whole frame.
+illustrazione: Inside a troglodyte wine cellar carved into pale tuffeau limestone in the Loire valley, seen from deep inside the tunnel looking towards the entrance. In the near foreground, rough carved stone walls with niches holding dusty bottles lying on their sides. In the middle ground, a small figure with a lantern walking towards the light. In the background, the arched entrance opening onto a bright vineyard terrace above the river. Cream, ochre and soft gold light.
 ---
 
 Se esistesse un premio per il vitigno più capace e meno celebrato del mondo, lo Chenin Blanc partirebbe favorito. Sa fare bianchi secchi taglienti come una lama, dolci botritizzati che attraversano un secolo, spumanti metodo classico, e perfino vino sfuso da bere senza pensarci. Eppure fuori dalla cerchia degli appassionati il suo nome dice poco, schiacciato tra la notorietà dello Chardonnay e quella del Sauvignon. È un'ingiustizia che ha ragioni storiche precise, e che negli ultimi anni comincia, finalmente, a sciogliersi.

@@ -6,7 +6,7 @@ description: Nato ai piedi dei Pirenei, portato in Sudamerica da un emigrato bas
 category: Vitigni
 cover: Tannat
 slug: tannat-uruguay
-illustrazione: Still life on a dark background of a heavy glass of deep, almost opaque purple-black red wine beside a cluster of small blue-black Tannat grapes, a weathered beret and an old leather-bound ledger, lit by a single warm side light, elegant poetic gouache filling the whole frame.
+illustrazione: A vineyard in Uruguay near the coast on a late summer afternoon. In the near foreground, a weathered wooden fence and a vine with dark blue-black bunches. In the middle ground, long rows of vines and an old estate house shaded by tall eucalyptus trees. In the background, the wide pale horizon of the river estuary under a big sky with soft clouds.
 ---
 
 Ci sono uve che chiedono di essere capite e uve che chiedono di essere domate. Il Tannat appartiene senza discussione alla seconda famiglia. Il nome stesso sembra un avvertimento, e per secoli i vignaioli del sud-ovest francese lo hanno trattato come si tratta un cavallo bizzarro: con rispetto, pazienza e un po' di timore. Poi, nell'Ottocento, un emigrato basco lo ha portato dall'altra parte dell'Atlantico, e lì il Tannat ha trovato una seconda patria che oggi lo considera un simbolo nazionale. Pochi vitigni hanno avuto una seconda vita così netta.

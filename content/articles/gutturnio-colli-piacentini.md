@@ -6,7 +6,7 @@ description: Barbera e Croatina, frizzante e fermo, poi Ortrugo e Malvasia di Ca
 category: Territori
 cover: Piacenza
 slug: gutturnio-colli-piacentini
-illustrazione: Interior of a vaulted old cellar in the Piacenza hills, small distant figures pouring wine at a long wooden table under hanging lamps, rows of barrels and demijohns along brick walls, a glass of deep purple-ruby red wine with a light violet froth on a barrel top in the foreground, elegant poetic gouache filling the whole frame.
+illustrazione: A country trattoria in the hills of Emilia on a winter day. In the near foreground, on a wooden table, a white ceramic bowl filled with frothy purple-ruby sparkling red wine, the traditional way to drink it, next to a plate of thinly sliced cured coppa. In the middle ground, the trattoria window with lace curtains. In the background, through the window, snowy hills with vineyards and a small castle.
 ---
 
 Chi arriva a Piacenza pensando all'Emilia del Lambrusco e del Sangiovese di Romagna trova un'altra cosa. Qui le colline guardano verso l'Oltrepò Pavese più che verso Modena, i vitigni sono quelli della pianura padana occidentale, e il rosso di casa, servito con i salumi a fette spesse e i tortelli con la coda, si chiama con un nome che sembra uscito da un manuale di archeologia: Gutturnio. Non è un vino da copertina. È un vino da tavola nel senso migliore, con una seconda vita da vino serio che pochi fuori provincia conoscono.

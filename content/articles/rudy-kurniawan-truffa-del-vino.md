@@ -6,7 +6,7 @@ description: Clos Saint-Denis di annate mai prodotte, l'arresto del 2012, dieci 
 category: Guide
 cover: Falsi
 slug: rudy-kurniawan-truffa-del-vino
-illustrazione: The slope of the Côte de Nuits in Burgundy seen from below at dawn, a long hillside of bare winter vines climbing toward a wooded ridge, low stone walls and a small village bell tower at Morey-Saint-Denis, a few dusty antique wine bottles standing on a wall in the foreground, faint morning mist, elegant poetic gouache filling the whole frame, no text, no readable labels, no hands.
+illustrazione: An elegant wine auction room in the evening, seen from the back of the room. In the middle ground, rows of seated bidders in dark suits seen from behind, and at the front an auctioneer standing at a wooden rostrum under a warm lamp. On a table beside him, a few old bottles with plain, aged, stained labels and dusty capsules. In the background, tall windows onto a city at night. A quiet sense of suspense and luxury.
 ---
 
 La truffa più famosa della storia del vino non è stata scoperta da un laboratorio, da un algoritmo o da un'indagine di polizia. È stata scoperta da un produttore che conosceva il proprio archivio. Nella primavera del 2008, durante un'asta a New York, comparve una serie di bottiglie di Clos Saint-Denis del Domaine Ponsot, un Grand Cru di Borgogna, con annate dal 1945 al 1971. C'era un solo problema: il Domaine Ponsot quel vino non lo aveva mai prodotto prima del 1982. Le bottiglie, in altre parole, venivano da un'annata che non esisteva. E il venditore era l'uomo che per qualche anno era stato il collezionista più invidiato d'America.
