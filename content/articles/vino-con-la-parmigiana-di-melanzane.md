@@ -6,7 +6,7 @@ description: Pomodoro, fritto, formaggio filante e basilico. Quale vino sceglier
 category: Servizio
 cover: Parmigiana
 slug: vino-con-la-parmigiana-di-melanzane
-illustrazione: A warm Neapolitan home kitchen at Sunday lunchtime seen from the doorway, small figures gathered around a wooden table with a steaming terracotta dish of layered aubergine parmigiana with red tomato and golden crust, a basket of basil and aubergines on the windowsill, a carafe and glasses of bright purple-ruby red wine with a light froth, no readable text or labels, no hands in the foreground.
+illustrazione: A warm Neapolitan home kitchen at Sunday lunchtime seen from the doorway, small figures gathered around a wooden table with a steaming terracotta dish of layered aubergine parmigiana with red tomato and golden crust, a basket of basil and aubergines on the windowsill, a plain unlabelled glass carafe and glasses of bright purple-ruby red wine with a light froth, no labels at all, no readable text, no hands in the foreground.
 ---
 La parmigiana di melanzane è uno di quei piatti che mettono d'accordo tutti a tavola e in crisi chi deve scegliere il vino. Dentro c'è quasi tutto quello che di solito complica un abbinamento: il pomodoro acido e un po' dolce, il fritto, il formaggio che fila, il parmigiano salato, il basilico, e spesso un'abbondanza che non perdona. La risposta breve è questa: un rosso giovane, fresco e poco tannico, meglio ancora se frizzante, oppure un rosato di carattere. La risposta lunga spiega perché, e cosa cambia da una parmigiana all'altra.
 

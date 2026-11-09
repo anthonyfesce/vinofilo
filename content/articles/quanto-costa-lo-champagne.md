@@ -6,7 +6,7 @@ description: Uva tra le più care al mondo, vigne da oltre un milione l'ettaro, 
 category: Guide
 cover: Prezzo Champagne
 slug: quanto-costa-lo-champagne
-illustrazione: Deep inside chalk cellars lit by a few warm lamps, long galleries carved in pale white chalk receding into darkness, small figures of cellar workers turning bottles in wooden riddling racks, thousands of dark green bottle necks in rhythmic rows, one tulip glass of pale gold Champagne resting on an upturned barrel in the foreground, no readable text or labels, no hands in the foreground.
+illustrazione: A wide aerial view of the Champagne hillsides in early December, gentle chalky slopes striped with bare vine rows in rust and ochre, a small stone village with a pointed church spire nestled at the foot of the slope, a forest crowning the hilltop, a winding road with a single tiny truck carrying wooden crates, soft pale winter sky with low pink clouds, no people in the foreground, no readable text or signs.
 ---
 Davanti allo scaffale delle feste la domanda è sempre la stessa: perché uno Champagne costa tanto più di un buon spumante italiano? La risposta breve è che lo Champagne parte da costi altissimi prima ancora di arrivare in cantina, e che una parte del prezzo è il nome. La risposta lunga è un viaggio tra vigne, uva, tempo e magazzini pieni, e alla fine aiuta anche a spendere meglio.
 

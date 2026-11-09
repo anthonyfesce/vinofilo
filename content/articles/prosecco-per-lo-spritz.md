@@ -6,7 +6,7 @@ description: Brut o Extra Dry, DOC o DOCG, e se un altro spumante va bene. Quale
 category: Servizio
 cover: Spritz
 slug: prosecco-per-lo-spritz
-illustrazione: A Venetian canal at dusk seen from the water's edge, a small bacaro with its doors open onto the fondamenta, tiny figures standing outside with stemmed glasses of bright orange spritz and a few flutes of pale straw sparkling wine, reflections of lamps and orange glasses shimmering on the dark green water, a gondola moored in the foreground, no readable text or signs, no hands in the foreground.
+illustrazione: Inside a tiny Venetian bacaro at dusk, seen across a worn marble bar counter, two stemmed wine glasses of bright orange spritz with ice, a green olive and a slice of orange, next to them a plain unlabelled dark green bottle and a flute of pale straw sparkling prosecco with fine bubbles, behind the counter the open doorway frames the canal, a moored gondola and the lit windows of old houses reflected in dark green water, a small barman seen from the side in the background, no readable text or signs, no hands in the foreground.
 ---
 Lo spritz è il cocktail che ha fatto bere Prosecco a mezzo mondo, e insieme quello in cui il Prosecco viene trattato peggio. Lo si versa senza guardare l'etichetta, si annega nel ghiaccio, si dimentica. Eppure, su tre ingredienti, il vino è quello che c'è in quantità maggiore. La risposta breve alla domanda "quale Prosecco per lo spritz" è questa: un Prosecco DOC Brut o Extra Dry, giovane, ben freddo, di una bottiglia appena aperta. La scelta tra Brut ed Extra Dry dipende da quanto vi piace dolce il risultato. La risposta lunga è più interessante.
 

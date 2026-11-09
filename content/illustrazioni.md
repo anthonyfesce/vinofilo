@@ -268,3 +268,9 @@ Rifatte con prompt nuovi 23 immagini (formula "calice sul muretto" o errori di c
 
 ### Serie Eccellenze italiane (n. 231–240, 12–16.12.2026), generate il 9.11.2026
 Prompt = campo `illustrazione:` di ogni articolo + coda di stile standard; seed 111 tenuto per tutte e 10 (controllate: colore del vino giusto, niente scritte, niente mani in primo piano, inquadrature tutte diverse): ferrari-trento-metodo-classico, marchesi-antinori-tignanello, masi-amarone-valpolicella, mastroberardino-taurasi-irpinia, donnafugata-sicilia-pantelleria, fontanafredda-barolo-serralunga, lungarotti-torgiano-umbria, leone-de-castris-five-roses, livio-felluga-rosazzo, sella-e-mosca-alghero.
+
+### Domande Google (n. 241–252, 12.11–10.12.2026), generate il 9.11.2026
+Prompt = campo `illustrazione:` di ogni articolo + coda di stile standard; prima solo seed 111, poi controllo.
+- Seed 111 tenuto (6): bag-in-box-quanto-dura, est-est-est-montefiascone, vino-vegano-chiarifica, mal-di-testa-da-vino, cantine-da-visitare-langhe-toscana-franciacorta, spumante-frizzante-prosecco-champagne-differenze.
+- Seed 222 con prompt ritoccato (5; il campo `illustrazione:` è aggiornato): come-si-fa-il-vino (nella 111 sezione su fondo crema vuoto: aggiunto paesaggio e cielo), vino-con-la-parmigiana-di-melanzane (scarabocchi sull'etichetta della caraffa: caraffa senza etichetta), quanti-gradi-ha-il-vino (la scaffalatura disegnava numeri: ora calici sul davanzale), secco-abboccato-amabile-dolce (vino bruno e colate dal bordo: ora oro miele), quanto-costa-lo-champagne (cantina di gesso troppo simile a ferrari-trento del 12.12: ora veduta delle colline della Champagne).
+- Seed 333 (1): prosecco-per-lo-spritz (nella 111 e nella 222 calici giganti accanto a figure piccole: ora inquadratura dal bancone del bacaro, bottiglia senza scritte).
